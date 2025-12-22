@@ -1,0 +1,3432 @@
+{
+  "competition": "PL",
+  "generated_at": "2025-12-20T18:07:16.677350+00:00",
+  "model_path": "data/models/PL.joblib",
+  "matches_fetched": 214,
+  "predictions": [
+    {
+      "match_id": 537948,
+      "utcDate": "2025-12-20T20:00:00Z",
+      "status": "TIMED",
+      "home": "Everton FC",
+      "away": "Arsenal FC",
+      "expected_goals": {
+        "home": 0.7499272241337195,
+        "away": 1.1043568226380136
+      },
+      "probabilities_1x2": {
+        "home_win": 0.247049688893062,
+        "draw": 0.31567955986161544,
+        "away_win": 0.43727075124532255
+      }
+    },
+    {
+      "match_id": 537950,
+      "utcDate": "2025-12-20T20:00:00Z",
+      "status": "TIMED",
+      "home": "Leeds United FC",
+      "away": "Crystal Palace FC",
+      "expected_goals": {
+        "home": 1.0357243412519994,
+        "away": 1.1847894983828537
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3183417089557294,
+        "draw": 0.28864684670846974,
+        "away_win": 0.393011444335801
+      }
+    },
+    {
+      "match_id": 537946,
+      "utcDate": "2025-12-21T16:30:00Z",
+      "status": "TIMED",
+      "home": "Aston Villa FC",
+      "away": "Manchester United FC",
+      "expected_goals": {
+        "home": 1.8992262378693519,
+        "away": 1.0863433960379998
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5633323443939935,
+        "draw": 0.22253117555927643,
+        "away_win": 0.21413648004673017
+      }
+    },
+    {
+      "match_id": 537949,
+      "utcDate": "2025-12-22T20:00:00Z",
+      "status": "TIMED",
+      "home": "Fulham FC",
+      "away": "Nottingham Forest FC",
+      "expected_goals": {
+        "home": 1.8123189923525613,
+        "away": 0.9177823903273994
+      },
+      "probabilities_1x2": {
+        "home_win": 0.584464888857617,
+        "draw": 0.2280501124631583,
+        "away_win": 0.18748499867922452
+      }
+    },
+    {
+      "match_id": 537962,
+      "utcDate": "2025-12-26T20:00:00Z",
+      "status": "TIMED",
+      "home": "Manchester United FC",
+      "away": "Newcastle United FC",
+      "expected_goals": {
+        "home": 1.912716629952139,
+        "away": 1.112869844815739
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5601079411279994,
+        "draw": 0.22168883543359477,
+        "away_win": 0.21820322343840584
+      }
+    },
+    {
+      "match_id": 537963,
+      "utcDate": "2025-12-27T12:30:00Z",
+      "status": "TIMED",
+      "home": "Nottingham Forest FC",
+      "away": "Manchester City FC",
+      "expected_goals": {
+        "home": 0.9390591149517988,
+        "away": 1.8035240718660603
+      },
+      "probabilities_1x2": {
+        "home_win": 0.1934674010404946,
+        "draw": 0.22933854865909764,
+        "away_win": 0.5771940503004078
+      }
+    },
+    {
+      "match_id": 537957,
+      "utcDate": "2025-12-27T15:00:00Z",
+      "status": "TIMED",
+      "home": "Arsenal FC",
+      "away": "Brighton & Hove Albion FC",
+      "expected_goals": {
+        "home": 1.9040683431691758,
+        "away": 0.6133998646977653
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6823777055592563,
+        "draw": 0.20622784092721524,
+        "away_win": 0.11139445351352839
+      }
+    },
+    {
+      "match_id": 537958,
+      "utcDate": "2025-12-27T15:00:00Z",
+      "status": "TIMED",
+      "home": "Brentford FC",
+      "away": "AFC Bournemouth",
+      "expected_goals": {
+        "home": 1.8710480013331006,
+        "away": 1.1116579464522234
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5510800303889409,
+        "draw": 0.225258620613386,
+        "away_win": 0.22366134899767312
+      }
+    },
+    {
+      "match_id": 537959,
+      "utcDate": "2025-12-27T15:00:00Z",
+      "status": "TIMED",
+      "home": "Burnley FC",
+      "away": "Everton FC",
+      "expected_goals": {
+        "home": 1.1468685911966037,
+        "away": 1.1378939025531487
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3598162241047993,
+        "draw": 0.2848137275016901,
+        "away_win": 0.35537004839351055
+      }
+    },
+    {
+      "match_id": 537961,
+      "utcDate": "2025-12-27T15:00:00Z",
+      "status": "TIMED",
+      "home": "Liverpool FC",
+      "away": "Wolverhampton Wanderers FC",
+      "expected_goals": {
+        "home": 2.625046978147332,
+        "away": 0.5765344412747934
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8107206888490492,
+        "draw": 0.12992047750291325,
+        "away_win": 0.059358833648037346
+      }
+    },
+    {
+      "match_id": 537964,
+      "utcDate": "2025-12-27T15:00:00Z",
+      "status": "TIMED",
+      "home": "West Ham United FC",
+      "away": "Fulham FC",
+      "expected_goals": {
+        "home": 1.521191354973664,
+        "away": 1.4482781897621801
+      },
+      "probabilities_1x2": {
+        "home_win": 0.39398153511912753,
+        "draw": 0.24424620903401226,
+        "away_win": 0.36177225584686024
+      }
+    },
+    {
+      "match_id": 537960,
+      "utcDate": "2025-12-27T17:30:00Z",
+      "status": "TIMED",
+      "home": "Chelsea FC",
+      "away": "Aston Villa FC",
+      "expected_goals": {
+        "home": 1.4910379729315242,
+        "away": 0.8756415818982759
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5163784755653402,
+        "draw": 0.26251471558557227,
+        "away_win": 0.2211068088490875
+      }
+    },
+    {
+      "match_id": 537955,
+      "utcDate": "2025-12-28T14:00:00Z",
+      "status": "TIMED",
+      "home": "Sunderland AFC",
+      "away": "Leeds United FC",
+      "expected_goals": {
+        "home": 1.6538770479746632,
+        "away": 0.6983401329015342
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6038085135802577,
+        "draw": 0.24117720960237762,
+        "away_win": 0.15501427681736468
+      }
+    },
+    {
+      "match_id": 537956,
+      "utcDate": "2025-12-28T16:30:00Z",
+      "status": "TIMED",
+      "home": "Crystal Palace FC",
+      "away": "Tottenham Hotspur FC",
+      "expected_goals": {
+        "home": 1.3163288483848066,
+        "away": 0.7975011227846167
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4886125983340314,
+        "draw": 0.28498140937410255,
+        "away_win": 0.22640599229186603
+      }
+    },
+    {
+      "match_id": 537969,
+      "utcDate": "2025-12-30T19:30:00Z",
+      "status": "TIMED",
+      "home": "Burnley FC",
+      "away": "Newcastle United FC",
+      "expected_goals": {
+        "home": 1.2697220221789725,
+        "away": 1.3027917167606542
+      },
+      "probabilities_1x2": {
+        "home_win": 0.35945943649776513,
+        "draw": 0.26551451930793507,
+        "away_win": 0.3750260441942997
+      }
+    },
+    {
+      "match_id": 537970,
+      "utcDate": "2025-12-30T19:30:00Z",
+      "status": "TIMED",
+      "home": "Chelsea FC",
+      "away": "AFC Bournemouth",
+      "expected_goals": {
+        "home": 2.1662266796554177,
+        "away": 0.8431317181005711
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6766798826475311,
+        "draw": 0.18991791475247624,
+        "away_win": 0.13340220259999258
+      }
+    },
+    {
+      "match_id": 537973,
+      "utcDate": "2025-12-30T19:30:00Z",
+      "status": "TIMED",
+      "home": "Nottingham Forest FC",
+      "away": "Everton FC",
+      "expected_goals": {
+        "home": 1.0655490116342914,
+        "away": 0.9593467231398758
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3748501184462526,
+        "draw": 0.3056131020950849,
+        "away_win": 0.31953677945866243
+      }
+    },
+    {
+      "match_id": 537974,
+      "utcDate": "2025-12-30T19:30:00Z",
+      "status": "TIMED",
+      "home": "West Ham United FC",
+      "away": "Brighton & Hove Albion FC",
+      "expected_goals": {
+        "home": 1.3411992780043234,
+        "away": 1.423688126347537
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3539913480644383,
+        "draw": 0.2544063747537476,
+        "away_win": 0.39160227718181406
+      }
+    },
+    {
+      "match_id": 537967,
+      "utcDate": "2025-12-30T20:15:00Z",
+      "status": "TIMED",
+      "home": "Arsenal FC",
+      "away": "Aston Villa FC",
+      "expected_goals": {
+        "home": 1.5765881866097984,
+        "away": 0.6453975364810255
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5991600377735393,
+        "draw": 0.2501260628314015,
+        "away_win": 0.15071389939505908
+      }
+    },
+    {
+      "match_id": 537972,
+      "utcDate": "2025-12-30T20:15:00Z",
+      "status": "TIMED",
+      "home": "Manchester United FC",
+      "away": "Wolverhampton Wanderers FC",
+      "expected_goals": {
+        "home": 2.9136571420218225,
+        "away": 0.6291042578758353
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8349967562478469,
+        "draw": 0.11185710232745533,
+        "away_win": 0.05314614142469762
+      }
+    },
+    {
+      "match_id": 537966,
+      "utcDate": "2026-01-01T17:30:00Z",
+      "status": "TIMED",
+      "home": "Crystal Palace FC",
+      "away": "Fulham FC",
+      "expected_goals": {
+        "home": 1.5718535483063083,
+        "away": 0.7926409493351008
+      },
+      "probabilities_1x2": {
+        "home_win": 0.55858352790413,
+        "draw": 0.2530503803529653,
+        "away_win": 0.18836609174290458
+      }
+    },
+    {
+      "match_id": 537971,
+      "utcDate": "2026-01-01T17:30:00Z",
+      "status": "TIMED",
+      "home": "Liverpool FC",
+      "away": "Leeds United FC",
+      "expected_goals": {
+        "home": 2.29428329459672,
+        "away": 0.9685078600181641
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6712790487260633,
+        "draw": 0.18404192574309683,
+        "away_win": 0.14467902553083997
+      }
+    },
+    {
+      "match_id": 537965,
+      "utcDate": "2026-01-01T20:00:00Z",
+      "status": "TIMED",
+      "home": "Sunderland AFC",
+      "away": "Manchester City FC",
+      "expected_goals": {
+        "home": 0.9888489442975885,
+        "away": 1.207491233833809
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3003992038709633,
+        "draw": 0.2893047770035832,
+        "away_win": 0.41029601912545344
+      }
+    },
+    {
+      "match_id": 537968,
+      "utcDate": "2026-01-01T20:00:00Z",
+      "status": "TIMED",
+      "home": "Brentford FC",
+      "away": "Tottenham Hotspur FC",
+      "expected_goals": {
+        "home": 1.4773277464915062,
+        "away": 1.1230793042674414
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4530553388466324,
+        "draw": 0.25898299222039034,
+        "away_win": 0.2879616689329772
+      }
+    },
+    {
+      "match_id": 537976,
+      "utcDate": "2026-01-03T12:30:00Z",
+      "status": "TIMED",
+      "home": "Aston Villa FC",
+      "away": "Nottingham Forest FC",
+      "expected_goals": {
+        "home": 1.8744814272420007,
+        "away": 0.6700156059834371
+      },
+      "probabilities_1x2": {
+        "home_win": 0.661352889281932,
+        "draw": 0.2127579065594185,
+        "away_win": 0.12588920415864946
+      }
+    },
+    {
+      "match_id": 537977,
+      "utcDate": "2026-01-03T15:00:00Z",
+      "status": "TIMED",
+      "home": "Brighton & Hove Albion FC",
+      "away": "Burnley FC",
+      "expected_goals": {
+        "home": 2.1131177009329023,
+        "away": 0.8709423550592005
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6597528178364085,
+        "draw": 0.19637103895769595,
+        "away_win": 0.14387614320589556
+      }
+    },
+    {
+      "match_id": 537984,
+      "utcDate": "2026-01-03T15:00:00Z",
+      "status": "TIMED",
+      "home": "Wolverhampton Wanderers FC",
+      "away": "West Ham United FC",
+      "expected_goals": {
+        "home": 1.1265274414744164,
+        "away": 1.3119068569741033
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3191211778844243,
+        "draw": 0.27257797692829744,
+        "away_win": 0.4083008451872785
+      }
+    },
+    {
+      "match_id": 537975,
+      "utcDate": "2026-01-03T17:30:00Z",
+      "status": "TIMED",
+      "home": "AFC Bournemouth",
+      "away": "Arsenal FC",
+      "expected_goals": {
+        "home": 0.9363647041872113,
+        "away": 1.5201441888527147
+      },
+      "probabilities_1x2": {
+        "home_win": 0.23254311768501743,
+        "draw": 0.25870960370147844,
+        "away_win": 0.5087472786135041
+      }
+    },
+    {
+      "match_id": 537980,
+      "utcDate": "2026-01-04T12:30:00Z",
+      "status": "TIMED",
+      "home": "Leeds United FC",
+      "away": "Manchester United FC",
+      "expected_goals": {
+        "home": 1.5923891088240671,
+        "away": 1.6900506790831136
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3640527399936555,
+        "draw": 0.23066140686150438,
+        "away_win": 0.4052858531448401
+      }
+    },
+    {
+      "match_id": 537978,
+      "utcDate": "2026-01-04T15:00:00Z",
+      "status": "TIMED",
+      "home": "Everton FC",
+      "away": "Brentford FC",
+      "expected_goals": {
+        "home": 1.341510087286326,
+        "away": 0.9021128798058897
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4692508590188671,
+        "draw": 0.27891817810389125,
+        "away_win": 0.2518309628772417
+      }
+    },
+    {
+      "match_id": 537979,
+      "utcDate": "2026-01-04T15:00:00Z",
+      "status": "TIMED",
+      "home": "Fulham FC",
+      "away": "Liverpool FC",
+      "expected_goals": {
+        "home": 1.682801278752423,
+        "away": 1.3406659053451015
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4555660890799174,
+        "draw": 0.2381441147914101,
+        "away_win": 0.30628979612867235
+      }
+    },
+    {
+      "match_id": 537982,
+      "utcDate": "2026-01-04T15:00:00Z",
+      "status": "TIMED",
+      "home": "Newcastle United FC",
+      "away": "Crystal Palace FC",
+      "expected_goals": {
+        "home": 1.0906566203339303,
+        "away": 0.8899045374739133
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3986073044101279,
+        "draw": 0.3081475836936527,
+        "away_win": 0.2932451118962194
+      }
+    },
+    {
+      "match_id": 537983,
+      "utcDate": "2026-01-04T15:00:00Z",
+      "status": "TIMED",
+      "home": "Tottenham Hotspur FC",
+      "away": "Sunderland AFC",
+      "expected_goals": {
+        "home": 1.2208195715940042,
+        "away": 0.8093363785493058
+      },
+      "probabilities_1x2": {
+        "home_win": 0.45779408610752514,
+        "draw": 0.2968550274251916,
+        "away_win": 0.2453508864672832
+      }
+    },
+    {
+      "match_id": 537981,
+      "utcDate": "2026-01-04T17:30:00Z",
+      "status": "TIMED",
+      "home": "Manchester City FC",
+      "away": "Chelsea FC",
+      "expected_goals": {
+        "home": 1.91277787710064,
+        "away": 0.9204482076786137
+      },
+      "probabilities_1x2": {
+        "home_win": 0.606206174714528,
+        "draw": 0.21794340978418264,
+        "away_win": 0.17585041550128944
+      }
+    },
+    {
+      "match_id": 537994,
+      "utcDate": "2026-01-06T20:00:00Z",
+      "status": "TIMED",
+      "home": "West Ham United FC",
+      "away": "Nottingham Forest FC",
+      "expected_goals": {
+        "home": 1.5195010653803782,
+        "away": 1.1038826576421634
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4683486568679348,
+        "draw": 0.2558741212311627,
+        "away_win": 0.2757772219009025
+      }
+    },
+    {
+      "match_id": 537985,
+      "utcDate": "2026-01-07T19:30:00Z",
+      "status": "TIMED",
+      "home": "AFC Bournemouth",
+      "away": "Tottenham Hotspur FC",
+      "expected_goals": {
+        "home": 1.5131617394218309,
+        "away": 1.2849433849831973
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4261387841990568,
+        "draw": 0.2510405699396024,
+        "away_win": 0.32282064586134074
+      }
+    },
+    {
+      "match_id": 537986,
+      "utcDate": "2026-01-07T19:30:00Z",
+      "status": "TIMED",
+      "home": "Crystal Palace FC",
+      "away": "Aston Villa FC",
+      "expected_goals": {
+        "home": 1.1475121104796664,
+        "away": 0.8198284872970499
+      },
+      "probabilities_1x2": {
+        "home_win": 0.43306882016670506,
+        "draw": 0.3057431379987488,
+        "away_win": 0.2611880418345461
+      }
+    },
+    {
+      "match_id": 537988,
+      "utcDate": "2026-01-07T19:30:00Z",
+      "status": "TIMED",
+      "home": "Brentford FC",
+      "away": "Sunderland AFC",
+      "expected_goals": {
+        "home": 1.1797873593049197,
+        "away": 0.8959083161022363
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4241635897525008,
+        "draw": 0.29753080654697744,
+        "away_win": 0.2783056037005218
+      }
+    },
+    {
+      "match_id": 537990,
+      "utcDate": "2026-01-07T19:30:00Z",
+      "status": "TIMED",
+      "home": "Everton FC",
+      "away": "Wolverhampton Wanderers FC",
+      "expected_goals": {
+        "home": 1.8805069864414792,
+        "away": 0.4789552451909805
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7134212603380744,
+        "draw": 0.20074851771732807,
+        "away_win": 0.08583022194459755
+      }
+    },
+    {
+      "match_id": 537991,
+      "utcDate": "2026-01-07T19:30:00Z",
+      "status": "TIMED",
+      "home": "Fulham FC",
+      "away": "Chelsea FC",
+      "expected_goals": {
+        "home": 1.2756412596622237,
+        "away": 1.355485341124133
+      },
+      "probabilities_1x2": {
+        "home_win": 0.35047530776289937,
+        "draw": 0.2618414230768622,
+        "away_win": 0.38768326916023843
+      }
+    },
+    {
+      "match_id": 537992,
+      "utcDate": "2026-01-07T19:30:00Z",
+      "status": "TIMED",
+      "home": "Manchester City FC",
+      "away": "Brighton & Hove Albion FC",
+      "expected_goals": {
+        "home": 2.3986281498550617,
+        "away": 0.8037781649533541
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7271943086770207,
+        "draw": 0.16600794814962336,
+        "away_win": 0.106797743173356
+      }
+    },
+    {
+      "match_id": 537989,
+      "utcDate": "2026-01-07T20:15:00Z",
+      "status": "TIMED",
+      "home": "Burnley FC",
+      "away": "Manchester United FC",
+      "expected_goals": {
+        "home": 1.5064036174364275,
+        "away": 1.7630525810015334
+      },
+      "probabilities_1x2": {
+        "home_win": 0.33107132970614706,
+        "draw": 0.22952942730108716,
+        "away_win": 0.4393992429927657
+      }
+    },
+    {
+      "match_id": 537993,
+      "utcDate": "2026-01-07T20:15:00Z",
+      "status": "TIMED",
+      "home": "Newcastle United FC",
+      "away": "Leeds United FC",
+      "expected_goals": {
+        "home": 1.8817335689877437,
+        "away": 0.8907745898512136
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6067221163423426,
+        "draw": 0.22027510363382946,
+        "away_win": 0.17300278002382763
+      }
+    },
+    {
+      "match_id": 537987,
+      "utcDate": "2026-01-08T20:00:00Z",
+      "status": "TIMED",
+      "home": "Arsenal FC",
+      "away": "Liverpool FC",
+      "expected_goals": {
+        "home": 2.003034465807697,
+        "away": 0.6947564185201998
+      },
+      "probabilities_1x2": {
+        "home_win": 0.681454631128295,
+        "draw": 0.19920311765419246,
+        "away_win": 0.11934225121751252
+      }
+    },
+    {
+      "match_id": 538001,
+      "utcDate": "2026-01-17T12:30:00Z",
+      "status": "TIMED",
+      "home": "Manchester United FC",
+      "away": "Manchester City FC",
+      "expected_goals": {
+        "home": 1.522562547658619,
+        "away": 1.8273321827236098
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3235983863520505,
+        "draw": 0.2256949088803367,
+        "away_win": 0.450706704767613
+      }
+    },
+    {
+      "match_id": 537995,
+      "utcDate": "2026-01-17T15:00:00Z",
+      "status": "TIMED",
+      "home": "Sunderland AFC",
+      "away": "Crystal Palace FC",
+      "expected_goals": {
+        "home": 0.9585905153205311,
+        "away": 0.6976580383517821
+      },
+      "probabilities_1x2": {
+        "home_win": 0.40267328967238075,
+        "draw": 0.3414841569552289,
+        "away_win": 0.2558425533723905
+      }
+    },
+    {
+      "match_id": 537998,
+      "utcDate": "2026-01-17T15:00:00Z",
+      "status": "TIMED",
+      "home": "Chelsea FC",
+      "away": "Brentford FC",
+      "expected_goals": {
+        "home": 1.893347505193616,
+        "away": 0.8231650646764022
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6261487707863338,
+        "draw": 0.2169485807678895,
+        "away_win": 0.1569026484457766
+      }
+    },
+    {
+      "match_id": 537999,
+      "utcDate": "2026-01-17T15:00:00Z",
+      "status": "TIMED",
+      "home": "Liverpool FC",
+      "away": "Burnley FC",
+      "expected_goals": {
+        "home": 2.39338508255972,
+        "away": 0.9162105767756585
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7008536738272513,
+        "draw": 0.17286350680185544,
+        "away_win": 0.12628281937089347
+      }
+    },
+    {
+      "match_id": 538000,
+      "utcDate": "2026-01-17T15:00:00Z",
+      "status": "TIMED",
+      "home": "Leeds United FC",
+      "away": "Fulham FC",
+      "expected_goals": {
+        "home": 1.5733903366458237,
+        "away": 1.367560655398124
+      },
+      "probabilities_1x2": {
+        "home_win": 0.42341626278497335,
+        "draw": 0.2443515257955263,
+        "away_win": 0.3322322114195003
+      }
+    },
+    {
+      "match_id": 538003,
+      "utcDate": "2026-01-17T15:00:00Z",
+      "status": "TIMED",
+      "home": "Tottenham Hotspur FC",
+      "away": "West Ham United FC",
+      "expected_goals": {
+        "home": 2.195611361631568,
+        "away": 0.8454491411449316
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6816676060495183,
+        "draw": 0.18720394950608246,
+        "away_win": 0.13112844444439925
+      }
+    },
+    {
+      "match_id": 538002,
+      "utcDate": "2026-01-17T17:30:00Z",
+      "status": "TIMED",
+      "home": "Nottingham Forest FC",
+      "away": "Arsenal FC",
+      "expected_goals": {
+        "home": 0.7166389423978254,
+        "away": 1.4316654674428124
+      },
+      "probabilities_1x2": {
+        "home_win": 0.18713499921291826,
+        "draw": 0.27083669617242806,
+        "away_win": 0.5420283046146537
+      }
+    },
+    {
+      "match_id": 538004,
+      "utcDate": "2026-01-18T14:00:00Z",
+      "status": "TIMED",
+      "home": "Wolverhampton Wanderers FC",
+      "away": "Newcastle United FC",
+      "expected_goals": {
+        "home": 0.7989849661062144,
+        "away": 1.4288922765326029
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2098242256343254,
+        "draw": 0.2706785124187385,
+        "away_win": 0.5194972619469362
+      }
+    },
+    {
+      "match_id": 537996,
+      "utcDate": "2026-01-18T16:30:00Z",
+      "status": "TIMED",
+      "home": "Aston Villa FC",
+      "away": "Everton FC",
+      "expected_goals": {
+        "home": 1.445935800058427,
+        "away": 0.7011382075333834
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5500570945918459,
+        "draw": 0.268886013556669,
+        "away_win": 0.18105689185148516
+      }
+    },
+    {
+      "match_id": 537997,
+      "utcDate": "2026-01-19T20:00:00Z",
+      "status": "TIMED",
+      "home": "Brighton & Hove Albion FC",
+      "away": "AFC Bournemouth",
+      "expected_goals": {
+        "home": 1.8916498407201845,
+        "away": 1.0572892426679226
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5685135583391244,
+        "draw": 0.22280679347379118,
+        "away_win": 0.2086796481870843
+      }
+    },
+    {
+      "match_id": 538014,
+      "utcDate": "2026-01-24T12:30:00Z",
+      "status": "TIMED",
+      "home": "West Ham United FC",
+      "away": "Sunderland AFC",
+      "expected_goals": {
+        "home": 1.0173328123918721,
+        "away": 1.1624115918345557
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3174218551859854,
+        "draw": 0.2919105256294391,
+        "away_win": 0.3906676191845756
+      }
+    },
+    {
+      "match_id": 538009,
+      "utcDate": "2026-01-24T15:00:00Z",
+      "status": "TIMED",
+      "home": "Burnley FC",
+      "away": "Tottenham Hotspur FC",
+      "expected_goals": {
+        "home": 1.2464674714669817,
+        "away": 1.4353801391016938
+      },
+      "probabilities_1x2": {
+        "home_win": 0.32748061893796326,
+        "draw": 0.25784463848766354,
+        "away_win": 0.4146747425743732
+      }
+    },
+    {
+      "match_id": 538011,
+      "utcDate": "2026-01-24T15:00:00Z",
+      "status": "TIMED",
+      "home": "Fulham FC",
+      "away": "Brighton & Hove Albion FC",
+      "expected_goals": {
+        "home": 1.5996572687155723,
+        "away": 1.183672813984492
+      },
+      "probabilities_1x2": {
+        "home_win": 0.47017662064218274,
+        "draw": 0.24748062936901127,
+        "away_win": 0.28234274998880604
+      }
+    },
+    {
+      "match_id": 538012,
+      "utcDate": "2026-01-24T15:00:00Z",
+      "status": "TIMED",
+      "home": "Manchester City FC",
+      "away": "Wolverhampton Wanderers FC",
+      "expected_goals": {
+        "home": 3.5352595006102017,
+        "away": 0.42209910922889504
+      },
+      "probabilities_1x2": {
+        "home_win": 0.9208083559027298,
+        "draw": 0.06028104631545636,
+        "away_win": 0.018910597781813657
+      }
+    },
+    {
+      "match_id": 538005,
+      "utcDate": "2026-01-24T17:30:00Z",
+      "status": "TIMED",
+      "home": "AFC Bournemouth",
+      "away": "Liverpool FC",
+      "expected_goals": {
+        "home": 1.6759010921519533,
+        "away": 1.421938977945346
+      },
+      "probabilities_1x2": {
+        "home_win": 0.436623467396812,
+        "draw": 0.23658419645752377,
+        "away_win": 0.3267923361456643
+      }
+    },
+    {
+      "match_id": 538006,
+      "utcDate": "2026-01-25T14:00:00Z",
+      "status": "TIMED",
+      "home": "Crystal Palace FC",
+      "away": "Chelsea FC",
+      "expected_goals": {
+        "home": 1.1051549064284019,
+        "away": 0.892282817120517
+      },
+      "probabilities_1x2": {
+        "home_win": 0.40249859295691337,
+        "draw": 0.3063112293273066,
+        "away_win": 0.29119017771578004
+      }
+    },
+    {
+      "match_id": 538008,
+      "utcDate": "2026-01-25T14:00:00Z",
+      "status": "TIMED",
+      "home": "Brentford FC",
+      "away": "Nottingham Forest FC",
+      "expected_goals": {
+        "home": 1.7621452169337806,
+        "away": 0.8507981681616021
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5897145810303301,
+        "draw": 0.23198578445982893,
+        "away_win": 0.17829963450984082
+      }
+    },
+    {
+      "match_id": 538013,
+      "utcDate": "2026-01-25T14:00:00Z",
+      "status": "TIMED",
+      "home": "Newcastle United FC",
+      "away": "Aston Villa FC",
+      "expected_goals": {
+        "home": 1.20955475541235,
+        "away": 1.0624177619012145
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3941136141728979,
+        "draw": 0.28476800664545276,
+        "away_win": 0.3211183791816494
+      }
+    },
+    {
+      "match_id": 538007,
+      "utcDate": "2026-01-25T16:30:00Z",
+      "status": "TIMED",
+      "home": "Arsenal FC",
+      "away": "Manchester United FC",
+      "expected_goals": {
+        "home": 2.185676034072459,
+        "away": 0.7711412472380024
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6975802198612214,
+        "draw": 0.18421771370893544,
+        "away_win": 0.11820206642984296
+      }
+    },
+    {
+      "match_id": 538010,
+      "utcDate": "2026-01-26T20:00:00Z",
+      "status": "TIMED",
+      "home": "Everton FC",
+      "away": "Leeds United FC",
+      "expected_goals": {
+        "home": 1.6435575440292018,
+        "away": 0.8045866584114384
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5733159810467123,
+        "draw": 0.24461248415486314,
+        "away_win": 0.18207153479842447
+      }
+    },
+    {
+      "match_id": 538017,
+      "utcDate": "2026-01-31T15:00:00Z",
+      "status": "TIMED",
+      "home": "Brighton & Hove Albion FC",
+      "away": "Everton FC",
+      "expected_goals": {
+        "home": 1.3742488528131682,
+        "away": 0.8467747484658199
+      },
+      "probabilities_1x2": {
+        "home_win": 0.49223917416101126,
+        "draw": 0.2765967441633891,
+        "away_win": 0.2311640816755996
+      }
+    },
+    {
+      "match_id": 538020,
+      "utcDate": "2026-01-31T15:00:00Z",
+      "status": "TIMED",
+      "home": "Leeds United FC",
+      "away": "Arsenal FC",
+      "expected_goals": {
+        "home": 0.8153582714859616,
+        "away": 1.627804281724707
+      },
+      "probabilities_1x2": {
+        "home_win": 0.1867364550085911,
+        "draw": 0.246604972256865,
+        "away_win": 0.566658572734544
+      }
+    },
+    {
+      "match_id": 538024,
+      "utcDate": "2026-01-31T15:00:00Z",
+      "status": "TIMED",
+      "home": "Wolverhampton Wanderers FC",
+      "away": "AFC Bournemouth",
+      "expected_goals": {
+        "home": 0.99338816050982,
+        "away": 1.5583039998344872
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2412935092478982,
+        "draw": 0.2541731637942742,
+        "away_win": 0.5045333269578276
+      }
+    },
+    {
+      "match_id": 538018,
+      "utcDate": "2026-01-31T17:30:00Z",
+      "status": "TIMED",
+      "home": "Chelsea FC",
+      "away": "West Ham United FC",
+      "expected_goals": {
+        "home": 2.456556154075197,
+        "away": 0.7098167510485628
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7577011232422322,
+        "draw": 0.1546510081329636,
+        "away_win": 0.08764786862480428
+      }
+    },
+    {
+      "match_id": 538019,
+      "utcDate": "2026-01-31T20:00:00Z",
+      "status": "TIMED",
+      "home": "Liverpool FC",
+      "away": "Newcastle United FC",
+      "expected_goals": {
+        "home": 1.7232538918508087,
+        "away": 1.019875141775055
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5386916846065526,
+        "draw": 0.23805437057302906,
+        "away_win": 0.22325394482041852
+      }
+    },
+    {
+      "match_id": 538016,
+      "utcDate": "2026-02-01T14:00:00Z",
+      "status": "TIMED",
+      "home": "Aston Villa FC",
+      "away": "Brentford FC",
+      "expected_goals": {
+        "home": 1.739605639969276,
+        "away": 0.8547144614257254
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5834638839234552,
+        "draw": 0.2345389659397859,
+        "away_win": 0.18199715013675877
+      }
+    },
+    {
+      "match_id": 538021,
+      "utcDate": "2026-02-01T14:00:00Z",
+      "status": "TIMED",
+      "home": "Manchester United FC",
+      "away": "Fulham FC",
+      "expected_goals": {
+        "home": 2.242180708353857,
+        "away": 1.2186570930672789
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6048440612698243,
+        "draw": 0.1970275643952339,
+        "away_win": 0.19812837433494168
+      }
+    },
+    {
+      "match_id": 538022,
+      "utcDate": "2026-02-01T14:00:00Z",
+      "status": "TIMED",
+      "home": "Nottingham Forest FC",
+      "away": "Crystal Palace FC",
+      "expected_goals": {
+        "home": 0.9103242371942954,
+        "away": 1.0420308080443343
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3091533999354034,
+        "draw": 0.3120835818942388,
+        "away_win": 0.37876301817035785
+      }
+    },
+    {
+      "match_id": 538059,
+      "utcDate": "2026-02-01T14:00:00Z",
+      "status": "TIMED",
+      "home": "Fulham FC",
+      "away": "Tottenham Hotspur FC",
+      "expected_goals": {
+        "home": 1.5193918793791328,
+        "away": 1.2115005026691876
+      },
+      "probabilities_1x2": {
+        "home_win": 0.44382375975807675,
+        "draw": 0.25299198317890464,
+        "away_win": 0.3031842570630186
+      }
+    },
+    {
+      "match_id": 538023,
+      "utcDate": "2026-02-01T16:30:00Z",
+      "status": "TIMED",
+      "home": "Tottenham Hotspur FC",
+      "away": "Manchester City FC",
+      "expected_goals": {
+        "home": 1.2395864224354392,
+        "away": 1.5120184915686192
+      },
+      "probabilities_1x2": {
+        "home_win": 0.31160526846424835,
+        "draw": 0.25265397346825097,
+        "away_win": 0.43574075806750057
+      }
+    },
+    {
+      "match_id": 538057,
+      "utcDate": "2026-02-01T16:30:00Z",
+      "status": "TIMED",
+      "home": "Arsenal FC",
+      "away": "Chelsea FC",
+      "expected_goals": {
+        "home": 1.5183928378067866,
+        "away": 0.7024361082067064
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5688307086347492,
+        "draw": 0.2590371912518529,
+        "away_win": 0.1721321001133978
+      }
+    },
+    {
+      "match_id": 538015,
+      "utcDate": "2026-02-02T20:00:00Z",
+      "status": "TIMED",
+      "home": "Sunderland AFC",
+      "away": "Burnley FC",
+      "expected_goals": {
+        "home": 1.7253164264120446,
+        "away": 0.6606313096305743
+      },
+      "probabilities_1x2": {
+        "home_win": 0.630772848938889,
+        "draw": 0.23081291120665526,
+        "away_win": 0.1384142398544557
+      }
+    },
+    {
+      "match_id": 538031,
+      "utcDate": "2026-02-06T20:00:00Z",
+      "status": "TIMED",
+      "home": "Leeds United FC",
+      "away": "Nottingham Forest FC",
+      "expected_goals": {
+        "home": 1.571642045542595,
+        "away": 1.042359473089651
+      },
+      "probabilities_1x2": {
+        "home_win": 0.49610718566499384,
+        "draw": 0.2522889133336818,
+        "away_win": 0.25160390100132435
+      }
+    },
+    {
+      "match_id": 538032,
+      "utcDate": "2026-02-07T12:30:00Z",
+      "status": "TIMED",
+      "home": "Manchester United FC",
+      "away": "Tottenham Hotspur FC",
+      "expected_goals": {
+        "home": 1.8776858396752567,
+        "away": 1.226129435813081
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5262113813036069,
+        "draw": 0.22528540751047793,
+        "away_win": 0.24850321118591506
+      }
+    },
+    {
+      "match_id": 538025,
+      "utcDate": "2026-02-07T15:00:00Z",
+      "status": "TIMED",
+      "home": "AFC Bournemouth",
+      "away": "Aston Villa FC",
+      "expected_goals": {
+        "home": 1.3191015476350247,
+        "away": 1.3209175027802802
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3687904907617213,
+        "draw": 0.2615737910713482,
+        "away_win": 0.3696357181669303
+      }
+    },
+    {
+      "match_id": 538027,
+      "utcDate": "2026-02-07T15:00:00Z",
+      "status": "TIMED",
+      "home": "Arsenal FC",
+      "away": "Sunderland AFC",
+      "expected_goals": {
+        "home": 1.4442829147842606,
+        "away": 0.5008281659155834
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6058012464367117,
+        "draw": 0.26666224479713746,
+        "away_win": 0.12753650876615066
+      }
+    },
+    {
+      "match_id": 538028,
+      "utcDate": "2026-02-07T15:00:00Z",
+      "status": "TIMED",
+      "home": "Burnley FC",
+      "away": "West Ham United FC",
+      "expected_goals": {
+        "home": 1.7902423220800012,
+        "away": 1.1961303273153838
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5130391013241449,
+        "draw": 0.232178636116802,
+        "away_win": 0.2547822625590531
+      }
+    },
+    {
+      "match_id": 538029,
+      "utcDate": "2026-02-07T15:00:00Z",
+      "status": "TIMED",
+      "home": "Fulham FC",
+      "away": "Everton FC",
+      "expected_goals": {
+        "home": 1.3979849968553832,
+        "away": 0.9604138982932348
+      },
+      "probabilities_1x2": {
+        "home_win": 0.47047098227193107,
+        "draw": 0.27108997843949073,
+        "away_win": 0.25843903928857836
+      }
+    },
+    {
+      "match_id": 538034,
+      "utcDate": "2026-02-07T15:00:00Z",
+      "status": "TIMED",
+      "home": "Wolverhampton Wanderers FC",
+      "away": "Chelsea FC",
+      "expected_goals": {
+        "home": 0.6585210495560581,
+        "away": 1.761418930400023
+      },
+      "probabilities_1x2": {
+        "home_win": 0.13427842578823962,
+        "draw": 0.2261360926138681,
+        "away_win": 0.6395854815978923
+      }
+    },
+    {
+      "match_id": 538033,
+      "utcDate": "2026-02-07T17:30:00Z",
+      "status": "TIMED",
+      "home": "Newcastle United FC",
+      "away": "Brentford FC",
+      "expected_goals": {
+        "home": 1.535914926467282,
+        "away": 0.9987478938504413
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4975174882644443,
+        "draw": 0.2563217009793276,
+        "away_win": 0.2461608107562283
+      }
+    },
+    {
+      "match_id": 538026,
+      "utcDate": "2026-02-08T14:00:00Z",
+      "status": "TIMED",
+      "home": "Brighton & Hove Albion FC",
+      "away": "Crystal Palace FC",
+      "expected_goals": {
+        "home": 1.1740539618478334,
+        "away": 0.9197564906329747
+      },
+      "probabilities_1x2": {
+        "home_win": 0.41674238520900053,
+        "draw": 0.2968047040522178,
+        "away_win": 0.2864529107387817
+      }
+    },
+    {
+      "match_id": 538030,
+      "utcDate": "2026-02-08T16:30:00Z",
+      "status": "TIMED",
+      "home": "Liverpool FC",
+      "away": "Manchester City FC",
+      "expected_goals": {
+        "home": 1.3717462350419627,
+        "away": 1.6746348888929878
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3151061852594238,
+        "draw": 0.23795008161589087,
+        "away_win": 0.4469437331246854
+      }
+    },
+    {
+      "match_id": 538039,
+      "utcDate": "2026-02-10T19:30:00Z",
+      "status": "TIMED",
+      "home": "Chelsea FC",
+      "away": "Leeds United FC",
+      "expected_goals": {
+        "home": 2.3196438141770463,
+        "away": 0.7341737863797407
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7299878870974779,
+        "draw": 0.16894868464902585,
+        "away_win": 0.10106342825349635
+      }
+    },
+    {
+      "match_id": 538040,
+      "utcDate": "2026-02-10T19:30:00Z",
+      "status": "TIMED",
+      "home": "Everton FC",
+      "away": "AFC Bournemouth",
+      "expected_goals": {
+        "home": 1.5348555582823846,
+        "away": 0.9239944877524612
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5156170468518836,
+        "draw": 0.25725773290983833,
+        "away_win": 0.22712522023827805
+      }
+    },
+    {
+      "match_id": 538043,
+      "utcDate": "2026-02-10T19:30:00Z",
+      "status": "TIMED",
+      "home": "Tottenham Hotspur FC",
+      "away": "Newcastle United FC",
+      "expected_goals": {
+        "home": 1.5572283503894182,
+        "away": 0.9208395714688775
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5221327938685527,
+        "draw": 0.2548788847344574,
+        "away_win": 0.22298832139698993
+      }
+    },
+    {
+      "match_id": 538044,
+      "utcDate": "2026-02-10T20:15:00Z",
+      "status": "TIMED",
+      "home": "West Ham United FC",
+      "away": "Manchester United FC",
+      "expected_goals": {
+        "home": 1.5395598216659594,
+        "away": 1.7898025425397102
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3339530864205862,
+        "draw": 0.22732091391113232,
+        "away_win": 0.4387259996682815
+      }
+    },
+    {
+      "match_id": 538036,
+      "utcDate": "2026-02-11T19:30:00Z",
+      "status": "TIMED",
+      "home": "Aston Villa FC",
+      "away": "Brighton & Hove Albion FC",
+      "expected_goals": {
+        "home": 1.6545254189868828,
+        "away": 0.864125598950559
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5607129709052808,
+        "draw": 0.2440903608315059,
+        "away_win": 0.19519666826321325
+      }
+    },
+    {
+      "match_id": 538037,
+      "utcDate": "2026-02-11T19:30:00Z",
+      "status": "TIMED",
+      "home": "Crystal Palace FC",
+      "away": "Burnley FC",
+      "expected_goals": {
+        "home": 1.8623247450946208,
+        "away": 0.6502609190610106
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6639380413206679,
+        "draw": 0.21325562757996322,
+        "away_win": 0.1228063310993689
+      }
+    },
+    {
+      "match_id": 538041,
+      "utcDate": "2026-02-11T19:30:00Z",
+      "status": "TIMED",
+      "home": "Manchester City FC",
+      "away": "Fulham FC",
+      "expected_goals": {
+        "home": 2.7205296522268427,
+        "away": 0.8176610903509378
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7732982078795585,
+        "draw": 0.1399361822496771,
+        "away_win": 0.08676560987076459
+      }
+    },
+    {
+      "match_id": 538042,
+      "utcDate": "2026-02-11T19:30:00Z",
+      "status": "TIMED",
+      "home": "Nottingham Forest FC",
+      "away": "Wolverhampton Wanderers FC",
+      "expected_goals": {
+        "home": 1.7970337581648395,
+        "away": 0.6209077274069524
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6575843187231356,
+        "draw": 0.2199508934181616,
+        "away_win": 0.12246478785870288
+      }
+    },
+    {
+      "match_id": 538035,
+      "utcDate": "2026-02-11T20:15:00Z",
+      "status": "TIMED",
+      "home": "Sunderland AFC",
+      "away": "Liverpool FC",
+      "expected_goals": {
+        "home": 1.350643631177681,
+        "away": 0.8966021345725045
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4731614768672977,
+        "draw": 0.2780560539139008,
+        "away_win": 0.24878246921880146
+      }
+    },
+    {
+      "match_id": 538038,
+      "utcDate": "2026-02-12T20:00:00Z",
+      "status": "TIMED",
+      "home": "Brentford FC",
+      "away": "Arsenal FC",
+      "expected_goals": {
+        "home": 0.9141901505252408,
+        "away": 1.3286519063446722
+      },
+      "probabilities_1x2": {
+        "home_win": 0.257364277114158,
+        "draw": 0.27995835513007883,
+        "away_win": 0.4626773677557631
+      }
+    },
+    {
+      "match_id": 538051,
+      "utcDate": "2026-02-21T12:30:00Z",
+      "status": "TIMED",
+      "home": "Manchester City FC",
+      "away": "Newcastle United FC",
+      "expected_goals": {
+        "home": 2.3207773970691785,
+        "away": 0.7466828658424591
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7272647639042122,
+        "draw": 0.16963837390208444,
+        "away_win": 0.10309686219370323
+      }
+    },
+    {
+      "match_id": 538046,
+      "utcDate": "2026-02-21T15:00:00Z",
+      "status": "TIMED",
+      "home": "Aston Villa FC",
+      "away": "Leeds United FC",
+      "expected_goals": {
+        "home": 2.1312862275906306,
+        "away": 0.7623124198852247
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6895638003942345,
+        "draw": 0.18920646967398974,
+        "away_win": 0.1212297299317758
+      }
+    },
+    {
+      "match_id": 538047,
+      "utcDate": "2026-02-21T15:00:00Z",
+      "status": "TIMED",
+      "home": "Crystal Palace FC",
+      "away": "Wolverhampton Wanderers FC",
+      "expected_goals": {
+        "home": 2.0425839452509624,
+        "away": 0.4091830253401125
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7623879254669719,
+        "draw": 0.17465494616234375,
+        "away_win": 0.06295712837068443
+      }
+    },
+    {
+      "match_id": 538048,
+      "utcDate": "2026-02-21T15:00:00Z",
+      "status": "TIMED",
+      "home": "Brentford FC",
+      "away": "Brighton & Hove Albion FC",
+      "expected_goals": {
+        "home": 1.5553710007427533,
+        "away": 1.0972826156333693
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4790122534721949,
+        "draw": 0.252877401144085,
+        "away_win": 0.26811034538372025
+      }
+    },
+    {
+      "match_id": 538049,
+      "utcDate": "2026-02-21T15:00:00Z",
+      "status": "TIMED",
+      "home": "Chelsea FC",
+      "away": "Burnley FC",
+      "expected_goals": {
+        "home": 2.4198410522267904,
+        "away": 0.6945300250427867
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7554317734410936,
+        "draw": 0.15691706735712205,
+        "away_win": 0.08765115920178432
+      }
+    },
+    {
+      "match_id": 538052,
+      "utcDate": "2026-02-21T15:00:00Z",
+      "status": "TIMED",
+      "home": "Nottingham Forest FC",
+      "away": "Liverpool FC",
+      "expected_goals": {
+        "home": 1.2826369691985016,
+        "away": 1.3391762087198422
+      },
+      "probabilities_1x2": {
+        "home_win": 0.35555075811876213,
+        "draw": 0.2625063041799009,
+        "away_win": 0.38194293770133697
+      }
+    },
+    {
+      "match_id": 538054,
+      "utcDate": "2026-02-21T17:30:00Z",
+      "status": "TIMED",
+      "home": "West Ham United FC",
+      "away": "AFC Bournemouth",
+      "expected_goals": {
+        "home": 1.613408136901757,
+        "away": 1.4423396455710573
+      },
+      "probabilities_1x2": {
+        "home_win": 0.41750308869932895,
+        "draw": 0.23953144086693182,
+        "away_win": 0.34296547043373904
+      }
+    },
+    {
+      "match_id": 538045,
+      "utcDate": "2026-02-22T14:00:00Z",
+      "status": "TIMED",
+      "home": "Sunderland AFC",
+      "away": "Fulham FC",
+      "expected_goals": {
+        "home": 1.4562147412529516,
+        "away": 0.8052820230719395
+      },
+      "probabilities_1x2": {
+        "home_win": 0.525207750402422,
+        "draw": 0.26722590077057334,
+        "away_win": 0.2075663488270047
+      }
+    },
+    {
+      "match_id": 538053,
+      "utcDate": "2026-02-22T16:30:00Z",
+      "status": "TIMED",
+      "home": "Tottenham Hotspur FC",
+      "away": "Arsenal FC",
+      "expected_goals": {
+        "home": 0.945985070205548,
+        "away": 1.2002638025640537
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2892914938510416,
+        "draw": 0.2924702657815919,
+        "away_win": 0.4182382403673665
+      }
+    },
+    {
+      "match_id": 538050,
+      "utcDate": "2026-02-23T20:00:00Z",
+      "status": "TIMED",
+      "home": "Everton FC",
+      "away": "Manchester United FC",
+      "expected_goals": {
+        "home": 1.4646027223650488,
+        "away": 1.1465868587542467
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4443902377106918,
+        "draw": 0.2593144603889207,
+        "away_win": 0.29629530190038744
+      }
+    },
+    {
+      "match_id": 538064,
+      "utcDate": "2026-02-27T20:00:00Z",
+      "status": "TIMED",
+      "home": "Wolverhampton Wanderers FC",
+      "away": "Aston Villa FC",
+      "expected_goals": {
+        "home": 0.683760145275447,
+        "away": 1.6183898081399397
+      },
+      "probabilities_1x2": {
+        "home_win": 0.15549292556287078,
+        "draw": 0.24541594401825062,
+        "away_win": 0.5990911304188786
+      }
+    },
+    {
+      "match_id": 538055,
+      "utcDate": "2026-02-28T12:30:00Z",
+      "status": "TIMED",
+      "home": "AFC Bournemouth",
+      "away": "Sunderland AFC",
+      "expected_goals": {
+        "home": 1.208404226478112,
+        "away": 1.0250313223231367
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4022344834327072,
+        "draw": 0.28711313813102857,
+        "away_win": 0.31065237843626425
+      }
+    },
+    {
+      "match_id": 538056,
+      "utcDate": "2026-02-28T15:00:00Z",
+      "status": "TIMED",
+      "home": "Brighton & Hove Albion FC",
+      "away": "Nottingham Forest FC",
+      "expected_goals": {
+        "home": 1.7815479434860242,
+        "away": 0.8091875326845391
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6047853174424337,
+        "draw": 0.22881852129289829,
+        "away_win": 0.16639616126466789
+      }
+    },
+    {
+      "match_id": 538058,
+      "utcDate": "2026-02-28T15:00:00Z",
+      "status": "TIMED",
+      "home": "Burnley FC",
+      "away": "Brentford FC",
+      "expected_goals": {
+        "home": 1.3797978232979724,
+        "away": 1.3871364641528596
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3710553984501624,
+        "draw": 0.2545433045856568,
+        "away_win": 0.3744012969641808
+      }
+    },
+    {
+      "match_id": 538060,
+      "utcDate": "2026-02-28T15:00:00Z",
+      "status": "TIMED",
+      "home": "Liverpool FC",
+      "away": "West Ham United FC",
+      "expected_goals": {
+        "home": 2.4296987805142924,
+        "away": 0.9363765300760947
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7025675864847587,
+        "draw": 0.17081292071483362,
+        "away_win": 0.12661949280040782
+      }
+    },
+    {
+      "match_id": 538062,
+      "utcDate": "2026-02-28T15:00:00Z",
+      "status": "TIMED",
+      "home": "Manchester United FC",
+      "away": "Crystal Palace FC",
+      "expected_goals": {
+        "home": 1.4759726706332852,
+        "away": 1.055786535168748
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4683656524805271,
+        "draw": 0.26093494541895645,
+        "away_win": 0.27069940210051635
+      }
+    },
+    {
+      "match_id": 538063,
+      "utcDate": "2026-02-28T15:00:00Z",
+      "status": "TIMED",
+      "home": "Newcastle United FC",
+      "away": "Everton FC",
+      "expected_goals": {
+        "home": 1.2766309369187676,
+        "away": 0.8192915174313952
+      },
+      "probabilities_1x2": {
+        "home_win": 0.47162100472350343,
+        "draw": 0.2893638004904594,
+        "away_win": 0.2390151947860373
+      }
+    },
+    {
+      "match_id": 538061,
+      "utcDate": "2026-02-28T17:30:00Z",
+      "status": "TIMED",
+      "home": "Leeds United FC",
+      "away": "Manchester City FC",
+      "expected_goals": {
+        "home": 1.0684175412354189,
+        "away": 2.050607682548172
+      },
+      "probabilities_1x2": {
+        "home_win": 0.19087762166775846,
+        "draw": 0.20892679457291966,
+        "away_win": 0.6001955837593218
+      }
+    },
+    {
+      "match_id": 538065,
+      "utcDate": "2026-03-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AFC Bournemouth",
+      "away": "Brentford FC",
+      "expected_goals": {
+        "home": 1.6750194627179422,
+        "away": 1.2417559468237283
+      },
+      "probabilities_1x2": {
+        "home_win": 0.47546431086977636,
+        "draw": 0.2406098793422453,
+        "away_win": 0.28392580978797843
+      }
+    },
+    {
+      "match_id": 538066,
+      "utcDate": "2026-03-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Aston Villa FC",
+      "away": "Chelsea FC",
+      "expected_goals": {
+        "home": 1.3193956798722668,
+        "away": 0.9895551950075793
+      },
+      "probabilities_1x2": {
+        "home_win": 0.44187914436555875,
+        "draw": 0.27811521323944965,
+        "away_win": 0.28000564239499154
+      }
+    },
+    {
+      "match_id": 538067,
+      "utcDate": "2026-03-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Brighton & Hove Albion FC",
+      "away": "Arsenal FC",
+      "expected_goals": {
+        "home": 0.9242561662752141,
+        "away": 1.2636705133190214
+      },
+      "probabilities_1x2": {
+        "home_win": 0.27146963529827245,
+        "draw": 0.28672338669165537,
+        "away_win": 0.44180697801007224
+      }
+    },
+    {
+      "match_id": 538068,
+      "utcDate": "2026-03-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Everton FC",
+      "away": "Burnley FC",
+      "expected_goals": {
+        "home": 1.7145511704993808,
+        "away": 0.7611407576550987
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6016621443505015,
+        "draw": 0.23531095340533845,
+        "away_win": 0.16302690224416022
+      }
+    },
+    {
+      "match_id": 538069,
+      "utcDate": "2026-03-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Fulham FC",
+      "away": "West Ham United FC",
+      "expected_goals": {
+        "home": 2.182230750946034,
+        "away": 1.0095670500968112
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6405386770520649,
+        "draw": 0.19555973701899862,
+        "away_win": 0.16390158592893636
+      }
+    },
+    {
+      "match_id": 538070,
+      "utcDate": "2026-03-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Leeds United FC",
+      "away": "Sunderland AFC",
+      "expected_goals": {
+        "home": 1.0522421199256697,
+        "away": 1.0976263880854817
+      },
+      "probabilities_1x2": {
+        "home_win": 0.34083324303992946,
+        "draw": 0.2952667788501597,
+        "away_win": 0.3638999781099108
+      }
+    },
+    {
+      "match_id": 538071,
+      "utcDate": "2026-03-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Manchester City FC",
+      "away": "Nottingham Forest FC",
+      "expected_goals": {
+        "home": 2.7175067038355376,
+        "away": 0.6232241180234837
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8128587973729625,
+        "draw": 0.12611262597181577,
+        "away_win": 0.061028576655221586
+      }
+    },
+    {
+      "match_id": 538072,
+      "utcDate": "2026-03-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Newcastle United FC",
+      "away": "Manchester United FC",
+      "expected_goals": {
+        "home": 1.6768455220307044,
+        "away": 1.2694101103442874
+      },
+      "probabilities_1x2": {
+        "home_win": 0.46974248082539627,
+        "draw": 0.23999108494736424,
+        "away_win": 0.2902664342272396
+      }
+    },
+    {
+      "match_id": 538073,
+      "utcDate": "2026-03-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Tottenham Hotspur FC",
+      "away": "Crystal Palace FC",
+      "expected_goals": {
+        "home": 1.2016555150501553,
+        "away": 0.873606221910319
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4360804404447296,
+        "draw": 0.29618731993583225,
+        "away_win": 0.26773223961943826
+      }
+    },
+    {
+      "match_id": 538074,
+      "utcDate": "2026-03-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Wolverhampton Wanderers FC",
+      "away": "Liverpool FC",
+      "expected_goals": {
+        "home": 0.8687082327297495,
+        "away": 1.7421614482811936
+      },
+      "probabilities_1x2": {
+        "home_win": 0.18495887007151793,
+        "draw": 0.23452035182363332,
+        "away_win": 0.5805207781048489
+      }
+    },
+    {
+      "match_id": 538075,
+      "utcDate": "2026-03-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sunderland AFC",
+      "away": "Brighton & Hove Albion FC",
+      "expected_goals": {
+        "home": 1.2839108986531969,
+        "away": 0.7916092797039939
+      },
+      "probabilities_1x2": {
+        "home_win": 0.48082517295935223,
+        "draw": 0.289344151739111,
+        "away_win": 0.22983067530153667
+      }
+    },
+    {
+      "match_id": 538076,
+      "utcDate": "2026-03-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Crystal Palace FC",
+      "away": "Leeds United FC",
+      "expected_goals": {
+        "home": 1.7852123266411601,
+        "away": 0.6873778006247917
+      },
+      "probabilities_1x2": {
+        "home_win": 0.637285633789292,
+        "draw": 0.22433276151690676,
+        "away_win": 0.1383816046938013
+      }
+    },
+    {
+      "match_id": 538077,
+      "utcDate": "2026-03-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Arsenal FC",
+      "away": "Everton FC",
+      "expected_goals": {
+        "home": 1.6640183049179693,
+        "away": 0.4977032067534177
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6614273279777021,
+        "draw": 0.23212862692533073,
+        "away_win": 0.106444045096967
+      }
+    },
+    {
+      "match_id": 538078,
+      "utcDate": "2026-03-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Brentford FC",
+      "away": "Wolverhampton Wanderers FC",
+      "expected_goals": {
+        "home": 2.2924103962015425,
+        "away": 0.5762311478790619
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7626596005555558,
+        "draw": 0.16049866380795283,
+        "away_win": 0.07684173563649144
+      }
+    },
+    {
+      "match_id": 538079,
+      "utcDate": "2026-03-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Burnley FC",
+      "away": "AFC Bournemouth",
+      "expected_goals": {
+        "home": 1.57866152365563,
+        "away": 1.4207827815444452
+      },
+      "probabilities_1x2": {
+        "home_win": 0.41358388158179826,
+        "draw": 0.2422094082477977,
+        "away_win": 0.3442067101704039
+      }
+    },
+    {
+      "match_id": 538080,
+      "utcDate": "2026-03-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Chelsea FC",
+      "away": "Newcastle United FC",
+      "expected_goals": {
+        "home": 1.7423023738621979,
+        "away": 0.7731125635444238
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6050341849208427,
+        "draw": 0.2323460797632492,
+        "away_win": 0.162619735315908
+      }
+    },
+    {
+      "match_id": 538081,
+      "utcDate": "2026-03-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Liverpool FC",
+      "away": "Tottenham Hotspur FC",
+      "expected_goals": {
+        "home": 1.6916930507236223,
+        "away": 1.123670425620601
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5064797396551022,
+        "draw": 0.24070309685158298,
+        "away_win": 0.2528171634933149
+      }
+    },
+    {
+      "match_id": 538082,
+      "utcDate": "2026-03-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Manchester United FC",
+      "away": "Aston Villa FC",
+      "expected_goals": {
+        "home": 1.6368761068690474,
+        "away": 1.2604569597132778
+      },
+      "probabilities_1x2": {
+        "home_win": 0.46207378504193974,
+        "draw": 0.2430579694856881,
+        "away_win": 0.294868245472372
+      }
+    },
+    {
+      "match_id": 538083,
+      "utcDate": "2026-03-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Nottingham Forest FC",
+      "away": "Fulham FC",
+      "expected_goals": {
+        "home": 1.382892436692764,
+        "away": 1.2027793432835259
+      },
+      "probabilities_1x2": {
+        "home_win": 0.41049883420268873,
+        "draw": 0.2634838245984684,
+        "away_win": 0.32601734119884285
+      }
+    },
+    {
+      "match_id": 538084,
+      "utcDate": "2026-03-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "West Ham United FC",
+      "away": "Manchester City FC",
+      "expected_goals": {
+        "home": 1.032971596034018,
+        "away": 2.171640702494986
+      },
+      "probabilities_1x2": {
+        "home_win": 0.1696514046800165,
+        "draw": 0.19731818946291363,
+        "away_win": 0.6330304058570699
+      }
+    },
+    {
+      "match_id": 538085,
+      "utcDate": "2026-03-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AFC Bournemouth",
+      "away": "Manchester United FC",
+      "expected_goals": {
+        "home": 1.8287138414841688,
+        "away": 1.5782737197083176
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4396640546136631,
+        "draw": 0.22443718824412937,
+        "away_win": 0.3358987571422076
+      }
+    },
+    {
+      "match_id": 538086,
+      "utcDate": "2026-03-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Aston Villa FC",
+      "away": "West Ham United FC",
+      "expected_goals": {
+        "home": 2.2570811374077047,
+        "away": 0.7370218539606381
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7185567088018743,
+        "draw": 0.1751613404716588,
+        "away_win": 0.10628195072646701
+      }
+    },
+    {
+      "match_id": 538087,
+      "utcDate": "2026-03-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Brighton & Hove Albion FC",
+      "away": "Liverpool FC",
+      "expected_goals": {
+        "home": 1.6542292886117995,
+        "away": 1.1820341592231787
+      },
+      "probabilities_1x2": {
+        "home_win": 0.48393757472925747,
+        "draw": 0.24316087657964683,
+        "away_win": 0.2729015486910958
+      }
+    },
+    {
+      "match_id": 538088,
+      "utcDate": "2026-03-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Everton FC",
+      "away": "Chelsea FC",
+      "expected_goals": {
+        "home": 1.0174619885124692,
+        "away": 1.04443124222573
+      },
+      "probabilities_1x2": {
+        "home_win": 0.34160211428985177,
+        "draw": 0.3028469418476912,
+        "away_win": 0.355550943862457
+      }
+    },
+    {
+      "match_id": 538089,
+      "utcDate": "2026-03-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Fulham FC",
+      "away": "Burnley FC",
+      "expected_goals": {
+        "home": 2.1496156510856883,
+        "away": 0.9878248541617455
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6391982876685162,
+        "draw": 0.1976676226176966,
+        "away_win": 0.16313408971378715
+      }
+    },
+    {
+      "match_id": 538090,
+      "utcDate": "2026-03-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Leeds United FC",
+      "away": "Brentford FC",
+      "expected_goals": {
+        "home": 1.4585566582334435,
+        "away": 1.3296999468335484
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4028447329962408,
+        "draw": 0.25282148869395915,
+        "away_win": 0.34433377830980016
+      }
+    },
+    {
+      "match_id": 538091,
+      "utcDate": "2026-03-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Manchester City FC",
+      "away": "Crystal Palace FC",
+      "expected_goals": {
+        "home": 1.7908580701696892,
+        "away": 0.7083826733828055
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6330244452321754,
+        "draw": 0.22446039462109937,
+        "away_win": 0.14251516014672533
+      }
+    },
+    {
+      "match_id": 538092,
+      "utcDate": "2026-03-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Newcastle United FC",
+      "away": "Sunderland AFC",
+      "expected_goals": {
+        "home": 1.1080504614807667,
+        "away": 0.8244356525286608
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4197702842343125,
+        "draw": 0.3105082591327203,
+        "away_win": 0.2697214566329671
+      }
+    },
+    {
+      "match_id": 538093,
+      "utcDate": "2026-03-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Tottenham Hotspur FC",
+      "away": "Nottingham Forest FC",
+      "expected_goals": {
+        "home": 1.823431444536711,
+        "away": 0.7685852401639244
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6246659401926647,
+        "draw": 0.2228133271852144,
+        "away_win": 0.15252073262212085
+      }
+    },
+    {
+      "match_id": 538094,
+      "utcDate": "2026-03-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Wolverhampton Wanderers FC",
+      "away": "Arsenal FC",
+      "expected_goals": {
+        "home": 0.48536738305987925,
+        "away": 1.8624825978641104
+      },
+      "probabilities_1x2": {
+        "home_win": 0.08838532570945962,
+        "draw": 0.20357534437497946,
+        "away_win": 0.7080393299155607
+      }
+    },
+    {
+      "match_id": 538095,
+      "utcDate": "2026-04-11T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sunderland AFC",
+      "away": "Tottenham Hotspur FC",
+      "expected_goals": {
+        "home": 1.219488593845091,
+        "away": 0.8102197067876115
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4571748788869096,
+        "draw": 0.29698794394950695,
+        "away_win": 0.24583717716358333
+      }
+    },
+    {
+      "match_id": 538096,
+      "utcDate": "2026-04-11T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Crystal Palace FC",
+      "away": "Newcastle United FC",
+      "expected_goals": {
+        "home": 1.3408867583657185,
+        "away": 0.7238346334660485
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5149500293287922,
+        "draw": 0.2832751710115694,
+        "away_win": 0.20177479965963854
+      }
+    },
+    {
+      "match_id": 538097,
+      "utcDate": "2026-04-11T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Arsenal FC",
+      "away": "AFC Bournemouth",
+      "expected_goals": {
+        "home": 2.290516710281358,
+        "away": 0.6214359220030028
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7516347285235349,
+        "draw": 0.16406952305169387,
+        "away_win": 0.08429574842477114
+      }
+    },
+    {
+      "match_id": 538098,
+      "utcDate": "2026-04-11T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Brentford FC",
+      "away": "Everton FC",
+      "expected_goals": {
+        "home": 1.3592819950289798,
+        "away": 0.8903182213523815
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4771244217076359,
+        "draw": 0.2772559942114998,
+        "away_win": 0.24561958408086415
+      }
+    },
+    {
+      "match_id": 538099,
+      "utcDate": "2026-04-11T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Burnley FC",
+      "away": "Brighton & Hove Albion FC",
+      "expected_goals": {
+        "home": 1.3123149978690494,
+        "away": 1.402410023474739
+      },
+      "probabilities_1x2": {
+        "home_win": 0.35076286762107867,
+        "draw": 0.2570646618629659,
+        "away_win": 0.3921724705159555
+      }
+    },
+    {
+      "match_id": 538100,
+      "utcDate": "2026-04-11T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Chelsea FC",
+      "away": "Manchester City FC",
+      "expected_goals": {
+        "home": 1.3869092261751637,
+        "away": 1.2694507581581451
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3971916763546815,
+        "draw": 0.2601078620768785,
+        "away_win": 0.3427004615684401
+      }
+    },
+    {
+      "match_id": 538101,
+      "utcDate": "2026-04-11T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Liverpool FC",
+      "away": "Fulham FC",
+      "expected_goals": {
+        "home": 2.020083148438078,
+        "away": 1.116822493984419
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5824995468315695,
+        "draw": 0.21260688537759845,
+        "away_win": 0.20489356779083212
+      }
+    },
+    {
+      "match_id": 538102,
+      "utcDate": "2026-04-11T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Manchester United FC",
+      "away": "Leeds United FC",
+      "expected_goals": {
+        "home": 2.5465277241784685,
+        "away": 1.0568187690164963
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6959122641983794,
+        "draw": 0.1673544245980377,
+        "away_win": 0.13673331120358292
+      }
+    },
+    {
+      "match_id": 538103,
+      "utcDate": "2026-04-11T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Nottingham Forest FC",
+      "away": "Aston Villa FC",
+      "expected_goals": {
+        "home": 1.0095634038588208,
+        "away": 1.2440346040454127
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2994332083619557,
+        "draw": 0.28458998452315787,
+        "away_win": 0.4159768071148867
+      }
+    },
+    {
+      "match_id": 538104,
+      "utcDate": "2026-04-11T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "West Ham United FC",
+      "away": "Wolverhampton Wanderers FC",
+      "expected_goals": {
+        "home": 1.9767497058945276,
+        "away": 0.7476409737827655
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6627775177125845,
+        "draw": 0.20478806677381586,
+        "away_win": 0.13243441551359939
+      }
+    },
+    {
+      "match_id": 538112,
+      "utcDate": "2026-04-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Newcastle United FC",
+      "away": "AFC Bournemouth",
+      "expected_goals": {
+        "home": 1.757279042683809,
+        "away": 1.0229734761915357
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5459889062605303,
+        "draw": 0.2348441063054599,
+        "away_win": 0.2191669874340097
+      }
+    },
+    {
+      "match_id": 538113,
+      "utcDate": "2026-04-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Nottingham Forest FC",
+      "away": "Burnley FC",
+      "expected_goals": {
+        "home": 1.638444502308851,
+        "away": 0.9867272210036819
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5262097032485931,
+        "draw": 0.24626521107804392,
+        "away_win": 0.22752508567336321
+      }
+    },
+    {
+      "match_id": 538114,
+      "utcDate": "2026-04-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Tottenham Hotspur FC",
+      "away": "Brighton & Hove Albion FC",
+      "expected_goals": {
+        "home": 1.609465759927461,
+        "away": 0.991251808271505
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5179279930793529,
+        "draw": 0.24912025314565373,
+        "away_win": 0.2329517537749934
+      }
+    },
+    {
+      "match_id": 538105,
+      "utcDate": "2026-04-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Aston Villa FC",
+      "away": "Sunderland AFC",
+      "expected_goals": {
+        "home": 1.2549984370527973,
+        "away": 0.7055404863128757
+      },
+      "probabilities_1x2": {
+        "home_win": 0.49497357342155246,
+        "draw": 0.2959035556310068,
+        "away_win": 0.2091228709474407
+      }
+    },
+    {
+      "match_id": 538106,
+      "utcDate": "2026-04-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Crystal Palace FC",
+      "away": "West Ham United FC",
+      "expected_goals": {
+        "home": 1.8905809161468625,
+        "away": 0.6645732743855157
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6661800755402363,
+        "draw": 0.21057123203462738,
+        "away_win": 0.1232486924251365
+      }
+    },
+    {
+      "match_id": 538107,
+      "utcDate": "2026-04-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Brentford FC",
+      "away": "Fulham FC",
+      "expected_goals": {
+        "home": 1.7641054233396223,
+        "away": 1.1162349750742202
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5254243380727186,
+        "draw": 0.23450376914890733,
+        "away_win": 0.24007189277837412
+      }
+    },
+    {
+      "match_id": 538108,
+      "utcDate": "2026-04-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Chelsea FC",
+      "away": "Manchester United FC",
+      "expected_goals": {
+        "home": 2.0670749603523375,
+        "away": 1.0462440642091697
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6088063391417539,
+        "draw": 0.2069046313485196,
+        "away_win": 0.1842890295097265
+      }
+    },
+    {
+      "match_id": 538109,
+      "utcDate": "2026-04-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Everton FC",
+      "away": "Liverpool FC",
+      "expected_goals": {
+        "home": 1.3422161774573946,
+        "away": 1.0330125412998004
+      },
+      "probabilities_1x2": {
+        "home_win": 0.43793995844005584,
+        "draw": 0.27414115646692877,
+        "away_win": 0.2879188850930153
+      }
+    },
+    {
+      "match_id": 538110,
+      "utcDate": "2026-04-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Leeds United FC",
+      "away": "Wolverhampton Wanderers FC",
+      "expected_goals": {
+        "home": 2.0445809628439346,
+        "away": 0.7059723659007423
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6868223136741183,
+        "draw": 0.19524509160133513,
+        "away_win": 0.11793259472454652
+      }
+    },
+    {
+      "match_id": 538111,
+      "utcDate": "2026-04-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Manchester City FC",
+      "away": "Arsenal FC",
+      "expected_goals": {
+        "home": 1.4098258411163165,
+        "away": 0.9732601026646752
+      },
+      "probabilities_1x2": {
+        "home_win": 0.47055356253739633,
+        "draw": 0.26951429113871817,
+        "away_win": 0.2599321463238856
+      }
+    },
+    {
+      "match_id": 538115,
+      "utcDate": "2026-04-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AFC Bournemouth",
+      "away": "Leeds United FC",
+      "expected_goals": {
+        "home": 2.0521581614900137,
+        "away": 1.107511366019311
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5914284675908006,
+        "draw": 0.2097018873491016,
+        "away_win": 0.1988696450600977
+      }
+    },
+    {
+      "match_id": 538116,
+      "utcDate": "2026-04-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sunderland AFC",
+      "away": "Nottingham Forest FC",
+      "expected_goals": {
+        "home": 1.4545966511851363,
+        "away": 0.6137887500232821
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5763737939864129,
+        "draw": 0.26706241699798317,
+        "away_win": 0.156563789015604
+      }
+    },
+    {
+      "match_id": 538117,
+      "utcDate": "2026-04-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Brighton & Hove Albion FC",
+      "away": "Chelsea FC",
+      "expected_goals": {
+        "home": 1.2539823686486262,
+        "away": 1.1951001134190677
+      },
+      "probabilities_1x2": {
+        "home_win": 0.37756112902125316,
+        "draw": 0.27318939462190484,
+        "away_win": 0.349249476356842
+      }
+    },
+    {
+      "match_id": 538118,
+      "utcDate": "2026-04-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Arsenal FC",
+      "away": "Newcastle United FC",
+      "expected_goals": {
+        "home": 1.84226920440711,
+        "away": 0.5698278316710484
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6810381262490912,
+        "draw": 0.21148675069453807,
+        "away_win": 0.10747512305637105
+      }
+    },
+    {
+      "match_id": 538119,
+      "utcDate": "2026-04-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Burnley FC",
+      "away": "Manchester City FC",
+      "expected_goals": {
+        "home": 1.0107253560897018,
+        "away": 2.1391838789707283
+      },
+      "probabilities_1x2": {
+        "home_win": 0.16881822203950492,
+        "draw": 0.1994128749576921,
+        "away_win": 0.6317689030028029
+      }
+    },
+    {
+      "match_id": 538120,
+      "utcDate": "2026-04-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Fulham FC",
+      "away": "Aston Villa FC",
+      "expected_goals": {
+        "home": 1.3245326836765692,
+        "away": 1.2454184653620082
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3858927725361952,
+        "draw": 0.2654631303024763,
+        "away_win": 0.34864409716132855
+      }
+    },
+    {
+      "match_id": 538121,
+      "utcDate": "2026-04-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Liverpool FC",
+      "away": "Crystal Palace FC",
+      "expected_goals": {
+        "home": 1.3297712839971934,
+        "away": 0.9675618826905177
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4500170044477789,
+        "draw": 0.2779229142383772,
+        "away_win": 0.27206008131384374
+      }
+    },
+    {
+      "match_id": 538122,
+      "utcDate": "2026-04-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Manchester United FC",
+      "away": "Brentford FC",
+      "expected_goals": {
+        "home": 2.0785354561817577,
+        "away": 1.1849187569586392
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5792057660269178,
+        "draw": 0.20907063016861865,
+        "away_win": 0.21172360380446348
+      }
+    },
+    {
+      "match_id": 538123,
+      "utcDate": "2026-04-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "West Ham United FC",
+      "away": "Everton FC",
+      "expected_goals": {
+        "home": 1.1721113672985768,
+        "away": 1.1551586276417964
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3633166133152367,
+        "draw": 0.2816996063407371,
+        "away_win": 0.3549837803440262
+      }
+    },
+    {
+      "match_id": 538124,
+      "utcDate": "2026-04-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Wolverhampton Wanderers FC",
+      "away": "Tottenham Hotspur FC",
+      "expected_goals": {
+        "home": 0.7843518132681232,
+        "away": 1.5743142731598352
+      },
+      "probabilities_1x2": {
+        "home_win": 0.18594767019483854,
+        "draw": 0.25268001631031173,
+        "away_win": 0.5613723134948497
+      }
+    },
+    {
+      "match_id": 538125,
+      "utcDate": "2026-05-02T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AFC Bournemouth",
+      "away": "Crystal Palace FC",
+      "expected_goals": {
+        "home": 1.1894350622683545,
+        "away": 1.106429618843459
+      },
+      "probabilities_1x2": {
+        "home_win": 0.37867159845605075,
+        "draw": 0.28368130256556817,
+        "away_win": 0.3376470989783812
+      }
+    },
+    {
+      "match_id": 538126,
+      "utcDate": "2026-05-02T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Aston Villa FC",
+      "away": "Tottenham Hotspur FC",
+      "expected_goals": {
+        "home": 1.5715069315150951,
+        "away": 0.8844408565690274
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5349073869148828,
+        "draw": 0.2534257877715232,
+        "away_win": 0.2116668253135941
+      }
+    },
+    {
+      "match_id": 538127,
+      "utcDate": "2026-05-02T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Arsenal FC",
+      "away": "Fulham FC",
+      "expected_goals": {
+        "home": 2.159598763889762,
+        "away": 0.6239945597663744
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7286535916707351,
+        "draw": 0.17776050181818182,
+        "away_win": 0.09358590651108294
+      }
+    },
+    {
+      "match_id": 538128,
+      "utcDate": "2026-05-02T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Brentford FC",
+      "away": "West Ham United FC",
+      "expected_goals": {
+        "home": 2.121816024801276,
+        "away": 0.9358839370978468
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6459474040528679,
+        "draw": 0.1982481449313024,
+        "away_win": 0.1558044510158299
+      }
+    },
+    {
+      "match_id": 538129,
+      "utcDate": "2026-05-02T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Chelsea FC",
+      "away": "Nottingham Forest FC",
+      "expected_goals": {
+        "home": 2.0401432671045443,
+        "away": 0.6452838515374565
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7012468381007275,
+        "draw": 0.1922095877972401,
+        "away_win": 0.10654357410203233
+      }
+    },
+    {
+      "match_id": 538130,
+      "utcDate": "2026-05-02T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Everton FC",
+      "away": "Manchester City FC",
+      "expected_goals": {
+        "home": 0.9826789387372353,
+        "away": 1.3912007789883598
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2656191336913277,
+        "draw": 0.27113674913996416,
+        "away_win": 0.4632441171687082
+      }
+    },
+    {
+      "match_id": 538131,
+      "utcDate": "2026-05-02T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Leeds United FC",
+      "away": "Burnley FC",
+      "expected_goals": {
+        "home": 1.8641455247440584,
+        "away": 1.1219092949926683
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5471262108460436,
+        "draw": 0.22593479636948416,
+        "away_win": 0.22693899278447222
+      }
+    },
+    {
+      "match_id": 538132,
+      "utcDate": "2026-05-02T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Manchester United FC",
+      "away": "Liverpool FC",
+      "expected_goals": {
+        "home": 2.0796294721490893,
+        "away": 1.3568545176109488
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5411914995367426,
+        "draw": 0.21108624713545432,
+        "away_win": 0.2477222533278031
+      }
+    },
+    {
+      "match_id": 538133,
+      "utcDate": "2026-05-02T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Newcastle United FC",
+      "away": "Brighton & Hove Albion FC",
+      "expected_goals": {
+        "home": 1.4607967626998315,
+        "away": 1.009744962703103
+      },
+      "probabilities_1x2": {
+        "home_win": 0.47534002171407264,
+        "draw": 0.26349412004657513,
+        "away_win": 0.26116585823935234
+      }
+    },
+    {
+      "match_id": 538134,
+      "utcDate": "2026-05-02T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Wolverhampton Wanderers FC",
+      "away": "Sunderland AFC",
+      "expected_goals": {
+        "home": 0.6263798650903799,
+        "away": 1.2558696826866935
+      },
+      "probabilities_1x2": {
+        "home_win": 0.1854968317445264,
+        "draw": 0.2977293803441511,
+        "away_win": 0.5167737879113227
+      }
+    },
+    {
+      "match_id": 538135,
+      "utcDate": "2026-05-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sunderland AFC",
+      "away": "Manchester United FC",
+      "expected_goals": {
+        "home": 1.4737986118712523,
+        "away": 0.9951788423965371
+      },
+      "probabilities_1x2": {
+        "home_win": 0.48226694830062133,
+        "draw": 0.26253718269366094,
+        "away_win": 0.2551958690057179
+      }
+    },
+    {
+      "match_id": 538136,
+      "utcDate": "2026-05-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Brighton & Hove Albion FC",
+      "away": "Wolverhampton Wanderers FC",
+      "expected_goals": {
+        "home": 2.3176517960791387,
+        "away": 0.5480489712569199
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7733134322046802,
+        "draw": 0.15575666743079133,
+        "away_win": 0.07092990036452851
+      }
+    },
+    {
+      "match_id": 538137,
+      "utcDate": "2026-05-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Crystal Palace FC",
+      "away": "Everton FC",
+      "expected_goals": {
+        "home": 1.211147700566786,
+        "away": 0.6322169578463234
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5016903862718829,
+        "draw": 0.3047554287896123,
+        "away_win": 0.1935541849385049
+      }
+    },
+    {
+      "match_id": 538138,
+      "utcDate": "2026-05-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Burnley FC",
+      "away": "Aston Villa FC",
+      "expected_goals": {
+        "home": 1.0866103258182145,
+        "away": 1.475565982938162
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2787999424973571,
+        "draw": 0.2601668148680061,
+        "away_win": 0.46103324263463685
+      }
+    },
+    {
+      "match_id": 538139,
+      "utcDate": "2026-05-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Fulham FC",
+      "away": "AFC Bournemouth",
+      "expected_goals": {
+        "home": 1.9243225789981564,
+        "away": 1.1991799295077699
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5427569909372443,
+        "draw": 0.22152408044943928,
+        "away_win": 0.2357189286133165
+      }
+    },
+    {
+      "match_id": 538140,
+      "utcDate": "2026-05-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Liverpool FC",
+      "away": "Chelsea FC",
+      "expected_goals": {
+        "home": 1.4203007686659022,
+        "away": 1.2572168041430378
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4084627619194491,
+        "draw": 0.2584291355546692,
+        "away_win": 0.33310810252588186
+      }
+    },
+    {
+      "match_id": 538141,
+      "utcDate": "2026-05-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Manchester City FC",
+      "away": "Brentford FC",
+      "expected_goals": {
+        "home": 2.5219721678449574,
+        "away": 0.7950242675349452
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7489131908202555,
+        "draw": 0.15464441285906064,
+        "away_win": 0.09644239632068377
+      }
+    },
+    {
+      "match_id": 538142,
+      "utcDate": "2026-05-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Nottingham Forest FC",
+      "away": "Newcastle United FC",
+      "expected_goals": {
+        "home": 1.1796914277436745,
+        "away": 1.0983703855023776
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3776577151068302,
+        "draw": 0.28501028408262236,
+        "away_win": 0.3373320008105474
+      }
+    },
+    {
+      "match_id": 538143,
+      "utcDate": "2026-05-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Tottenham Hotspur FC",
+      "away": "Leeds United FC",
+      "expected_goals": {
+        "home": 2.0732423742468242,
+        "away": 0.8744603395579883
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6509936648227941,
+        "draw": 0.20042058580780972,
+        "away_win": 0.14858574936939623
+      }
+    },
+    {
+      "match_id": 538144,
+      "utcDate": "2026-05-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "West Ham United FC",
+      "away": "Arsenal FC",
+      "expected_goals": {
+        "home": 0.7883078501898252,
+        "away": 1.7238821759880663
+      },
+      "probabilities_1x2": {
+        "home_win": 0.16832065701070292,
+        "draw": 0.23488737164167514,
+        "away_win": 0.5967919713476219
+      }
+    },
+    {
+      "match_id": 538145,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AFC Bournemouth",
+      "away": "Manchester City FC",
+      "expected_goals": {
+        "home": 1.2269802244405825,
+        "away": 1.9149841213954482
+      },
+      "probabilities_1x2": {
+        "home_win": 0.24323061685999714,
+        "draw": 0.22240212127002698,
+        "away_win": 0.534367261869976
+      }
+    },
+    {
+      "match_id": 538146,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Aston Villa FC",
+      "away": "Liverpool FC",
+      "expected_goals": {
+        "home": 1.7405212636798681,
+        "away": 0.9787364504462696
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5527840066971608,
+        "draw": 0.2361381154553739,
+        "away_win": 0.21107787784746543
+      }
+    },
+    {
+      "match_id": 538147,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Arsenal FC",
+      "away": "Burnley FC",
+      "expected_goals": {
+        "home": 2.558682532352507,
+        "away": 0.5119080414191578
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8158649199118837,
+        "draw": 0.13021472619534152,
+        "away_win": 0.05392035389277474
+      }
+    },
+    {
+      "match_id": 538148,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Brentford FC",
+      "away": "Crystal Palace FC",
+      "expected_goals": {
+        "home": 1.1612674140242942,
+        "away": 0.967052884254392
+      },
+      "probabilities_1x2": {
+        "home_win": 0.401842480758129,
+        "draw": 0.2952742593074206,
+        "away_win": 0.3028832599344502
+      }
+    },
+    {
+      "match_id": 538149,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Chelsea FC",
+      "away": "Tottenham Hotspur FC",
+      "expected_goals": {
+        "home": 1.7103926659096884,
+        "away": 0.8517941929819127
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5773081014649868,
+        "draw": 0.23771311631813244,
+        "away_win": 0.18497878221688094
+      }
+    },
+    {
+      "match_id": 538150,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Everton FC",
+      "away": "Sunderland AFC",
+      "expected_goals": {
+        "home": 0.9678015661438276,
+        "away": 0.7446664221237891
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3941141261392914,
+        "draw": 0.33583689613732537,
+        "away_win": 0.2700489777233833
+      }
+    },
+    {
+      "match_id": 538151,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Leeds United FC",
+      "away": "Brighton & Hove Albion FC",
+      "expected_goals": {
+        "home": 1.3872219143428488,
+        "away": 1.3443410809563292
+      },
+      "probabilities_1x2": {
+        "home_win": 0.38164084910936574,
+        "draw": 0.25637876676643134,
+        "away_win": 0.361980384124203
+      }
+    },
+    {
+      "match_id": 538152,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Manchester United FC",
+      "away": "Nottingham Forest FC",
+      "expected_goals": {
+        "home": 2.239689282994907,
+        "away": 0.9288646616093026
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6703033436309018,
+        "draw": 0.18710007921221766,
+        "away_win": 0.1425965771568806
+      }
+    },
+    {
+      "match_id": 538153,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Newcastle United FC",
+      "away": "West Ham United FC",
+      "expected_goals": {
+        "home": 1.9927991319075458,
+        "away": 0.8612221479639746
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6378026299628757,
+        "draw": 0.20793462818111164,
+        "away_win": 0.1542627418560126
+      }
+    },
+    {
+      "match_id": 538154,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Wolverhampton Wanderers FC",
+      "away": "Fulham FC",
+      "expected_goals": {
+        "home": 0.9366095579526287,
+        "away": 1.5647200039945592
+      },
+      "probabilities_1x2": {
+        "home_win": 0.22589129444878042,
+        "draw": 0.253995255869853,
+        "away_win": 0.5201134496813665
+      }
+    },
+    {
+      "match_id": 538155,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sunderland AFC",
+      "away": "Chelsea FC",
+      "expected_goals": {
+        "home": 1.0238503885067105,
+        "away": 0.9065129838748289
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3739428114507156,
+        "draw": 0.3144274058528721,
+        "away_win": 0.3116297826964121
+      }
+    },
+    {
+      "match_id": 538156,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Brighton & Hove Albion FC",
+      "away": "Manchester United FC",
+      "expected_goals": {
+        "home": 1.8050659500367592,
+        "away": 1.3119926229149095
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4904708747531752,
+        "draw": 0.23027049605939673,
+        "away_win": 0.27925862918742816
+      }
+    },
+    {
+      "match_id": 538157,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Crystal Palace FC",
+      "away": "Arsenal FC",
+      "expected_goals": {
+        "home": 0.8145618810067762,
+        "away": 0.9434786867441662
+      },
+      "probabilities_1x2": {
+        "home_win": 0.29816845174787604,
+        "draw": 0.3325963897413451,
+        "away_win": 0.36923515851077876
+      }
+    },
+    {
+      "match_id": 538158,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Burnley FC",
+      "away": "Wolverhampton Wanderers FC",
+      "expected_goals": {
+        "home": 1.934178111054917,
+        "away": 0.7364669102658621
+      },
+      "probabilities_1x2": {
+        "home_win": 0.656803176737115,
+        "draw": 0.20897958599875172,
+        "away_win": 0.13421723726413337
+      }
+    },
+    {
+      "match_id": 538159,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Fulham FC",
+      "away": "Newcastle United FC",
+      "expected_goals": {
+        "home": 1.5477382071568049,
+        "away": 1.099592210267419
+      },
+      "probabilities_1x2": {
+        "home_win": 0.476540032551403,
+        "draw": 0.25350215812976085,
+        "away_win": 0.2699578093188363
+      }
+    },
+    {
+      "match_id": 538160,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Liverpool FC",
+      "away": "Brentford FC",
+      "expected_goals": {
+        "home": 1.8726476562838987,
+        "away": 1.0859034332493782
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5574907185197073,
+        "draw": 0.2248650012318434,
+        "away_win": 0.2176442802484495
+      }
+    },
+    {
+      "match_id": 538161,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Manchester City FC",
+      "away": "Aston Villa FC",
+      "expected_goals": {
+        "home": 1.9860887970212995,
+        "away": 0.8457068176787682
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6402305255154255,
+        "draw": 0.2080242580853904,
+        "away_win": 0.15174521639918417
+      }
+    },
+    {
+      "match_id": 538162,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Nottingham Forest FC",
+      "away": "AFC Bournemouth",
+      "expected_goals": {
+        "home": 1.4667253416376607,
+        "away": 1.197847446681926
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4334222442674814,
+        "draw": 0.2574192359314829,
+        "away_win": 0.3091585198010359
+      }
+    },
+    {
+      "match_id": 538163,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Tottenham Hotspur FC",
+      "away": "Everton FC",
+      "expected_goals": {
+        "home": 1.4065569102421918,
+        "away": 0.8042864566328776
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5120433404336264,
+        "draw": 0.27340810440018826,
+        "away_win": 0.2145485551661854
+      }
+    },
+    {
+      "match_id": 538164,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "West Ham United FC",
+      "away": "Leeds United FC",
+      "expected_goals": {
+        "home": 1.7276733961666466,
+        "away": 1.2559460593181058
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4848496905829459,
+        "draw": 0.23648620619927818,
+        "away_win": 0.27866410321777585
+      }
+    }
+  ]
+}

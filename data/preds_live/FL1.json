@@ -1,0 +1,2600 @@
+{
+  "competition": "FL1",
+  "generated_at": "2025-12-20T18:06:18.017188+00:00",
+  "model_path": "data/models/FL1.joblib",
+  "matches_fetched": 162,
+  "predictions": [
+    {
+      "match_id": 542553,
+      "utcDate": "2026-01-02T19:45:00Z",
+      "status": "TIMED",
+      "home": "Toulouse FC",
+      "away": "Racing Club de Lens",
+      "expected_goals": {
+        "home": 1.1665161797516235,
+        "away": 1.050035240800191
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3845242291270679,
+        "draw": 0.28936666317504584,
+        "away_win": 0.32610910769788615
+      }
+    },
+    {
+      "match_id": 542551,
+      "utcDate": "2026-01-03T16:00:00Z",
+      "status": "TIMED",
+      "home": "AS Monaco FC",
+      "away": "Olympique Lyonnais",
+      "expected_goals": {
+        "home": 1.4374049449286452,
+        "away": 1.1741217184968276
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4311177690850324,
+        "draw": 0.2605299496112537,
+        "away_win": 0.30835228130371384
+      }
+    },
+    {
+      "match_id": 542554,
+      "utcDate": "2026-01-03T18:00:00Z",
+      "status": "TIMED",
+      "home": "OGC Nice",
+      "away": "RC Strasbourg Alsace",
+      "expected_goals": {
+        "home": 1.3093575859493816,
+        "away": 1.3726520250925878
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3558577329995135,
+        "draw": 0.25903257012988,
+        "away_win": 0.3851096968706066
+      }
+    },
+    {
+      "match_id": 542556,
+      "utcDate": "2026-01-03T20:05:00Z",
+      "status": "TIMED",
+      "home": "Lille OSC",
+      "away": "Stade Rennais FC 1901",
+      "expected_goals": {
+        "home": 2.541292186013299,
+        "away": 1.1389192480389263
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6773963012321025,
+        "draw": 0.17147338104942317,
+        "away_win": 0.1511303177184742
+      }
+    },
+    {
+      "match_id": 542555,
+      "utcDate": "2026-01-04T14:00:00Z",
+      "status": "TIMED",
+      "home": "Olympique de Marseille",
+      "away": "FC Nantes",
+      "expected_goals": {
+        "home": 3.0795252844454932,
+        "away": 0.5262739626198244
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8705322962033922,
+        "draw": 0.0926240686144882,
+        "away_win": 0.036843635182119555
+      }
+    },
+    {
+      "match_id": 542550,
+      "utcDate": "2026-01-04T16:15:00Z",
+      "status": "TIMED",
+      "home": "Le Havre AC",
+      "away": "Angers SCO",
+      "expected_goals": {
+        "home": 0.8729072920388942,
+        "away": 0.7565822253755454
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3587802520398542,
+        "draw": 0.34850291766036795,
+        "away_win": 0.2927168302997778
+      }
+    },
+    {
+      "match_id": 542552,
+      "utcDate": "2026-01-04T16:15:00Z",
+      "status": "TIMED",
+      "home": "FC Lorient",
+      "away": "FC Metz",
+      "expected_goals": {
+        "home": 2.2994533703237394,
+        "away": 1.0369354718055614
+      },
+      "probabilities_1x2": {
+        "home_win": 0.65664260329772,
+        "draw": 0.18651275910888626,
+        "away_win": 0.1568446375933938
+      }
+    },
+    {
+      "match_id": 542558,
+      "utcDate": "2026-01-04T16:15:00Z",
+      "status": "TIMED",
+      "home": "Stade Brestois 29",
+      "away": "AJ Auxerre",
+      "expected_goals": {
+        "home": 1.7061841505940867,
+        "away": 0.8117610739416269
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5865558869705795,
+        "draw": 0.2374523984070449,
+        "away_win": 0.17599171462237573
+      }
+    },
+    {
+      "match_id": 542557,
+      "utcDate": "2026-01-04T19:45:00Z",
+      "status": "TIMED",
+      "home": "Paris Saint-Germain FC",
+      "away": "Paris FC",
+      "expected_goals": {
+        "home": 3.1346039292693626,
+        "away": 0.6581494889557045
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8530004318109888,
+        "draw": 0.09930555017375443,
+        "away_win": 0.04769401801525674
+      }
+    },
+    {
+      "match_id": 542559,
+      "utcDate": "2026-01-16T18:00:00Z",
+      "status": "TIMED",
+      "home": "AS Monaco FC",
+      "away": "FC Lorient",
+      "expected_goals": {
+        "home": 2.2404085601210135,
+        "away": 1.0723985808854317
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6373857672118126,
+        "draw": 0.19280839085680562,
+        "away_win": 0.16980584193138193
+      }
+    },
+    {
+      "match_id": 542563,
+      "utcDate": "2026-01-16T20:00:00Z",
+      "status": "TIMED",
+      "home": "Paris Saint-Germain FC",
+      "away": "Lille OSC",
+      "expected_goals": {
+        "home": 2.385502230489967,
+        "away": 0.993448423621093
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6821045824882024,
+        "draw": 0.17737554529452637,
+        "away_win": 0.1405198722172713
+      }
+    },
+    {
+      "match_id": 542565,
+      "utcDate": "2026-01-17T16:00:00Z",
+      "status": "TIMED",
+      "home": "Racing Club de Lens",
+      "away": "AJ Auxerre",
+      "expected_goals": {
+        "home": 2.14820609730365,
+        "away": 0.48653935616509686
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7607789509616549,
+        "draw": 0.16874068572028483,
+        "away_win": 0.07048036331806005
+      }
+    },
+    {
+      "match_id": 542561,
+      "utcDate": "2026-01-17T18:00:00Z",
+      "status": "TIMED",
+      "home": "Toulouse FC",
+      "away": "OGC Nice",
+      "expected_goals": {
+        "home": 2.098221741789523,
+        "away": 0.7876289831136302
+      },
+      "probabilities_1x2": {
+        "home_win": 0.677050336429508,
+        "draw": 0.19391230713841684,
+        "away_win": 0.12903735643207512
+      }
+    },
+    {
+      "match_id": 542566,
+      "utcDate": "2026-01-17T20:05:00Z",
+      "status": "TIMED",
+      "home": "Angers SCO",
+      "away": "Olympique de Marseille",
+      "expected_goals": {
+        "home": 0.9602001001699826,
+        "away": 1.2341279218027452
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2871414957731302,
+        "draw": 0.28815419882776705,
+        "away_win": 0.42470430539910287
+      }
+    },
+    {
+      "match_id": 542564,
+      "utcDate": "2026-01-18T14:00:00Z",
+      "status": "TIMED",
+      "home": "RC Strasbourg Alsace",
+      "away": "FC Metz",
+      "expected_goals": {
+        "home": 2.793298861663249,
+        "away": 0.7696766375464993
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7929287572099286,
+        "draw": 0.1310752178937463,
+        "away_win": 0.0759960248963251
+      }
+    },
+    {
+      "match_id": 542560,
+      "utcDate": "2026-01-18T16:15:00Z",
+      "status": "TIMED",
+      "home": "FC Nantes",
+      "away": "Paris FC",
+      "expected_goals": {
+        "home": 1.442843473542625,
+        "away": 1.1692431605224123
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4336258817673988,
+        "draw": 0.26028257028790586,
+        "away_win": 0.3060915479446954
+      }
+    },
+    {
+      "match_id": 542567,
+      "utcDate": "2026-01-18T16:15:00Z",
+      "status": "TIMED",
+      "home": "Stade Rennais FC 1901",
+      "away": "Le Havre AC",
+      "expected_goals": {
+        "home": 1.840997007725058,
+        "away": 0.732740931446815
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6378031273786995,
+        "draw": 0.21946096124309614,
+        "away_win": 0.14273591137820446
+      }
+    },
+    {
+      "match_id": 542562,
+      "utcDate": "2026-01-18T19:45:00Z",
+      "status": "TIMED",
+      "home": "Olympique Lyonnais",
+      "away": "Stade Brestois 29",
+      "expected_goals": {
+        "home": 1.8632205371926143,
+        "away": 0.7380667951494462
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6412781885945409,
+        "draw": 0.2171026482183738,
+        "away_win": 0.14161916318708537
+      }
+    },
+    {
+      "match_id": 542569,
+      "utcDate": "2026-01-23T19:00:00Z",
+      "status": "TIMED",
+      "home": "AJ Auxerre",
+      "away": "Paris Saint-Germain FC",
+      "expected_goals": {
+        "home": 0.8019620361841285,
+        "away": 1.7015871682628945
+      },
+      "probabilities_1x2": {
+        "home_win": 0.174224805365698,
+        "draw": 0.23778391403915985,
+        "away_win": 0.587991280595142
+      }
+    },
+    {
+      "match_id": 542576,
+      "utcDate": "2026-01-24T16:00:00Z",
+      "status": "TIMED",
+      "home": "Stade Rennais FC 1901",
+      "away": "FC Lorient",
+      "expected_goals": {
+        "home": 2.344527936485099,
+        "away": 1.0047823184533364
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6722072516646354,
+        "draw": 0.18134608196679297,
+        "away_win": 0.14644666636857173
+      }
+    },
+    {
+      "match_id": 542568,
+      "utcDate": "2026-01-24T18:00:00Z",
+      "status": "TIMED",
+      "home": "Le Havre AC",
+      "away": "AS Monaco FC",
+      "expected_goals": {
+        "home": 1.269769183134766,
+        "away": 1.083514705885113
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4063274777608611,
+        "draw": 0.2783202338635035,
+        "away_win": 0.31535228837563545
+      }
+    },
+    {
+      "match_id": 542573,
+      "utcDate": "2026-01-24T20:05:00Z",
+      "status": "TIMED",
+      "home": "Olympique de Marseille",
+      "away": "Racing Club de Lens",
+      "expected_goals": {
+        "home": 1.7074882923596504,
+        "away": 0.8890107189019876
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5671993685276768,
+        "draw": 0.23858404873682323,
+        "away_win": 0.19421658273549977
+      }
+    },
+    {
+      "match_id": 542571,
+      "utcDate": "2026-01-25T14:00:00Z",
+      "status": "TIMED",
+      "home": "FC Nantes",
+      "away": "OGC Nice",
+      "expected_goals": {
+        "home": 1.4221654865608149,
+        "away": 1.1128545407069914
+      },
+      "probabilities_1x2": {
+        "home_win": 0.44097570149473486,
+        "draw": 0.26398403472737625,
+        "away_win": 0.2950402637778889
+      }
+    },
+    {
+      "match_id": 542570,
+      "utcDate": "2026-01-25T16:15:00Z",
+      "status": "TIMED",
+      "home": "FC Metz",
+      "away": "Olympique Lyonnais",
+      "expected_goals": {
+        "home": 1.0801740168803844,
+        "away": 1.5505701324452412
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2645670422903147,
+        "draw": 0.2536234619756985,
+        "away_win": 0.48180949573398674
+      }
+    },
+    {
+      "match_id": 542572,
+      "utcDate": "2026-01-25T16:15:00Z",
+      "status": "TIMED",
+      "home": "Paris FC",
+      "away": "Angers SCO",
+      "expected_goals": {
+        "home": 1.235268622588334,
+        "away": 0.9985939135504281
+      },
+      "probabilities_1x2": {
+        "home_win": 0.41602247286699656,
+        "draw": 0.2860256293417389,
+        "away_win": 0.2979518977912645
+      }
+    },
+    {
+      "match_id": 542575,
+      "utcDate": "2026-01-25T16:15:00Z",
+      "status": "TIMED",
+      "home": "Stade Brestois 29",
+      "away": "Toulouse FC",
+      "expected_goals": {
+        "home": 1.3540787329981976,
+        "away": 1.198701168991056
+      },
+      "probabilities_1x2": {
+        "home_win": 0.40376291596167735,
+        "draw": 0.2657866721168353,
+        "away_win": 0.3304504119214873
+      }
+    },
+    {
+      "match_id": 542574,
+      "utcDate": "2026-01-25T19:45:00Z",
+      "status": "TIMED",
+      "home": "Lille OSC",
+      "away": "RC Strasbourg Alsace",
+      "expected_goals": {
+        "home": 2.0765647680086516,
+        "away": 1.0598067784599012
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6075963465511312,
+        "draw": 0.20643923072737427,
+        "away_win": 0.18596442272149474
+      }
+    },
+    {
+      "match_id": 542584,
+      "utcDate": "2026-01-30T19:45:00Z",
+      "status": "TIMED",
+      "home": "Racing Club de Lens",
+      "away": "Le Havre AC",
+      "expected_goals": {
+        "home": 1.8466370815264292,
+        "away": 0.45812660141905726
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7122421188026005,
+        "draw": 0.20382217165122837,
+        "away_win": 0.08393570954617116
+      }
+    },
+    {
+      "match_id": 542579,
+      "utcDate": "2026-01-31T16:00:00Z",
+      "status": "TIMED",
+      "home": "Paris FC",
+      "away": "Olympique de Marseille",
+      "expected_goals": {
+        "home": 1.1375783843090779,
+        "away": 1.9190988762723498
+      },
+      "probabilities_1x2": {
+        "home_win": 0.22280510664047276,
+        "draw": 0.2214247378469999,
+        "away_win": 0.5557701555125272
+      }
+    },
+    {
+      "match_id": 542578,
+      "utcDate": "2026-01-31T18:00:00Z",
+      "status": "TIMED",
+      "home": "FC Lorient",
+      "away": "FC Nantes",
+      "expected_goals": {
+        "home": 1.8395990024845776,
+        "away": 0.85743001885058
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6056887987440427,
+        "draw": 0.2237723546969978,
+        "away_win": 0.17053884655895954
+      }
+    },
+    {
+      "match_id": 542577,
+      "utcDate": "2026-01-31T20:05:00Z",
+      "status": "TIMED",
+      "home": "AS Monaco FC",
+      "away": "Stade Rennais FC 1901",
+      "expected_goals": {
+        "home": 2.035133561370142,
+        "away": 1.3999588413980002
+      },
+      "probabilities_1x2": {
+        "home_win": 0.522387309251396,
+        "draw": 0.21426206868591588,
+        "away_win": 0.26335062206268806
+      }
+    },
+    {
+      "match_id": 542582,
+      "utcDate": "2026-02-01T14:00:00Z",
+      "status": "TIMED",
+      "home": "Olympique Lyonnais",
+      "away": "Lille OSC",
+      "expected_goals": {
+        "home": 1.5508895527863262,
+        "away": 1.1054796070750794
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4759649497847297,
+        "draw": 0.25310904668061207,
+        "away_win": 0.27092600353465834
+      }
+    },
+    {
+      "match_id": 542580,
+      "utcDate": "2026-02-01T16:15:00Z",
+      "status": "TIMED",
+      "home": "Toulouse FC",
+      "away": "AJ Auxerre",
+      "expected_goals": {
+        "home": 1.8762127348913014,
+        "away": 0.6210510530292469
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6745668945064237,
+        "draw": 0.2100527085610348,
+        "away_win": 0.1153803969325413
+      }
+    },
+    {
+      "match_id": 542581,
+      "utcDate": "2026-02-01T16:15:00Z",
+      "status": "TIMED",
+      "home": "OGC Nice",
+      "away": "Stade Brestois 29",
+      "expected_goals": {
+        "home": 1.6715242908185515,
+        "away": 1.175181978477763
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4896990895435589,
+        "draw": 0.24186492724487485,
+        "away_win": 0.2684359832115662
+      }
+    },
+    {
+      "match_id": 542585,
+      "utcDate": "2026-02-01T16:15:00Z",
+      "status": "TIMED",
+      "home": "Angers SCO",
+      "away": "FC Metz",
+      "expected_goals": {
+        "home": 2.002980768609604,
+        "away": 0.6911065508247571
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6823686380262091,
+        "draw": 0.1990111196966621,
+        "away_win": 0.11862024227712877
+      }
+    },
+    {
+      "match_id": 542583,
+      "utcDate": "2026-02-01T19:45:00Z",
+      "status": "TIMED",
+      "home": "RC Strasbourg Alsace",
+      "away": "Paris Saint-Germain FC",
+      "expected_goals": {
+        "home": 1.2578697494698932,
+        "away": 1.3826705465682492
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3405060795048052,
+        "draw": 0.26094307964651253,
+        "away_win": 0.39855084084868203
+      }
+    },
+    {
+      "match_id": 542586,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Le Havre AC",
+      "away": "RC Strasbourg Alsace",
+      "expected_goals": {
+        "home": 0.9721458270429241,
+        "away": 1.0551076186134212
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3255854421077296,
+        "draw": 0.30563158847540944,
+        "away_win": 0.36878296941686084
+      }
+    },
+    {
+      "match_id": 542587,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AJ Auxerre",
+      "away": "Paris FC",
+      "expected_goals": {
+        "home": 1.4415767204504486,
+        "away": 1.0427257800959167
+      },
+      "probabilities_1x2": {
+        "home_win": 0.46241329527296643,
+        "draw": 0.26447763733686175,
+        "away_win": 0.2731090673901718
+      }
+    },
+    {
+      "match_id": 542588,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Metz",
+      "away": "Lille OSC",
+      "expected_goals": {
+        "home": 1.3279123795471424,
+        "away": 2.2061094576695415
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2244728951816924,
+        "draw": 0.20190904037556381,
+        "away_win": 0.5736180644427439
+      }
+    },
+    {
+      "match_id": 542589,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Nantes",
+      "away": "Olympique Lyonnais",
+      "expected_goals": {
+        "home": 0.8931834746119323,
+        "away": 1.2404805880134253
+      },
+      "probabilities_1x2": {
+        "home_win": 0.26659654791620907,
+        "draw": 0.2907257198046156,
+        "away_win": 0.4426777322791753
+      }
+    },
+    {
+      "match_id": 542590,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "OGC Nice",
+      "away": "AS Monaco FC",
+      "expected_goals": {
+        "home": 1.7102186380818007,
+        "away": 1.4096084882841933
+      },
+      "probabilities_1x2": {
+        "home_win": 0.44730918266670827,
+        "draw": 0.23484783184408103,
+        "away_win": 0.31784298548921064
+      }
+    },
+    {
+      "match_id": 542591,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Paris Saint-Germain FC",
+      "away": "Olympique de Marseille",
+      "expected_goals": {
+        "home": 1.8563737643999798,
+        "away": 1.0676118867770994
+      },
+      "probabilities_1x2": {
+        "home_win": 0.558146484264484,
+        "draw": 0.22611156226115367,
+        "away_win": 0.2157419534743622
+      }
+    },
+    {
+      "match_id": 542592,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Racing Club de Lens",
+      "away": "Stade Rennais FC 1901",
+      "expected_goals": {
+        "home": 2.1362376967994168,
+        "away": 0.8200986159348125
+      },
+      "probabilities_1x2": {
+        "home_win": 0.676491449050075,
+        "draw": 0.1917167389141102,
+        "away_win": 0.13179181203581497
+      }
+    },
+    {
+      "match_id": 542593,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Angers SCO",
+      "away": "Toulouse FC",
+      "expected_goals": {
+        "home": 1.1341189953745798,
+        "away": 0.8431274141719959
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4232192234785523,
+        "draw": 0.3060552397546362,
+        "away_win": 0.27072553676681144
+      }
+    },
+    {
+      "match_id": 542594,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Stade Brestois 29",
+      "away": "FC Lorient",
+      "expected_goals": {
+        "home": 1.8678149189398956,
+        "away": 1.048135155046535
+      },
+      "probabilities_1x2": {
+        "home_win": 0.565356132789554,
+        "draw": 0.22483862050012726,
+        "away_win": 0.20980524671031886
+      }
+    },
+    {
+      "match_id": 542595,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Le Havre AC",
+      "away": "Toulouse FC",
+      "expected_goals": {
+        "home": 0.9494780306972744,
+        "away": 0.9933392652590365
+      },
+      "probabilities_1x2": {
+        "home_win": 0.331444642709905,
+        "draw": 0.3138650049554661,
+        "away_win": 0.35469035233462887
+      }
+    },
+    {
+      "match_id": 542596,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AS Monaco FC",
+      "away": "FC Nantes",
+      "expected_goals": {
+        "home": 2.29484846834962,
+        "away": 0.8312824728855278
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7030704971940185,
+        "draw": 0.17709699309587637,
+        "away_win": 0.119832509710105
+      }
+    },
+    {
+      "match_id": 542597,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Lorient",
+      "away": "Angers SCO",
+      "expected_goals": {
+        "home": 1.1969876050978128,
+        "away": 0.9635149629237977
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4131529554050467,
+        "draw": 0.29181969218312,
+        "away_win": 0.29502735241183325
+      }
+    },
+    {
+      "match_id": 542598,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Metz",
+      "away": "AJ Auxerre",
+      "expected_goals": {
+        "home": 1.5379204732627705,
+        "away": 1.0968454991193126
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4746881481251266,
+        "draw": 0.25441966515618075,
+        "away_win": 0.27089218671869264
+      }
+    },
+    {
+      "match_id": 542599,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Paris FC",
+      "away": "Racing Club de Lens",
+      "expected_goals": {
+        "home": 1.0526133709571375,
+        "away": 1.501150547413318
+      },
+      "probabilities_1x2": {
+        "home_win": 0.26566046711681446,
+        "draw": 0.2586824548578365,
+        "away_win": 0.475657078025349
+      }
+    },
+    {
+      "match_id": 542600,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Olympique Lyonnais",
+      "away": "OGC Nice",
+      "expected_goals": {
+        "home": 2.0086979330521757,
+        "away": 0.6970493441551381
+      },
+      "probabilities_1x2": {
+        "home_win": 0.682001043935436,
+        "draw": 0.19869773942695398,
+        "away_win": 0.1193012166376099
+      }
+    },
+    {
+      "match_id": 542601,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Olympique de Marseille",
+      "away": "RC Strasbourg Alsace",
+      "expected_goals": {
+        "home": 2.2315856337139146,
+        "away": 0.824730940814141
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6932291121697537,
+        "draw": 0.18268977062196293,
+        "away_win": 0.12408111720828369
+      }
+    },
+    {
+      "match_id": 542602,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Lille OSC",
+      "away": "Stade Brestois 29",
+      "expected_goals": {
+        "home": 2.6509400399339325,
+        "away": 0.9073427233902505
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7444476993528542,
+        "draw": 0.15106702979457715,
+        "away_win": 0.10448527085256876
+      }
+    },
+    {
+      "match_id": 542603,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Stade Rennais FC 1901",
+      "away": "Paris Saint-Germain FC",
+      "expected_goals": {
+        "home": 1.3517672261721319,
+        "away": 1.6921070365622182
+      },
+      "probabilities_1x2": {
+        "home_win": 0.30732628783204863,
+        "draw": 0.23729181208045347,
+        "away_win": 0.4553819000874978
+      }
+    },
+    {
+      "match_id": 542604,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AJ Auxerre",
+      "away": "Stade Rennais FC 1901",
+      "expected_goals": {
+        "home": 1.2634934710448524,
+        "away": 1.3190382557841962
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3545337173412557,
+        "draw": 0.26483294907948846,
+        "away_win": 0.38063333357925594
+      }
+    },
+    {
+      "match_id": 542605,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Nantes",
+      "away": "Le Havre AC",
+      "expected_goals": {
+        "home": 1.0931668131245171,
+        "away": 0.8262501469907052
+      },
+      "probabilities_1x2": {
+        "home_win": 0.41469071790519707,
+        "draw": 0.3122865660800779,
+        "away_win": 0.27302271601472516
+      }
+    },
+    {
+      "match_id": 542606,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Toulouse FC",
+      "away": "Paris FC",
+      "expected_goals": {
+        "home": 2.12872944449478,
+        "away": 0.8275383420278559
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6732518015435758,
+        "draw": 0.1928257084911273,
+        "away_win": 0.133922489965297
+      }
+    },
+    {
+      "match_id": 542607,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "OGC Nice",
+      "away": "FC Lorient",
+      "expected_goals": {
+        "home": 1.7640126514384264,
+        "away": 1.1299719370169476
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5221916207991619,
+        "draw": 0.23450131530097323,
+        "away_win": 0.24330706389986465
+      }
+    },
+    {
+      "match_id": 542608,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Paris Saint-Germain FC",
+      "away": "FC Metz",
+      "expected_goals": {
+        "home": 3.872402167825575,
+        "away": 0.5978582573613974
+      },
+      "probabilities_1x2": {
+        "home_win": 0.9185190333973086,
+        "draw": 0.0579758865516327,
+        "away_win": 0.02350508005105854
+      }
+    },
+    {
+      "match_id": 542609,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RC Strasbourg Alsace",
+      "away": "Olympique Lyonnais",
+      "expected_goals": {
+        "home": 1.3997197270967434,
+        "away": 0.8989173341404161
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4860933496149618,
+        "draw": 0.2724666748026658,
+        "away_win": 0.24143997558237246
+      }
+    },
+    {
+      "match_id": 542610,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Racing Club de Lens",
+      "away": "AS Monaco FC",
+      "expected_goals": {
+        "home": 2.2799946141648295,
+        "away": 0.7836784244244499
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7115730680405896,
+        "draw": 0.17576891316966875,
+        "away_win": 0.11265801878974169
+      }
+    },
+    {
+      "match_id": 542611,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Angers SCO",
+      "away": "Lille OSC",
+      "expected_goals": {
+        "home": 1.2338891685492772,
+        "away": 1.1483971409899552
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3820369886619335,
+        "draw": 0.277516995171904,
+        "away_win": 0.3404460161661626
+      }
+    },
+    {
+      "match_id": 542612,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Stade Brestois 29",
+      "away": "Olympique de Marseille",
+      "expected_goals": {
+        "home": 1.1464286731512536,
+        "away": 1.75459907682194
+      },
+      "probabilities_1x2": {
+        "home_win": 0.24858918029696486,
+        "draw": 0.23525847294902216,
+        "away_win": 0.516152346754013
+      }
+    },
+    {
+      "match_id": 542613,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Le Havre AC",
+      "away": "Paris Saint-Germain FC",
+      "expected_goals": {
+        "home": 0.7551293383540228,
+        "away": 1.4627153168905929
+      },
+      "probabilities_1x2": {
+        "home_win": 0.19326605984926276,
+        "draw": 0.26663115555033634,
+        "away_win": 0.540102784600401
+      }
+    },
+    {
+      "match_id": 542614,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AS Monaco FC",
+      "away": "Angers SCO",
+      "expected_goals": {
+        "home": 1.493208665846308,
+        "away": 0.9341323296742193
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5022932310121164,
+        "draw": 0.26160053630308727,
+        "away_win": 0.2361062326847961
+      }
+    },
+    {
+      "match_id": 542615,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Lorient",
+      "away": "AJ Auxerre",
+      "expected_goals": {
+        "home": 1.6405460982746825,
+        "away": 0.8566772330164819
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5591866232699202,
+        "draw": 0.2455817690917649,
+        "away_win": 0.1952316076383151
+      }
+    },
+    {
+      "match_id": 542616,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Metz",
+      "away": "Stade Brestois 29",
+      "expected_goals": {
+        "home": 1.5953383738509401,
+        "away": 1.4728956796219372
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4069242717734107,
+        "draw": 0.239433722747707,
+        "away_win": 0.35364200547888236
+      }
+    },
+    {
+      "match_id": 542617,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Paris FC",
+      "away": "OGC Nice",
+      "expected_goals": {
+        "home": 1.8933438721020466,
+        "away": 1.1260095216029113
+      },
+      "probabilities_1x2": {
+        "home_win": 0.552730688536437,
+        "draw": 0.22348292118972324,
+        "away_win": 0.22378639027383984
+      }
+    },
+    {
+      "match_id": 542618,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Olympique de Marseille",
+      "away": "Olympique Lyonnais",
+      "expected_goals": {
+        "home": 1.9288963663374936,
+        "away": 0.7433209643485567
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6539515905009087,
+        "draw": 0.20988050058573646,
+        "away_win": 0.13616790891335495
+      }
+    },
+    {
+      "match_id": 542619,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Lille OSC",
+      "away": "FC Nantes",
+      "expected_goals": {
+        "home": 2.8656008585378525,
+        "away": 0.6762796026069491
+      },
+      "probabilities_1x2": {
+        "home_win": 0.820416677162841,
+        "draw": 0.11891477721372581,
+        "away_win": 0.06066854562343339
+      }
+    },
+    {
+      "match_id": 542620,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RC Strasbourg Alsace",
+      "away": "Racing Club de Lens",
+      "expected_goals": {
+        "home": 1.2390531126047866,
+        "away": 1.075103735514844
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3996209221384165,
+        "draw": 0.28144156174348456,
+        "away_win": 0.3189375161180988
+      }
+    },
+    {
+      "match_id": 542621,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Stade Rennais FC 1901",
+      "away": "Toulouse FC",
+      "expected_goals": {
+        "home": 1.6996734449023745,
+        "away": 1.1491206395592022
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5024813449225207,
+        "draw": 0.2398297724430878,
+        "away_win": 0.2576888826343914
+      }
+    },
+    {
+      "match_id": 542622,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AJ Auxerre",
+      "away": "RC Strasbourg Alsace",
+      "expected_goals": {
+        "home": 1.0324377657244996,
+        "away": 1.2274142235589274
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3091063147745349,
+        "draw": 0.2849123507494944,
+        "away_win": 0.40598133447597085
+      }
+    },
+    {
+      "match_id": 542623,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Nantes",
+      "away": "Angers SCO",
+      "expected_goals": {
+        "home": 0.9278591319633037,
+        "away": 0.9869275078908759
+      },
+      "probabilities_1x2": {
+        "home_win": 0.32597935266192757,
+        "draw": 0.3165529345049229,
+        "away_win": 0.35746771283314954
+      }
+    },
+    {
+      "match_id": 542624,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Toulouse FC",
+      "away": "Olympique de Marseille",
+      "expected_goals": {
+        "home": 1.2606752181245906,
+        "away": 1.342384648986962
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3491368426934902,
+        "draw": 0.2634706389739499,
+        "away_win": 0.38739251833256
+      }
+    },
+    {
+      "match_id": 542625,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "OGC Nice",
+      "away": "Stade Rennais FC 1901",
+      "expected_goals": {
+        "home": 1.6023869099259114,
+        "away": 1.4751177705330272
+      },
+      "probabilities_1x2": {
+        "home_win": 0.40815911637254987,
+        "draw": 0.23898681886118506,
+        "away_win": 0.352854064766265
+      }
+    },
+    {
+      "match_id": 542626,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Olympique Lyonnais",
+      "away": "Paris FC",
+      "expected_goals": {
+        "home": 2.03790397841226,
+        "away": 0.7323690099536726
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6789077170188611,
+        "draw": 0.19738890529915007,
+        "away_win": 0.12370337768198886
+      }
+    },
+    {
+      "match_id": 542627,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Lille OSC",
+      "away": "FC Lorient",
+      "expected_goals": {
+        "home": 2.797621185844776,
+        "away": 0.8724366382945807
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7728094981536352,
+        "draw": 0.1376385166492648,
+        "away_win": 0.08955198519709992
+      }
+    },
+    {
+      "match_id": 542628,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Paris Saint-Germain FC",
+      "away": "AS Monaco FC",
+      "expected_goals": {
+        "home": 2.9322578791248395,
+        "away": 0.7955796029787846
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8054521909875907,
+        "draw": 0.12272022798243476,
+        "away_win": 0.07182758102997462
+      }
+    },
+    {
+      "match_id": 542629,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Racing Club de Lens",
+      "away": "FC Metz",
+      "expected_goals": {
+        "home": 3.011009416797146,
+        "away": 0.5889148180821591
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8528196838424278,
+        "draw": 0.10202797014018083,
+        "away_win": 0.045152346017391334
+      }
+    },
+    {
+      "match_id": 542630,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Stade Brestois 29",
+      "away": "Le Havre AC",
+      "expected_goals": {
+        "home": 1.4666669666166394,
+        "away": 0.7643561353399925
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5387154304478614,
+        "draw": 0.2661028263752622,
+        "away_win": 0.19518174317687637
+      }
+    },
+    {
+      "match_id": 542631,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Le Havre AC",
+      "away": "Olympique Lyonnais",
+      "expected_goals": {
+        "home": 0.8402852774296212,
+        "away": 0.9509569409206646
+      },
+      "probabilities_1x2": {
+        "home_win": 0.30516141865272683,
+        "draw": 0.3291050705545409,
+        "away_win": 0.36573351079273225
+      }
+    },
+    {
+      "match_id": 542632,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AS Monaco FC",
+      "away": "Stade Brestois 29",
+      "expected_goals": {
+        "home": 2.122942444061494,
+        "away": 1.1153051192834933
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6042691541818384,
+        "draw": 0.20393661789812506,
+        "away_win": 0.19179422792003664
+      }
+    },
+    {
+      "match_id": 542633,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Lorient",
+      "away": "Racing Club de Lens",
+      "expected_goals": {
+        "home": 1.0199928460546803,
+        "away": 1.4484176144149317
+      },
+      "probabilities_1x2": {
+        "home_win": 0.26593766842689553,
+        "draw": 0.2644421916130093,
+        "away_win": 0.46962013996009505
+      }
+    },
+    {
+      "match_id": 542634,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Metz",
+      "away": "Toulouse FC",
+      "expected_goals": {
+        "home": 1.2205396499331764,
+        "away": 1.6196760650430546
+      },
+      "probabilities_1x2": {
+        "home_win": 0.28804696008642505,
+        "draw": 0.2451732074803469,
+        "away_win": 0.4667798324332282
+      }
+    },
+    {
+      "match_id": 542635,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Olympique de Marseille",
+      "away": "AJ Auxerre",
+      "expected_goals": {
+        "home": 2.7463067674595782,
+        "away": 0.525811917233956
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8360340722613654,
+        "draw": 0.11595591242613108,
+        "away_win": 0.048010015312503485
+      }
+    },
+    {
+      "match_id": 542636,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Paris Saint-Germain FC",
+      "away": "FC Nantes",
+      "expected_goals": {
+        "home": 3.0979828758815424,
+        "away": 0.4943621187794422
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8776650928342001,
+        "draw": 0.08890897298174852,
+        "away_win": 0.033425934184051306
+      }
+    },
+    {
+      "match_id": 542637,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RC Strasbourg Alsace",
+      "away": "Paris FC",
+      "expected_goals": {
+        "home": 2.261099237094439,
+        "away": 0.8472949556606413
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6932895742817939,
+        "draw": 0.18110803410603832,
+        "away_win": 0.12560239161216774
+      }
+    },
+    {
+      "match_id": 542638,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Angers SCO",
+      "away": "OGC Nice",
+      "expected_goals": {
+        "home": 1.5981219410676353,
+        "away": 0.7241105750242194
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5832610936654847,
+        "draw": 0.24889318919974182,
+        "away_win": 0.1678457171347734
+      }
+    },
+    {
+      "match_id": 542639,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Stade Rennais FC 1901",
+      "away": "Lille OSC",
+      "expected_goals": {
+        "home": 1.8491963032884438,
+        "away": 1.5651808195779198
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4469050293194504,
+        "draw": 0.22367543679202476,
+        "away_win": 0.32941953388852496
+      }
+    },
+    {
+      "match_id": 542640,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AJ Auxerre",
+      "away": "Stade Brestois 29",
+      "expected_goals": {
+        "home": 1.3180087874281041,
+        "away": 1.050838121596355
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4271429769555012,
+        "draw": 0.2756312098252734,
+        "away_win": 0.29722581321922537
+      }
+    },
+    {
+      "match_id": 542641,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Nantes",
+      "away": "RC Strasbourg Alsace",
+      "expected_goals": {
+        "home": 1.03334499717022,
+        "away": 1.3763404659393659
+      },
+      "probabilities_1x2": {
+        "home_win": 0.28192771635294367,
+        "draw": 0.2709105361469887,
+        "away_win": 0.44716174750006765
+      }
+    },
+    {
+      "match_id": 542642,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Paris FC",
+      "away": "Le Havre AC",
+      "expected_goals": {
+        "home": 1.4553444773996216,
+        "away": 0.8360171960535672
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5170347045958692,
+        "draw": 0.2670612668370034,
+        "away_win": 0.21590402856712754
+      }
+    },
+    {
+      "match_id": 542643,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Toulouse FC",
+      "away": "FC Lorient",
+      "expected_goals": {
+        "home": 2.053950704040224,
+        "away": 0.8018929000843324
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6648513581888869,
+        "draw": 0.19915049726306064,
+        "away_win": 0.13599814454805237
+      }
+    },
+    {
+      "match_id": 542644,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "OGC Nice",
+      "away": "Paris Saint-Germain FC",
+      "expected_goals": {
+        "home": 1.017063798498536,
+        "away": 1.9029330339803487
+      },
+      "probabilities_1x2": {
+        "home_win": 0.19827945145625936,
+        "draw": 0.22110736168114056,
+        "away_win": 0.5806131868626
+      }
+    },
+    {
+      "match_id": 542645,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Olympique Lyonnais",
+      "away": "AS Monaco FC",
+      "expected_goals": {
+        "home": 1.9063524874072555,
+        "away": 0.8852971185883928
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6134687069451554,
+        "draw": 0.21758722498408611,
+        "away_win": 0.16894406807075862
+      }
+    },
+    {
+      "match_id": 542646,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Olympique de Marseille",
+      "away": "Lille OSC",
+      "expected_goals": {
+        "home": 2.3712895549187247,
+        "away": 1.057577064861532
+      },
+      "probabilities_1x2": {
+        "home_win": 0.665209461283957,
+        "draw": 0.1813944604332631,
+        "away_win": 0.15339607828277985
+      }
+    },
+    {
+      "match_id": 542647,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Racing Club de Lens",
+      "away": "Angers SCO",
+      "expected_goals": {
+        "home": 1.5673903186093103,
+        "away": 0.5472165380953488
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6241901598714164,
+        "draw": 0.2486163300704362,
+        "away_win": 0.12719351005814736
+      }
+    },
+    {
+      "match_id": 542648,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Stade Rennais FC 1901",
+      "away": "FC Metz",
+      "expected_goals": {
+        "home": 3.001813069828243,
+        "away": 0.9419273864641432
+      },
+      "probabilities_1x2": {
+        "home_win": 0.786229710333879,
+        "draw": 0.12750256835193066,
+        "away_win": 0.08626772131419033
+      }
+    },
+    {
+      "match_id": 542649,
+      "utcDate": "2026-04-05T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Le Havre AC",
+      "away": "AJ Auxerre",
+      "expected_goals": {
+        "home": 1.1963738354608158,
+        "away": 0.6726898826950911
+      },
+      "probabilities_1x2": {
+        "home_win": 0.48615959274731135,
+        "draw": 0.30575018050023245,
+        "away_win": 0.20809022675245628
+      }
+    },
+    {
+      "match_id": 542650,
+      "utcDate": "2026-04-05T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AS Monaco FC",
+      "away": "Olympique de Marseille",
+      "expected_goals": {
+        "home": 1.3751194440367864,
+        "away": 1.7952165338097037
+      },
+      "probabilities_1x2": {
+        "home_win": 0.29539530958934,
+        "draw": 0.23016110053667546,
+        "away_win": 0.4744435898739845
+      }
+    },
+    {
+      "match_id": 542651,
+      "utcDate": "2026-04-05T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Lorient",
+      "away": "Paris FC",
+      "expected_goals": {
+        "home": 1.8613447822326337,
+        "away": 1.1415056034533204
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5419300650037812,
+        "draw": 0.22630359916636825,
+        "away_win": 0.23176633582985057
+      }
+    },
+    {
+      "match_id": 542652,
+      "utcDate": "2026-04-05T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Metz",
+      "away": "FC Nantes",
+      "expected_goals": {
+        "home": 1.7245214697045999,
+        "away": 1.0978093274108898
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5204021170257648,
+        "draw": 0.23797716984851375,
+        "away_win": 0.2416207131257217
+      }
+    },
+    {
+      "match_id": 542653,
+      "utcDate": "2026-04-05T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Lille OSC",
+      "away": "Racing Club de Lens",
+      "expected_goals": {
+        "home": 1.588874733792026,
+        "away": 1.1424084381819781
+      },
+      "probabilities_1x2": {
+        "home_win": 0.47694399879293925,
+        "draw": 0.24915977547209014,
+        "away_win": 0.2738962257349704
+      }
+    },
+    {
+      "match_id": 542654,
+      "utcDate": "2026-04-05T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Paris Saint-Germain FC",
+      "away": "Toulouse FC",
+      "expected_goals": {
+        "home": 2.192614589759286,
+        "away": 0.7293675424852211
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7089065830209755,
+        "draw": 0.18109472814467428,
+        "away_win": 0.10999868883435009
+      }
+    },
+    {
+      "match_id": 542655,
+      "utcDate": "2026-04-05T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RC Strasbourg Alsace",
+      "away": "OGC Nice",
+      "expected_goals": {
+        "home": 2.2286944881063717,
+        "away": 0.8064328024837735
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6970321322587605,
+        "draw": 0.18197293852735577,
+        "away_win": 0.12099492921388386
+      }
+    },
+    {
+      "match_id": 542656,
+      "utcDate": "2026-04-05T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Angers SCO",
+      "away": "Olympique Lyonnais",
+      "expected_goals": {
+        "home": 1.003691990605284,
+        "away": 0.8071541059823796
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3908005395539407,
+        "draw": 0.3253563456021544,
+        "away_win": 0.283843114843905
+      }
+    },
+    {
+      "match_id": 542657,
+      "utcDate": "2026-04-05T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Stade Brestois 29",
+      "away": "Stade Rennais FC 1901",
+      "expected_goals": {
+        "home": 1.6966784075120258,
+        "away": 1.3682842400592683
+      },
+      "probabilities_1x2": {
+        "home_win": 0.45291510524355466,
+        "draw": 0.23663332919073488,
+        "away_win": 0.3104515655657104
+      }
+    },
+    {
+      "match_id": 542658,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AJ Auxerre",
+      "away": "FC Nantes",
+      "expected_goals": {
+        "home": 1.4247350207545766,
+        "away": 0.7832325856122603
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5224828656731881,
+        "draw": 0.2713603783328014,
+        "away_win": 0.20615675599401045
+      }
+    },
+    {
+      "match_id": 542659,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Paris FC",
+      "away": "AS Monaco FC",
+      "expected_goals": {
+        "home": 1.7968758471387685,
+        "away": 1.4301038991527815
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4630760142623473,
+        "draw": 0.2291766856124831,
+        "away_win": 0.30774730012516954
+      }
+    },
+    {
+      "match_id": 542660,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Toulouse FC",
+      "away": "Lille OSC",
+      "expected_goals": {
+        "home": 1.620009721335226,
+        "away": 1.2491336317499098
+      },
+      "probabilities_1x2": {
+        "home_win": 0.46047459500330523,
+        "draw": 0.24453381789516238,
+        "away_win": 0.2949915871015323
+      }
+    },
+    {
+      "match_id": 542661,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "OGC Nice",
+      "away": "Le Havre AC",
+      "expected_goals": {
+        "home": 1.385158164400456,
+        "away": 0.8240358876070454
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5010670978262399,
+        "draw": 0.2757379919712496,
+        "away_win": 0.2231949102025103
+      }
+    },
+    {
+      "match_id": 542662,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Olympique Lyonnais",
+      "away": "FC Lorient",
+      "expected_goals": {
+        "home": 1.9663157861846818,
+        "away": 0.7096728689144814
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6702634636702176,
+        "draw": 0.20408764931847967,
+        "away_win": 0.12564888701130278
+      }
+    },
+    {
+      "match_id": 542663,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Olympique de Marseille",
+      "away": "FC Metz",
+      "expected_goals": {
+        "home": 3.8493306338780355,
+        "away": 0.6364509379549359
+      },
+      "probabilities_1x2": {
+        "home_win": 0.9124535314702376,
+        "draw": 0.06129346887240087,
+        "away_win": 0.026252999657361588
+      }
+    },
+    {
+      "match_id": 542664,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Racing Club de Lens",
+      "away": "Paris Saint-Germain FC",
+      "expected_goals": {
+        "home": 1.355908496845519,
+        "away": 1.0579445103017127
+      },
+      "probabilities_1x2": {
+        "home_win": 0.43587361352395937,
+        "draw": 0.2718713150763216,
+        "away_win": 0.29225507139971896
+      }
+    },
+    {
+      "match_id": 542665,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Stade Brestois 29",
+      "away": "RC Strasbourg Alsace",
+      "expected_goals": {
+        "home": 1.3864059485452889,
+        "away": 1.2732394460551821
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3962573407930571,
+        "draw": 0.2599591592275594,
+        "away_win": 0.3437834999793835
+      }
+    },
+    {
+      "match_id": 542666,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Stade Rennais FC 1901",
+      "away": "Angers SCO",
+      "expected_goals": {
+        "home": 1.5626031315865068,
+        "away": 0.8752339518925125
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5349785845104246,
+        "draw": 0.2544262090568127,
+        "away_win": 0.21059520643276275
+      }
+    },
+    {
+      "match_id": 542667,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AS Monaco FC",
+      "away": "AJ Auxerre",
+      "expected_goals": {
+        "home": 2.046535519859395,
+        "away": 0.8305526434464312
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6563274524605974,
+        "draw": 0.20121197750233352,
+        "away_win": 0.14246057003706902
+      }
+    },
+    {
+      "match_id": 542668,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Lorient",
+      "away": "Olympique de Marseille",
+      "expected_goals": {
+        "home": 1.1023247906936855,
+        "away": 1.851684110555394
+      },
+      "probabilities_1x2": {
+        "home_win": 0.22425189372337756,
+        "draw": 0.22685664790604432,
+        "away_win": 0.5488914583705782
+      }
+    },
+    {
+      "match_id": 542669,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Metz",
+      "away": "Paris FC",
+      "expected_goals": {
+        "home": 1.7449069254481293,
+        "away": 1.4615251055039546
+      },
+      "probabilities_1x2": {
+        "home_win": 0.44450135587713346,
+        "draw": 0.23159820149133756,
+        "away_win": 0.32390044263152906
+      }
+    },
+    {
+      "match_id": 542670,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Nantes",
+      "away": "Stade Brestois 29",
+      "expected_goals": {
+        "home": 1.3191669579807392,
+        "away": 1.1783397993475662
+      },
+      "probabilities_1x2": {
+        "home_win": 0.39885413571589157,
+        "draw": 0.2693852697491962,
+        "away_win": 0.33176059453491225
+      }
+    },
+    {
+      "match_id": 542671,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Lille OSC",
+      "away": "OGC Nice",
+      "expected_goals": {
+        "home": 2.857921363878819,
+        "away": 0.8569179028505785
+      },
+      "probabilities_1x2": {
+        "home_win": 0.784037605953565,
+        "draw": 0.13218548713254807,
+        "away_win": 0.08377690691388674
+      }
+    },
+    {
+      "match_id": 542672,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Paris Saint-Germain FC",
+      "away": "Olympique Lyonnais",
+      "expected_goals": {
+        "home": 1.9404574927332292,
+        "away": 0.6982479715303482
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6678743807020554,
+        "draw": 0.2064415744170873,
+        "away_win": 0.12568404488085744
+      }
+    },
+    {
+      "match_id": 542673,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RC Strasbourg Alsace",
+      "away": "Stade Rennais FC 1901",
+      "expected_goals": {
+        "home": 1.981777371211039,
+        "away": 1.0718201101219103
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5848091284080126,
+        "draw": 0.21503229940321944,
+        "away_win": 0.20015857218876792
+      }
+    },
+    {
+      "match_id": 542674,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Racing Club de Lens",
+      "away": "Toulouse FC",
+      "expected_goals": {
+        "home": 1.7048805601922175,
+        "away": 0.7184568387387295
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6106061043226574,
+        "draw": 0.2353115655908731,
+        "away_win": 0.15408233008646943
+      }
+    },
+    {
+      "match_id": 542675,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Angers SCO",
+      "away": "Le Havre AC",
+      "expected_goals": {
+        "home": 1.2284181312303055,
+        "away": 0.5376232446975419
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5335593831904468,
+        "draw": 0.3040204044537179,
+        "away_win": 0.16242021235583534
+      }
+    },
+    {
+      "match_id": 542676,
+      "utcDate": "2026-04-26T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Le Havre AC",
+      "away": "FC Metz",
+      "expected_goals": {
+        "home": 1.6768842100875248,
+        "away": 0.8142343160388879
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5789111340042503,
+        "draw": 0.24087626718434113,
+        "away_win": 0.1802125988114085
+      }
+    },
+    {
+      "match_id": 542677,
+      "utcDate": "2026-04-26T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Lorient",
+      "away": "RC Strasbourg Alsace",
+      "expected_goals": {
+        "home": 1.3330699788289702,
+        "away": 1.3436900100637579
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3678058831320786,
+        "draw": 0.25947508786688295,
+        "away_win": 0.3727190290010384
+      }
+    },
+    {
+      "match_id": 542678,
+      "utcDate": "2026-04-26T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Paris FC",
+      "away": "Lille OSC",
+      "expected_goals": {
+        "home": 1.4618261824033065,
+        "away": 1.7857854310344798
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3169026246040021,
+        "draw": 0.22923988824955632,
+        "away_win": 0.4538574871464415
+      }
+    },
+    {
+      "match_id": 542679,
+      "utcDate": "2026-04-26T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Toulouse FC",
+      "away": "AS Monaco FC",
+      "expected_goals": {
+        "home": 1.9913149562087706,
+        "away": 1.0003390364169285
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6037768431019505,
+        "draw": 0.21252658175075037,
+        "away_win": 0.18369657514729915
+      }
+    },
+    {
+      "match_id": 542680,
+      "utcDate": "2026-04-26T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Olympique Lyonnais",
+      "away": "AJ Auxerre",
+      "expected_goals": {
+        "home": 1.7961612767047466,
+        "away": 0.5496283637120042
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6766337498765922,
+        "draw": 0.21637875797674908,
+        "away_win": 0.1069874921466584
+      }
+    },
+    {
+      "match_id": 542681,
+      "utcDate": "2026-04-26T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Olympique de Marseille",
+      "away": "OGC Nice",
+      "expected_goals": {
+        "home": 3.0712724958884965,
+        "away": 0.6668448651040384
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8450436247223209,
+        "draw": 0.10400298360589443,
+        "away_win": 0.050953391671784865
+      }
+    },
+    {
+      "match_id": 542682,
+      "utcDate": "2026-04-26T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Angers SCO",
+      "away": "Paris Saint-Germain FC",
+      "expected_goals": {
+        "home": 0.9019761373130569,
+        "away": 1.2415248505032537
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2689660124226348,
+        "draw": 0.290200594546698,
+        "away_win": 0.44083339303066726
+      }
+    },
+    {
+      "match_id": 542683,
+      "utcDate": "2026-04-26T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Stade Brestois 29",
+      "away": "Racing Club de Lens",
+      "expected_goals": {
+        "home": 1.0608026372974655,
+        "away": 1.3724761122148477
+      },
+      "probabilities_1x2": {
+        "home_win": 0.29004519410920815,
+        "draw": 0.27025339098648804,
+        "away_win": 0.4397014149043038
+      }
+    },
+    {
+      "match_id": 542684,
+      "utcDate": "2026-04-26T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Stade Rennais FC 1901",
+      "away": "FC Nantes",
+      "expected_goals": {
+        "home": 2.4014978516932244,
+        "away": 0.7788689254940157
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7333279671197499,
+        "draw": 0.16420197805662026,
+        "away_win": 0.10247005482362995
+      }
+    },
+    {
+      "match_id": 542685,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AJ Auxerre",
+      "away": "Angers SCO",
+      "expected_goals": {
+        "home": 0.9270445124664066,
+        "away": 0.8801375028816402
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3488259492225495,
+        "draw": 0.3279438248651402,
+        "away_win": 0.3232302259123101
+      }
+    },
+    {
+      "match_id": 542686,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Metz",
+      "away": "AS Monaco FC",
+      "expected_goals": {
+        "home": 1.6322690827728823,
+        "away": 1.7667104247476213
+      },
+      "probabilities_1x2": {
+        "home_win": 0.35909012167666077,
+        "draw": 0.2259674781359383,
+        "away_win": 0.4149424001874009
+      }
+    },
+    {
+      "match_id": 542687,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Nantes",
+      "away": "Olympique de Marseille",
+      "expected_goals": {
+        "home": 0.8544801291832044,
+        "away": 1.8966783651040193
+      },
+      "probabilities_1x2": {
+        "home_win": 0.16333790317396324,
+        "draw": 0.21763770189665949,
+        "away_win": 0.6190243949293772
+      }
+    },
+    {
+      "match_id": 542688,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Paris FC",
+      "away": "Stade Brestois 29",
+      "expected_goals": {
+        "home": 1.7562208475557228,
+        "away": 1.1922688772120207
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5059764773014419,
+        "draw": 0.23490640494630363,
+        "away_win": 0.2591171177522544
+      }
+    },
+    {
+      "match_id": 542689,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "OGC Nice",
+      "away": "Racing Club de Lens",
+      "expected_goals": {
+        "home": 1.0018494091127843,
+        "away": 1.4796369376237992
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2559919344581314,
+        "draw": 0.2618204503391425,
+        "away_win": 0.48218761520272596
+      }
+    },
+    {
+      "match_id": 542690,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Olympique Lyonnais",
+      "away": "Stade Rennais FC 1901",
+      "expected_goals": {
+        "home": 1.7861542398767718,
+        "away": 0.9264398751039127
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5763157871114347,
+        "draw": 0.2308898890787874,
+        "away_win": 0.19279432380977798
+      }
+    },
+    {
+      "match_id": 542691,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Lille OSC",
+      "away": "Le Havre AC",
+      "expected_goals": {
+        "home": 2.1967800646512767,
+        "away": 0.6362273929703788
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7322117034261468,
+        "draw": 0.17467810405966852,
+        "away_win": 0.09311019251418462
+      }
+    },
+    {
+      "match_id": 542692,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Paris Saint-Germain FC",
+      "away": "FC Lorient",
+      "expected_goals": {
+        "home": 3.024490483776858,
+        "away": 0.6377534134484201
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8453905126663104,
+        "draw": 0.10489811104172782,
+        "away_win": 0.049711376291961845
+      }
+    },
+    {
+      "match_id": 542693,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RC Strasbourg Alsace",
+      "away": "Toulouse FC",
+      "expected_goals": {
+        "home": 1.5816094434943306,
+        "away": 0.9389803531579114
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5237997523967284,
+        "draw": 0.25220758814545563,
+        "away_win": 0.22399265945781602
+      }
+    },
+    {
+      "match_id": 542694,
+      "utcDate": "2026-05-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Le Havre AC",
+      "away": "Olympique de Marseille",
+      "expected_goals": {
+        "home": 0.8038741118903538,
+        "away": 1.4540005489954553
+      },
+      "probabilities_1x2": {
+        "home_win": 0.20750816876604072,
+        "draw": 0.2675101020040811,
+        "away_win": 0.5249817292298784
+      }
+    },
+    {
+      "match_id": 542695,
+      "utcDate": "2026-05-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AJ Auxerre",
+      "away": "OGC Nice",
+      "expected_goals": {
+        "home": 1.4209168878314848,
+        "away": 0.992438663120782
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4689035314301434,
+        "draw": 0.2678705510722057,
+        "away_win": 0.2632259174976509
+      }
+    },
+    {
+      "match_id": 542696,
+      "utcDate": "2026-05-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AS Monaco FC",
+      "away": "Lille OSC",
+      "expected_goals": {
+        "home": 1.7670743703922995,
+        "away": 1.6705087847566555
+      },
+      "probabilities_1x2": {
+        "home_win": 0.40756610053643366,
+        "draw": 0.224791678177587,
+        "away_win": 0.36764222128597923
+      }
+    },
+    {
+      "match_id": 542697,
+      "utcDate": "2026-05-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Metz",
+      "away": "FC Lorient",
+      "expected_goals": {
+        "home": 1.68361123452184,
+        "away": 1.4162323917544546
+      },
+      "probabilities_1x2": {
+        "home_win": 0.43964458460902406,
+        "draw": 0.23627996791992478,
+        "away_win": 0.3240754474710512
+      }
+    },
+    {
+      "match_id": 542698,
+      "utcDate": "2026-05-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Toulouse FC",
+      "away": "Olympique Lyonnais",
+      "expected_goals": {
+        "home": 1.317777012272985,
+        "away": 0.8779570270598925
+      },
+      "probabilities_1x2": {
+        "home_win": 0.46859436735866256,
+        "draw": 0.28240537499400703,
+        "away_win": 0.24900025764733036
+      }
+    },
+    {
+      "match_id": 542699,
+      "utcDate": "2026-05-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Paris Saint-Germain FC",
+      "away": "Stade Brestois 29",
+      "expected_goals": {
+        "home": 2.8659144291624914,
+        "away": 0.6632698509095984
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8229759753458864,
+        "draw": 0.11791020273650091,
+        "away_win": 0.05911382191761275
+      }
+    },
+    {
+      "match_id": 542700,
+      "utcDate": "2026-05-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Racing Club de Lens",
+      "away": "FC Nantes",
+      "expected_goals": {
+        "home": 2.4088550744700945,
+        "away": 0.48696689167197926
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8010416621249794,
+        "draw": 0.14174925892997153,
+        "away_win": 0.05720907894504904
+      }
+    },
+    {
+      "match_id": 542701,
+      "utcDate": "2026-05-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Angers SCO",
+      "away": "RC Strasbourg Alsace",
+      "expected_goals": {
+        "home": 1.1611949019124115,
+        "away": 0.8955552138802494
+      },
+      "probabilities_1x2": {
+        "home_win": 0.41869685067889395,
+        "draw": 0.2996766931944025,
+        "away_win": 0.28162645612670356
+      }
+    },
+    {
+      "match_id": 542702,
+      "utcDate": "2026-05-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Stade Rennais FC 1901",
+      "away": "Paris FC",
+      "expected_goals": {
+        "home": 2.4298858010657876,
+        "away": 1.0369163934788965
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6802595157251543,
+        "draw": 0.17571220585691688,
+        "away_win": 0.14402827841792898
+      }
+    },
+    {
+      "match_id": 542703,
+      "utcDate": "2026-05-16T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Lorient",
+      "away": "Le Havre AC",
+      "expected_goals": {
+        "home": 1.410243301529606,
+        "away": 0.8066492963043002
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5124374893910748,
+        "draw": 0.2729153158410035,
+        "away_win": 0.21464719476792213
+      }
+    },
+    {
+      "match_id": 542704,
+      "utcDate": "2026-05-16T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Nantes",
+      "away": "Toulouse FC",
+      "expected_goals": {
+        "home": 1.0092502026455132,
+        "away": 1.295766425209944
+      },
+      "probabilities_1x2": {
+        "home_win": 0.28975885778248955,
+        "draw": 0.27959798037002503,
+        "away_win": 0.4306431618474856
+      }
+    },
+    {
+      "match_id": 542705,
+      "utcDate": "2026-05-16T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Paris FC",
+      "away": "Paris Saint-Germain FC",
+      "expected_goals": {
+        "home": 1.0685986772843359,
+        "away": 1.9306012799585708
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2060525333575829,
+        "draw": 0.21949750176577132,
+        "away_win": 0.5744499648766459
+      }
+    },
+    {
+      "match_id": 542706,
+      "utcDate": "2026-05-16T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "OGC Nice",
+      "away": "FC Metz",
+      "expected_goals": {
+        "home": 2.2585511351887857,
+        "away": 1.0592856719956592
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6438501201695219,
+        "draw": 0.19081583984599465,
+        "away_win": 0.16533403998448348
+      }
+    },
+    {
+      "match_id": 542707,
+      "utcDate": "2026-05-16T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Olympique Lyonnais",
+      "away": "Racing Club de Lens",
+      "expected_goals": {
+        "home": 1.1167450000496923,
+        "away": 0.9292781139745864
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3973244242264506,
+        "draw": 0.3024596644261867,
+        "away_win": 0.30021591134736264
+      }
+    },
+    {
+      "match_id": 542708,
+      "utcDate": "2026-05-16T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Olympique de Marseille",
+      "away": "Stade Rennais FC 1901",
+      "expected_goals": {
+        "home": 2.731006140884829,
+        "away": 0.8862954663410064
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7606244632898509,
+        "draw": 0.1435549083689538,
+        "away_win": 0.09582062834119542
+      }
+    },
+    {
+      "match_id": 542709,
+      "utcDate": "2026-05-16T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Lille OSC",
+      "away": "AJ Auxerre",
+      "expected_goals": {
+        "home": 2.55552992871677,
+        "away": 0.6756858588686385
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7799841086334378,
+        "draw": 0.14349732826976508,
+        "away_win": 0.07651856309679725
+      }
+    },
+    {
+      "match_id": 542710,
+      "utcDate": "2026-05-16T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RC Strasbourg Alsace",
+      "away": "AS Monaco FC",
+      "expected_goals": {
+        "home": 2.1151399676190454,
+        "away": 1.0242210861547723
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6237884326767649,
+        "draw": 0.2019960156840193,
+        "away_win": 0.17421555163921587
+      }
+    },
+    {
+      "match_id": 542711,
+      "utcDate": "2026-05-16T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Stade Brestois 29",
+      "away": "Angers SCO",
+      "expected_goals": {
+        "home": 1.2448789353882062,
+        "away": 0.9129972303662246
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4391246713769023,
+        "draw": 0.28931138245266463,
+        "away_win": 0.2715639461704331
+      }
+    }
+  ]
+}

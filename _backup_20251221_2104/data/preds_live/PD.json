@@ -1,0 +1,3432 @@
+{
+  "competition": "PD",
+  "generated_at": "2025-12-20T18:06:15.948907+00:00",
+  "model_path": "data/models/PD.joblib",
+  "matches_fetched": 214,
+  "predictions": [
+    {
+      "match_id": 544375,
+      "utcDate": "2025-12-20T20:00:00Z",
+      "status": "TIMED",
+      "home": "Real Madrid CF",
+      "away": "Sevilla FC",
+      "expected_goals": {
+        "home": 2.5155292931898043,
+        "away": 1.0104671150541489
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7007555069922577,
+        "draw": 0.1675339580040263,
+        "away_win": 0.13171053500371604
+      }
+    },
+    {
+      "match_id": 544377,
+      "utcDate": "2025-12-21T13:00:00Z",
+      "status": "TIMED",
+      "home": "Girona FC",
+      "away": "Club Atlético de Madrid",
+      "expected_goals": {
+        "home": 0.928007651258831,
+        "away": 1.8641009288923889
+      },
+      "probabilities_1x2": {
+        "home_win": 0.1833705711458219,
+        "draw": 0.22301229144226253,
+        "away_win": 0.5936171374119156
+      }
+    },
+    {
+      "match_id": 544378,
+      "utcDate": "2025-12-21T15:15:00Z",
+      "status": "TIMED",
+      "home": "Villarreal CF",
+      "away": "FC Barcelona",
+      "expected_goals": {
+        "home": 2.1222873116579914,
+        "away": 1.7127717174539148
+      },
+      "probabilities_1x2": {
+        "home_win": 0.47614437313149993,
+        "draw": 0.20789157966334745,
+        "away_win": 0.3159640472051526
+      }
+    },
+    {
+      "match_id": 544373,
+      "utcDate": "2025-12-21T17:30:00Z",
+      "status": "TIMED",
+      "home": "Elche CF",
+      "away": "Rayo Vallecano de Madrid",
+      "expected_goals": {
+        "home": 1.0786156433162886,
+        "away": 0.758900032543297
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4268285092214275,
+        "draw": 0.31876136739856364,
+        "away_win": 0.2544101233800088
+      }
+    },
+    {
+      "match_id": 544372,
+      "utcDate": "2025-12-21T20:00:00Z",
+      "status": "TIMED",
+      "home": "Real Betis Balompié",
+      "away": "Getafe CF",
+      "expected_goals": {
+        "home": 1.476589752710836,
+        "away": 0.7257059217539927
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5516264382031291,
+        "draw": 0.2647877962676187,
+        "away_win": 0.18358576552925215
+      }
+    },
+    {
+      "match_id": 544371,
+      "utcDate": "2025-12-22T20:00:00Z",
+      "status": "TIMED",
+      "home": "Athletic Club",
+      "away": "RCD Espanyol de Barcelona",
+      "expected_goals": {
+        "home": 0.9554455891226366,
+        "away": 1.025776304435446
+      },
+      "probabilities_1x2": {
+        "home_win": 0.32651212860136686,
+        "draw": 0.3100042023895873,
+        "away_win": 0.3634836690090457
+      }
+    },
+    {
+      "match_id": 544388,
+      "utcDate": "2026-01-02T20:00:00Z",
+      "status": "TIMED",
+      "home": "Rayo Vallecano de Madrid",
+      "away": "Getafe CF",
+      "expected_goals": {
+        "home": 0.9342984106078541,
+        "away": 0.6242688958379172
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4130017043598837,
+        "draw": 0.3522756468226196,
+        "away_win": 0.23472264881749655
+      }
+    },
+    {
+      "match_id": 544382,
+      "utcDate": "2026-01-03T13:00:00Z",
+      "status": "TIMED",
+      "home": "RC Celta de Vigo",
+      "away": "Valencia CF",
+      "expected_goals": {
+        "home": 1.5338282941012031,
+        "away": 0.7716808343046999
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5543690024835066,
+        "draw": 0.2575963058152353,
+        "away_win": 0.18803469170125808
+      }
+    },
+    {
+      "match_id": 544384,
+      "utcDate": "2026-01-03T15:15:00Z",
+      "status": "TIMED",
+      "home": "CA Osasuna",
+      "away": "Athletic Club",
+      "expected_goals": {
+        "home": 1.0960441699534293,
+        "away": 0.7347207138469632
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4385282156537852,
+        "draw": 0.31780368918170526,
+        "away_win": 0.2436680951645096
+      }
+    },
+    {
+      "match_id": 544383,
+      "utcDate": "2026-01-03T17:30:00Z",
+      "status": "TIMED",
+      "home": "Elche CF",
+      "away": "Villarreal CF",
+      "expected_goals": {
+        "home": 1.0598255248911204,
+        "away": 1.5233694605219958
+      },
+      "probabilities_1x2": {
+        "home_win": 0.26384499677341755,
+        "draw": 0.25648191147398797,
+        "away_win": 0.47967309175259454
+      }
+    },
+    {
+      "match_id": 544386,
+      "utcDate": "2026-01-03T20:00:00Z",
+      "status": "TIMED",
+      "home": "RCD Espanyol de Barcelona",
+      "away": "FC Barcelona",
+      "expected_goals": {
+        "home": 1.4112528856588022,
+        "away": 1.888962115420905
+      },
+      "probabilities_1x2": {
+        "home_win": 0.28835143511472316,
+        "draw": 0.22370207502918252,
+        "away_win": 0.4879464898560941
+      }
+    },
+    {
+      "match_id": 544390,
+      "utcDate": "2026-01-04T13:00:00Z",
+      "status": "TIMED",
+      "home": "Sevilla FC",
+      "away": "Levante UD",
+      "expected_goals": {
+        "home": 2.2593995031162364,
+        "away": 1.1139319104812933
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6316329867589686,
+        "draw": 0.1926470630213387,
+        "away_win": 0.17571995021969267
+      }
+    },
+    {
+      "match_id": 544387,
+      "utcDate": "2026-01-04T15:15:00Z",
+      "status": "TIMED",
+      "home": "Real Madrid CF",
+      "away": "Real Betis Balompié",
+      "expected_goals": {
+        "home": 2.02666095143072,
+        "away": 1.0197262822637132
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6066316523887719,
+        "draw": 0.20980164546285385,
+        "away_win": 0.18356670214837417
+      }
+    },
+    {
+      "match_id": 544381,
+      "utcDate": "2026-01-04T17:30:00Z",
+      "status": "TIMED",
+      "home": "Deportivo Alavés",
+      "away": "Real Oviedo",
+      "expected_goals": {
+        "home": 1.2210672967541152,
+        "away": 0.47852214642934354
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5485296706583833,
+        "draw": 0.3061955548409145,
+        "away_win": 0.1452747745007021
+      }
+    },
+    {
+      "match_id": 544389,
+      "utcDate": "2026-01-04T17:30:00Z",
+      "status": "TIMED",
+      "home": "RCD Mallorca",
+      "away": "Girona FC",
+      "expected_goals": {
+        "home": 1.7659958047788198,
+        "away": 0.8938160654647631
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5797707853764302,
+        "draw": 0.2324198784705053,
+        "away_win": 0.1878093361530645
+      }
+    },
+    {
+      "match_id": 544385,
+      "utcDate": "2026-01-04T20:00:00Z",
+      "status": "TIMED",
+      "home": "Real Sociedad de Fútbol",
+      "away": "Club Atlético de Madrid",
+      "expected_goals": {
+        "home": 1.1284425712504453,
+        "away": 1.5503148226257504
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2768293173895272,
+        "draw": 0.2526787561834822,
+        "away_win": 0.4704919264269908
+      }
+    },
+    {
+      "match_id": 544392,
+      "utcDate": "2026-01-09T20:00:00Z",
+      "status": "TIMED",
+      "home": "Getafe CF",
+      "away": "Real Sociedad de Fútbol",
+      "expected_goals": {
+        "home": 1.1569589267991638,
+        "away": 0.9176290943224303
+      },
+      "probabilities_1x2": {
+        "home_win": 0.41215714958458016,
+        "draw": 0.2988194059640532,
+        "away_win": 0.28902344445136685
+      }
+    },
+    {
+      "match_id": 544396,
+      "utcDate": "2026-01-10T13:00:00Z",
+      "status": "TIMED",
+      "home": "Real Oviedo",
+      "away": "Real Betis Balompié",
+      "expected_goals": {
+        "home": 0.7022327741512787,
+        "away": 1.4071511775296206
+      },
+      "probabilities_1x2": {
+        "home_win": 0.18650989381519287,
+        "draw": 0.2742614654007912,
+        "away_win": 0.5392286407840159
+      }
+    },
+    {
+      "match_id": 544394,
+      "utcDate": "2026-01-10T15:15:00Z",
+      "status": "TIMED",
+      "home": "Villarreal CF",
+      "away": "Deportivo Alavés",
+      "expected_goals": {
+        "home": 1.8374425144412498,
+        "away": 0.6331234542224936
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6631270803296481,
+        "draw": 0.21546246290389776,
+        "away_win": 0.12141045676645405
+      }
+    },
+    {
+      "match_id": 544393,
+      "utcDate": "2026-01-10T17:30:00Z",
+      "status": "TIMED",
+      "home": "Girona FC",
+      "away": "CA Osasuna",
+      "expected_goals": {
+        "home": 1.0498399184560627,
+        "away": 1.1062713317291926
+      },
+      "probabilities_1x2": {
+        "home_win": 0.338328282482763,
+        "draw": 0.29469829254853475,
+        "away_win": 0.3669734249687023
+      }
+    },
+    {
+      "match_id": 544398,
+      "utcDate": "2026-01-10T20:00:00Z",
+      "status": "TIMED",
+      "home": "Valencia CF",
+      "away": "Elche CF",
+      "expected_goals": {
+        "home": 1.1025772324382468,
+        "away": 1.1172541685840636
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3514457966851774,
+        "draw": 0.28974795115932395,
+        "away_win": 0.35880625215549855
+      }
+    },
+    {
+      "match_id": 544400,
+      "utcDate": "2026-01-11T13:00:00Z",
+      "status": "TIMED",
+      "home": "Rayo Vallecano de Madrid",
+      "away": "RCD Mallorca",
+      "expected_goals": {
+        "home": 1.106609760728271,
+        "away": 0.7924901983278005
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4272355056866554,
+        "draw": 0.31273752362567586,
+        "away_win": 0.26002697068766845
+      }
+    },
+    {
+      "match_id": 544399,
+      "utcDate": "2026-01-11T15:15:00Z",
+      "status": "TIMED",
+      "home": "Levante UD",
+      "away": "RCD Espanyol de Barcelona",
+      "expected_goals": {
+        "home": 1.1292531849962486,
+        "away": 1.4266684367965257
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2985530250177027,
+        "draw": 0.26302521534428064,
+        "away_win": 0.43842175963801683
+      }
+    },
+    {
+      "match_id": 544397,
+      "utcDate": "2026-01-12T20:00:00Z",
+      "status": "TIMED",
+      "home": "Sevilla FC",
+      "away": "RC Celta de Vigo",
+      "expected_goals": {
+        "home": 1.5155947175268145,
+        "away": 1.1726589402289096
+      },
+      "probabilities_1x2": {
+        "home_win": 0.45157937089730826,
+        "draw": 0.25442136339094773,
+        "away_win": 0.29399926571174395
+      }
+    },
+    {
+      "match_id": 544401,
+      "utcDate": "2026-01-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Betis Balompié",
+      "away": "Villarreal CF",
+      "expected_goals": {
+        "home": 1.3293721220992287,
+        "away": 1.4799117121523924
+      },
+      "probabilities_1x2": {
+        "home_win": 0.34018557344325084,
+        "draw": 0.25151566315461554,
+        "away_win": 0.4082987634021335
+      }
+    },
+    {
+      "match_id": 544402,
+      "utcDate": "2026-01-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RC Celta de Vigo",
+      "away": "Rayo Vallecano de Madrid",
+      "expected_goals": {
+        "home": 1.0970160273545462,
+        "away": 0.7169547861994271
+      },
+      "probabilities_1x2": {
+        "home_win": 0.443417306120915,
+        "draw": 0.31873482392099417,
+        "away_win": 0.2378478699580908
+      }
+    },
+    {
+      "match_id": 544403,
+      "utcDate": "2026-01-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Elche CF",
+      "away": "Sevilla FC",
+      "expected_goals": {
+        "home": 1.5563381524649393,
+        "away": 1.1884950655901725
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4582917287986231,
+        "draw": 0.25078693646189276,
+        "away_win": 0.2909213347394841
+      }
+    },
+    {
+      "match_id": 544404,
+      "utcDate": "2026-01-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RCD Espanyol de Barcelona",
+      "away": "Girona FC",
+      "expected_goals": {
+        "home": 1.8864411897134525,
+        "away": 0.7492896811625476
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6434105785471004,
+        "draw": 0.21491224838834377,
+        "away_win": 0.14167717306455582
+      }
+    },
+    {
+      "match_id": 544405,
+      "utcDate": "2026-01-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Getafe CF",
+      "away": "Valencia CF",
+      "expected_goals": {
+        "home": 1.1781863097252074,
+        "away": 0.7449944763662615
+      },
+      "probabilities_1x2": {
+        "home_win": 0.46147005525980245,
+        "draw": 0.30546504537695285,
+        "away_win": 0.23306489936324468
+      }
+    },
+    {
+      "match_id": 544406,
+      "utcDate": "2026-01-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CA Osasuna",
+      "away": "Real Oviedo",
+      "expected_goals": {
+        "home": 1.2698816595277787,
+        "away": 0.5033845406964912
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5559468811356287,
+        "draw": 0.2969322516046932,
+        "away_win": 0.1471208672596781
+      }
+    },
+    {
+      "match_id": 544407,
+      "utcDate": "2026-01-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Club Atlético de Madrid",
+      "away": "Deportivo Alavés",
+      "expected_goals": {
+        "home": 1.6297428394997067,
+        "away": 0.64067159498127
+      },
+      "probabilities_1x2": {
+        "home_win": 0.613550359996697,
+        "draw": 0.24273019879533983,
+        "away_win": 0.14371944120796304
+      }
+    },
+    {
+      "match_id": 544408,
+      "utcDate": "2026-01-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RCD Mallorca",
+      "away": "Athletic Club",
+      "expected_goals": {
+        "home": 1.2962165515342299,
+        "away": 0.8443565202159546
+      },
+      "probabilities_1x2": {
+        "home_win": 0.47089972976125166,
+        "draw": 0.2860850170548341,
+        "away_win": 0.24301525318391426
+      }
+    },
+    {
+      "match_id": 544409,
+      "utcDate": "2026-01-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Sociedad de Fútbol",
+      "away": "FC Barcelona",
+      "expected_goals": {
+        "home": 1.4016628795732557,
+        "away": 2.393313354810935
+      },
+      "probabilities_1x2": {
+        "home_win": 0.21509237387727248,
+        "draw": 0.19041890237940456,
+        "away_win": 0.5944887237433227
+      }
+    },
+    {
+      "match_id": 544410,
+      "utcDate": "2026-01-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Madrid CF",
+      "away": "Levante UD",
+      "expected_goals": {
+        "home": 2.938107490425018,
+        "away": 0.7854247907741723
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8081102942254319,
+        "draw": 0.12160401053982908,
+        "away_win": 0.07028569523473902
+      }
+    },
+    {
+      "match_id": 544411,
+      "utcDate": "2026-01-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Deportivo Alavés",
+      "away": "Real Betis Balompié",
+      "expected_goals": {
+        "home": 1.011086275633826,
+        "away": 1.0717384808864163
+      },
+      "probabilities_1x2": {
+        "home_win": 0.33395357787158364,
+        "draw": 0.3008584137693082,
+        "away_win": 0.3651880083591085
+      }
+    },
+    {
+      "match_id": 544412,
+      "utcDate": "2026-01-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Club Atlético de Madrid",
+      "away": "RCD Mallorca",
+      "expected_goals": {
+        "home": 1.9702461647542788,
+        "away": 0.7879680833684487
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6513012215476555,
+        "draw": 0.20731827669687522,
+        "away_win": 0.14138050175546932
+      }
+    },
+    {
+      "match_id": 544413,
+      "utcDate": "2026-01-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Barcelona",
+      "away": "Real Oviedo",
+      "expected_goals": {
+        "home": 3.303320256168219,
+        "away": 0.5527038107220277
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8856042649892035,
+        "draw": 0.08146476836024062,
+        "away_win": 0.03293096665055607
+      }
+    },
+    {
+      "match_id": 544414,
+      "utcDate": "2026-01-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sevilla FC",
+      "away": "Athletic Club",
+      "expected_goals": {
+        "home": 1.6245109324447764,
+        "away": 0.9424824694701559
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5336546848679429,
+        "draw": 0.24772166918388153,
+        "away_win": 0.2186236459481757
+      }
+    },
+    {
+      "match_id": 544415,
+      "utcDate": "2026-01-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Sociedad de Fútbol",
+      "away": "RC Celta de Vigo",
+      "expected_goals": {
+        "home": 1.2830108801254565,
+        "away": 1.1158407331866993
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4027612641502277,
+        "draw": 0.2754878990674867,
+        "away_win": 0.32175083678228567
+      }
+    },
+    {
+      "match_id": 544416,
+      "utcDate": "2026-01-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Levante UD",
+      "away": "Elche CF",
+      "expected_goals": {
+        "home": 1.2469766084024563,
+        "away": 1.3466779904854802
+      },
+      "probabilities_1x2": {
+        "home_win": 0.34467731214904623,
+        "draw": 0.26389870047977343,
+        "away_win": 0.39142398737118056
+      }
+    },
+    {
+      "match_id": 544417,
+      "utcDate": "2026-01-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Valencia CF",
+      "away": "RCD Espanyol de Barcelona",
+      "expected_goals": {
+        "home": 0.9984861328155662,
+        "away": 1.1836172191569012
+      },
+      "probabilities_1x2": {
+        "home_win": 0.30777657481487386,
+        "draw": 0.2910803318173435,
+        "away_win": 0.4011430933677828
+      }
+    },
+    {
+      "match_id": 544418,
+      "utcDate": "2026-01-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Girona FC",
+      "away": "Getafe CF",
+      "expected_goals": {
+        "home": 1.0186330735536568,
+        "away": 1.0305972084501602
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3448958570329783,
+        "draw": 0.30400430852533783,
+        "away_win": 0.3510998344416839
+      }
+    },
+    {
+      "match_id": 544419,
+      "utcDate": "2026-01-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Rayo Vallecano de Madrid",
+      "away": "CA Osasuna",
+      "expected_goals": {
+        "home": 0.9629215786056169,
+        "away": 0.670107367935029
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4111401988358917,
+        "draw": 0.34323114649567776,
+        "away_win": 0.24562865466843056
+      }
+    },
+    {
+      "match_id": 544420,
+      "utcDate": "2026-01-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Villarreal CF",
+      "away": "Real Madrid CF",
+      "expected_goals": {
+        "home": 1.7482701774175071,
+        "away": 1.2690574612965655
+      },
+      "probabilities_1x2": {
+        "home_win": 0.48677705377878844,
+        "draw": 0.23480817350478497,
+        "away_win": 0.2784147727164267
+      }
+    },
+    {
+      "match_id": 544421,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Athletic Club",
+      "away": "Real Sociedad de Fútbol",
+      "expected_goals": {
+        "home": 1.2105487291537773,
+        "away": 1.0188057599625797
+      },
+      "probabilities_1x2": {
+        "home_win": 0.40427277590602695,
+        "draw": 0.28727678703695203,
+        "away_win": 0.3084504370570209
+      }
+    },
+    {
+      "match_id": 544422,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Betis Balompié",
+      "away": "Valencia CF",
+      "expected_goals": {
+        "home": 1.8916582507630855,
+        "away": 0.7935258511371631
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6332663158804425,
+        "draw": 0.2160661681325742,
+        "away_win": 0.15066751598698325
+      }
+    },
+    {
+      "match_id": 544423,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RCD Mallorca",
+      "away": "Sevilla FC",
+      "expected_goals": {
+        "home": 1.5435107264693149,
+        "away": 1.2838929230097105
+      },
+      "probabilities_1x2": {
+        "home_win": 0.43395437723802893,
+        "draw": 0.2490125031469916,
+        "away_win": 0.3170331196149795
+      }
+    },
+    {
+      "match_id": 544424,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CA Osasuna",
+      "away": "Villarreal CF",
+      "expected_goals": {
+        "home": 0.888772393621145,
+        "away": 1.4319672632794775
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2335951052420292,
+        "draw": 0.2690399090059442,
+        "away_win": 0.4973649857520265
+      }
+    },
+    {
+      "match_id": 544425,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RCD Espanyol de Barcelona",
+      "away": "Deportivo Alavés",
+      "expected_goals": {
+        "home": 1.2218402458956317,
+        "away": 0.6982519662273038
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4870258097860164,
+        "draw": 0.3010034256869788,
+        "away_win": 0.21197076452700492
+      }
+    },
+    {
+      "match_id": 544426,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Levante UD",
+      "away": "Club Atlético de Madrid",
+      "expected_goals": {
+        "home": 1.0361309013968594,
+        "away": 1.9029514513208998
+      },
+      "probabilities_1x2": {
+        "home_win": 0.20249621997119804,
+        "draw": 0.22144545773287852,
+        "away_win": 0.5760583222959234
+      }
+    },
+    {
+      "match_id": 544427,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Elche CF",
+      "away": "FC Barcelona",
+      "expected_goals": {
+        "home": 1.3321267584732335,
+        "away": 2.0858843733047467
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2416282587101273,
+        "draw": 0.21046029582813017,
+        "away_win": 0.5479114454617426
+      }
+    },
+    {
+      "match_id": 544428,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Getafe CF",
+      "away": "RC Celta de Vigo",
+      "expected_goals": {
+        "home": 0.9526114660143726,
+        "away": 0.8869832384064779
+      },
+      "probabilities_1x2": {
+        "home_win": 0.35562944301898897,
+        "draw": 0.32429493708818125,
+        "away_win": 0.32007561989282984
+      }
+    },
+    {
+      "match_id": 544429,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Oviedo",
+      "away": "Girona FC",
+      "expected_goals": {
+        "home": 0.9972622725377919,
+        "away": 0.9707305135296743
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3512467510747025,
+        "draw": 0.3114949909449209,
+        "away_win": 0.3372582579803765
+      }
+    },
+    {
+      "match_id": 544430,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Madrid CF",
+      "away": "Rayo Vallecano de Madrid",
+      "expected_goals": {
+        "home": 1.7433802818221493,
+        "away": 0.6452223056708549
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6390501487509188,
+        "draw": 0.22789439863374975,
+        "away_win": 0.13305545261533144
+      }
+    },
+    {
+      "match_id": 544431,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Deportivo Alavés",
+      "away": "Getafe CF",
+      "expected_goals": {
+        "home": 0.9492490879755016,
+        "away": 0.6675135983345284
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4070923697661753,
+        "draw": 0.3457311701900974,
+        "away_win": 0.24717646004372748
+      }
+    },
+    {
+      "match_id": 544432,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Athletic Club",
+      "away": "Levante UD",
+      "expected_goals": {
+        "home": 1.485901719714093,
+        "away": 0.9354628736211138
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5000494503966637,
+        "draw": 0.26236009600966703,
+        "away_win": 0.23759045359366943
+      }
+    },
+    {
+      "match_id": 544433,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Club Atlético de Madrid",
+      "away": "Real Betis Balompié",
+      "expected_goals": {
+        "home": 1.7718201284768136,
+        "away": 0.9965868010680303
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5557786525948682,
+        "draw": 0.23324425164216392,
+        "away_win": 0.21097709576296786
+      }
+    },
+    {
+      "match_id": 544434,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Barcelona",
+      "away": "RCD Mallorca",
+      "expected_goals": {
+        "home": 3.0415863859090218,
+        "away": 0.9787521677085994
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7843330720588003,
+        "draw": 0.1270948876364041,
+        "away_win": 0.08857204030479536
+      }
+    },
+    {
+      "match_id": 544435,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RC Celta de Vigo",
+      "away": "CA Osasuna",
+      "expected_goals": {
+        "home": 1.2339547243923483,
+        "away": 0.7575477241319915
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4750081125096024,
+        "draw": 0.29717997874040314,
+        "away_win": 0.22781190874999446
+      }
+    },
+    {
+      "match_id": 544436,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Sociedad de Fútbol",
+      "away": "Elche CF",
+      "expected_goals": {
+        "home": 1.358073085531751,
+        "away": 1.0971246000544614
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4274548579925258,
+        "draw": 0.27006826011491747,
+        "away_win": 0.3024768818925567
+      }
+    },
+    {
+      "match_id": 544437,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Villarreal CF",
+      "away": "RCD Espanyol de Barcelona",
+      "expected_goals": {
+        "home": 1.8621590213575614,
+        "away": 0.8317928112802979
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6171528767392012,
+        "draw": 0.22059539914047271,
+        "away_win": 0.1622517241203259
+      }
+    },
+    {
+      "match_id": 544438,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sevilla FC",
+      "away": "Girona FC",
+      "expected_goals": {
+        "home": 2.213271762437485,
+        "away": 0.9976899004888038
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6493126007900074,
+        "draw": 0.1923759542674147,
+        "away_win": 0.158311444942578
+      }
+    },
+    {
+      "match_id": 544439,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Valencia CF",
+      "away": "Real Madrid CF",
+      "expected_goals": {
+        "home": 0.9374191508595149,
+        "away": 1.8058322251885714
+      },
+      "probabilities_1x2": {
+        "home_win": 0.19279561649663138,
+        "draw": 0.22907691311357672,
+        "away_win": 0.5781274703897921
+      }
+    },
+    {
+      "match_id": 544440,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Rayo Vallecano de Madrid",
+      "away": "Real Oviedo",
+      "expected_goals": {
+        "home": 1.2018354813863585,
+        "away": 0.44752120815331753
+      },
+      "probabilities_1x2": {
+        "home_win": 0.551807678430571,
+        "draw": 0.31029046097497204,
+        "away_win": 0.137901860594457
+      }
+    },
+    {
+      "match_id": 544441,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Elche CF",
+      "away": "CA Osasuna",
+      "expected_goals": {
+        "home": 1.2132574508352834,
+        "away": 0.8018678493582923
+      },
+      "probabilities_1x2": {
+        "home_win": 0.45744105102621657,
+        "draw": 0.29815874327511704,
+        "away_win": 0.2444002056986665
+      }
+    },
+    {
+      "match_id": 544442,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Getafe CF",
+      "away": "Villarreal CF",
+      "expected_goals": {
+        "home": 0.8279762130161944,
+        "away": 1.389401554446264
+      },
+      "probabilities_1x2": {
+        "home_win": 0.22363123243170885,
+        "draw": 0.27514503081471253,
+        "away_win": 0.5012237367535788
+      }
+    },
+    {
+      "match_id": 544443,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Levante UD",
+      "away": "Valencia CF",
+      "expected_goals": {
+        "home": 1.4570138199474194,
+        "away": 1.1503967871024956
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4415566751134002,
+        "draw": 0.2598064059161975,
+        "away_win": 0.2986369189704021
+      }
+    },
+    {
+      "match_id": 544444,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Madrid CF",
+      "away": "Real Sociedad de Fútbol",
+      "expected_goals": {
+        "home": 2.393645717925113,
+        "away": 0.8554003835134885
+      },
+      "probabilities_1x2": {
+        "home_win": 0.714645853631737,
+        "draw": 0.16950423333471118,
+        "away_win": 0.11584991303355184
+      }
+    },
+    {
+      "match_id": 544445,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sevilla FC",
+      "away": "Deportivo Alavés",
+      "expected_goals": {
+        "home": 1.433527071607914,
+        "away": 0.9297324549039193
+      },
+      "probabilities_1x2": {
+        "home_win": 0.48757687547130685,
+        "draw": 0.2680741607803512,
+        "away_win": 0.244348963748342
+      }
+    },
+    {
+      "match_id": 544446,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Oviedo",
+      "away": "Athletic Club",
+      "expected_goals": {
+        "home": 0.7319767467092169,
+        "away": 0.9170148872242162
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2754437608021655,
+        "draw": 0.34462272620159545,
+        "away_win": 0.379933512996239
+      }
+    },
+    {
+      "match_id": 544447,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Rayo Vallecano de Madrid",
+      "away": "Club Atlético de Madrid",
+      "expected_goals": {
+        "home": 0.8511760476991641,
+        "away": 1.1291513494006948
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2740982268339295,
+        "draw": 0.30617032274927397,
+        "away_win": 0.4197314504167965
+      }
+    },
+    {
+      "match_id": 544448,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Girona FC",
+      "away": "FC Barcelona",
+      "expected_goals": {
+        "home": 1.1526983382841365,
+        "away": 2.877723661493115
+      },
+      "probabilities_1x2": {
+        "home_win": 0.12393333825101277,
+        "draw": 0.14789945501906118,
+        "away_win": 0.7281672067299261
+      }
+    },
+    {
+      "match_id": 544449,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RCD Mallorca",
+      "away": "Real Betis Balompié",
+      "expected_goals": {
+        "home": 1.2435446193843205,
+        "away": 1.2956575604493823
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3539246607583035,
+        "draw": 0.26748216230578864,
+        "away_win": 0.37859317693590794
+      }
+    },
+    {
+      "match_id": 544450,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RCD Espanyol de Barcelona",
+      "away": "RC Celta de Vigo",
+      "expected_goals": {
+        "home": 1.2917890837345665,
+        "away": 0.8806957382309304
+      },
+      "probabilities_1x2": {
+        "home_win": 0.460535595042293,
+        "draw": 0.2853274416172921,
+        "away_win": 0.25413696334041475
+      }
+    },
+    {
+      "match_id": 544451,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Deportivo Alavés",
+      "away": "Girona FC",
+      "expected_goals": {
+        "home": 1.4358745904291048,
+        "away": 0.7393443309672277
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5370918861364711,
+        "draw": 0.2702026198247698,
+        "away_win": 0.19270549403875906
+      }
+    },
+    {
+      "match_id": 544452,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Athletic Club",
+      "away": "Elche CF",
+      "expected_goals": {
+        "home": 1.0550497586076677,
+        "away": 0.9682630783131042
+      },
+      "probabilities_1x2": {
+        "home_win": 0.36963396969095963,
+        "draw": 0.3059560048917294,
+        "away_win": 0.324410025417311
+      }
+    },
+    {
+      "match_id": 544453,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Club Atlético de Madrid",
+      "away": "RCD Espanyol de Barcelona",
+      "expected_goals": {
+        "home": 1.6516654574035126,
+        "away": 0.8417095015873918
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5657338828037783,
+        "draw": 0.2441654401780008,
+        "away_win": 0.1901006770182211
+      }
+    },
+    {
+      "match_id": 544454,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Barcelona",
+      "away": "Levante UD",
+      "expected_goals": {
+        "home": 3.965389721043902,
+        "away": 0.9534550719065341
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8798028847983039,
+        "draw": 0.07525065044714588,
+        "away_win": 0.04494646475455025
+      }
+    },
+    {
+      "match_id": 544455,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Betis Balompié",
+      "away": "Rayo Vallecano de Madrid",
+      "expected_goals": {
+        "home": 1.3529411521128507,
+        "away": 0.737250598504722
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5147782929865994,
+        "draw": 0.281401368255965,
+        "away_win": 0.20382033875743566
+      }
+    },
+    {
+      "match_id": 544456,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RC Celta de Vigo",
+      "away": "RCD Mallorca",
+      "expected_goals": {
+        "home": 1.4180867608000773,
+        "away": 0.8958999331557018
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4918334584986186,
+        "draw": 0.2704693080727426,
+        "away_win": 0.23769723342863874
+      }
+    },
+    {
+      "match_id": 544457,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Getafe CF",
+      "away": "Sevilla FC",
+      "expected_goals": {
+        "home": 1.2158708574063872,
+        "away": 1.083976628372784
+      },
+      "probabilities_1x2": {
+        "home_win": 0.39109923965484905,
+        "draw": 0.2829094694344387,
+        "away_win": 0.3259912909107122
+      }
+    },
+    {
+      "match_id": 544458,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CA Osasuna",
+      "away": "Real Madrid CF",
+      "expected_goals": {
+        "home": 0.9202505915949303,
+        "away": 1.452780089075837
+      },
+      "probabilities_1x2": {
+        "home_win": 0.23875784093342606,
+        "draw": 0.26617245809814716,
+        "away_win": 0.49506970096842673
+      }
+    },
+    {
+      "match_id": 544459,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Villarreal CF",
+      "away": "Valencia CF",
+      "expected_goals": {
+        "home": 2.4026422640257965,
+        "away": 0.6707177035334392
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7581542671583149,
+        "draw": 0.1568221022640231,
+        "away_win": 0.08502363057766205
+      }
+    },
+    {
+      "match_id": 544460,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Sociedad de Fútbol",
+      "away": "Real Oviedo",
+      "expected_goals": {
+        "home": 1.5933276370988405,
+        "away": 0.6144426633397823
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6118341785225679,
+        "draw": 0.24697602053156398,
+        "away_win": 0.14118980094586803
+      }
+    },
+    {
+      "match_id": 544461,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Barcelona",
+      "away": "Villarreal CF",
+      "expected_goals": {
+        "home": 2.3119475968048806,
+        "away": 1.5722647385012891
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5430924694740635,
+        "draw": 0.19792316247848654,
+        "away_win": 0.25898436804744995
+      }
+    },
+    {
+      "match_id": 544462,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Betis Balompié",
+      "away": "Sevilla FC",
+      "expected_goals": {
+        "home": 1.952163355056824,
+        "away": 1.1545904082910594
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5591140707253728,
+        "draw": 0.2188633615288826,
+        "away_win": 0.22202256774574453
+      }
+    },
+    {
+      "match_id": 544463,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Elche CF",
+      "away": "RCD Espanyol de Barcelona",
+      "expected_goals": {
+        "home": 1.1688482738676869,
+        "away": 1.012991754357061
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3935288826664296,
+        "draw": 0.2915856285105508,
+        "away_win": 0.3148854888230196
+      }
+    },
+    {
+      "match_id": 544464,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RCD Mallorca",
+      "away": "Real Sociedad de Fútbol",
+      "expected_goals": {
+        "home": 1.4687238391487043,
+        "away": 1.086866145736873
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4591915306770651,
+        "draw": 0.26076565187979384,
+        "away_win": 0.2800428174431411
+      }
+    },
+    {
+      "match_id": 544465,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Levante UD",
+      "away": "Deportivo Alavés",
+      "expected_goals": {
+        "home": 1.1142645648853418,
+        "away": 1.0859161518173324
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3615026993220787,
+        "draw": 0.2912643002338436,
+        "away_win": 0.3472330004440777
+      }
+    },
+    {
+      "match_id": 544466,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Rayo Vallecano de Madrid",
+      "away": "Athletic Club",
+      "expected_goals": {
+        "home": 1.0373130147470062,
+        "away": 0.6531847423465239
+      },
+      "probabilities_1x2": {
+        "home_win": 0.440664420035884,
+        "draw": 0.33221780140823054,
+        "away_win": 0.22711777855588533
+      }
+    },
+    {
+      "match_id": 544467,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Oviedo",
+      "away": "Club Atlético de Madrid",
+      "expected_goals": {
+        "home": 0.6006297669210281,
+        "away": 1.5852308393027794
+      },
+      "probabilities_1x2": {
+        "home_win": 0.13863007127884,
+        "draw": 0.24771461169876136,
+        "away_win": 0.6136553170223987
+      }
+    },
+    {
+      "match_id": 544468,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Girona FC",
+      "away": "RC Celta de Vigo",
+      "expected_goals": {
+        "home": 1.0551214069187222,
+        "away": 1.3416886150300433
+      },
+      "probabilities_1x2": {
+        "home_win": 0.29406589919397647,
+        "draw": 0.2732824899815085,
+        "away_win": 0.4326516108245152
+      }
+    },
+    {
+      "match_id": 544469,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Madrid CF",
+      "away": "Getafe CF",
+      "expected_goals": {
+        "home": 1.902712069328787,
+        "away": 0.6351187086491122
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6764060621855743,
+        "draw": 0.2075890231320486,
+        "away_win": 0.11600491468237706
+      }
+    },
+    {
+      "match_id": 544470,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Valencia CF",
+      "away": "CA Osasuna",
+      "expected_goals": {
+        "home": 1.036422577060097,
+        "away": 0.9369322009843774
+      },
+      "probabilities_1x2": {
+        "home_win": 0.37094612971460317,
+        "draw": 0.3104804495730304,
+        "away_win": 0.31857342071236633
+      }
+    },
+    {
+      "match_id": 544471,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Athletic Club",
+      "away": "FC Barcelona",
+      "expected_goals": {
+        "home": 1.088913474906294,
+        "away": 2.1122094575056147
+      },
+      "probabilities_1x2": {
+        "home_win": 0.1876950849811509,
+        "draw": 0.2041494399484051,
+        "away_win": 0.6081554750704439
+      }
+    },
+    {
+      "match_id": 544472,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Club Atlético de Madrid",
+      "away": "Real Sociedad de Fútbol",
+      "expected_goals": {
+        "home": 2.0926586958060445,
+        "away": 0.8359897618267058
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6641785644142866,
+        "draw": 0.19681017102567744,
+        "away_win": 0.139011264560036
+      }
+    },
+    {
+      "match_id": 544473,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RC Celta de Vigo",
+      "away": "Real Madrid CF",
+      "expected_goals": {
+        "home": 1.1160822000039168,
+        "away": 1.460088671217121
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2891620632969184,
+        "draw": 0.2606544295733456,
+        "away_win": 0.45018350712973615
+      }
+    },
+    {
+      "match_id": 544474,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RCD Espanyol de Barcelona",
+      "away": "Real Oviedo",
+      "expected_goals": {
+        "home": 1.6042289900266569,
+        "away": 0.4849590258684947
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6509268031885962,
+        "draw": 0.2405241535241938,
+        "away_win": 0.10854904328720999
+      }
+    },
+    {
+      "match_id": 544475,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Valencia CF",
+      "away": "Deportivo Alavés",
+      "expected_goals": {
+        "home": 0.9852331887197471,
+        "away": 0.9009164447050199
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3629818289269674,
+        "draw": 0.31925101940759715,
+        "away_win": 0.3177671516654354
+      }
+    },
+    {
+      "match_id": 544476,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Getafe CF",
+      "away": "Real Betis Balompié",
+      "expected_goals": {
+        "home": 0.9795783318283092,
+        "away": 1.093909381951633
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3199252678735949,
+        "draw": 0.30118848222625566,
+        "away_win": 0.3788862499001495
+      }
+    },
+    {
+      "match_id": 544477,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Villarreal CF",
+      "away": "Elche CF",
+      "expected_goals": {
+        "home": 2.0562870856691036,
+        "away": 0.7851558517061233
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6694390588443189,
+        "draw": 0.19810956730846058,
+        "away_win": 0.13245137384722086
+      }
+    },
+    {
+      "match_id": 544478,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Levante UD",
+      "away": "Girona FC",
+      "expected_goals": {
+        "home": 1.7203513949542932,
+        "away": 1.165289618245908
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5036873669815812,
+        "draw": 0.23799233538553946,
+        "away_win": 0.25832029763287956
+      }
+    },
+    {
+      "match_id": 544479,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CA Osasuna",
+      "away": "RCD Mallorca",
+      "expected_goals": {
+        "home": 1.1692643969724001,
+        "away": 0.8914154395897177
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4221090848767042,
+        "draw": 0.298993451604579,
+        "away_win": 0.27889746351871664
+      }
+    },
+    {
+      "match_id": 544480,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sevilla FC",
+      "away": "Rayo Vallecano de Madrid",
+      "expected_goals": {
+        "home": 1.3406563767079211,
+        "away": 0.9150891645941602
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4658087400764736,
+        "draw": 0.2786002028269973,
+        "away_win": 0.2555910570965289
+      }
+    },
+    {
+      "match_id": 544481,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Deportivo Alavés",
+      "away": "Villarreal CF",
+      "expected_goals": {
+        "home": 0.8546079045761004,
+        "away": 1.3612417407434791
+      },
+      "probabilities_1x2": {
+        "home_win": 0.23538972469608574,
+        "draw": 0.27796618268388207,
+        "away_win": 0.48664409262003205
+      }
+    },
+    {
+      "match_id": 544482,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Club Atlético de Madrid",
+      "away": "Getafe CF",
+      "expected_goals": {
+        "home": 1.6634570971294302,
+        "away": 0.6207066868434294
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6270987214075936,
+        "draw": 0.23750307517753144,
+        "away_win": 0.13539820341487502
+      }
+    },
+    {
+      "match_id": 544483,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Barcelona",
+      "away": "Sevilla FC",
+      "expected_goals": {
+        "home": 3.395060948146835,
+        "away": 1.226641948611667
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7832087417166611,
+        "draw": 0.11937518237230699,
+        "away_win": 0.09741607591103202
+      }
+    },
+    {
+      "match_id": 544484,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Betis Balompié",
+      "away": "RC Celta de Vigo",
+      "expected_goals": {
+        "home": 1.5294824974480454,
+        "away": 0.9447642251442235
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5090788070546073,
+        "draw": 0.257635518140659,
+        "away_win": 0.23328567480473372
+      }
+    },
+    {
+      "match_id": 544485,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Oviedo",
+      "away": "Valencia CF",
+      "expected_goals": {
+        "home": 0.8446093730974868,
+        "away": 0.9583242195085216
+      },
+      "probabilities_1x2": {
+        "home_win": 0.30507959617146707,
+        "draw": 0.32776620286649544,
+        "away_win": 0.3671542009620374
+      }
+    },
+    {
+      "match_id": 544486,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Girona FC",
+      "away": "Athletic Club",
+      "expected_goals": {
+        "home": 1.1309463148519137,
+        "away": 1.0783339944576447
+      },
+      "probabilities_1x2": {
+        "home_win": 0.36799146974435293,
+        "draw": 0.29045199153814033,
+        "away_win": 0.3415565387175066
+      }
+    },
+    {
+      "match_id": 544487,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Madrid CF",
+      "away": "Elche CF",
+      "expected_goals": {
+        "home": 2.0861740432824507,
+        "away": 0.8129641989474045
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6685099249510984,
+        "draw": 0.19638266109435315,
+        "away_win": 0.1351074139545483
+      }
+    },
+    {
+      "match_id": 544488,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RCD Mallorca",
+      "away": "RCD Espanyol de Barcelona",
+      "expected_goals": {
+        "home": 1.1592145610981295,
+        "away": 1.0943023510496401
+      },
+      "probabilities_1x2": {
+        "home_win": 0.37268687439357656,
+        "draw": 0.286966914488552,
+        "away_win": 0.3403462111178715
+      }
+    },
+    {
+      "match_id": 544489,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Rayo Vallecano de Madrid",
+      "away": "Levante UD",
+      "expected_goals": {
+        "home": 1.4427139044046184,
+        "away": 0.7720072802503565
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5302883556304931,
+        "draw": 0.2691483149062834,
+        "away_win": 0.20056332946322347
+      }
+    },
+    {
+      "match_id": 544490,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Sociedad de Fútbol",
+      "away": "CA Osasuna",
+      "expected_goals": {
+        "home": 1.2765886740016723,
+        "away": 0.9200514933731379
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4465237170657207,
+        "draw": 0.2854865995211784,
+        "away_win": 0.26798968341310103
+      }
+    },
+    {
+      "match_id": 544491,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Athletic Club",
+      "away": "Real Betis Balompié",
+      "expected_goals": {
+        "home": 1.0249519470687178,
+        "away": 1.2145224972758226
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3094480692919004,
+        "draw": 0.2865444353693339,
+        "away_win": 0.4040074953387659
+      }
+    },
+    {
+      "match_id": 544492,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Barcelona",
+      "away": "Rayo Vallecano de Madrid",
+      "expected_goals": {
+        "home": 2.3529371447224112,
+        "away": 0.78325829165989
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7242378960199325,
+        "draw": 0.1689111479177163,
+        "away_win": 0.10685095606235123
+      }
+    },
+    {
+      "match_id": 544493,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Elche CF",
+      "away": "RCD Mallorca",
+      "expected_goals": {
+        "home": 1.3943010180692126,
+        "away": 0.9483143170457615
+      },
+      "probabilities_1x2": {
+        "home_win": 0.472420485622995,
+        "draw": 0.27181103869488393,
+        "away_win": 0.25576847568212124
+      }
+    },
+    {
+      "match_id": 544494,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RCD Espanyol de Barcelona",
+      "away": "Getafe CF",
+      "expected_goals": {
+        "home": 1.247116280760823,
+        "away": 0.6764927116076227
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5004465751347766,
+        "draw": 0.29788367045136677,
+        "away_win": 0.20166975441385662
+      }
+    },
+    {
+      "match_id": 544495,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Levante UD",
+      "away": "Real Oviedo",
+      "expected_goals": {
+        "home": 1.4629862811878547,
+        "away": 0.7542045917974033
+      },
+      "probabilities_1x2": {
+        "home_win": 0.540420029334246,
+        "draw": 0.2665974965357138,
+        "away_win": 0.19298247413004
+      }
+    },
+    {
+      "match_id": 544496,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sevilla FC",
+      "away": "Valencia CF",
+      "expected_goals": {
+        "home": 1.8744818963316934,
+        "away": 0.9849390555582244
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5820338715186844,
+        "draw": 0.22318988961103112,
+        "away_win": 0.19477623887028467
+      }
+    },
+    {
+      "match_id": 544497,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RC Celta de Vigo",
+      "away": "Deportivo Alavés",
+      "expected_goals": {
+        "home": 1.173009132334229,
+        "away": 0.72842752293317
+      },
+      "probabilities_1x2": {
+        "home_win": 0.46420155717584,
+        "draw": 0.3069611807017139,
+        "away_win": 0.22883726212244623
+      }
+    },
+    {
+      "match_id": 544498,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Madrid CF",
+      "away": "Club Atlético de Madrid",
+      "expected_goals": {
+        "home": 1.7334321890016926,
+        "away": 1.1487760349459548
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5106098665647733,
+        "draw": 0.23701707160957491,
+        "away_win": 0.2523730618256517
+      }
+    },
+    {
+      "match_id": 544499,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CA Osasuna",
+      "away": "Girona FC",
+      "expected_goals": {
+        "home": 1.4932762613615842,
+        "away": 0.7777581648782605
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5422213310860029,
+        "draw": 0.2627043892690015,
+        "away_win": 0.19507427964499563
+      }
+    },
+    {
+      "match_id": 544500,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Villarreal CF",
+      "away": "Real Sociedad de Fútbol",
+      "expected_goals": {
+        "home": 2.3593538579801794,
+        "away": 0.8261404592439241
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7154782893055855,
+        "draw": 0.17088791028880357,
+        "away_win": 0.113633800405611
+      }
+    },
+    {
+      "match_id": 544501,
+      "utcDate": "2026-04-05T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Deportivo Alavés",
+      "away": "CA Osasuna",
+      "expected_goals": {
+        "home": 0.9783302849553496,
+        "away": 0.7165274185900297
+      },
+      "probabilities_1x2": {
+        "home_win": 0.40463308468468756,
+        "draw": 0.33674150852662715,
+        "away_win": 0.25862540678868523
+      }
+    },
+    {
+      "match_id": 544502,
+      "utcDate": "2026-04-05T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Club Atlético de Madrid",
+      "away": "FC Barcelona",
+      "expected_goals": {
+        "home": 1.882389529115407,
+        "away": 1.7331914980271519
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4209978841390841,
+        "draw": 0.21825395289373728,
+        "away_win": 0.3607481629671787
+      }
+    },
+    {
+      "match_id": 544503,
+      "utcDate": "2026-04-05T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Betis Balompié",
+      "away": "RCD Espanyol de Barcelona",
+      "expected_goals": {
+        "home": 1.4661227473296967,
+        "away": 0.9840937477328193
+      },
+      "probabilities_1x2": {
+        "home_win": 0.48293127378449474,
+        "draw": 0.2635377177304081,
+        "away_win": 0.2535310084850973
+      }
+    },
+    {
+      "match_id": 544504,
+      "utcDate": "2026-04-05T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Girona FC",
+      "away": "Villarreal CF",
+      "expected_goals": {
+        "home": 0.9170742300929872,
+        "away": 2.1016679533365834
+      },
+      "probabilities_1x2": {
+        "home_win": 0.15417072448680125,
+        "draw": 0.1994053181932069,
+        "away_win": 0.6464239573199917
+      }
+    },
+    {
+      "match_id": 544505,
+      "utcDate": "2026-04-05T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RCD Mallorca",
+      "away": "Real Madrid CF",
+      "expected_goals": {
+        "home": 1.0883174976745684,
+        "away": 1.6695654791442331
+      },
+      "probabilities_1x2": {
+        "home_win": 0.24768723358166375,
+        "draw": 0.2428844789193119,
+        "away_win": 0.5094282874990244
+      }
+    },
+    {
+      "match_id": 544506,
+      "utcDate": "2026-04-05T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Oviedo",
+      "away": "Sevilla FC",
+      "expected_goals": {
+        "home": 0.8716243892538765,
+        "away": 1.394374172299395
+      },
+      "probabilities_1x2": {
+        "home_win": 0.23483675086578626,
+        "draw": 0.27368205741037704,
+        "away_win": 0.49148119172383675
+      }
+    },
+    {
+      "match_id": 544507,
+      "utcDate": "2026-04-05T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Getafe CF",
+      "away": "Athletic Club",
+      "expected_goals": {
+        "home": 1.0210696322813058,
+        "away": 0.7128808933557339
+      },
+      "probabilities_1x2": {
+        "home_win": 0.41981225687398893,
+        "draw": 0.3304930394178377,
+        "away_win": 0.24969470370817326
+      }
+    },
+    {
+      "match_id": 544508,
+      "utcDate": "2026-04-05T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Valencia CF",
+      "away": "RC Celta de Vigo",
+      "expected_goals": {
+        "home": 1.0416365661521032,
+        "away": 1.1363136972471972
+      },
+      "probabilities_1x2": {
+        "home_win": 0.32975711645949946,
+        "draw": 0.2926425461241335,
+        "away_win": 0.37760033741636717
+      }
+    },
+    {
+      "match_id": 544509,
+      "utcDate": "2026-04-05T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Rayo Vallecano de Madrid",
+      "away": "Elche CF",
+      "expected_goals": {
+        "home": 1.0243846792740083,
+        "away": 0.7990762292487263
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3994632821962347,
+        "draw": 0.3232731130961505,
+        "away_win": 0.2772636047076148
+      }
+    },
+    {
+      "match_id": 544510,
+      "utcDate": "2026-04-05T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Sociedad de Fútbol",
+      "away": "Levante UD",
+      "expected_goals": {
+        "home": 1.912671053498109,
+        "away": 1.0599591723309354
+      },
+      "probabilities_1x2": {
+        "home_win": 0.572544438505767,
+        "draw": 0.22095753462595263,
+        "away_win": 0.2064980268682804
+      }
+    },
+    {
+      "match_id": 544512,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Barcelona",
+      "away": "RCD Espanyol de Barcelona",
+      "expected_goals": {
+        "home": 2.549774367885271,
+        "away": 1.0455055434959404
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6988899718791154,
+        "draw": 0.16655377766826548,
+        "away_win": 0.1345562504526191
+      }
+    },
+    {
+      "match_id": 544513,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RC Celta de Vigo",
+      "away": "Real Oviedo",
+      "expected_goals": {
+        "home": 1.5401156263904279,
+        "away": 0.5059169454919571
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6291438535047722,
+        "draw": 0.251352315160007,
+        "away_win": 0.11950383133522083
+      }
+    },
+    {
+      "match_id": 544514,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Elche CF",
+      "away": "Valencia CF",
+      "expected_goals": {
+        "home": 1.5081012044721958,
+        "away": 0.8168278133287721
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5359108348408141,
+        "draw": 0.26084185898345774,
+        "away_win": 0.20324730617572806
+      }
+    },
+    {
+      "match_id": 544515,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RCD Mallorca",
+      "away": "Rayo Vallecano de Madrid",
+      "expected_goals": {
+        "home": 1.069725632928476,
+        "away": 0.8198152514586551
+      },
+      "probabilities_1x2": {
+        "home_win": 0.40890101231381704,
+        "draw": 0.31574133653898734,
+        "away_win": 0.2753576511471955
+      }
+    },
+    {
+      "match_id": 544516,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Sociedad de Fútbol",
+      "away": "Deportivo Alavés",
+      "expected_goals": {
+        "home": 1.2135373715399596,
+        "away": 0.8846846329802819
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4368762451936483,
+        "draw": 0.29423847938957287,
+        "away_win": 0.2688852754167788
+      }
+    },
+    {
+      "match_id": 544517,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sevilla FC",
+      "away": "Club Atlético de Madrid",
+      "expected_goals": {
+        "home": 1.3330063107900665,
+        "away": 1.6292562933506942
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3137827325038469,
+        "draw": 0.24184801599531078,
+        "away_win": 0.44436925150084244
+      }
+    },
+    {
+      "match_id": 544518,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CA Osasuna",
+      "away": "Real Betis Balompié",
+      "expected_goals": {
+        "home": 1.0515062691800134,
+        "away": 1.1274223919904272
+      },
+      "probabilities_1x2": {
+        "home_win": 0.33445945902744817,
+        "draw": 0.2927198363991988,
+        "away_win": 0.37282070457335315
+      }
+    },
+    {
+      "match_id": 544519,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Levante UD",
+      "away": "Getafe CF",
+      "expected_goals": {
+        "home": 1.1373151969836846,
+        "away": 1.0520763243827103
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3755865841022608,
+        "draw": 0.29180927960701775,
+        "away_win": 0.33260413629072133
+      }
+    },
+    {
+      "match_id": 544520,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Madrid CF",
+      "away": "Girona FC",
+      "expected_goals": {
+        "home": 2.878123295413159,
+        "away": 0.7034634468908888
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8166411899701411,
+        "draw": 0.12002525460078385,
+        "away_win": 0.06333355542907504
+      }
+    },
+    {
+      "match_id": 544511,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Athletic Club",
+      "away": "Villarreal CF",
+      "expected_goals": {
+        "home": 0.8663276882346069,
+        "away": 1.5425952765981459
+      },
+      "probabilities_1x2": {
+        "home_win": 0.21117039208805116,
+        "draw": 0.25670118402271236,
+        "away_win": 0.5321284238892363
+      }
+    },
+    {
+      "match_id": 544521,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Deportivo Alavés",
+      "away": "RCD Mallorca",
+      "expected_goals": {
+        "home": 1.1243177706282066,
+        "away": 0.8473880205429635
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4191731939269694,
+        "draw": 0.3070015667565973,
+        "away_win": 0.2738252393164332
+      }
+    },
+    {
+      "match_id": 544522,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Betis Balompié",
+      "away": "Real Madrid CF",
+      "expected_goals": {
+        "home": 1.3764553113843678,
+        "away": 1.5014213831126622
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3478683439733168,
+        "draw": 0.2483066514464857,
+        "away_win": 0.40382500458019743
+      }
+    },
+    {
+      "match_id": 544523,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RCD Espanyol de Barcelona",
+      "away": "Levante UD",
+      "expected_goals": {
+        "home": 1.9257573150450227,
+        "away": 0.8365902928679414
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6297663463418167,
+        "draw": 0.21396862788831372,
+        "away_win": 0.15626502576986953
+      }
+    },
+    {
+      "match_id": 544524,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CA Osasuna",
+      "away": "Sevilla FC",
+      "expected_goals": {
+        "home": 1.305149151972235,
+        "away": 1.1171853385528396
+      },
+      "probabilities_1x2": {
+        "home_win": 0.40853945286825655,
+        "draw": 0.2735981231391333,
+        "away_win": 0.3178624239926102
+      }
+    },
+    {
+      "match_id": 544525,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Rayo Vallecano de Madrid",
+      "away": "Real Sociedad de Fútbol",
+      "expected_goals": {
+        "home": 1.1753640636781415,
+        "away": 0.8407874711345
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4363164942898733,
+        "draw": 0.3010789931819,
+        "away_win": 0.2626045125282267
+      }
+    },
+    {
+      "match_id": 544526,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Club Atlético de Madrid",
+      "away": "Athletic Club",
+      "expected_goals": {
+        "home": 1.846867849430469,
+        "away": 0.64945753347906
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6608390808935518,
+        "draw": 0.21510118812199405,
+        "away_win": 0.12405973098445418
+      }
+    },
+    {
+      "match_id": 544527,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Getafe CF",
+      "away": "FC Barcelona",
+      "expected_goals": {
+        "home": 1.0407083456982398,
+        "away": 1.9024478734605303
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2035756663974597,
+        "draw": 0.22156868592515822,
+        "away_win": 0.5748556476773821
+      }
+    },
+    {
+      "match_id": 544528,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Villarreal CF",
+      "away": "RC Celta de Vigo",
+      "expected_goals": {
+        "home": 1.9426338182248333,
+        "away": 0.7985500290396349
+      },
+      "probabilities_1x2": {
+        "home_win": 0.642875844147104,
+        "draw": 0.21072378431249686,
+        "away_win": 0.146400371540399
+      }
+    },
+    {
+      "match_id": 544529,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Oviedo",
+      "away": "Elche CF",
+      "expected_goals": {
+        "home": 0.7228539064427247,
+        "away": 1.1218339173319674
+      },
+      "probabilities_1x2": {
+        "home_win": 0.23553993722306943,
+        "draw": 0.31471228049023436,
+        "away_win": 0.4497477822866962
+      }
+    },
+    {
+      "match_id": 544530,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Valencia CF",
+      "away": "Girona FC",
+      "expected_goals": {
+        "home": 1.521135414320291,
+        "away": 0.9667676258105521
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5015094247422082,
+        "draw": 0.25824175968366936,
+        "away_win": 0.2402488155741225
+      }
+    },
+    {
+      "match_id": 544531,
+      "utcDate": "2026-04-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Athletic Club",
+      "away": "CA Osasuna",
+      "expected_goals": {
+        "home": 0.99174675258319,
+        "away": 0.8119878919275177
+      },
+      "probabilities_1x2": {
+        "home_win": 0.385750096588063,
+        "draw": 0.32651114620784855,
+        "away_win": 0.28773875720408854
+      }
+    },
+    {
+      "match_id": 544532,
+      "utcDate": "2026-04-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Barcelona",
+      "away": "RC Celta de Vigo",
+      "expected_goals": {
+        "home": 2.6599650508288537,
+        "away": 1.0037216850127855
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7255360828999813,
+        "draw": 0.15586690250026283,
+        "away_win": 0.1185970145997558
+      }
+    },
+    {
+      "match_id": 544533,
+      "utcDate": "2026-04-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Levante UD",
+      "away": "Sevilla FC",
+      "expected_goals": {
+        "home": 1.5036167267345069,
+        "away": 1.67384225002117
+      },
+      "probabilities_1x2": {
+        "home_win": 0.34639712683587187,
+        "draw": 0.23432504378058325,
+        "away_win": 0.4192778293835448
+      }
+    },
+    {
+      "match_id": 544534,
+      "utcDate": "2026-04-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RCD Mallorca",
+      "away": "Valencia CF",
+      "expected_goals": {
+        "home": 1.4956713500966283,
+        "away": 0.8823927664601143
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5158852937629471,
+        "draw": 0.26192763431637933,
+        "away_win": 0.2221870719206735
+      }
+    },
+    {
+      "match_id": 544535,
+      "utcDate": "2026-04-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Oviedo",
+      "away": "Villarreal CF",
+      "expected_goals": {
+        "home": 0.5935533832321844,
+        "away": 1.7872577616186764
+      },
+      "probabilities_1x2": {
+        "home_win": 0.11733945216778788,
+        "draw": 0.21987335558474627,
+        "away_win": 0.662787192247466
+      }
+    },
+    {
+      "match_id": 544536,
+      "utcDate": "2026-04-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Madrid CF",
+      "away": "Deportivo Alavés",
+      "expected_goals": {
+        "home": 1.8641486912824072,
+        "away": 0.6555471766253271
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6629388786004882,
+        "draw": 0.21329519074692008,
+        "away_win": 0.12376593065259178
+      }
+    },
+    {
+      "match_id": 544537,
+      "utcDate": "2026-04-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Elche CF",
+      "away": "Club Atlético de Madrid",
+      "expected_goals": {
+        "home": 1.0724608366747381,
+        "away": 1.3511717785376385
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2970614117785334,
+        "draw": 0.2717050568928318,
+        "away_win": 0.43123353132863473
+      }
+    },
+    {
+      "match_id": 544538,
+      "utcDate": "2026-04-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Girona FC",
+      "away": "Real Betis Balompié",
+      "expected_goals": {
+        "home": 1.0849901607736752,
+        "away": 1.654693910874628
+      },
+      "probabilities_1x2": {
+        "home_win": 0.24917282776264182,
+        "draw": 0.24423517095858827,
+        "away_win": 0.5065920012787699
+      }
+    },
+    {
+      "match_id": 544539,
+      "utcDate": "2026-04-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Rayo Vallecano de Madrid",
+      "away": "RCD Espanyol de Barcelona",
+      "expected_goals": {
+        "home": 0.9276755104600853,
+        "away": 0.8465400362358074
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3566103297088372,
+        "draw": 0.331367618165807,
+        "away_win": 0.31202205212535583
+      }
+    },
+    {
+      "match_id": 544540,
+      "utcDate": "2026-04-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Sociedad de Fútbol",
+      "away": "Getafe CF",
+      "expected_goals": {
+        "home": 1.2386416460278016,
+        "away": 0.857115676331085
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4510420989610403,
+        "draw": 0.29256010594845605,
+        "away_win": 0.2563977950905038
+      }
+    },
+    {
+      "match_id": 544541,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Deportivo Alavés",
+      "away": "Athletic Club",
+      "expected_goals": {
+        "home": 1.0539121355810601,
+        "away": 0.6984325194605624
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4343082876945532,
+        "draw": 0.3264753276377615,
+        "away_win": 0.23921638466768533
+      }
+    },
+    {
+      "match_id": 544542,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Betis Balompié",
+      "away": "Real Oviedo",
+      "expected_goals": {
+        "home": 1.8994123677303767,
+        "away": 0.5202386231840798
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7061151549743057,
+        "draw": 0.20110350501316104,
+        "away_win": 0.09278134001253335
+      }
+    },
+    {
+      "match_id": 544543,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RC Celta de Vigo",
+      "away": "Elche CF",
+      "expected_goals": {
+        "home": 1.3127178190520299,
+        "away": 0.9033453560445516
+      },
+      "probabilities_1x2": {
+        "home_win": 0.46086963484292254,
+        "draw": 0.28211415265313683,
+        "away_win": 0.2570162125039407
+      }
+    },
+    {
+      "match_id": 544544,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RCD Espanyol de Barcelona",
+      "away": "Real Madrid CF",
+      "expected_goals": {
+        "home": 1.1625435063569203,
+        "away": 1.3996036028928327
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3122691204933053,
+        "draw": 0.2639401201279837,
+        "away_win": 0.4237907593787111
+      }
+    },
+    {
+      "match_id": 544545,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Getafe CF",
+      "away": "Rayo Vallecano de Madrid",
+      "expected_goals": {
+        "home": 0.842655771802434,
+        "away": 0.6921609709332573
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3633263165959142,
+        "draw": 0.36074253963402614,
+        "away_win": 0.2759311437700596
+      }
+    },
+    {
+      "match_id": 544546,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Girona FC",
+      "away": "RCD Mallorca",
+      "expected_goals": {
+        "home": 1.2064981476975227,
+        "away": 1.3083115169857826
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3414660222150966,
+        "draw": 0.2686865232292286,
+        "away_win": 0.38984745455567493
+      }
+    },
+    {
+      "match_id": 544547,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Valencia CF",
+      "away": "Club Atlético de Madrid",
+      "expected_goals": {
+        "home": 0.9161473711760164,
+        "away": 1.5787593297154228
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2186463885871382,
+        "draw": 0.2525853414209634,
+        "away_win": 0.5287682699918985
+      }
+    },
+    {
+      "match_id": 544548,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CA Osasuna",
+      "away": "FC Barcelona",
+      "expected_goals": {
+        "home": 1.117124903985177,
+        "away": 1.9607312703611197
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2126929862315409,
+        "draw": 0.21764472568136764,
+        "away_win": 0.5696622880870913
+      }
+    },
+    {
+      "match_id": 544549,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Villarreal CF",
+      "away": "Levante UD",
+      "expected_goals": {
+        "home": 2.896015559355056,
+        "away": 0.7585584597081325
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8081418644481619,
+        "draw": 0.12271359549499088,
+        "away_win": 0.06914454005684738
+      }
+    },
+    {
+      "match_id": 544550,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sevilla FC",
+      "away": "Real Sociedad de Fútbol",
+      "expected_goals": {
+        "home": 1.840709355713181,
+        "away": 1.2131750800664245
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5207687270611607,
+        "draw": 0.2281596368671336,
+        "away_win": 0.2510716360717056
+      }
+    },
+    {
+      "match_id": 544551,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Athletic Club",
+      "away": "Valencia CF",
+      "expected_goals": {
+        "home": 1.2327593546385347,
+        "away": 0.8271366594176005
+      },
+      "probabilities_1x2": {
+        "home_win": 0.45682347515884725,
+        "draw": 0.29457567853203503,
+        "away_win": 0.24860084630911772
+      }
+    },
+    {
+      "match_id": 544552,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Club Atlético de Madrid",
+      "away": "RC Celta de Vigo",
+      "expected_goals": {
+        "home": 1.7230435946371077,
+        "away": 0.8080703966423772
+      },
+      "probabilities_1x2": {
+        "home_win": 0.591492508863552,
+        "draw": 0.2354390761080594,
+        "away_win": 0.17306841502838874
+      }
+    },
+    {
+      "match_id": 544553,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Barcelona",
+      "away": "Real Madrid CF",
+      "expected_goals": {
+        "home": 2.393831265424164,
+        "away": 1.595116707919391
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5544325006945896,
+        "draw": 0.1933858473437058,
+        "away_win": 0.2521816519617045
+      }
+    },
+    {
+      "match_id": 544554,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Levante UD",
+      "away": "CA Osasuna",
+      "expected_goals": {
+        "home": 1.1721579876596244,
+        "away": 1.1293276043371898
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3688255120355983,
+        "draw": 0.28350027025400537,
+        "away_win": 0.3476742177103962
+      }
+    },
+    {
+      "match_id": 544555,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RCD Mallorca",
+      "away": "Villarreal CF",
+      "expected_goals": {
+        "home": 1.051090383709056,
+        "away": 1.6456469413460253
+      },
+      "probabilities_1x2": {
+        "home_win": 0.24226624309779718,
+        "draw": 0.2453021810256563,
+        "away_win": 0.5124315758765466
+      }
+    },
+    {
+      "match_id": 544556,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Elche CF",
+      "away": "Deportivo Alavés",
+      "expected_goals": {
+        "home": 1.1533341066489775,
+        "away": 0.7710439786444899
+      },
+      "probabilities_1x2": {
+        "home_win": 0.44714534795172856,
+        "draw": 0.3076436808677709,
+        "away_win": 0.24521097118050061
+      }
+    },
+    {
+      "match_id": 544557,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Sociedad de Fútbol",
+      "away": "Real Betis Balompié",
+      "expected_goals": {
+        "home": 1.3193308106286252,
+        "away": 1.3761575122768461
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3577423162592809,
+        "draw": 0.258309451541508,
+        "away_win": 0.38394823219921115
+      }
+    },
+    {
+      "match_id": 544558,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sevilla FC",
+      "away": "RCD Espanyol de Barcelona",
+      "expected_goals": {
+        "home": 1.452810277205718,
+        "away": 1.2214754756681205
+      },
+      "probabilities_1x2": {
+        "home_win": 0.42461791070119304,
+        "draw": 0.2575910840817796,
+        "away_win": 0.3177910052170272
+      }
+    },
+    {
+      "match_id": 544559,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Oviedo",
+      "away": "Getafe CF",
+      "expected_goals": {
+        "home": 0.6592848073145251,
+        "away": 0.8764195395285174
+      },
+      "probabilities_1x2": {
+        "home_win": 0.25761396328178393,
+        "draw": 0.3588757717427344,
+        "away_win": 0.3835102649754816
+      }
+    },
+    {
+      "match_id": 544560,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Rayo Vallecano de Madrid",
+      "away": "Girona FC",
+      "expected_goals": {
+        "home": 1.4132595592282926,
+        "away": 0.6914460923170985
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5438215626513653,
+        "draw": 0.27343963526368176,
+        "away_win": 0.18273880208495294
+      }
+    },
+    {
+      "match_id": 544561,
+      "utcDate": "2026-05-13T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Deportivo Alavés",
+      "away": "FC Barcelona",
+      "expected_goals": {
+        "home": 1.0741825243409944,
+        "away": 1.8638898500262913
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2162006734874119,
+        "draw": 0.22551220608846845,
+        "away_win": 0.5582871204241197
+      }
+    },
+    {
+      "match_id": 544562,
+      "utcDate": "2026-05-13T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Betis Balompié",
+      "away": "Elche CF",
+      "expected_goals": {
+        "home": 1.618964458331769,
+        "away": 0.9289175792112718
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5356495550693487,
+        "draw": 0.2482958872975092,
+        "away_win": 0.21605455763314205
+      }
+    },
+    {
+      "match_id": 544563,
+      "utcDate": "2026-05-13T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RC Celta de Vigo",
+      "away": "Levante UD",
+      "expected_goals": {
+        "home": 1.8487940013396906,
+        "away": 0.872744258832995
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6039067676060222,
+        "draw": 0.22321241208154738,
+        "away_win": 0.1728808203124304
+      }
+    },
+    {
+      "match_id": 544564,
+      "utcDate": "2026-05-13T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Getafe CF",
+      "away": "RCD Mallorca",
+      "expected_goals": {
+        "home": 1.0892812539726024,
+        "away": 0.8649178156397758
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4041256434897013,
+        "draw": 0.3100898040974325,
+        "away_win": 0.28578455241286627
+      }
+    },
+    {
+      "match_id": 544565,
+      "utcDate": "2026-05-13T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Girona FC",
+      "away": "Real Sociedad de Fútbol",
+      "expected_goals": {
+        "home": 1.281458573765572,
+        "away": 1.388044841619121
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3455988588871852,
+        "draw": 0.2594567277927159,
+        "away_win": 0.39494441332009866
+      }
+    },
+    {
+      "match_id": 544566,
+      "utcDate": "2026-05-13T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RCD Espanyol de Barcelona",
+      "away": "Athletic Club",
+      "expected_goals": {
+        "home": 1.3846218020369263,
+        "away": 0.7078275411073067
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5315052882370956,
+        "draw": 0.27737174297767386,
+        "away_win": 0.19112296878523058
+      }
+    },
+    {
+      "match_id": 544567,
+      "utcDate": "2026-05-13T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CA Osasuna",
+      "away": "Club Atlético de Madrid",
+      "expected_goals": {
+        "home": 0.899368398373181,
+        "away": 1.2701014455613537
+      },
+      "probabilities_1x2": {
+        "home_win": 0.26320072769916564,
+        "draw": 0.28707972948481825,
+        "away_win": 0.449719542816016
+      }
+    },
+    {
+      "match_id": 544568,
+      "utcDate": "2026-05-13T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Valencia CF",
+      "away": "Rayo Vallecano de Madrid",
+      "expected_goals": {
+        "home": 0.9214051015582617,
+        "away": 0.8867270066843637
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3455103567904333,
+        "draw": 0.32789907038832117,
+        "away_win": 0.3265905728212457
+      }
+    },
+    {
+      "match_id": 544569,
+      "utcDate": "2026-05-13T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Villarreal CF",
+      "away": "Sevilla FC",
+      "expected_goals": {
+        "home": 2.47949130412423,
+        "away": 0.9759029602639337
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7022597032028242,
+        "draw": 0.1687069570008455,
+        "away_win": 0.1290333397963304
+      }
+    },
+    {
+      "match_id": 544570,
+      "utcDate": "2026-05-13T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Madrid CF",
+      "away": "Real Oviedo",
+      "expected_goals": {
+        "home": 2.4475551385061656,
+        "away": 0.4552991406594471
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8135655330127134,
+        "draw": 0.13531103096511451,
+        "away_win": 0.051123436022172355
+      }
+    },
+    {
+      "match_id": 544571,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Athletic Club",
+      "away": "RC Celta de Vigo",
+      "expected_goals": {
+        "home": 0.9967359885034158,
+        "away": 0.9847809293209469
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3480240930352193,
+        "draw": 0.3102374698683844,
+        "away_win": 0.3417384370963965
+      }
+    },
+    {
+      "match_id": 544572,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Club Atlético de Madrid",
+      "away": "Girona FC",
+      "expected_goals": {
+        "home": 2.5162160367529918,
+        "away": 0.6875005561776607
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7716777217148572,
+        "draw": 0.14777336059200005,
+        "away_win": 0.08054891769314282
+      }
+    },
+    {
+      "match_id": 544573,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Barcelona",
+      "away": "Real Betis Balompié",
+      "expected_goals": {
+        "home": 2.7352642920773103,
+        "away": 1.237881980809897
+      },
+      "probabilities_1x2": {
+        "home_win": 0.688972307516478,
+        "draw": 0.1616835168917057,
+        "away_win": 0.14934417559181629
+      }
+    },
+    {
+      "match_id": 544574,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Elche CF",
+      "away": "Getafe CF",
+      "expected_goals": {
+        "home": 1.1771929647843182,
+        "away": 0.7470163452603029
+      },
+      "probabilities_1x2": {
+        "home_win": 0.46064192932606407,
+        "draw": 0.3055122288266439,
+        "away_win": 0.23384584184729196
+      }
+    },
+    {
+      "match_id": 544575,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Levante UD",
+      "away": "RCD Mallorca",
+      "expected_goals": {
+        "home": 1.347068649285104,
+        "away": 1.3355785952573098
+      },
+      "probabilities_1x2": {
+        "home_win": 0.37308355215413663,
+        "draw": 0.25914340895358273,
+        "away_win": 0.3677730388922805
+      }
+    },
+    {
+      "match_id": 544576,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Rayo Vallecano de Madrid",
+      "away": "Villarreal CF",
+      "expected_goals": {
+        "home": 0.8411478262689318,
+        "away": 1.2730540330304156
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2459262193628967,
+        "draw": 0.2890249608299773,
+        "away_win": 0.465048819807126
+      }
+    },
+    {
+      "match_id": 544577,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Sociedad de Fútbol",
+      "away": "Valencia CF",
+      "expected_goals": {
+        "home": 1.586823073332077,
+        "away": 0.9372163381824953
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5255510747645962,
+        "draw": 0.25166693984193617,
+        "away_win": 0.22278198539346758
+      }
+    },
+    {
+      "match_id": 544578,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Oviedo",
+      "away": "Deportivo Alavés",
+      "expected_goals": {
+        "home": 0.6459226966333892,
+        "away": 0.904609401129459
+      },
+      "probabilities_1x2": {
+        "home_win": 0.24765122688287583,
+        "draw": 0.3554132657129994,
+        "away_win": 0.39693550740412464
+      }
+    },
+    {
+      "match_id": 544579,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CA Osasuna",
+      "away": "RCD Espanyol de Barcelona",
+      "expected_goals": {
+        "home": 0.9801991495270426,
+        "away": 0.9522122294051417
+      },
+      "probabilities_1x2": {
+        "home_win": 0.34995715974848374,
+        "draw": 0.3149515978050213,
+        "away_win": 0.3350912424464952
+      }
+    },
+    {
+      "match_id": 544580,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sevilla FC",
+      "away": "Real Madrid CF",
+      "expected_goals": {
+        "home": 1.3639570262011045,
+        "away": 1.8635921652189402
+      },
+      "probabilities_1x2": {
+        "home_win": 0.28176940764963965,
+        "draw": 0.2257826369340631,
+        "away_win": 0.49244795541629727
+      }
+    },
+    {
+      "match_id": 544581,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Deportivo Alavés",
+      "away": "Rayo Vallecano de Madrid",
+      "expected_goals": {
+        "home": 0.869759628474918,
+        "away": 0.6781325398209954
+      },
+      "probabilities_1x2": {
+        "home_win": 0.37646887645402394,
+        "draw": 0.3579025521952332,
+        "away_win": 0.26562857135074275
+      }
+    },
+    {
+      "match_id": 544582,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Betis Balompié",
+      "away": "Levante UD",
+      "expected_goals": {
+        "home": 2.280102955490774,
+        "away": 0.8974502152039608
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6850562619948593,
+        "draw": 0.18193686615961685,
+        "away_win": 0.13300687184552396
+      }
+    },
+    {
+      "match_id": 544583,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RC Celta de Vigo",
+      "away": "Sevilla FC",
+      "expected_goals": {
+        "home": 1.5828881287017942,
+        "away": 1.1228056253913286
+      },
+      "probabilities_1x2": {
+        "home_win": 0.47998463305627914,
+        "draw": 0.25002277283864704,
+        "away_win": 0.2699925941050739
+      }
+    },
+    {
+      "match_id": 544584,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RCD Espanyol de Barcelona",
+      "away": "Real Sociedad de Fútbol",
+      "expected_goals": {
+        "home": 1.568894523410943,
+        "away": 0.9111243568687608
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5275286091413176,
+        "draw": 0.25366298526421416,
+        "away_win": 0.21880840559446835
+      }
+    },
+    {
+      "match_id": 544585,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Getafe CF",
+      "away": "CA Osasuna",
+      "expected_goals": {
+        "home": 0.9478430986642641,
+        "away": 0.7313501190821643
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3906397839271619,
+        "draw": 0.3400346810971823,
+        "away_win": 0.2693255349756558
+      }
+    },
+    {
+      "match_id": 544586,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RCD Mallorca",
+      "away": "Real Oviedo",
+      "expected_goals": {
+        "home": 1.501802272840521,
+        "away": 0.5785001172588795
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5986978157518339,
+        "draw": 0.2593684034775341,
+        "away_win": 0.14193378077063207
+      }
+    },
+    {
+      "match_id": 544587,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Real Madrid CF",
+      "away": "Athletic Club",
+      "expected_goals": {
+        "home": 2.1125027832883343,
+        "away": 0.6645371134687085
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7100829345620976,
+        "draw": 0.18545727179396304,
+        "away_win": 0.10445979364393929
+      }
+    },
+    {
+      "match_id": 544588,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Villarreal CF",
+      "away": "Club Atlético de Madrid",
+      "expected_goals": {
+        "home": 1.7085986836069125,
+        "away": 1.1094808692749436
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5138580689271162,
+        "draw": 0.2393288727148724,
+        "away_win": 0.24681305835801148
+      }
+    },
+    {
+      "match_id": 544589,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Valencia CF",
+      "away": "FC Barcelona",
+      "expected_goals": {
+        "home": 1.137966428342985,
+        "away": 2.43722483504398
+      },
+      "probabilities_1x2": {
+        "home_win": 0.16125463722733202,
+        "draw": 0.1793907718266317,
+        "away_win": 0.6593545909460361
+      }
+    },
+    {
+      "match_id": 544590,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Girona FC",
+      "away": "Elche CF",
+      "expected_goals": {
+        "home": 1.1168510001759262,
+        "away": 1.3191843077449028
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3150976765680582,
+        "draw": 0.27245608397213733,
+        "away_win": 0.4124462394598044
+      }
+    }
+  ]
+}

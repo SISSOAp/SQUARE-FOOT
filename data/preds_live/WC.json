@@ -1,0 +1,7 @@
+{
+  "competition": "WC",
+  "generated_at": "2025-12-20T18:06:02.220098+00:00",
+  "model_path": "data/models/WC.joblib",
+  "error": "model_not_found",
+  "predictions": []
+}

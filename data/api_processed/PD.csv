@@ -1,0 +1,165 @@
+date,home_team,away_team,home_goals,away_goals
+2025-08-15T17:00:00Z,Girona FC,Rayo Vallecano de Madrid,1,3
+2025-08-15T19:30:00Z,Villarreal CF,Real Oviedo,2,0
+2025-08-16T17:30:00Z,RCD Mallorca,FC Barcelona,0,3
+2025-08-16T19:30:00Z,Deportivo Alavés,Levante UD,2,1
+2025-08-16T19:30:00Z,Valencia CF,Real Sociedad de Fútbol,1,1
+2025-08-17T15:00:00Z,RC Celta de Vigo,Getafe CF,0,2
+2025-08-17T17:30:00Z,Athletic Club,Sevilla FC,3,2
+2025-08-17T19:30:00Z,RCD Espanyol de Barcelona,Club Atlético de Madrid,2,1
+2025-08-18T19:00:00Z,Elche CF,Real Betis Balompié,1,1
+2025-08-19T19:00:00Z,Real Madrid CF,CA Osasuna,1,0
+2025-08-22T19:30:00Z,Real Betis Balompié,Deportivo Alavés,1,0
+2025-08-23T15:00:00Z,RCD Mallorca,RC Celta de Vigo,1,1
+2025-08-23T17:30:00Z,Club Atlético de Madrid,Elche CF,1,1
+2025-08-23T19:30:00Z,Levante UD,FC Barcelona,2,3
+2025-08-24T15:00:00Z,CA Osasuna,Valencia CF,1,0
+2025-08-24T17:30:00Z,Real Sociedad de Fútbol,RCD Espanyol de Barcelona,2,2
+2025-08-24T17:30:00Z,Villarreal CF,Girona FC,5,0
+2025-08-24T19:30:00Z,Real Oviedo,Real Madrid CF,0,3
+2025-08-25T17:30:00Z,Athletic Club,Rayo Vallecano de Madrid,1,0
+2025-08-25T19:30:00Z,Sevilla FC,Getafe CF,1,2
+2025-08-27T19:00:00Z,RC Celta de Vigo,Real Betis Balompié,1,1
+2025-08-29T17:30:00Z,Elche CF,Levante UD,2,0
+2025-08-29T19:30:00Z,Valencia CF,Getafe CF,3,0
+2025-08-30T15:00:00Z,Deportivo Alavés,Club Atlético de Madrid,1,1
+2025-08-30T17:00:00Z,Real Oviedo,Real Sociedad de Fútbol,1,0
+2025-08-30T17:30:00Z,Girona FC,Sevilla FC,0,2
+2025-08-30T19:30:00Z,Real Madrid CF,RCD Mallorca,2,1
+2025-08-31T15:00:00Z,RC Celta de Vigo,Villarreal CF,1,1
+2025-08-31T17:00:00Z,Real Betis Balompié,Athletic Club,1,2
+2025-08-31T17:30:00Z,RCD Espanyol de Barcelona,CA Osasuna,1,0
+2025-08-31T19:30:00Z,Rayo Vallecano de Madrid,FC Barcelona,1,1
+2025-09-12T19:00:00Z,Sevilla FC,Elche CF,2,2
+2025-09-13T12:00:00Z,Getafe CF,Real Oviedo,2,0
+2025-09-13T14:15:00Z,Real Sociedad de Fútbol,Real Madrid CF,1,2
+2025-09-13T16:30:00Z,Athletic Club,Deportivo Alavés,0,1
+2025-09-13T19:00:00Z,Club Atlético de Madrid,Villarreal CF,2,0
+2025-09-14T12:00:00Z,RC Celta de Vigo,Girona FC,1,1
+2025-09-14T14:15:00Z,Levante UD,Real Betis Balompié,2,2
+2025-09-14T16:30:00Z,CA Osasuna,Rayo Vallecano de Madrid,2,0
+2025-09-14T19:00:00Z,FC Barcelona,Valencia CF,6,0
+2025-09-15T19:00:00Z,RCD Espanyol de Barcelona,RCD Mallorca,3,2
+2025-09-19T19:00:00Z,Real Betis Balompié,Real Sociedad de Fútbol,3,1
+2025-09-20T12:00:00Z,Girona FC,Levante UD,0,4
+2025-09-20T14:15:00Z,Real Madrid CF,RCD Espanyol de Barcelona,2,0
+2025-09-20T16:30:00Z,Villarreal CF,CA Osasuna,2,1
+2025-09-20T16:30:00Z,Deportivo Alavés,Sevilla FC,1,2
+2025-09-20T19:00:00Z,Valencia CF,Athletic Club,2,0
+2025-09-21T12:00:00Z,Rayo Vallecano de Madrid,RC Celta de Vigo,1,1
+2025-09-21T14:15:00Z,RCD Mallorca,Club Atlético de Madrid,1,1
+2025-09-21T16:30:00Z,Elche CF,Real Oviedo,1,0
+2025-09-21T19:00:00Z,FC Barcelona,Getafe CF,3,0
+2025-09-23T17:00:00Z,Athletic Club,Girona FC,1,1
+2025-09-23T17:00:00Z,RCD Espanyol de Barcelona,Valencia CF,2,2
+2025-09-23T19:30:00Z,Levante UD,Real Madrid CF,1,4
+2025-09-23T19:30:00Z,Sevilla FC,Villarreal CF,1,2
+2025-09-24T17:00:00Z,Getafe CF,Deportivo Alavés,1,1
+2025-09-24T19:30:00Z,Club Atlético de Madrid,Rayo Vallecano de Madrid,3,2
+2025-09-24T19:30:00Z,Real Sociedad de Fútbol,RCD Mallorca,1,0
+2025-09-25T17:30:00Z,CA Osasuna,Elche CF,1,1
+2025-09-25T19:30:00Z,Real Oviedo,FC Barcelona,1,3
+2025-09-26T19:00:00Z,Girona FC,RCD Espanyol de Barcelona,0,0
+2025-09-27T12:00:00Z,Getafe CF,Levante UD,1,1
+2025-09-27T14:15:00Z,Club Atlético de Madrid,Real Madrid CF,5,2
+2025-09-27T16:30:00Z,RCD Mallorca,Deportivo Alavés,1,0
+2025-09-27T19:00:00Z,Villarreal CF,Athletic Club,1,0
+2025-09-28T12:00:00Z,Rayo Vallecano de Madrid,Sevilla FC,0,1
+2025-09-28T14:15:00Z,Elche CF,RC Celta de Vigo,2,1
+2025-09-28T16:30:00Z,FC Barcelona,Real Sociedad de Fútbol,2,1
+2025-09-28T19:00:00Z,Real Betis Balompié,CA Osasuna,2,0
+2025-09-30T18:00:00Z,Valencia CF,Real Oviedo,1,2
+2025-10-03T19:00:00Z,CA Osasuna,Getafe CF,2,1
+2025-10-04T12:00:00Z,Real Oviedo,Levante UD,0,2
+2025-10-04T14:15:00Z,Girona FC,Valencia CF,2,1
+2025-10-04T16:30:00Z,Athletic Club,RCD Mallorca,2,1
+2025-10-04T19:00:00Z,Real Madrid CF,Villarreal CF,3,1
+2025-10-05T12:00:00Z,Deportivo Alavés,Elche CF,3,1
+2025-10-05T14:15:00Z,Sevilla FC,FC Barcelona,4,1
+2025-10-05T16:30:00Z,RCD Espanyol de Barcelona,Real Betis Balompié,1,2
+2025-10-05T16:30:00Z,Real Sociedad de Fútbol,Rayo Vallecano de Madrid,0,1
+2025-10-05T19:00:00Z,RC Celta de Vigo,Club Atlético de Madrid,1,1
+2025-10-17T19:00:00Z,Real Oviedo,RCD Espanyol de Barcelona,0,2
+2025-10-18T12:00:00Z,Sevilla FC,RCD Mallorca,1,3
+2025-10-18T14:15:00Z,FC Barcelona,Girona FC,2,1
+2025-10-18T16:30:00Z,Villarreal CF,Real Betis Balompié,2,2
+2025-10-18T19:00:00Z,Club Atlético de Madrid,CA Osasuna,1,0
+2025-10-19T12:00:00Z,Elche CF,Athletic Club,0,0
+2025-10-19T14:15:00Z,RC Celta de Vigo,Real Sociedad de Fútbol,1,1
+2025-10-19T16:30:00Z,Levante UD,Rayo Vallecano de Madrid,0,3
+2025-10-19T19:00:00Z,Getafe CF,Real Madrid CF,0,1
+2025-10-20T19:00:00Z,Deportivo Alavés,Valencia CF,0,0
+2025-10-24T19:00:00Z,Real Sociedad de Fútbol,Sevilla FC,2,1
+2025-10-25T12:00:00Z,Girona FC,Real Oviedo,3,3
+2025-10-25T14:15:00Z,RCD Espanyol de Barcelona,Elche CF,1,0
+2025-10-25T16:30:00Z,Athletic Club,Getafe CF,0,1
+2025-10-25T19:00:00Z,Valencia CF,Villarreal CF,0,2
+2025-10-26T13:00:00Z,RCD Mallorca,Levante UD,1,1
+2025-10-26T15:15:00Z,Real Madrid CF,FC Barcelona,2,1
+2025-10-26T17:30:00Z,CA Osasuna,RC Celta de Vigo,2,3
+2025-10-26T20:00:00Z,Rayo Vallecano de Madrid,Deportivo Alavés,1,0
+2025-10-27T20:00:00Z,Real Betis Balompié,Club Atlético de Madrid,0,2
+2025-10-31T20:00:00Z,Getafe CF,Girona FC,2,1
+2025-11-01T13:00:00Z,Villarreal CF,Rayo Vallecano de Madrid,4,0
+2025-11-01T15:15:00Z,Club Atlético de Madrid,Sevilla FC,3,0
+2025-11-01T17:30:00Z,Real Sociedad de Fútbol,Athletic Club,3,2
+2025-11-01T20:00:00Z,Real Madrid CF,Valencia CF,4,0
+2025-11-02T13:00:00Z,Levante UD,RC Celta de Vigo,1,2
+2025-11-02T15:15:00Z,Deportivo Alavés,RCD Espanyol de Barcelona,2,1
+2025-11-02T17:30:00Z,FC Barcelona,Elche CF,3,1
+2025-11-02T20:00:00Z,Real Betis Balompié,RCD Mallorca,3,0
+2025-11-03T20:00:00Z,Real Oviedo,CA Osasuna,0,0
+2025-11-07T20:00:00Z,Elche CF,Real Sociedad de Fútbol,1,1
+2025-11-08T13:00:00Z,Girona FC,Deportivo Alavés,1,0
+2025-11-08T15:15:00Z,Sevilla FC,CA Osasuna,1,0
+2025-11-08T17:30:00Z,Club Atlético de Madrid,Levante UD,3,1
+2025-11-08T20:00:00Z,RCD Espanyol de Barcelona,Villarreal CF,0,2
+2025-11-09T13:00:00Z,Athletic Club,Real Oviedo,1,0
+2025-11-09T15:15:00Z,Rayo Vallecano de Madrid,Real Madrid CF,0,0
+2025-11-09T17:30:00Z,Valencia CF,Real Betis Balompié,1,1
+2025-11-09T17:30:00Z,RCD Mallorca,Getafe CF,1,0
+2025-11-09T20:00:00Z,RC Celta de Vigo,FC Barcelona,2,4
+2025-11-21T20:00:00Z,Valencia CF,Levante UD,1,0
+2025-11-22T13:00:00Z,Deportivo Alavés,RC Celta de Vigo,0,1
+2025-11-22T15:15:00Z,FC Barcelona,Athletic Club,4,0
+2025-11-22T17:30:00Z,CA Osasuna,Real Sociedad de Fútbol,1,3
+2025-11-22T20:00:00Z,Villarreal CF,RCD Mallorca,2,1
+2025-11-23T13:00:00Z,Real Oviedo,Rayo Vallecano de Madrid,0,0
+2025-11-23T15:15:00Z,Real Betis Balompié,Girona FC,1,1
+2025-11-23T17:30:00Z,Getafe CF,Club Atlético de Madrid,0,1
+2025-11-23T20:00:00Z,Elche CF,Real Madrid CF,2,2
+2025-11-24T20:00:00Z,RCD Espanyol de Barcelona,Sevilla FC,2,1
+2025-11-28T20:00:00Z,Getafe CF,Elche CF,1,0
+2025-11-29T13:00:00Z,RCD Mallorca,CA Osasuna,2,2
+2025-11-29T15:15:00Z,FC Barcelona,Deportivo Alavés,3,1
+2025-11-29T17:30:00Z,Levante UD,Athletic Club,0,2
+2025-11-29T20:00:00Z,Club Atlético de Madrid,Real Oviedo,2,0
+2025-11-30T13:00:00Z,Real Sociedad de Fútbol,Villarreal CF,2,3
+2025-11-30T15:15:00Z,Sevilla FC,Real Betis Balompié,0,2
+2025-11-30T17:30:00Z,RC Celta de Vigo,RCD Espanyol de Barcelona,0,1
+2025-11-30T20:00:00Z,Girona FC,Real Madrid CF,1,1
+2025-12-01T20:00:00Z,Rayo Vallecano de Madrid,Valencia CF,1,1
+2025-12-02T20:00:00Z,FC Barcelona,Club Atlético de Madrid,3,1
+2025-12-03T18:00:00Z,Athletic Club,Real Madrid CF,0,3
+2025-12-05T20:00:00Z,Real Oviedo,RCD Mallorca,0,0
+2025-12-06T13:00:00Z,Villarreal CF,Getafe CF,2,0
+2025-12-06T15:15:00Z,Deportivo Alavés,Real Sociedad de Fútbol,1,0
+2025-12-06T17:30:00Z,Real Betis Balompié,FC Barcelona,3,5
+2025-12-06T20:00:00Z,Athletic Club,Club Atlético de Madrid,1,0
+2025-12-07T13:00:00Z,Elche CF,Girona FC,3,0
+2025-12-07T15:15:00Z,Valencia CF,Sevilla FC,1,1
+2025-12-07T17:30:00Z,RCD Espanyol de Barcelona,Rayo Vallecano de Madrid,1,0
+2025-12-07T20:00:00Z,Real Madrid CF,RC Celta de Vigo,0,2
+2025-12-08T20:00:00Z,CA Osasuna,Levante UD,2,0
+2025-12-12T20:00:00Z,Real Sociedad de Fútbol,Girona FC,1,2
+2025-12-13T13:00:00Z,Club Atlético de Madrid,Valencia CF,2,1
+2025-12-13T15:15:00Z,RCD Mallorca,Elche CF,3,1
+2025-12-13T17:30:00Z,FC Barcelona,CA Osasuna,2,0
+2025-12-13T20:00:00Z,Getafe CF,RCD Espanyol de Barcelona,0,1
+2025-12-14T13:00:00Z,Sevilla FC,Real Oviedo,4,0
+2025-12-14T15:15:00Z,RC Celta de Vigo,Athletic Club,2,0
+2025-12-14T20:00:00Z,Deportivo Alavés,Real Madrid CF,1,2
+2025-12-15T20:00:00Z,Rayo Vallecano de Madrid,Real Betis Balompié,0,0
+2025-12-19T20:00:00Z,Valencia CF,RCD Mallorca,1,1
+2025-12-20T13:00:00Z,Real Oviedo,RC Celta de Vigo,0,0
+2025-12-20T15:15:00Z,Levante UD,Real Sociedad de Fútbol,1,1

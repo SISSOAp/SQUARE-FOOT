@@ -1,0 +1,584 @@
+{
+  "competition": "CL",
+  "generated_at": "2025-12-20T18:06:04.378861+00:00",
+  "model_path": "data/models/CL.joblib",
+  "matches_fetched": 81,
+  "predictions": [
+    {
+      "match_id": 551996,
+      "utcDate": "2026-01-20T15:30:00Z",
+      "status": "TIMED",
+      "home": "FK Kairat",
+      "away": "Club Brugge KV",
+      "expected_goals": {
+        "home": 1.4020159304705464,
+        "away": 1.5069069773023342
+      },
+      "probabilities_1x2": {
+        "home_win": 0.35315135447870594,
+        "draw": 0.2469447013322619,
+        "away_win": 0.3999039441890321
+      }
+    },
+    {
+      "match_id": 551966,
+      "utcDate": "2026-01-20T17:45:00Z",
+      "status": "TIMED",
+      "home": "FK Bodø/Glimt",
+      "away": "Manchester City FC",
+      "expected_goals": {
+        "home": 1.2448585420855558,
+        "away": 1.430002977922603
+      },
+      "probabilities_1x2": {
+        "home_win": 0.328077848578219,
+        "draw": 0.258286639445807,
+        "away_win": 0.41363551197597387
+      }
+    },
+    {
+      "match_id": 551943,
+      "utcDate": "2026-01-20T20:00:00Z",
+      "status": "TIMED",
+      "home": "Tottenham Hotspur FC",
+      "away": "Borussia Dortmund",
+      "expected_goals": {
+        "home": 2.650282062752077,
+        "away": 1.3529919707180387
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6511917476893514,
+        "draw": 0.171871465146052,
+        "away_win": 0.17693678716459654
+      }
+    },
+    {
+      "match_id": 551962,
+      "utcDate": "2026-01-20T20:00:00Z",
+      "status": "TIMED",
+      "home": "Sporting Clube de Portugal",
+      "away": "Paris Saint-Germain FC",
+      "expected_goals": {
+        "home": 1.618022076233583,
+        "away": 1.7828069851061332
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3529670239164373,
+        "draw": 0.22564698789119597,
+        "away_win": 0.4213859881923666
+      }
+    },
+    {
+      "match_id": 551973,
+      "utcDate": "2026-01-20T20:00:00Z",
+      "status": "TIMED",
+      "home": "PAE Olympiakos SFP",
+      "away": "Bayer 04 Leverkusen",
+      "expected_goals": {
+        "home": 1.4158443987403424,
+        "away": 1.256838135632684
+      },
+      "probabilities_1x2": {
+        "home_win": 0.40739176134418703,
+        "draw": 0.258749278163369,
+        "away_win": 0.3338589604924441
+      }
+    },
+    {
+      "match_id": 552011,
+      "utcDate": "2026-01-20T20:00:00Z",
+      "status": "TIMED",
+      "home": "Villarreal CF",
+      "away": "AFC Ajax",
+      "expected_goals": {
+        "home": 1.802086345893358,
+        "away": 0.850258328711138
+      },
+      "probabilities_1x2": {
+        "home_win": 0.599029383183563,
+        "draw": 0.2276193211527392,
+        "away_win": 0.17335129566369775
+      }
+    },
+    {
+      "match_id": 552038,
+      "utcDate": "2026-01-20T20:00:00Z",
+      "status": "TIMED",
+      "home": "FC København",
+      "away": "SSC Napoli",
+      "expected_goals": {
+        "home": 1.715427421058863,
+        "away": 1.1010470750018515
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5174720901340897,
+        "draw": 0.23876679173701743,
+        "away_win": 0.24376111812889306
+      }
+    },
+    {
+      "match_id": 551929,
+      "utcDate": "2026-01-20T20:00:00Z",
+      "status": "TIMED",
+      "home": "Real Madrid CF",
+      "away": "AS Monaco FC",
+      "expected_goals": {
+        "home": 2.0785156802776994,
+        "away": 0.7053480953601756
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6935403085711322,
+        "draw": 0.19154695665864366,
+        "away_win": 0.11491273477022407
+      }
+    },
+    {
+      "match_id": 551933,
+      "utcDate": "2026-01-20T20:00:00Z",
+      "status": "TIMED",
+      "home": "FC Internazionale Milano",
+      "away": "Arsenal FC",
+      "expected_goals": {
+        "home": 0.8455151647908417,
+        "away": 1.0496825804482037
+      },
+      "probabilities_1x2": {
+        "home_win": 0.287281251072331,
+        "draw": 0.31635489114347853,
+        "away_win": 0.3963638577841905
+      }
+    },
+    {
+      "match_id": 552001,
+      "utcDate": "2026-01-21T17:45:00Z",
+      "status": "TIMED",
+      "home": "Qarabağ Ağdam FK",
+      "away": "Eintracht Frankfurt",
+      "expected_goals": {
+        "home": 2.3685549439292313,
+        "away": 1.4189003207998727
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5861101940587848,
+        "draw": 0.19240113418745877,
+        "away_win": 0.2214886717537563
+      }
+    },
+    {
+      "match_id": 552010,
+      "utcDate": "2026-01-21T17:45:00Z",
+      "status": "TIMED",
+      "home": "Galatasaray SK",
+      "away": "Club Atlético de Madrid",
+      "expected_goals": {
+        "home": 1.4413954703318952,
+        "away": 1.3713629118728508
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3898616033521549,
+        "draw": 0.2519692596984695,
+        "away_win": 0.3581691369493756
+      }
+    },
+    {
+      "match_id": 551949,
+      "utcDate": "2026-01-21T20:00:00Z",
+      "status": "TIMED",
+      "home": "Olympique de Marseille",
+      "away": "Liverpool FC",
+      "expected_goals": {
+        "home": 1.5908352791641258,
+        "away": 0.9641082347416171
+      },
+      "probabilities_1x2": {
+        "home_win": 0.51991410086874,
+        "draw": 0.2511364100715171,
+        "away_win": 0.22894948905974322
+      }
+    },
+    {
+      "match_id": 551956,
+      "utcDate": "2026-01-21T20:00:00Z",
+      "status": "TIMED",
+      "home": "SK Slavia Praha",
+      "away": "FC Barcelona",
+      "expected_goals": {
+        "home": 0.9535559585968199,
+        "away": 1.4095803117271273
+      },
+      "probabilities_1x2": {
+        "home_win": 0.25465695605166616,
+        "draw": 0.2700632792956699,
+        "away_win": 0.475279764652664
+      }
+    },
+    {
+      "match_id": 551986,
+      "utcDate": "2026-01-21T20:00:00Z",
+      "status": "TIMED",
+      "home": "Atalanta BC",
+      "away": "Athletic Club",
+      "expected_goals": {
+        "home": 1.188713505982285,
+        "away": 0.4280687849820429
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5535554675554193,
+        "draw": 0.3131640007308422,
+        "away_win": 0.1332805317137385
+      }
+    },
+    {
+      "match_id": 551988,
+      "utcDate": "2026-01-21T20:00:00Z",
+      "status": "TIMED",
+      "home": "Juventus FC",
+      "away": "Sport Lisboa e Benfica",
+      "expected_goals": {
+        "home": 1.7551818605159029,
+        "away": 0.7024534537499245
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6265042366719524,
+        "draw": 0.22858709689181225,
+        "away_win": 0.1449086664362353
+      }
+    },
+    {
+      "match_id": 552036,
+      "utcDate": "2026-01-21T20:00:00Z",
+      "status": "TIMED",
+      "home": "Newcastle United FC",
+      "away": "PSV",
+      "expected_goals": {
+        "home": 2.549035511187379,
+        "away": 1.0405548424936892
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6998333099876328,
+        "draw": 0.1663694600189364,
+        "away_win": 0.13379722999343072
+      }
+    },
+    {
+      "match_id": 551914,
+      "utcDate": "2026-01-21T20:00:00Z",
+      "status": "TIMED",
+      "home": "FC Bayern München",
+      "away": "Royale Union Saint-Gilloise",
+      "expected_goals": {
+        "home": 4.152185481723423,
+        "away": 0.6196649368143937
+      },
+      "probabilities_1x2": {
+        "home_win": 0.930908060561517,
+        "draw": 0.04915783091078324,
+        "away_win": 0.019934108527699636
+      }
+    },
+    {
+      "match_id": 551921,
+      "utcDate": "2026-01-21T20:00:00Z",
+      "status": "TIMED",
+      "home": "Chelsea FC",
+      "away": "Paphos FC",
+      "expected_goals": {
+        "home": 2.0587634318701173,
+        "away": 0.5148945068037276
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7379526006852227,
+        "draw": 0.1812128564340275,
+        "away_win": 0.08083454288074975
+      }
+    },
+    {
+      "match_id": 551950,
+      "utcDate": "2026-01-28T20:00:00Z",
+      "status": "TIMED",
+      "home": "Liverpool FC",
+      "away": "Qarabağ Ağdam FK",
+      "expected_goals": {
+        "home": 2.8859678997754252,
+        "away": 0.7827845092986884
+      },
+      "probabilities_1x2": {
+        "home_win": 0.80219426525721,
+        "draw": 0.1251392804216696,
+        "away_win": 0.07266645432112032
+      }
+    },
+    {
+      "match_id": 551957,
+      "utcDate": "2026-01-28T20:00:00Z",
+      "status": "TIMED",
+      "home": "FC Barcelona",
+      "away": "FC København",
+      "expected_goals": {
+        "home": 3.4776910563981134,
+        "away": 0.9147466079197786
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8439445182750684,
+        "draw": 0.09668372381207391,
+        "away_win": 0.059371757912857634
+      }
+    },
+    {
+      "match_id": 551967,
+      "utcDate": "2026-01-28T20:00:00Z",
+      "status": "TIMED",
+      "home": "Manchester City FC",
+      "away": "Galatasaray SK",
+      "expected_goals": {
+        "home": 1.8494450396495319,
+        "away": 0.5902051519717734
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6771039065023575,
+        "draw": 0.21171242138822108,
+        "away_win": 0.11118367210942148
+      }
+    },
+    {
+      "match_id": 551970,
+      "utcDate": "2026-01-28T20:00:00Z",
+      "status": "TIMED",
+      "home": "Bayer 04 Leverkusen",
+      "away": "Villarreal CF",
+      "expected_goals": {
+        "home": 2.1666501710501387,
+        "away": 0.6563039586466192
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7219822153548363,
+        "draw": 0.1791775401627817,
+        "away_win": 0.0988402444823821
+      }
+    },
+    {
+      "match_id": 551980,
+      "utcDate": "2026-01-28T20:00:00Z",
+      "status": "TIMED",
+      "home": "Arsenal FC",
+      "away": "FK Kairat",
+      "expected_goals": {
+        "home": 4.139017050715014,
+        "away": 0.28858181350589207
+      },
+      "probabilities_1x2": {
+        "home_win": 0.9620292307089998,
+        "draw": 0.03119203944937665,
+        "away_win": 0.006778729841623429
+      }
+    },
+    {
+      "match_id": 551987,
+      "utcDate": "2026-01-28T20:00:00Z",
+      "status": "TIMED",
+      "home": "Royale Union Saint-Gilloise",
+      "away": "Atalanta BC",
+      "expected_goals": {
+        "home": 1.0281777871075697,
+        "away": 1.1116331382064295
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3308277534772367,
+        "draw": 0.2958545191144331,
+        "away_win": 0.3733177274083303
+      }
+    },
+    {
+      "match_id": 551993,
+      "utcDate": "2026-01-28T20:00:00Z",
+      "status": "TIMED",
+      "home": "Club Brugge KV",
+      "away": "Olympique de Marseille",
+      "expected_goals": {
+        "home": 1.5074108103551982,
+        "away": 1.449321112288654
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3904006392051057,
+        "draw": 0.24491103187813676,
+        "away_win": 0.36468832891675756
+      }
+    },
+    {
+      "match_id": 551998,
+      "utcDate": "2026-01-28T20:00:00Z",
+      "status": "TIMED",
+      "home": "Eintracht Frankfurt",
+      "away": "Tottenham Hotspur FC",
+      "expected_goals": {
+        "home": 1.2617315573032666,
+        "away": 1.732578437127206
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2792339450465246,
+        "draw": 0.23604965219465254,
+        "away_win": 0.4847164027588231
+      }
+    },
+    {
+      "match_id": 552006,
+      "utcDate": "2026-01-28T20:00:00Z",
+      "status": "TIMED",
+      "home": "AS Monaco FC",
+      "away": "Juventus FC",
+      "expected_goals": {
+        "home": 1.4647495180058452,
+        "away": 1.0760413612447883
+      },
+      "probabilities_1x2": {
+        "home_win": 0.46067853133624903,
+        "draw": 0.26142149103093365,
+        "away_win": 0.27789997763281715
+      }
+    },
+    {
+      "match_id": 552007,
+      "utcDate": "2026-01-28T20:00:00Z",
+      "status": "TIMED",
+      "home": "Club Atlético de Madrid",
+      "away": "FK Bodø/Glimt",
+      "expected_goals": {
+        "home": 3.1130118876844297,
+        "away": 1.0355409875731205
+      },
+      "probabilities_1x2": {
+        "home_win": 0.782778208605988,
+        "draw": 0.12581373004935778,
+        "away_win": 0.09140806134465414
+      }
+    },
+    {
+      "match_id": 552028,
+      "utcDate": "2026-01-28T20:00:00Z",
+      "status": "TIMED",
+      "home": "Athletic Club",
+      "away": "Sporting Clube de Portugal",
+      "expected_goals": {
+        "home": 0.9038493700980761,
+        "away": 0.9140763192056481
+      },
+      "probabilities_1x2": {
+        "home_win": 0.333771283046019,
+        "draw": 0.32688948804653667,
+        "away_win": 0.3393392289074444
+      }
+    },
+    {
+      "match_id": 552030,
+      "utcDate": "2026-01-28T20:00:00Z",
+      "status": "TIMED",
+      "home": "AFC Ajax",
+      "away": "PAE Olympiakos SFP",
+      "expected_goals": {
+        "home": 1.4480191861835812,
+        "away": 1.32419892855784
+      },
+      "probabilities_1x2": {
+        "home_win": 0.40133084834591004,
+        "draw": 0.2537086934294334,
+        "away_win": 0.3449604582246567
+      }
+    },
+    {
+      "match_id": 552050,
+      "utcDate": "2026-01-28T20:00:00Z",
+      "status": "TIMED",
+      "home": "Paris Saint-Germain FC",
+      "away": "Newcastle United FC",
+      "expected_goals": {
+        "home": 2.7875220558849687,
+        "away": 1.1065386161173576
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7239195763400197,
+        "draw": 0.15185739559340086,
+        "away_win": 0.12422302806657945
+      }
+    },
+    {
+      "match_id": 552051,
+      "utcDate": "2026-01-28T20:00:00Z",
+      "status": "TIMED",
+      "home": "Paphos FC",
+      "away": "SK Slavia Praha",
+      "expected_goals": {
+        "home": 1.1396682446133632,
+        "away": 0.5564252154292151
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5005272309132679,
+        "draw": 0.31948862212654217,
+        "away_win": 0.1799841469601897
+      }
+    },
+    {
+      "match_id": 551913,
+      "utcDate": "2026-01-28T20:00:00Z",
+      "status": "TIMED",
+      "home": "PSV",
+      "away": "FC Bayern München",
+      "expected_goals": {
+        "home": 1.6372798972856923,
+        "away": 2.100574164437265
+      },
+      "probabilities_1x2": {
+        "home_win": 0.30365025794992856,
+        "draw": 0.2096320744226357,
+        "away_win": 0.4867176676274356
+      }
+    },
+    {
+      "match_id": 551920,
+      "utcDate": "2026-01-28T20:00:00Z",
+      "status": "TIMED",
+      "home": "SSC Napoli",
+      "away": "Chelsea FC",
+      "expected_goals": {
+        "home": 1.0142472202013375,
+        "away": 1.315279547311838
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2876043017260498,
+        "draw": 0.2774892111309627,
+        "away_win": 0.4349064871429878
+      }
+    },
+    {
+      "match_id": 551926,
+      "utcDate": "2026-01-28T20:00:00Z",
+      "status": "TIMED",
+      "home": "Sport Lisboa e Benfica",
+      "away": "Real Madrid CF",
+      "expected_goals": {
+        "home": 0.9930944470207834,
+        "away": 1.1548181332939484
+      },
+      "probabilities_1x2": {
+        "home_win": 0.31181517797154223,
+        "draw": 0.2942353123313037,
+        "away_win": 0.39394950969715425
+      }
+    },
+    {
+      "match_id": 551932,
+      "utcDate": "2026-01-28T20:00:00Z",
+      "status": "TIMED",
+      "home": "Borussia Dortmund",
+      "away": "FC Internazionale Milano",
+      "expected_goals": {
+        "home": 1.9031025789713019,
+        "away": 1.4131044091231575
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4907063791275881,
+        "draw": 0.22278529007976944,
+        "away_win": 0.2865083307926424
+      }
+    }
+  ]
+}

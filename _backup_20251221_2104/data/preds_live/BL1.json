@@ -1,0 +1,2776 @@
+{
+  "competition": "BL1",
+  "generated_at": "2025-12-20T18:06:06.512763+00:00",
+  "model_path": "data/models/BL1.joblib",
+  "matches_fetched": 173,
+  "predictions": [
+    {
+      "match_id": 540533,
+      "utcDate": "2025-12-21T14:30:00Z",
+      "status": "TIMED",
+      "home": "1. FSV Mainz 05",
+      "away": "FC St. Pauli 1910",
+      "expected_goals": {
+        "home": 1.2346707201805034,
+        "away": 0.7335953340253215
+      },
+      "probabilities_1x2": {
+        "home_win": 0.48149337328484554,
+        "draw": 0.29793529212570186,
+        "away_win": 0.22057133458945236
+      }
+    },
+    {
+      "match_id": 540538,
+      "utcDate": "2025-12-21T16:30:00Z",
+      "status": "TIMED",
+      "home": "1. FC Heidenheim 1846",
+      "away": "FC Bayern München",
+      "expected_goals": {
+        "home": 0.6534344982401198,
+        "away": 3.2007738637363032
+      },
+      "probabilities_1x2": {
+        "home_win": 0.04489881923176469,
+        "draw": 0.09488245874544585,
+        "away_win": 0.8602187220227895
+      }
+    },
+    {
+      "match_id": 540543,
+      "utcDate": "2026-01-09T19:30:00Z",
+      "status": "TIMED",
+      "home": "Eintracht Frankfurt",
+      "away": "Borussia Dortmund",
+      "expected_goals": {
+        "home": 1.2147849872826626,
+        "away": 1.5222022307656984
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3035154743784294,
+        "draw": 0.25268162093264307,
+        "away_win": 0.44380290468892747
+      }
+    },
+    {
+      "match_id": 540544,
+      "utcDate": "2026-01-10T14:30:00Z",
+      "status": "TIMED",
+      "home": "SC Freiburg",
+      "away": "Hamburger SV",
+      "expected_goals": {
+        "home": 1.8483924523398365,
+        "away": 0.8250379172697255
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6158131489661673,
+        "draw": 0.22187728758110034,
+        "away_win": 0.16230956345273231
+      }
+    },
+    {
+      "match_id": 540545,
+      "utcDate": "2026-01-10T14:30:00Z",
+      "status": "TIMED",
+      "home": "SV Werder Bremen",
+      "away": "TSG 1899 Hoffenheim",
+      "expected_goals": {
+        "home": 1.1180784260412158,
+        "away": 1.4805597902327914
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2861038592609781,
+        "draw": 0.258854283281282,
+        "away_win": 0.4550418574577399
+      }
+    },
+    {
+      "match_id": 540547,
+      "utcDate": "2026-01-10T14:30:00Z",
+      "status": "TIMED",
+      "home": "1. FC Union Berlin",
+      "away": "1. FSV Mainz 05",
+      "expected_goals": {
+        "home": 1.5541768335938388,
+        "away": 0.675885270396055
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5851955539988349,
+        "draw": 0.2538274967618292,
+        "away_win": 0.1609769492393361
+      }
+    },
+    {
+      "match_id": 540548,
+      "utcDate": "2026-01-10T14:30:00Z",
+      "status": "TIMED",
+      "home": "FC St. Pauli 1910",
+      "away": "RB Leipzig",
+      "expected_goals": {
+        "home": 0.8031942584047318,
+        "away": 1.4819180597488515
+      },
+      "probabilities_1x2": {
+        "home_win": 0.20335220947472749,
+        "draw": 0.2640691088394249,
+        "away_win": 0.5325786816858479
+      }
+    },
+    {
+      "match_id": 540549,
+      "utcDate": "2026-01-10T14:30:00Z",
+      "status": "TIMED",
+      "home": "1. FC Heidenheim 1846",
+      "away": "1. FC Köln",
+      "expected_goals": {
+        "home": 1.1090260563320409,
+        "away": 1.3303082787076363
+      },
+      "probabilities_1x2": {
+        "home_win": 0.31086713222436635,
+        "draw": 0.2718999474197017,
+        "away_win": 0.41723292035593185
+      }
+    },
+    {
+      "match_id": 540542,
+      "utcDate": "2026-01-10T17:30:00Z",
+      "status": "TIMED",
+      "home": "Bayer 04 Leverkusen",
+      "away": "VfB Stuttgart",
+      "expected_goals": {
+        "home": 2.0231681403386257,
+        "away": 1.0155782142928194
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6068810892398342,
+        "draw": 0.2100071466309505,
+        "away_win": 0.18311176412921515
+      }
+    },
+    {
+      "match_id": 540546,
+      "utcDate": "2026-01-11T14:30:00Z",
+      "status": "TIMED",
+      "home": "Borussia Mönchengladbach",
+      "away": "FC Augsburg",
+      "expected_goals": {
+        "home": 1.5164471866055254,
+        "away": 0.8281301968718867
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5351621389544211,
+        "draw": 0.25982143902485344,
+        "away_win": 0.20501642202072554
+      }
+    },
+    {
+      "match_id": 540541,
+      "utcDate": "2026-01-11T16:30:00Z",
+      "status": "TIMED",
+      "home": "FC Bayern München",
+      "away": "VfL Wolfsburg",
+      "expected_goals": {
+        "home": 4.766760302928419,
+        "away": 0.624629968151087
+      },
+      "probabilities_1x2": {
+        "home_win": 0.9548992733390338,
+        "draw": 0.03258279175561042,
+        "away_win": 0.012517934905355797
+      }
+    },
+    {
+      "match_id": 540553,
+      "utcDate": "2026-01-13T17:30:00Z",
+      "status": "TIMED",
+      "home": "VfB Stuttgart",
+      "away": "Eintracht Frankfurt",
+      "expected_goals": {
+        "home": 2.3295866477960945,
+        "away": 1.2546235710720948
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6138984086375966,
+        "draw": 0.19139351224413945,
+        "away_win": 0.19470807911826402
+      }
+    },
+    {
+      "match_id": 540550,
+      "utcDate": "2026-01-13T19:30:00Z",
+      "status": "TIMED",
+      "home": "Borussia Dortmund",
+      "away": "SV Werder Bremen",
+      "expected_goals": {
+        "home": 2.147793822591095,
+        "away": 0.47715962700813663
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7630550891687329,
+        "draw": 0.1680207949592398,
+        "away_win": 0.06892411587202735
+      }
+    },
+    {
+      "match_id": 540551,
+      "utcDate": "2026-01-13T19:30:00Z",
+      "status": "TIMED",
+      "home": "1. FSV Mainz 05",
+      "away": "1. FC Heidenheim 1846",
+      "expected_goals": {
+        "home": 1.5117306856054955,
+        "away": 0.7195558578794117
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5624969139553408,
+        "draw": 0.26008638867733713,
+        "away_win": 0.17741669736732207
+      }
+    },
+    {
+      "match_id": 540558,
+      "utcDate": "2026-01-13T19:30:00Z",
+      "status": "TIMED",
+      "home": "Hamburger SV",
+      "away": "Bayer 04 Leverkusen",
+      "expected_goals": {
+        "home": 1.1103610632499685,
+        "away": 1.384371527488679
+      },
+      "probabilities_1x2": {
+        "home_win": 0.30121145081352985,
+        "draw": 0.26728302677277277,
+        "away_win": 0.4315055224136975
+      }
+    },
+    {
+      "match_id": 540554,
+      "utcDate": "2026-01-14T17:30:00Z",
+      "status": "TIMED",
+      "home": "VfL Wolfsburg",
+      "away": "FC St. Pauli 1910",
+      "expected_goals": {
+        "home": 1.7997156442345428,
+        "away": 0.8653880150209022
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5946743169620088,
+        "draw": 0.2282411290574896,
+        "away_win": 0.17708455398050146
+      }
+    },
+    {
+      "match_id": 540552,
+      "utcDate": "2026-01-14T19:30:00Z",
+      "status": "TIMED",
+      "home": "RB Leipzig",
+      "away": "SC Freiburg",
+      "expected_goals": {
+        "home": 2.2894323623714397,
+        "away": 0.8194671374759945
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7048645414257202,
+        "draw": 0.17694020501304497,
+        "away_win": 0.11819525356123503
+      }
+    },
+    {
+      "match_id": 540556,
+      "utcDate": "2026-01-14T19:30:00Z",
+      "status": "TIMED",
+      "home": "TSG 1899 Hoffenheim",
+      "away": "Borussia Mönchengladbach",
+      "expected_goals": {
+        "home": 2.1202679394434014,
+        "away": 0.6991894978695544
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7029612900315932,
+        "draw": 0.18674818380231842,
+        "away_win": 0.1102905261660884
+      }
+    },
+    {
+      "match_id": 540557,
+      "utcDate": "2026-01-14T19:30:00Z",
+      "status": "TIMED",
+      "home": "1. FC Köln",
+      "away": "FC Bayern München",
+      "expected_goals": {
+        "home": 0.9572349429771517,
+        "away": 2.4534410661036348
+      },
+      "probabilities_1x2": {
+        "home_win": 0.12812582562187302,
+        "draw": 0.16990210151329707,
+        "away_win": 0.7019720728648298
+      }
+    },
+    {
+      "match_id": 540555,
+      "utcDate": "2026-01-15T19:30:00Z",
+      "status": "TIMED",
+      "home": "FC Augsburg",
+      "away": "1. FC Union Berlin",
+      "expected_goals": {
+        "home": 1.2259509769186496,
+        "away": 1.0590982669002884
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3995182001721564,
+        "draw": 0.28351515464035315,
+        "away_win": 0.3169666451874904
+      }
+    },
+    {
+      "match_id": 540560,
+      "utcDate": "2026-01-16T19:30:00Z",
+      "status": "TIMED",
+      "home": "SV Werder Bremen",
+      "away": "Eintracht Frankfurt",
+      "expected_goals": {
+        "home": 1.7039222538316654,
+        "away": 1.513386406390574
+      },
+      "probabilities_1x2": {
+        "home_win": 0.42431203599520584,
+        "draw": 0.23247293131501048,
+        "away_win": 0.3432150326897838
+      }
+    },
+    {
+      "match_id": 540561,
+      "utcDate": "2026-01-17T14:30:00Z",
+      "status": "TIMED",
+      "home": "TSG 1899 Hoffenheim",
+      "away": "Bayer 04 Leverkusen",
+      "expected_goals": {
+        "home": 1.8501039483243509,
+        "away": 1.1349340381764246
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5409088106828579,
+        "draw": 0.2272123779542924,
+        "away_win": 0.23187881136284957
+      }
+    },
+    {
+      "match_id": 540563,
+      "utcDate": "2026-01-17T14:30:00Z",
+      "status": "TIMED",
+      "home": "1. FC Köln",
+      "away": "1. FSV Mainz 05",
+      "expected_goals": {
+        "home": 1.6794469875974436,
+        "away": 0.7272935976664775
+      },
+      "probabilities_1x2": {
+        "home_win": 0.602239930955625,
+        "draw": 0.23870838368579145,
+        "away_win": 0.15905168535858358
+      }
+    },
+    {
+      "match_id": 540564,
+      "utcDate": "2026-01-17T14:30:00Z",
+      "status": "TIMED",
+      "home": "Hamburger SV",
+      "away": "Borussia Mönchengladbach",
+      "expected_goals": {
+        "home": 1.272503075163676,
+        "away": 0.8528584046390654
+      },
+      "probabilities_1x2": {
+        "home_win": 0.46194591337541585,
+        "draw": 0.2886532160099312,
+        "away_win": 0.24940087061465277
+      }
+    },
+    {
+      "match_id": 540566,
+      "utcDate": "2026-01-17T14:30:00Z",
+      "status": "TIMED",
+      "home": "Borussia Dortmund",
+      "away": "FC St. Pauli 1910",
+      "expected_goals": {
+        "home": 2.056620347699836,
+        "away": 0.3978389710468519
+      },
+      "probabilities_1x2": {
+        "home_win": 0.767769846179015,
+        "draw": 0.17195749513258282,
+        "away_win": 0.06027265868840212
+      }
+    },
+    {
+      "match_id": 540567,
+      "utcDate": "2026-01-17T14:30:00Z",
+      "status": "TIMED",
+      "home": "VfL Wolfsburg",
+      "away": "1. FC Heidenheim 1846",
+      "expected_goals": {
+        "home": 2.203571624631925,
+        "away": 0.848826303365546
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6823538808778037,
+        "draw": 0.18661384117184424,
+        "away_win": 0.13103227795035216
+      }
+    },
+    {
+      "match_id": 540559,
+      "utcDate": "2026-01-17T17:30:00Z",
+      "status": "TIMED",
+      "home": "RB Leipzig",
+      "away": "FC Bayern München",
+      "expected_goals": {
+        "home": 1.3056107587496795,
+        "away": 1.742859702085055
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2878796104957003,
+        "draw": 0.23470618985703054,
+        "away_win": 0.4774141996472692
+      }
+    },
+    {
+      "match_id": 540565,
+      "utcDate": "2026-01-18T14:30:00Z",
+      "status": "TIMED",
+      "home": "VfB Stuttgart",
+      "away": "1. FC Union Berlin",
+      "expected_goals": {
+        "home": 1.7229888837711007,
+        "away": 0.8704928737494726
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5755532391333622,
+        "draw": 0.2366356136060052,
+        "away_win": 0.18781114726063247
+      }
+    },
+    {
+      "match_id": 540562,
+      "utcDate": "2026-01-18T16:30:00Z",
+      "status": "TIMED",
+      "home": "FC Augsburg",
+      "away": "SC Freiburg",
+      "expected_goals": {
+        "home": 1.3629637128454115,
+        "away": 1.2947142796909197
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3856424511068307,
+        "draw": 0.2603825804757242,
+        "away_win": 0.35397496841744513
+      }
+    },
+    {
+      "match_id": 540576,
+      "utcDate": "2026-01-23T19:30:00Z",
+      "status": "TIMED",
+      "home": "FC St. Pauli 1910",
+      "away": "Hamburger SV",
+      "expected_goals": {
+        "home": 1.137098109299643,
+        "away": 0.8508550559793061
+      },
+      "probabilities_1x2": {
+        "home_win": 0.42223905127469996,
+        "draw": 0.30521720672910685,
+        "away_win": 0.2725437419961931
+      }
+    },
+    {
+      "match_id": 540569,
+      "utcDate": "2026-01-24T14:30:00Z",
+      "status": "TIMED",
+      "home": "1. FC Heidenheim 1846",
+      "away": "RB Leipzig",
+      "expected_goals": {
+        "home": 0.7878228048139219,
+        "away": 1.8144602992997034
+      },
+      "probabilities_1x2": {
+        "home_win": 0.15780903525132875,
+        "draw": 0.22447277002831453,
+        "away_win": 0.6177181947203568
+      }
+    },
+    {
+      "match_id": 540570,
+      "utcDate": "2026-01-24T14:30:00Z",
+      "status": "TIMED",
+      "home": "Bayer 04 Leverkusen",
+      "away": "SV Werder Bremen",
+      "expected_goals": {
+        "home": 2.4404412861577187,
+        "away": 0.7428211873884436
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7477630601370924,
+        "draw": 0.15834961349570792,
+        "away_win": 0.09388732636719982
+      }
+    },
+    {
+      "match_id": 540572,
+      "utcDate": "2026-01-24T14:30:00Z",
+      "status": "TIMED",
+      "home": "1. FSV Mainz 05",
+      "away": "VfL Wolfsburg",
+      "expected_goals": {
+        "home": 1.4130497356662886,
+        "away": 1.0958991061397867
+      },
+      "probabilities_1x2": {
+        "home_win": 0.44245390511204824,
+        "draw": 0.2653638400680833,
+        "away_win": 0.2921822548198685
+      }
+    },
+    {
+      "match_id": 540573,
+      "utcDate": "2026-01-24T14:30:00Z",
+      "status": "TIMED",
+      "home": "FC Bayern München",
+      "away": "FC Augsburg",
+      "expected_goals": {
+        "home": 4.38722720930461,
+        "away": 0.48784840996004425
+      },
+      "probabilities_1x2": {
+        "home_win": 0.9531908451829048,
+        "draw": 0.035297242040761664,
+        "away_win": 0.01151191277633374
+      }
+    },
+    {
+      "match_id": 540574,
+      "utcDate": "2026-01-24T14:30:00Z",
+      "status": "TIMED",
+      "home": "Eintracht Frankfurt",
+      "away": "TSG 1899 Hoffenheim",
+      "expected_goals": {
+        "home": 1.7865809176322969,
+        "away": 1.6718257797921048
+      },
+      "probabilities_1x2": {
+        "home_win": 0.41168708509026586,
+        "draw": 0.2239330276237692,
+        "away_win": 0.3643798872859648
+      }
+    },
+    {
+      "match_id": 540568,
+      "utcDate": "2026-01-24T17:30:00Z",
+      "status": "TIMED",
+      "home": "1. FC Union Berlin",
+      "away": "Borussia Dortmund",
+      "expected_goals": {
+        "home": 0.8428517516722441,
+        "away": 1.1258381502753338
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2721534326383049,
+        "draw": 0.30709857054305845,
+        "away_win": 0.4207479968186365
+      }
+    },
+    {
+      "match_id": 540571,
+      "utcDate": "2026-01-25T14:30:00Z",
+      "status": "TIMED",
+      "home": "Borussia Mönchengladbach",
+      "away": "VfB Stuttgart",
+      "expected_goals": {
+        "home": 1.2463965909613057,
+        "away": 1.1638794294301673
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3821565609855029,
+        "draw": 0.27563063238049745,
+        "away_win": 0.34221280663399944
+      }
+    },
+    {
+      "match_id": 540575,
+      "utcDate": "2026-01-25T16:30:00Z",
+      "status": "TIMED",
+      "home": "SC Freiburg",
+      "away": "1. FC Köln",
+      "expected_goals": {
+        "home": 1.8379345686873019,
+        "away": 1.0535310475650512
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5573106655037245,
+        "draw": 0.22762519621550037,
+        "away_win": 0.2150641382807751
+      }
+    },
+    {
+      "match_id": 540582,
+      "utcDate": "2026-01-30T19:30:00Z",
+      "status": "TIMED",
+      "home": "1. FC Köln",
+      "away": "VfL Wolfsburg",
+      "expected_goals": {
+        "home": 1.9811648568631974,
+        "away": 1.0601382573327927
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5874258973876558,
+        "draw": 0.21484892098457573,
+        "away_win": 0.19772518162776856
+      }
+    },
+    {
+      "match_id": 540578,
+      "utcDate": "2026-01-31T14:30:00Z",
+      "status": "TIMED",
+      "home": "Eintracht Frankfurt",
+      "away": "Bayer 04 Leverkusen",
+      "expected_goals": {
+        "home": 1.8911240088205854,
+        "away": 1.7296097655036582
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4235935822906083,
+        "draw": 0.21798500176730212,
+        "away_win": 0.3584214159420895
+      }
+    },
+    {
+      "match_id": 540580,
+      "utcDate": "2026-01-31T14:30:00Z",
+      "status": "TIMED",
+      "home": "RB Leipzig",
+      "away": "1. FSV Mainz 05",
+      "expected_goals": {
+        "home": 2.2906644516520744,
+        "away": 0.5166501533172845
+      },
+      "probabilities_1x2": {
+        "home_win": 0.776541360474015,
+        "draw": 0.15594658009981113,
+        "away_win": 0.06751205942617391
+      }
+    },
+    {
+      "match_id": 540581,
+      "utcDate": "2026-01-31T14:30:00Z",
+      "status": "TIMED",
+      "home": "SV Werder Bremen",
+      "away": "Borussia Mönchengladbach",
+      "expected_goals": {
+        "home": 1.3563263569569646,
+        "away": 0.9436421607436555
+      },
+      "probabilities_1x2": {
+        "home_win": 0.46315978567936156,
+        "draw": 0.27597712008315617,
+        "away_win": 0.2608630942374822
+      }
+    },
+    {
+      "match_id": 540583,
+      "utcDate": "2026-01-31T14:30:00Z",
+      "status": "TIMED",
+      "home": "TSG 1899 Hoffenheim",
+      "away": "1. FC Union Berlin",
+      "expected_goals": {
+        "home": 1.970062150087301,
+        "away": 0.7780171427999851
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6537583236851507,
+        "draw": 0.2069037944200094,
+        "away_win": 0.13933788189483998
+      }
+    },
+    {
+      "match_id": 540584,
+      "utcDate": "2026-01-31T14:30:00Z",
+      "status": "TIMED",
+      "home": "FC Augsburg",
+      "away": "FC St. Pauli 1910",
+      "expected_goals": {
+        "home": 1.405613659586164,
+        "away": 0.7964851607439475
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5138125623015413,
+        "draw": 0.2736331769323964,
+        "away_win": 0.2125542607660622
+      }
+    },
+    {
+      "match_id": 540577,
+      "utcDate": "2026-01-31T17:30:00Z",
+      "status": "TIMED",
+      "home": "Hamburger SV",
+      "away": "FC Bayern München",
+      "expected_goals": {
+        "home": 0.7496268150017759,
+        "away": 2.4674011937680205
+      },
+      "probabilities_1x2": {
+        "home_win": 0.09312055787195606,
+        "draw": 0.15640087862683888,
+        "away_win": 0.7504785635012052
+      }
+    },
+    {
+      "match_id": 540579,
+      "utcDate": "2026-02-01T14:30:00Z",
+      "status": "TIMED",
+      "home": "VfB Stuttgart",
+      "away": "SC Freiburg",
+      "expected_goals": {
+        "home": 1.9155507605357223,
+        "away": 1.0641501258529915
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5721883218528314,
+        "draw": 0.2207662572725958,
+        "away_win": 0.20704542087457295
+      }
+    },
+    {
+      "match_id": 540585,
+      "utcDate": "2026-02-01T16:30:00Z",
+      "status": "TIMED",
+      "home": "Borussia Dortmund",
+      "away": "1. FC Heidenheim 1846",
+      "expected_goals": {
+        "home": 2.5181257135537765,
+        "away": 0.39022516751667186
+      },
+      "probabilities_1x2": {
+        "home_win": 0.837038572267909,
+        "draw": 0.12289366698922954,
+        "away_win": 0.04006776074286138
+      }
+    },
+    {
+      "match_id": 540587,
+      "utcDate": "2026-02-06T19:30:00Z",
+      "status": "TIMED",
+      "home": "1. FC Union Berlin",
+      "away": "Eintracht Frankfurt",
+      "expected_goals": {
+        "home": 1.8890870723535986,
+        "away": 1.2639168484471262
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5202626967277877,
+        "draw": 0.2244348168653389,
+        "away_win": 0.2553024864068736
+      }
+    },
+    {
+      "match_id": 540588,
+      "utcDate": "2026-02-07T14:30:00Z",
+      "status": "TIMED",
+      "home": "VfL Wolfsburg",
+      "away": "Borussia Dortmund",
+      "expected_goals": {
+        "home": 0.9469054967066428,
+        "away": 1.4773218630366831
+      },
+      "probabilities_1x2": {
+        "home_win": 0.24194254586512065,
+        "draw": 0.26308761815761533,
+        "away_win": 0.494969835977264
+      }
+    },
+    {
+      "match_id": 540590,
+      "utcDate": "2026-02-07T14:30:00Z",
+      "status": "TIMED",
+      "home": "SC Freiburg",
+      "away": "SV Werder Bremen",
+      "expected_goals": {
+        "home": 2.04514728135486,
+        "away": 0.8793854368783149
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6441270255428692,
+        "draw": 0.20339098621307036,
+        "away_win": 0.15248198824406023
+      }
+    },
+    {
+      "match_id": 540591,
+      "utcDate": "2026-02-07T14:30:00Z",
+      "status": "TIMED",
+      "home": "FC St. Pauli 1910",
+      "away": "VfB Stuttgart",
+      "expected_goals": {
+        "home": 1.0430183616616764,
+        "away": 1.2399096444426791
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3097140221619925,
+        "draw": 0.2831689655930165,
+        "away_win": 0.4071170122449908
+      }
+    },
+    {
+      "match_id": 540592,
+      "utcDate": "2026-02-07T14:30:00Z",
+      "status": "TIMED",
+      "home": "1. FSV Mainz 05",
+      "away": "FC Augsburg",
+      "expected_goals": {
+        "home": 1.3005416371801404,
+        "away": 0.8559189658950377
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4692221330193309,
+        "draw": 0.28517349747109094,
+        "away_win": 0.24560436950957815
+      }
+    },
+    {
+      "match_id": 540594,
+      "utcDate": "2026-02-07T14:30:00Z",
+      "status": "TIMED",
+      "home": "1. FC Heidenheim 1846",
+      "away": "Hamburger SV",
+      "expected_goals": {
+        "home": 1.115336436289165,
+        "away": 1.041786831179128
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3714087726683314,
+        "draw": 0.2945056951581128,
+        "away_win": 0.3340855321735558
+      }
+    },
+    {
+      "match_id": 540586,
+      "utcDate": "2026-02-07T17:30:00Z",
+      "status": "TIMED",
+      "home": "Borussia Mönchengladbach",
+      "away": "Bayer 04 Leverkusen",
+      "expected_goals": {
+        "home": 1.179172971543863,
+        "away": 1.3767736802118937
+      },
+      "probabilities_1x2": {
+        "home_win": 0.32093885451439397,
+        "draw": 0.2649973515585008,
+        "away_win": 0.41406379392710524
+      }
+    },
+    {
+      "match_id": 540589,
+      "utcDate": "2026-02-08T14:30:00Z",
+      "status": "TIMED",
+      "home": "1. FC Köln",
+      "away": "RB Leipzig",
+      "expected_goals": {
+        "home": 1.1541042287685137,
+        "away": 1.3908109727939646
+      },
+      "probabilities_1x2": {
+        "home_win": 0.31166771370274304,
+        "draw": 0.26498185667489454,
+        "away_win": 0.42335042962236236
+      }
+    },
+    {
+      "match_id": 540593,
+      "utcDate": "2026-02-08T16:30:00Z",
+      "status": "TIMED",
+      "home": "FC Bayern München",
+      "away": "TSG 1899 Hoffenheim",
+      "expected_goals": {
+        "home": 3.2228718381227255,
+        "away": 0.7839560516997174
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8402170222307915,
+        "draw": 0.10281435984748652,
+        "away_win": 0.056968617921721997
+      }
+    },
+    {
+      "match_id": 540597,
+      "utcDate": "2026-02-13T19:30:00Z",
+      "status": "TIMED",
+      "home": "Borussia Dortmund",
+      "away": "1. FSV Mainz 05",
+      "expected_goals": {
+        "home": 1.9952903927976435,
+        "away": 0.4077261746550195
+      },
+      "probabilities_1x2": {
+        "home_win": 0.754375312511543,
+        "draw": 0.18041448797664747,
+        "away_win": 0.06521019951180959
+      }
+    },
+    {
+      "match_id": 540595,
+      "utcDate": "2026-02-14T14:30:00Z",
+      "status": "TIMED",
+      "home": "SV Werder Bremen",
+      "away": "FC Bayern München",
+      "expected_goals": {
+        "home": 0.7990067976360944,
+        "away": 2.7300473106014573
+      },
+      "probabilities_1x2": {
+        "home_win": 0.08359241547823121,
+        "draw": 0.1379442914238561,
+        "away_win": 0.7784632930979126
+      }
+    },
+    {
+      "match_id": 540596,
+      "utcDate": "2026-02-14T14:30:00Z",
+      "status": "TIMED",
+      "home": "TSG 1899 Hoffenheim",
+      "away": "SC Freiburg",
+      "expected_goals": {
+        "home": 2.190237026743182,
+        "away": 0.9511014568795495
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6557256150252095,
+        "draw": 0.19255708554961998,
+        "away_win": 0.15171729942517043
+      }
+    },
+    {
+      "match_id": 540598,
+      "utcDate": "2026-02-14T14:30:00Z",
+      "status": "TIMED",
+      "home": "Eintracht Frankfurt",
+      "away": "Borussia Mönchengladbach",
+      "expected_goals": {
+        "home": 2.1672780110790884,
+        "away": 1.065546492372266
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6246404628444036,
+        "draw": 0.19876919483563452,
+        "away_win": 0.17659034231996207
+      }
+    },
+    {
+      "match_id": 540600,
+      "utcDate": "2026-02-14T14:30:00Z",
+      "status": "TIMED",
+      "home": "Hamburger SV",
+      "away": "1. FC Union Berlin",
+      "expected_goals": {
+        "home": 1.182355351233463,
+        "away": 0.9490109065025366
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4122713025052961,
+        "draw": 0.29418941928468517,
+        "away_win": 0.2935392782100187
+      }
+    },
+    {
+      "match_id": 540601,
+      "utcDate": "2026-02-14T14:30:00Z",
+      "status": "TIMED",
+      "home": "Bayer 04 Leverkusen",
+      "away": "FC St. Pauli 1910",
+      "expected_goals": {
+        "home": 2.33684497724448,
+        "away": 0.6193382678148917
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7596179825726215,
+        "draw": 0.15934688301437355,
+        "away_win": 0.08103513441300497
+      }
+    },
+    {
+      "match_id": 540603,
+      "utcDate": "2026-02-14T17:30:00Z",
+      "status": "TIMED",
+      "home": "VfB Stuttgart",
+      "away": "1. FC Köln",
+      "expected_goals": {
+        "home": 1.8540406765824773,
+        "away": 0.9406565604011902
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5882584852490167,
+        "draw": 0.2242993262334074,
+        "away_win": 0.18744218851757594
+      }
+    },
+    {
+      "match_id": 540602,
+      "utcDate": "2026-02-15T14:30:00Z",
+      "status": "TIMED",
+      "home": "FC Augsburg",
+      "away": "1. FC Heidenheim 1846",
+      "expected_goals": {
+        "home": 1.721033200651254,
+        "away": 0.7812421052115771
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5979539533017877,
+        "draw": 0.23504918221240662,
+        "away_win": 0.1669968644858055
+      }
+    },
+    {
+      "match_id": 540599,
+      "utcDate": "2026-02-15T16:30:00Z",
+      "status": "TIMED",
+      "home": "RB Leipzig",
+      "away": "VfL Wolfsburg",
+      "expected_goals": {
+        "home": 2.7021894373522675,
+        "away": 0.7530942042469071
+      },
+      "probabilities_1x2": {
+        "home_win": 0.784112959687581,
+        "draw": 0.13696390626764798,
+        "away_win": 0.078923134044771
+      }
+    },
+    {
+      "match_id": 540612,
+      "utcDate": "2026-02-20T19:30:00Z",
+      "status": "TIMED",
+      "home": "1. FSV Mainz 05",
+      "away": "Hamburger SV",
+      "expected_goals": {
+        "home": 1.1653575844825907,
+        "away": 0.8254819226881396
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4370947376390459,
+        "draw": 0.30315564207378387,
+        "away_win": 0.2597496202871703
+      }
+    },
+    {
+      "match_id": 540604,
+      "utcDate": "2026-02-21T14:30:00Z",
+      "status": "TIMED",
+      "home": "1. FC Union Berlin",
+      "away": "Bayer 04 Leverkusen",
+      "expected_goals": {
+        "home": 1.3121146541572968,
+        "away": 1.2792391311325833
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3755204014310856,
+        "draw": 0.2643852379998026,
+        "away_win": 0.3600943605691116
+      }
+    },
+    {
+      "match_id": 540605,
+      "utcDate": "2026-02-21T14:30:00Z",
+      "status": "TIMED",
+      "home": "FC Bayern München",
+      "away": "Eintracht Frankfurt",
+      "expected_goals": {
+        "home": 4.911572317577516,
+        "away": 0.8013377370348778
+      },
+      "probabilities_1x2": {
+        "home_win": 0.9462059523364055,
+        "draw": 0.036754299543118055,
+        "away_win": 0.01703974812047676
+      }
+    },
+    {
+      "match_id": 540610,
+      "utcDate": "2026-02-21T14:30:00Z",
+      "status": "TIMED",
+      "home": "VfL Wolfsburg",
+      "away": "FC Augsburg",
+      "expected_goals": {
+        "home": 1.8957322727061328,
+        "away": 1.0096874674084053
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5807893988482524,
+        "draw": 0.22164211952062907,
+        "away_win": 0.19756848163111865
+      }
+    },
+    {
+      "match_id": 540611,
+      "utcDate": "2026-02-21T14:30:00Z",
+      "status": "TIMED",
+      "home": "1. FC Köln",
+      "away": "TSG 1899 Hoffenheim",
+      "expected_goals": {
+        "home": 1.3394926570862489,
+        "away": 1.330550637739184
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3721429735974693,
+        "draw": 0.25985547132499104,
+        "away_win": 0.3680015550775396
+      }
+    },
+    {
+      "match_id": 540606,
+      "utcDate": "2026-02-21T17:30:00Z",
+      "status": "TIMED",
+      "home": "RB Leipzig",
+      "away": "Borussia Dortmund",
+      "expected_goals": {
+        "home": 1.2422592486492106,
+        "away": 0.8605964331925087
+      },
+      "probabilities_1x2": {
+        "home_win": 0.45123373055613747,
+        "draw": 0.29197409726140966,
+        "away_win": 0.2567921721824529
+      }
+    },
+    {
+      "match_id": 540609,
+      "utcDate": "2026-02-22T14:30:00Z",
+      "status": "TIMED",
+      "home": "SC Freiburg",
+      "away": "Borussia Mönchengladbach",
+      "expected_goals": {
+        "home": 1.8382479186784741,
+        "away": 0.876167622174885
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6006907767019898,
+        "draw": 0.22441179693649005,
+        "away_win": 0.17489742636152011
+      }
+    },
+    {
+      "match_id": 540607,
+      "utcDate": "2026-02-22T16:30:00Z",
+      "status": "TIMED",
+      "home": "FC St. Pauli 1910",
+      "away": "SV Werder Bremen",
+      "expected_goals": {
+        "home": 1.2581381751067413,
+        "away": 0.9069032216102018
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4444355601258463,
+        "draw": 0.28810567956310307,
+        "away_win": 0.2674587603110506
+      }
+    },
+    {
+      "match_id": 540608,
+      "utcDate": "2026-02-22T18:30:00Z",
+      "status": "TIMED",
+      "home": "1. FC Heidenheim 1846",
+      "away": "VfB Stuttgart",
+      "expected_goals": {
+        "home": 1.023057177710376,
+        "away": 1.5181452238603075
+      },
+      "probabilities_1x2": {
+        "home_win": 0.25524488341138396,
+        "draw": 0.2576659787114497,
+        "away_win": 0.4870891378771664
+      }
+    },
+    {
+      "match_id": 540621,
+      "utcDate": "2026-02-27T19:30:00Z",
+      "status": "TIMED",
+      "home": "FC Augsburg",
+      "away": "1. FC Köln",
+      "expected_goals": {
+        "home": 1.3191977035443052,
+        "away": 1.1444639731261104
+      },
+      "probabilities_1x2": {
+        "home_win": 0.40630036991625385,
+        "draw": 0.2710998251665302,
+        "away_win": 0.32259980491721585
+      }
+    },
+    {
+      "match_id": 540615,
+      "utcDate": "2026-02-28T14:30:00Z",
+      "status": "TIMED",
+      "home": "Bayer 04 Leverkusen",
+      "away": "1. FSV Mainz 05",
+      "expected_goals": {
+        "home": 2.267158514583489,
+        "away": 0.634730232910977
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7446053818844393,
+        "draw": 0.1673660902353838,
+        "away_win": 0.08802852788017695
+      }
+    },
+    {
+      "match_id": 540618,
+      "utcDate": "2026-02-28T14:30:00Z",
+      "status": "TIMED",
+      "home": "Borussia Mönchengladbach",
+      "away": "1. FC Union Berlin",
+      "expected_goals": {
+        "home": 1.255628929254774,
+        "away": 0.9438024492434582
+      },
+      "probabilities_1x2": {
+        "home_win": 0.43479117844369486,
+        "draw": 0.28669806698303757,
+        "away_win": 0.2785107545732677
+      }
+    },
+    {
+      "match_id": 540619,
+      "utcDate": "2026-02-28T14:30:00Z",
+      "status": "TIMED",
+      "home": "TSG 1899 Hoffenheim",
+      "away": "FC St. Pauli 1910",
+      "expected_goals": {
+        "home": 2.258774062366239,
+        "away": 0.5851006732909084
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7550776930169327,
+        "draw": 0.164591935191302,
+        "away_win": 0.08033037179176519
+      }
+    },
+    {
+      "match_id": 540620,
+      "utcDate": "2026-02-28T14:30:00Z",
+      "status": "TIMED",
+      "home": "SV Werder Bremen",
+      "away": "1. FC Heidenheim 1846",
+      "expected_goals": {
+        "home": 1.7691698373071143,
+        "away": 0.7745527328459262
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6108618294487989,
+        "draw": 0.22925428680379778,
+        "away_win": 0.1598838837474033
+      }
+    },
+    {
+      "match_id": 540613,
+      "utcDate": "2026-02-28T17:30:00Z",
+      "status": "TIMED",
+      "home": "Borussia Dortmund",
+      "away": "FC Bayern München",
+      "expected_goals": {
+        "home": 1.1372563108436267,
+        "away": 1.3754172232968016
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3100444809372094,
+        "draw": 0.26692349366081225,
+        "away_win": 0.4230320254019786
+      }
+    },
+    {
+      "match_id": 540617,
+      "utcDate": "2026-03-01T14:30:00Z",
+      "status": "TIMED",
+      "home": "VfB Stuttgart",
+      "away": "VfL Wolfsburg",
+      "expected_goals": {
+        "home": 2.2609014867205515,
+        "away": 0.9779590365232688
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6629104915244661,
+        "draw": 0.1873800470699856,
+        "away_win": 0.14970946140554822
+      }
+    },
+    {
+      "match_id": 540614,
+      "utcDate": "2026-03-01T16:30:00Z",
+      "status": "TIMED",
+      "home": "Eintracht Frankfurt",
+      "away": "SC Freiburg",
+      "expected_goals": {
+        "home": 2.238798436181538,
+        "away": 1.449453723713154
+      },
+      "probabilities_1x2": {
+        "home_win": 0.554105819891279,
+        "draw": 0.2012984954603817,
+        "away_win": 0.2445956846483392
+      }
+    },
+    {
+      "match_id": 540616,
+      "utcDate": "2026-03-01T18:30:00Z",
+      "status": "TIMED",
+      "home": "Hamburger SV",
+      "away": "RB Leipzig",
+      "expected_goals": {
+        "home": 0.903798470311872,
+        "away": 1.3987247144384978
+      },
+      "probabilities_1x2": {
+        "home_win": 0.24292970081230364,
+        "draw": 0.2724648303739309,
+        "away_win": 0.4846054688137654
+      }
+    },
+    {
+      "match_id": 540622,
+      "utcDate": "2026-03-07T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SC Freiburg",
+      "away": "Bayer 04 Leverkusen",
+      "expected_goals": {
+        "home": 1.6040188454855664,
+        "away": 1.4222073709406582
+      },
+      "probabilities_1x2": {
+        "home_win": 0.419411805274684,
+        "draw": 0.24072833018026682,
+        "away_win": 0.33985986454504924
+      }
+    },
+    {
+      "match_id": 540623,
+      "utcDate": "2026-03-07T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC St. Pauli 1910",
+      "away": "Eintracht Frankfurt",
+      "expected_goals": {
+        "home": 1.420670647386232,
+        "away": 1.4491434161777779
+      },
+      "probabilities_1x2": {
+        "home_win": 0.36900369562241864,
+        "draw": 0.24921974383494544,
+        "away_win": 0.38177656054263587
+      }
+    },
+    {
+      "match_id": 540624,
+      "utcDate": "2026-03-07T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "1. FC Köln",
+      "away": "Borussia Dortmund",
+      "expected_goals": {
+        "home": 0.9107875016152154,
+        "away": 1.2114702221933482
+      },
+      "probabilities_1x2": {
+        "home_win": 0.27692331417718524,
+        "draw": 0.29314678640014813,
+        "away_win": 0.42992989942266663
+      }
+    },
+    {
+      "match_id": 540625,
+      "utcDate": "2026-03-07T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "1. FC Union Berlin",
+      "away": "SV Werder Bremen",
+      "expected_goals": {
+        "home": 1.672965205694533,
+        "away": 0.7909846940666723
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5839849230330887,
+        "draw": 0.24091723447560798,
+        "away_win": 0.17509784249130328
+      }
+    },
+    {
+      "match_id": 540626,
+      "utcDate": "2026-03-07T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "1. FSV Mainz 05",
+      "away": "VfB Stuttgart",
+      "expected_goals": {
+        "home": 1.0689397410621673,
+        "away": 1.2029346127303306
+      },
+      "probabilities_1x2": {
+        "home_win": 0.32428286710179577,
+        "draw": 0.2849463879555236,
+        "away_win": 0.3907707449426806
+      }
+    },
+    {
+      "match_id": 540627,
+      "utcDate": "2026-03-07T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Bayern München",
+      "away": "Borussia Mönchengladbach",
+      "expected_goals": {
+        "home": 3.909623795011902,
+        "away": 0.4996582964323718
+      },
+      "probabilities_1x2": {
+        "home_win": 0.9319236366271149,
+        "draw": 0.05050295080608258,
+        "away_win": 0.0175734125668026
+      }
+    },
+    {
+      "match_id": 540628,
+      "utcDate": "2026-03-07T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RB Leipzig",
+      "away": "FC Augsburg",
+      "expected_goals": {
+        "home": 2.4870390518617627,
+        "away": 0.5881815295853878
+      },
+      "probabilities_1x2": {
+        "home_win": 0.789394587088452,
+        "draw": 0.14284996680105994,
+        "away_win": 0.06775544611048803
+      }
+    },
+    {
+      "match_id": 540629,
+      "utcDate": "2026-03-07T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "1. FC Heidenheim 1846",
+      "away": "TSG 1899 Hoffenheim",
+      "expected_goals": {
+        "home": 0.9143739671237323,
+        "away": 1.735844306387491
+      },
+      "probabilities_1x2": {
+        "home_win": 0.19651392354771402,
+        "draw": 0.23591286692565694,
+        "away_win": 0.5675732095266289
+      }
+    },
+    {
+      "match_id": 540630,
+      "utcDate": "2026-03-07T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "VfL Wolfsburg",
+      "away": "Hamburger SV",
+      "expected_goals": {
+        "home": 1.6986814716186664,
+        "away": 0.9737823148232693
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5440313935885324,
+        "draw": 0.24025445853732508,
+        "away_win": 0.21571414787414253
+      }
+    },
+    {
+      "match_id": 540631,
+      "utcDate": "2026-03-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Bayer 04 Leverkusen",
+      "away": "FC Bayern München",
+      "expected_goals": {
+        "home": 1.292213072192356,
+        "away": 2.1411892313060763
+      },
+      "probabilities_1x2": {
+        "home_win": 0.22576660659943423,
+        "draw": 0.20602969518056624,
+        "away_win": 0.5682036982199996
+      }
+    },
+    {
+      "match_id": 540632,
+      "utcDate": "2026-03-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SV Werder Bremen",
+      "away": "1. FSV Mainz 05",
+      "expected_goals": {
+        "home": 1.401839296825428,
+        "away": 0.8092902486059368
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5094554898401094,
+        "draw": 0.2739241148739723,
+        "away_win": 0.21662039528591834
+      }
+    },
+    {
+      "match_id": 540633,
+      "utcDate": "2026-03-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "VfB Stuttgart",
+      "away": "RB Leipzig",
+      "expected_goals": {
+        "home": 1.317061504303367,
+        "away": 1.2829988442843294
+      },
+      "probabilities_1x2": {
+        "home_win": 0.37604739955047645,
+        "draw": 0.2638648328275107,
+        "away_win": 0.36008776762201267
+      }
+    },
+    {
+      "match_id": 540634,
+      "utcDate": "2026-03-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "TSG 1899 Hoffenheim",
+      "away": "VfL Wolfsburg",
+      "expected_goals": {
+        "home": 2.5851103776801816,
+        "away": 0.8740667710396876
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7414910758536826,
+        "draw": 0.15433508183428293,
+        "away_win": 0.10417384231203455
+      }
+    },
+    {
+      "match_id": 540635,
+      "utcDate": "2026-03-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Borussia Dortmund",
+      "away": "FC Augsburg",
+      "expected_goals": {
+        "home": 2.166343098882674,
+        "away": 0.4641767809818344
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7693815902181775,
+        "draw": 0.16486504514002162,
+        "away_win": 0.06575336464180095
+      }
+    },
+    {
+      "match_id": 540636,
+      "utcDate": "2026-03-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SC Freiburg",
+      "away": "1. FC Union Berlin",
+      "expected_goals": {
+        "home": 1.7080212267964128,
+        "away": 0.9749480392589343
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5459852285423479,
+        "draw": 0.23933056036399317,
+        "away_win": 0.2146842110936591
+      }
+    },
+    {
+      "match_id": 540637,
+      "utcDate": "2026-03-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Borussia Mönchengladbach",
+      "away": "FC St. Pauli 1910",
+      "expected_goals": {
+        "home": 1.4396409053550392,
+        "away": 0.7097779960459328
+      },
+      "probabilities_1x2": {
+        "home_win": 0.546030146240956,
+        "draw": 0.26975544409612334,
+        "away_win": 0.18421440966292052
+      }
+    },
+    {
+      "match_id": 540638,
+      "utcDate": "2026-03-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Eintracht Frankfurt",
+      "away": "1. FC Heidenheim 1846",
+      "expected_goals": {
+        "home": 2.8269618640034557,
+        "away": 0.8746132612291491
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7763773463803731,
+        "draw": 0.13560268619136026,
+        "away_win": 0.0880199674282666
+      }
+    },
+    {
+      "match_id": 540639,
+      "utcDate": "2026-03-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Hamburger SV",
+      "away": "1. FC Köln",
+      "expected_goals": {
+        "home": 1.2722861627312898,
+        "away": 1.0255033234778763
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4202747658481664,
+        "draw": 0.28107639228002723,
+        "away_win": 0.2986488418718062
+      }
+    },
+    {
+      "match_id": 540640,
+      "utcDate": "2026-03-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "1. FC Heidenheim 1846",
+      "away": "Bayer 04 Leverkusen",
+      "expected_goals": {
+        "home": 0.9678792296516106,
+        "away": 1.7958409901389816
+      },
+      "probabilities_1x2": {
+        "home_win": 0.20109451707545117,
+        "draw": 0.23055683860662424,
+        "away_win": 0.5683486443179246
+      }
+    },
+    {
+      "match_id": 540641,
+      "utcDate": "2026-03-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "1. FSV Mainz 05",
+      "away": "Eintracht Frankfurt",
+      "expected_goals": {
+        "home": 1.4559775453351531,
+        "away": 1.4059288771111034
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3864609201091901,
+        "draw": 0.24955597242344182,
+        "away_win": 0.36398310746736806
+      }
+    },
+    {
+      "match_id": 540642,
+      "utcDate": "2026-03-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC St. Pauli 1910",
+      "away": "SC Freiburg",
+      "expected_goals": {
+        "home": 1.1681757970436615,
+        "away": 1.2291385115512083
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3468867716586378,
+        "draw": 0.27664393512462393,
+        "away_win": 0.37646929321673844
+      }
+    },
+    {
+      "match_id": 540643,
+      "utcDate": "2026-03-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "VfL Wolfsburg",
+      "away": "SV Werder Bremen",
+      "expected_goals": {
+        "home": 1.8795000970551818,
+        "away": 1.0379280375125859
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5704109457829654,
+        "draw": 0.22362416856942505,
+        "away_win": 0.20596488564760979
+      }
+    },
+    {
+      "match_id": 540644,
+      "utcDate": "2026-03-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Augsburg",
+      "away": "VfB Stuttgart",
+      "expected_goals": {
+        "home": 1.2169368534890161,
+        "away": 1.3060600632881125
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3447149033915558,
+        "draw": 0.2682743278662368,
+        "away_win": 0.3870107687422073
+      }
+    },
+    {
+      "match_id": 540645,
+      "utcDate": "2026-03-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "1. FC Köln",
+      "away": "Borussia Mönchengladbach",
+      "expected_goals": {
+        "home": 1.6249210730137313,
+        "away": 0.8480330798242453
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5575438559857491,
+        "draw": 0.24727155204801354,
+        "away_win": 0.19518459196623753
+      }
+    },
+    {
+      "match_id": 540646,
+      "utcDate": "2026-03-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Bayern München",
+      "away": "1. FC Union Berlin",
+      "expected_goals": {
+        "home": 3.6326549660773306,
+        "away": 0.5559905023618481
+      },
+      "probabilities_1x2": {
+        "home_win": 0.9091304459092271,
+        "draw": 0.06530275575428109,
+        "away_win": 0.025566798336491666
+      }
+    },
+    {
+      "match_id": 540647,
+      "utcDate": "2026-03-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RB Leipzig",
+      "away": "TSG 1899 Hoffenheim",
+      "expected_goals": {
+        "home": 1.826987237760861,
+        "away": 0.9451880137402249
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5810399385451736,
+        "draw": 0.22709118579244011,
+        "away_win": 0.19186887566238633
+      }
+    },
+    {
+      "match_id": 540648,
+      "utcDate": "2026-03-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Borussia Dortmund",
+      "away": "Hamburger SV",
+      "expected_goals": {
+        "home": 1.941163811062791,
+        "away": 0.4476703483622358
+      },
+      "probabilities_1x2": {
+        "home_win": 0.733707555721149,
+        "draw": 0.19054233005861018,
+        "away_win": 0.07575011422024115
+      }
+    },
+    {
+      "match_id": 540649,
+      "utcDate": "2026-04-05T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SC Freiburg",
+      "away": "FC Bayern München",
+      "expected_goals": {
+        "home": 1.082904992025534,
+        "away": 2.534836996547052
+      },
+      "probabilities_1x2": {
+        "home_win": 0.14218674427747302,
+        "draw": 0.16948726404696307,
+        "away_win": 0.6883259916755637
+      }
+    },
+    {
+      "match_id": 540650,
+      "utcDate": "2026-04-05T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "VfB Stuttgart",
+      "away": "Borussia Dortmund",
+      "expected_goals": {
+        "home": 1.039388927859691,
+        "away": 1.117560132443104
+      },
+      "probabilities_1x2": {
+        "home_win": 0.33292304534718004,
+        "draw": 0.2944853780512128,
+        "away_win": 0.37259157660160747
+      }
+    },
+    {
+      "match_id": 540651,
+      "utcDate": "2026-04-05T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "TSG 1899 Hoffenheim",
+      "away": "1. FSV Mainz 05",
+      "expected_goals": {
+        "home": 2.1914157326997556,
+        "away": 0.5996417562644561
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7402009490883118,
+        "draw": 0.17267492255651068,
+        "away_win": 0.08712412835517755
+      }
+    },
+    {
+      "match_id": 540652,
+      "utcDate": "2026-04-05T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SV Werder Bremen",
+      "away": "RB Leipzig",
+      "expected_goals": {
+        "home": 0.9633341644409811,
+        "away": 1.5476140056061052
+      },
+      "probabilities_1x2": {
+        "home_win": 0.23527965531617334,
+        "draw": 0.2555658862484992,
+        "away_win": 0.5091544584353276
+      }
+    },
+    {
+      "match_id": 540653,
+      "utcDate": "2026-04-05T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Bayer 04 Leverkusen",
+      "away": "VfL Wolfsburg",
+      "expected_goals": {
+        "home": 2.6744605856577346,
+        "away": 0.9252134284609228
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7442313740701161,
+        "draw": 0.15029191590193888,
+        "away_win": 0.10547671002794481
+      }
+    },
+    {
+      "match_id": 540654,
+      "utcDate": "2026-04-05T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Hamburger SV",
+      "away": "FC Augsburg",
+      "expected_goals": {
+        "home": 1.427953278370323,
+        "away": 0.8327003065795028
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5105260154101455,
+        "draw": 0.27038964261501813,
+        "away_win": 0.21908434197483634
+      }
+    },
+    {
+      "match_id": 540655,
+      "utcDate": "2026-04-05T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "1. FC Union Berlin",
+      "away": "FC St. Pauli 1910",
+      "expected_goals": {
+        "home": 1.6019481231557033,
+        "away": 0.6594953114001151
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6016150130255373,
+        "draw": 0.24700892328180213,
+        "away_win": 0.15137606369266057
+      }
+    },
+    {
+      "match_id": 540656,
+      "utcDate": "2026-04-05T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Borussia Mönchengladbach",
+      "away": "1. FC Heidenheim 1846",
+      "expected_goals": {
+        "home": 1.762696156397,
+        "away": 0.696194333797565
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6298710399839779,
+        "draw": 0.22743667017221905,
+        "away_win": 0.14269228984380297
+      }
+    },
+    {
+      "match_id": 540657,
+      "utcDate": "2026-04-05T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Eintracht Frankfurt",
+      "away": "1. FC Köln",
+      "expected_goals": {
+        "home": 2.166908574215465,
+        "away": 1.2812460583189051
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5758948837866738,
+        "draw": 0.20397568601518187,
+        "away_win": 0.22012943019814438
+      }
+    },
+    {
+      "match_id": 540658,
+      "utcDate": "2026-04-11T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC St. Pauli 1910",
+      "away": "FC Bayern München",
+      "expected_goals": {
+        "home": 0.666183860156223,
+        "away": 2.6141572762289824
+      },
+      "probabilities_1x2": {
+        "home_win": 0.07191134134175309,
+        "draw": 0.13781946974807924,
+        "away_win": 0.7902691889101676
+      }
+    },
+    {
+      "match_id": 540659,
+      "utcDate": "2026-04-11T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Borussia Dortmund",
+      "away": "Bayer 04 Leverkusen",
+      "expected_goals": {
+        "home": 1.68452502128419,
+        "away": 0.7716979497127734
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5917824714187583,
+        "draw": 0.239150440011164,
+        "away_win": 0.16906708857007768
+      }
+    },
+    {
+      "match_id": 540660,
+      "utcDate": "2026-04-11T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "VfL Wolfsburg",
+      "away": "Eintracht Frankfurt",
+      "expected_goals": {
+        "home": 2.122303155946551,
+        "away": 1.658508368023164
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4869780609159855,
+        "draw": 0.20835412296635264,
+        "away_win": 0.30466781611766186
+      }
+    },
+    {
+      "match_id": 540661,
+      "utcDate": "2026-04-11T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "1. FSV Mainz 05",
+      "away": "SC Freiburg",
+      "expected_goals": {
+        "home": 1.19720762347613,
+        "away": 1.1924846830668732
+      },
+      "probabilities_1x2": {
+        "home_win": 0.36248447687578855,
+        "draw": 0.2773263963913659,
+        "away_win": 0.36018912673284575
+      }
+    },
+    {
+      "match_id": 540662,
+      "utcDate": "2026-04-11T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "1. FC Köln",
+      "away": "SV Werder Bremen",
+      "expected_goals": {
+        "home": 1.807809970093328,
+        "away": 0.8511475675594572
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6001058961284065,
+        "draw": 0.22702184372594353,
+        "away_win": 0.17287226014564994
+      }
+    },
+    {
+      "match_id": 540663,
+      "utcDate": "2026-04-11T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RB Leipzig",
+      "away": "Borussia Mönchengladbach",
+      "expected_goals": {
+        "home": 2.216294391058852,
+        "away": 0.6024202909458939
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7437896870517746,
+        "draw": 0.17026167541262657,
+        "away_win": 0.08594863753559874
+      }
+    },
+    {
+      "match_id": 540664,
+      "utcDate": "2026-04-11T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "1. FC Heidenheim 1846",
+      "away": "1. FC Union Berlin",
+      "expected_goals": {
+        "home": 1.0306351910222533,
+        "away": 1.231080423242918
+      },
+      "probabilities_1x2": {
+        "home_win": 0.30788983771190476,
+        "draw": 0.2846727577999079,
+        "away_win": 0.4074374044881873
+      }
+    },
+    {
+      "match_id": 540665,
+      "utcDate": "2026-04-11T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Augsburg",
+      "away": "TSG 1899 Hoffenheim",
+      "expected_goals": {
+        "home": 1.0876570759751174,
+        "away": 1.4933465448674137
+      },
+      "probabilities_1x2": {
+        "home_win": 0.27603516430198316,
+        "draw": 0.25856403708718007,
+        "away_win": 0.46540079861083683
+      }
+    },
+    {
+      "match_id": 540666,
+      "utcDate": "2026-04-11T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "VfB Stuttgart",
+      "away": "Hamburger SV",
+      "expected_goals": {
+        "home": 1.8645902043040297,
+        "away": 0.7366440042305276
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6419420616676148,
+        "draw": 0.2168871480659671,
+        "away_win": 0.14117079026641796
+      }
+    },
+    {
+      "match_id": 540672,
+      "utcDate": "2026-04-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SC Freiburg",
+      "away": "1. FC Heidenheim 1846",
+      "expected_goals": {
+        "home": 2.39778041216796,
+        "away": 0.7191688273570357
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7463224721824475,
+        "draw": 0.16064112253594512,
+        "away_win": 0.09303640528160753
+      }
+    },
+    {
+      "match_id": 540673,
+      "utcDate": "2026-04-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC St. Pauli 1910",
+      "away": "1. FC Köln",
+      "expected_goals": {
+        "home": 1.1306646055740033,
+        "away": 1.0864982077652103
+      },
+      "probabilities_1x2": {
+        "home_win": 0.36614267844475346,
+        "draw": 0.2898734678241038,
+        "away_win": 0.34398385373114276
+      }
+    },
+    {
+      "match_id": 540674,
+      "utcDate": "2026-04-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SV Werder Bremen",
+      "away": "Hamburger SV",
+      "expected_goals": {
+        "home": 1.3638113638725904,
+        "away": 0.8885749064948336
+      },
+      "probabilities_1x2": {
+        "home_win": 0.47881423610630774,
+        "draw": 0.27678756630322826,
+        "away_win": 0.24439819759046397
+      }
+    },
+    {
+      "match_id": 540675,
+      "utcDate": "2026-04-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Bayer 04 Leverkusen",
+      "away": "FC Augsburg",
+      "expected_goals": {
+        "home": 2.4615179925036306,
+        "away": 0.7226100618969428
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7556028811406605,
+        "draw": 0.1550916436764592,
+        "away_win": 0.0893054751828802
+      }
+    },
+    {
+      "match_id": 540667,
+      "utcDate": "2026-04-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "TSG 1899 Hoffenheim",
+      "away": "Borussia Dortmund",
+      "expected_goals": {
+        "home": 1.1884352854990499,
+        "away": 0.9988375176530083
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4024636386653908,
+        "draw": 0.2905894915541905,
+        "away_win": 0.30694686978041863
+      }
+    },
+    {
+      "match_id": 540668,
+      "utcDate": "2026-04-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Borussia Mönchengladbach",
+      "away": "1. FSV Mainz 05",
+      "expected_goals": {
+        "home": 1.3967097382587275,
+        "away": 0.7274175941603087
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5295889183493251,
+        "draw": 0.2755465360257319,
+        "away_win": 0.19486454562494293
+      }
+    },
+    {
+      "match_id": 540669,
+      "utcDate": "2026-04-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Eintracht Frankfurt",
+      "away": "RB Leipzig",
+      "expected_goals": {
+        "home": 1.53931459136308,
+        "away": 1.7475423882292502
+      },
+      "probabilities_1x2": {
+        "home_win": 0.34137119533563576,
+        "draw": 0.22950557902456858,
+        "away_win": 0.42912322563979577
+      }
+    },
+    {
+      "match_id": 540670,
+      "utcDate": "2026-04-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Bayern München",
+      "away": "VfB Stuttgart",
+      "expected_goals": {
+        "home": 3.605944925579794,
+        "away": 0.6856370304783729
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8894469152030704,
+        "draw": 0.07524624936899638,
+        "away_win": 0.035306835427933184
+      }
+    },
+    {
+      "match_id": 540671,
+      "utcDate": "2026-04-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "1. FC Union Berlin",
+      "away": "VfL Wolfsburg",
+      "expected_goals": {
+        "home": 1.8333895304857803,
+        "away": 0.9852029978176218
+      },
+      "probabilities_1x2": {
+        "home_win": 0.572717531709795,
+        "draw": 0.227149927631225,
+        "away_win": 0.20013254065898
+      }
+    },
+    {
+      "match_id": 540676,
+      "utcDate": "2026-04-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "1. FSV Mainz 05",
+      "away": "FC Bayern München",
+      "expected_goals": {
+        "home": 0.6827400448067809,
+        "away": 2.536201153681778
+      },
+      "probabilities_1x2": {
+        "home_win": 0.07866186172186942,
+        "draw": 0.14568486431978758,
+        "away_win": 0.7756532739583428
+      }
+    },
+    {
+      "match_id": 540677,
+      "utcDate": "2026-04-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "1. FC Köln",
+      "away": "Bayer 04 Leverkusen",
+      "expected_goals": {
+        "home": 1.417874051185876,
+        "away": 1.3765389936844907
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3828633684365107,
+        "draw": 0.25303568812714483,
+        "away_win": 0.3641009434363444
+      }
+    },
+    {
+      "match_id": 540678,
+      "utcDate": "2026-04-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Augsburg",
+      "away": "Eintracht Frankfurt",
+      "expected_goals": {
+        "home": 1.6575609126574482,
+        "away": 1.5264566658786063
+      },
+      "probabilities_1x2": {
+        "home_win": 0.41084654291243794,
+        "draw": 0.23441080971970812,
+        "away_win": 0.3547426473678538
+      }
+    },
+    {
+      "match_id": 540679,
+      "utcDate": "2026-04-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Borussia Dortmund",
+      "away": "SC Freiburg",
+      "expected_goals": {
+        "home": 1.9942171775989064,
+        "away": 0.6467010588757107
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6919382435446185,
+        "draw": 0.1974989154129305,
+        "away_win": 0.11056284104245104
+      }
+    },
+    {
+      "match_id": 540680,
+      "utcDate": "2026-04-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "VfB Stuttgart",
+      "away": "SV Werder Bremen",
+      "expected_goals": {
+        "home": 2.063069226638555,
+        "away": 0.7851687733671442
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6707769868840813,
+        "draw": 0.19740637091521654,
+        "away_win": 0.13181664220070236
+      }
+    },
+    {
+      "match_id": 540681,
+      "utcDate": "2026-04-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "VfL Wolfsburg",
+      "away": "Borussia Mönchengladbach",
+      "expected_goals": {
+        "home": 1.6893585968433695,
+        "away": 1.034130089581965
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5271324412990555,
+        "draw": 0.24128010461402277,
+        "away_win": 0.23158745408692177
+      }
+    },
+    {
+      "match_id": 540682,
+      "utcDate": "2026-04-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RB Leipzig",
+      "away": "1. FC Union Berlin",
+      "expected_goals": {
+        "home": 2.059285815745543,
+        "away": 0.670338034187554
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6986039029768036,
+        "draw": 0.19159318428598318,
+        "away_win": 0.10980291273721324
+      }
+    },
+    {
+      "match_id": 540683,
+      "utcDate": "2026-04-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "1. FC Heidenheim 1846",
+      "away": "FC St. Pauli 1910",
+      "expected_goals": {
+        "home": 1.181674414251235,
+        "away": 0.9258227677636996
+      },
+      "probabilities_1x2": {
+        "home_win": 0.41755569144733584,
+        "draw": 0.29561557864525556,
+        "away_win": 0.2868287299074086
+      }
+    },
+    {
+      "match_id": 540684,
+      "utcDate": "2026-04-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Hamburger SV",
+      "away": "TSG 1899 Hoffenheim",
+      "expected_goals": {
+        "home": 1.0489792726609626,
+        "away": 1.3381214968983435
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2930346563122705,
+        "draw": 0.2738661511487984,
+        "away_win": 0.4330991925389313
+      }
+    },
+    {
+      "match_id": 540685,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Borussia Mönchengladbach",
+      "away": "Borussia Dortmund",
+      "expected_goals": {
+        "home": 0.7574551518355078,
+        "away": 1.2116767660986085
+      },
+      "probabilities_1x2": {
+        "home_win": 0.23137233581876326,
+        "draw": 0.3002502102476147,
+        "away_win": 0.46837745393362196
+      }
+    },
+    {
+      "match_id": 540686,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC St. Pauli 1910",
+      "away": "1. FSV Mainz 05",
+      "expected_goals": {
+        "home": 1.1688044667965183,
+        "away": 0.7749360180532113
+      },
+      "probabilities_1x2": {
+        "home_win": 0.45089311213786865,
+        "draw": 0.30533265595461045,
+        "away_win": 0.24377423190752098
+      }
+    },
+    {
+      "match_id": 540687,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Bayer 04 Leverkusen",
+      "away": "RB Leipzig",
+      "expected_goals": {
+        "home": 1.5579754813889486,
+        "away": 1.2138011052607747
+      },
+      "probabilities_1x2": {
+        "home_win": 0.45301393775828,
+        "draw": 0.2500119158680186,
+        "away_win": 0.2969741463737013
+      }
+    },
+    {
+      "match_id": 540688,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "TSG 1899 Hoffenheim",
+      "away": "VfB Stuttgart",
+      "expected_goals": {
+        "home": 1.955576755712421,
+        "away": 0.9594361076036508
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6059692546791046,
+        "draw": 0.2148103337206891,
+        "away_win": 0.17922041160020635
+      }
+    },
+    {
+      "match_id": 540689,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SC Freiburg",
+      "away": "VfL Wolfsburg",
+      "expected_goals": {
+        "home": 2.2412609665607643,
+        "away": 1.0953096502985533
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6323433122532143,
+        "draw": 0.1935188854377507,
+        "away_win": 0.1741378023090349
+      }
+    },
+    {
+      "match_id": 540690,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SV Werder Bremen",
+      "away": "FC Augsburg",
+      "expected_goals": {
+        "home": 1.5220164931292264,
+        "away": 0.9213383045514212
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5129671461938329,
+        "draw": 0.25866110162431766,
+        "away_win": 0.22837175218184944
+      }
+    },
+    {
+      "match_id": 540691,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Bayern München",
+      "away": "1. FC Heidenheim 1846",
+      "expected_goals": {
+        "home": 5.099649105744463,
+        "away": 0.41012548515831615
+      },
+      "probabilities_1x2": {
+        "home_win": 0.9766729506535965,
+        "draw": 0.018398906222768935,
+        "away_win": 0.004928143123634687
+      }
+    },
+    {
+      "match_id": 540692,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "1. FC Union Berlin",
+      "away": "1. FC Köln",
+      "expected_goals": {
+        "home": 1.5034616879621818,
+        "away": 0.9476242139125787
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5016336515516896,
+        "draw": 0.26033078476612753,
+        "away_win": 0.23803556368218268
+      }
+    },
+    {
+      "match_id": 540693,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Eintracht Frankfurt",
+      "away": "Hamburger SV",
+      "expected_goals": {
+        "home": 2.179238326395386,
+        "away": 1.0033653796047284
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6413946846526926,
+        "draw": 0.1955957317770405,
+        "away_win": 0.16300958357026696
+      }
+    },
+    {
+      "match_id": 540694,
+      "utcDate": "2026-05-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "VfL Wolfsburg",
+      "away": "FC Bayern München",
+      "expected_goals": {
+        "home": 0.995194847906104,
+        "away": 2.991837570769825
+      },
+      "probabilities_1x2": {
+        "home_win": 0.09377780891472766,
+        "draw": 0.13142576168790585,
+        "away_win": 0.7747964293973666
+      }
+    },
+    {
+      "match_id": 540695,
+      "utcDate": "2026-05-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "VfB Stuttgart",
+      "away": "Bayer 04 Leverkusen",
+      "expected_goals": {
+        "home": 1.6180751133372215,
+        "away": 1.2698331926887565
+      },
+      "probabilities_1x2": {
+        "home_win": 0.45542096645061597,
+        "draw": 0.24419610539613956,
+        "away_win": 0.3003829281532444
+      }
+    },
+    {
+      "match_id": 540696,
+      "utcDate": "2026-05-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Borussia Dortmund",
+      "away": "Eintracht Frankfurt",
+      "expected_goals": {
+        "home": 2.42525638341255,
+        "away": 0.7624548192881918
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7409103480815102,
+        "draw": 0.16100779750348554,
+        "away_win": 0.09808185441500414
+      }
+    },
+    {
+      "match_id": 540697,
+      "utcDate": "2026-05-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Hamburger SV",
+      "away": "SC Freiburg",
+      "expected_goals": {
+        "home": 1.314495823862569,
+        "away": 1.1601359483170013
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4015730212631893,
+        "draw": 0.2706751139864309,
+        "away_win": 0.32775186475037965
+      }
+    },
+    {
+      "match_id": 540698,
+      "utcDate": "2026-05-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "TSG 1899 Hoffenheim",
+      "away": "SV Werder Bremen",
+      "expected_goals": {
+        "home": 2.358909354954637,
+        "away": 0.7017573424118393
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7440306547578295,
+        "draw": 0.1630852752901925,
+        "away_win": 0.09288406995197812
+      }
+    },
+    {
+      "match_id": 540699,
+      "utcDate": "2026-05-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Augsburg",
+      "away": "Borussia Mönchengladbach",
+      "expected_goals": {
+        "home": 1.3194226139387242,
+        "away": 0.9517918625334204
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4509308024988628,
+        "draw": 0.2795991805056712,
+        "away_win": 0.269470016995466
+      }
+    },
+    {
+      "match_id": 540700,
+      "utcDate": "2026-05-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "1. FSV Mainz 05",
+      "away": "1. FC Union Berlin",
+      "expected_goals": {
+        "home": 1.0768576167819708,
+        "away": 0.9754727208560366
+      },
+      "probabilities_1x2": {
+        "home_win": 0.37465815077268416,
+        "draw": 0.3031979549161567,
+        "away_win": 0.322143894311159
+      }
+    },
+    {
+      "match_id": 540701,
+      "utcDate": "2026-05-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "RB Leipzig",
+      "away": "FC St. Pauli 1910",
+      "expected_goals": {
+        "home": 2.3610734247133327,
+        "away": 0.5041215849359165
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7901777371460447,
+        "draw": 0.14784506924813332,
+        "away_win": 0.061977193605822115
+      }
+    },
+    {
+      "match_id": 540702,
+      "utcDate": "2026-05-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "1. FC Köln",
+      "away": "1. FC Heidenheim 1846",
+      "expected_goals": {
+        "home": 2.1195203762244805,
+        "away": 0.6960756596589285
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7035892869061273,
+        "draw": 0.18664088704963183,
+        "away_win": 0.10976982604424074
+      }
+    },
+    {
+      "match_id": 540703,
+      "utcDate": "2026-05-16T13:30:00Z",
+      "status": "TIMED",
+      "home": "SV Werder Bremen",
+      "away": "Borussia Dortmund",
+      "expected_goals": {
+        "home": 0.7602369829179152,
+        "away": 1.3480539914599254
+      },
+      "probabilities_1x2": {
+        "home_win": 0.21100872133821913,
+        "draw": 0.2816695273852594,
+        "away_win": 0.5073217512765213
+      }
+    },
+    {
+      "match_id": 540704,
+      "utcDate": "2026-05-16T13:30:00Z",
+      "status": "TIMED",
+      "home": "1. FC Heidenheim 1846",
+      "away": "1. FSV Mainz 05",
+      "expected_goals": {
+        "home": 1.1464360006003358,
+        "away": 0.9488315700081609
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4016780724932312,
+        "draw": 0.2979817560112138,
+        "away_win": 0.30034017149555503
+      }
+    },
+    {
+      "match_id": 540705,
+      "utcDate": "2026-05-16T13:30:00Z",
+      "status": "TIMED",
+      "home": "SC Freiburg",
+      "away": "RB Leipzig",
+      "expected_goals": {
+        "home": 1.3056201508525933,
+        "away": 1.4369528405427037
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3423569772643842,
+        "draw": 0.25521608176462507,
+        "away_win": 0.40242694097099097
+      }
+    },
+    {
+      "match_id": 540706,
+      "utcDate": "2026-05-16T13:30:00Z",
+      "status": "TIMED",
+      "home": "Eintracht Frankfurt",
+      "away": "VfB Stuttgart",
+      "expected_goals": {
+        "home": 1.9989353339679874,
+        "away": 1.4621555132441388
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5012996130292816,
+        "draw": 0.2164644886673936,
+        "away_win": 0.28223589830332496
+      }
+    },
+    {
+      "match_id": 540707,
+      "utcDate": "2026-05-16T13:30:00Z",
+      "status": "TIMED",
+      "home": "FC St. Pauli 1910",
+      "away": "VfL Wolfsburg",
+      "expected_goals": {
+        "home": 1.3787838206638459,
+        "away": 1.129584149178894
+      },
+      "probabilities_1x2": {
+        "home_win": 0.42565739250251633,
+        "draw": 0.26696978823577705,
+        "away_win": 0.30737281926170645
+      }
+    },
+    {
+      "match_id": 540708,
+      "utcDate": "2026-05-16T13:30:00Z",
+      "status": "TIMED",
+      "home": "1. FC Union Berlin",
+      "away": "FC Augsburg",
+      "expected_goals": {
+        "home": 1.687413656705156,
+        "away": 0.7694631069269157
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5930562476386099,
+        "draw": 0.23875541581969134,
+        "away_win": 0.16818833654169904
+      }
+    },
+    {
+      "match_id": 540709,
+      "utcDate": "2026-05-16T13:30:00Z",
+      "status": "TIMED",
+      "home": "Borussia Mönchengladbach",
+      "away": "TSG 1899 Hoffenheim",
+      "expected_goals": {
+        "home": 1.113987194769892,
+        "away": 1.3307774836986066
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3121271209846023,
+        "draw": 0.27162974056980493,
+        "away_win": 0.41624313844559296
+      }
+    },
+    {
+      "match_id": 540710,
+      "utcDate": "2026-05-16T13:30:00Z",
+      "status": "TIMED",
+      "home": "FC Bayern München",
+      "away": "1. FC Köln",
+      "expected_goals": {
+        "home": 3.9089573557524284,
+        "away": 0.6008045893755862
+      },
+      "probabilities_1x2": {
+        "home_win": 0.9202520247685776,
+        "draw": 0.05673985158211844,
+        "away_win": 0.023008123649303963
+      }
+    },
+    {
+      "match_id": 540711,
+      "utcDate": "2026-05-16T13:30:00Z",
+      "status": "TIMED",
+      "home": "Bayer 04 Leverkusen",
+      "away": "Hamburger SV",
+      "expected_goals": {
+        "home": 2.2056569200845497,
+        "away": 0.6969135712803372
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7190751107905822,
+        "draw": 0.17776993111488693,
+        "away_win": 0.10315495809453071
+      }
+    }
+  ]
+}

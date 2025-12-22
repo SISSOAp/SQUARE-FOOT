@@ -1,0 +1,1324 @@
+from __future__ import annotations
+
+import math
+import time
+from dataclasses import dataclass
+from datetime import datetime, timedelta
+from typing import Any, Dict, List, Optional, Tuple
+
+from fastapi import FastAPI, HTTPException, Query
+\1, FileResponse
+
+try:
+    from zoneinfo import ZoneInfo  # py3.9+
+except Exception:
+    ZoneInfo = None  # type: ignore
+
+from src.live_fetch import fetch_competition_matches, fetch_competition_standings
+
+
+# =========================
+# Config
+# =========================
+
+TZ_NAME = "America/Sao_Paulo"
+TZ = ZoneInfo(TZ_NAME) if ZoneInfo else None
+
+DEFAULT_LIMIT = 15
+CACHE_TTL = 60
+
+LIVE_INFER_MINUTES = 130  # ~ 90 + intervalo + acréscimos
+
+LEAGUES: List[Dict[str, str]] = [
+    {"code": "PL", "name": "Premier League"},
+    {"code": "BL1", "name": "Bundesliga"},
+    {"code": "PD", "name": "La Liga"},
+    {"code": "SA", "name": "Serie A"},
+    {"code": "FL1", "name": "Ligue 1"},
+    {"code": "DED", "name": "Eredivisie"},
+    {"code": "PPL", "name": "Primeira Liga (Portugal)"},
+    {"code": "ELC", "name": "EFL Championship"},
+    {"code": "CL", "name": "UEFA Champions League"},
+    {"code": "BSA", "name": "Brasileirão Série A"},
+]
+
+STATUS_PT = {
+    "SCHEDULED": "Agendado",
+    "TIMED": "Agendado",
+    "LIVE": "Ao vivo",
+    "IN_PLAY": "Ao vivo",
+    "PAUSED": "Intervalo",
+    "FINISHED": "Finalizado",
+    "POSTPONED": "Adiado",
+    "SUSPENDED": "Suspenso",
+    "CANCELED": "Cancelado",
+    "LIVE_EST": "Ao vivo (estimado)",
+}
+
+STATUS_FILTERS = {
+    "SCHEDULED": ["SCHEDULED", "TIMED"],
+    "LIVE": ["LIVE", "IN_PLAY", "PAUSED", "LIVE_EST"],
+    "FINISHED": ["FINISHED"],
+    "ALL": None,
+}
+
+app = FastAPI(title="SQUARE FOOT", version="1.6")
+
+app.mount("/icons", StaticFiles(directory="web/icons"), name="icons")
+
+@app.get("/sw.js")
+def serve_sw():
+    return FileResponse("web/sw.js", media_type="application/javascript")
+
+
+
+# --- serve /icons (favicon + PWA assets) ---
+from pathlib import Path
+from fastapi.staticfiles import StaticFiles
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]  # .../src -> raiz do projeto
+ICONS_DIR = PROJECT_ROOT / "web" / "icons"
+
+if ICONS_DIR.exists():
+    app.mount("/icons", StaticFiles(directory=str(ICONS_DIR)), name="icons")
+# ------------------------------------------
+
+
+# =========================
+# Cache
+# =========================
+
+@dataclass
+class CacheEntry:
+    ts: float
+    value: Any
+
+
+_CACHE: Dict[str, CacheEntry] = {}
+
+
+def cache_get(key: str) -> Optional[Any]:
+    ent = _CACHE.get(key)
+    if not ent:
+        return None
+    if (time.time() - ent.ts) > CACHE_TTL:
+        _CACHE.pop(key, None)
+        return None
+    return ent.value
+
+
+def cache_set(key: str, value: Any) -> None:
+    _CACHE[key] = CacheEntry(ts=time.time(), value=value)
+
+
+# =========================
+# Helpers
+# =========================
+
+def now_tz() -> datetime:
+    if TZ:
+        return datetime.now(TZ)
+    return datetime.utcnow()
+
+
+def parse_utc(utc_iso: str) -> Optional[datetime]:
+    if not utc_iso:
+        return None
+    try:
+        dt = datetime.fromisoformat(utc_iso.replace("Z", "+00:00"))
+        if TZ:
+            dt = dt.astimezone(TZ)
+        return dt
+    except Exception:
+        return None
+
+
+def utc_to_br(utc_iso: str) -> str:
+    dt = parse_utc(utc_iso)
+    if not dt:
+        return "-"
+    return dt.strftime("%d/%m/%Y %H:%M")
+
+
+def normalize_team_name(s: str) -> str:
+    s = (s or "").lower().strip()
+    for token in [" fc", " cf", " sc", " ac", " afc", " cfc", ".", ",", "'", '"']:
+        s = s.replace(token, "")
+    s = " ".join(s.split())
+    return s
+
+
+def league_name(code: str) -> str:
+    for l in LEAGUES:
+        if l["code"] == code:
+            return l["name"]
+    return code
+
+
+def get_team_crest(team_obj: Dict[str, Any]) -> Optional[str]:
+    if not team_obj:
+        return None
+    for k in ("crest", "crestUrl", "logo", "image", "badge"):
+        v = team_obj.get(k)
+        if isinstance(v, str) and v.strip():
+            return v.strip()
+    return None
+
+
+def effective_status(match_status: str, utc_date: str) -> str:
+    st = (match_status or "").upper().strip()
+    dt = parse_utc(utc_date)
+
+    if st in ("LIVE", "IN_PLAY", "PAUSED"):
+        return st
+
+    if st in ("SCHEDULED", "TIMED") and dt:
+        n = now_tz()
+        if dt <= n <= (dt + timedelta(minutes=LIVE_INFER_MINUTES)):
+            return "LIVE_EST"
+
+    return st or "SCHEDULED"
+
+
+def score_pair(x: Any) -> Optional[Tuple[int, int]]:
+    if not isinstance(x, dict):
+        return None
+    h = x.get("home")
+    a = x.get("away")
+    if h is None or a is None:
+        return None
+    try:
+        return int(h), int(a)
+    except Exception:
+        return None
+
+
+def extract_live_score(score_obj: Dict[str, Any], status_eff: str) -> Optional[Dict[str, Any]]:
+    if not isinstance(score_obj, dict):
+        return None
+
+    candidates = []
+    for k in ("fullTime", "regularTime", "halfTime", "extraTime", "penalties"):
+        pair = score_pair(score_obj.get(k))
+        if pair:
+            candidates.append((k, pair))
+
+    if not candidates:
+        return None
+
+    key, (h, a) = candidates[0]
+
+    label = "Placar"
+    if status_eff in ("LIVE", "IN_PLAY", "LIVE_EST"):
+        label = "Placar (ao vivo)"
+    elif status_eff == "PAUSED":
+        label = "Placar (intervalo)"
+    elif status_eff == "FINISHED":
+        label = "Placar (final)"
+
+    return {"home": h, "away": a, "src": key, "label": label}
+
+
+# =========================
+# Poisson
+# =========================
+
+def poisson_pmf(k: int, lam: float) -> float:
+    if lam <= 0:
+        return 1.0 if k == 0 else 0.0
+    return math.exp(-lam) * (lam ** k) / math.factorial(k)
+
+
+def score_matrix(lh: float, la: float, max_goals: int = 7) -> List[List[float]]:
+    mat = []
+    for i in range(max_goals + 1):
+        pi = poisson_pmf(i, lh)
+        row = []
+        for j in range(max_goals + 1):
+            row.append(pi * poisson_pmf(j, la))
+        mat.append(row)
+    return mat
+
+
+def probs_from_matrix(mat: List[List[float]]) -> Tuple[float, float, float]:
+    p_home = p_draw = p_away = 0.0
+    for i, row in enumerate(mat):
+        for j, p in enumerate(row):
+            if i > j:
+                p_home += p
+            elif i == j:
+                p_draw += p
+            else:
+                p_away += p
+    return p_home, p_draw, p_away
+
+
+def btts_from_matrix(mat: List[List[float]]) -> float:
+    p = 0.0
+    for i, row in enumerate(mat):
+        for j, v in enumerate(row):
+            if i >= 1 and j >= 1:
+                p += v
+    return p
+
+
+def over_from_matrix(mat: List[List[float]], line: float) -> float:
+    thr = int(math.floor(line + 1e-9)) + 1
+    p = 0.0
+    for i, row in enumerate(mat):
+        for j, v in enumerate(row):
+            if (i + j) >= thr:
+                p += v
+    return p
+
+
+def top_scorelines(mat: List[List[float]], top_n: int = 3) -> List[Tuple[str, float]]:
+    items = []
+    for i, row in enumerate(mat):
+        for j, p in enumerate(row):
+            items.append((f"{i}-{j}", p))
+    items.sort(key=lambda x: x[1], reverse=True)
+    return items[:top_n]
+
+
+# =========================
+# Baseline predictor
+# =========================
+
+def build_team_stats_from_finished(code: str) -> Dict[str, Any]:
+    cache_key = f"teamstats:{code}"
+    cached = cache_get(cache_key)
+    if cached is not None:
+        return cached
+
+    today = datetime.utcnow().date()
+    date_from = (today - timedelta(days=365)).strftime("%Y-%m-%d")
+    date_to = today.strftime("%Y-%m-%d")
+
+    data = fetch_competition_matches(code, statuses=["FINISHED"], limit=400, date_from=date_from, date_to=date_to)
+    matches = data.get("matches", []) or []
+
+    team: Dict[str, Dict[str, int]] = {}
+    tot_home_goals = 0
+    tot_away_goals = 0
+    tot_games = 0
+
+    def ensure(tn: str):
+        if tn not in team:
+            team[tn] = {
+                "home_scored": 0, "home_conceded": 0, "home_games": 0,
+                "away_scored": 0, "away_conceded": 0, "away_games": 0,
+            }
+
+    for m in matches:
+        sc = m.get("score") or {}
+        ft = sc.get("fullTime") or {}
+        hg = ft.get("home")
+        ag = ft.get("away")
+        if hg is None or ag is None:
+            continue
+
+        hname = ((m.get("homeTeam") or {}).get("name") or "").strip()
+        aname = ((m.get("awayTeam") or {}).get("name") or "").strip()
+        if not hname or not aname:
+            continue
+
+        ensure(hname)
+        ensure(aname)
+
+        team[hname]["home_scored"] += int(hg)
+        team[hname]["home_conceded"] += int(ag)
+        team[hname]["home_games"] += 1
+
+        team[aname]["away_scored"] += int(ag)
+        team[aname]["away_conceded"] += int(hg)
+        team[aname]["away_games"] += 1
+
+        tot_home_goals += int(hg)
+        tot_away_goals += int(ag)
+        tot_games += 1
+
+    league_home_avg = (tot_home_goals / tot_games) if tot_games else 1.35
+    league_away_avg = (tot_away_goals / tot_games) if tot_games else 1.10
+
+    out = {
+        "teams": team,
+        "league_home_avg": league_home_avg,
+        "league_away_avg": league_away_avg,
+        "games_used": tot_games,
+    }
+    cache_set(cache_key, out)
+    return out
+
+
+def baseline_expected_goals(code: str, home: str, away: str) -> Tuple[float, float]:
+    stats = build_team_stats_from_finished(code)
+    teams = stats["teams"]
+    lh_avg = stats["league_home_avg"]
+    la_avg = stats["league_away_avg"]
+
+    def safe_div(a: float, b: float) -> float:
+        return a / b if b > 1e-9 else 1.0
+
+    def team_rates(name: str) -> Tuple[float, float, float, float, int, int]:
+        row = teams.get(name)
+        if not row:
+            nn = normalize_team_name(name)
+            for k in teams.keys():
+                if normalize_team_name(k) == nn:
+                    row = teams[k]
+                    break
+        if not row:
+            return (lh_avg, la_avg, la_avg, lh_avg, 0, 0)
+
+        hg = row["home_games"]
+        ag = row["away_games"]
+        hs_avg = safe_div(row["home_scored"], hg) if hg else lh_avg
+        hc_avg = safe_div(row["home_conceded"], hg) if hg else la_avg
+        as_avg = safe_div(row["away_scored"], ag) if ag else la_avg
+        ac_avg = safe_div(row["away_conceded"], ag) if ag else lh_avg
+        return (hs_avg, hc_avg, as_avg, ac_avg, hg, ag)
+
+    hs_avg, hc_avg, _, _, home_hg, _ = team_rates(home)
+    _, _, as_avg, ac_avg, _, away_ag = team_rates(away)
+
+    home_attack = safe_div(hs_avg, lh_avg)
+    away_def = safe_div(ac_avg, lh_avg)
+
+    away_attack = safe_div(as_avg, la_avg)
+    home_def = safe_div(hc_avg, la_avg)
+
+    xh = lh_avg * home_attack * away_def
+    xa = la_avg * away_attack * home_def
+
+    min_games = min(home_hg, away_ag)
+    if min_games < 3:
+        xh = (xh + lh_avg) / 2.0
+        xa = (xa + la_avg) / 2.0
+
+    xh = max(0.2, min(3.5, xh))
+    xa = max(0.2, min(3.5, xa))
+    return xh, xa
+
+
+def compute_prediction(code: str, home: str, away: str) -> Dict[str, Any]:
+    lh, la = baseline_expected_goals(code, home, away)
+
+    mat = score_matrix(lh, la, max_goals=7)
+    p_home, p_draw, p_away = probs_from_matrix(mat)
+
+    btts = btts_from_matrix(mat)
+    over15 = over_from_matrix(mat, 1.5)
+    over25 = over_from_matrix(mat, 2.5)
+    top3 = top_scorelines(mat, 3)
+
+    return {
+        "lambda_home": lh,
+        "lambda_away": la,
+        "p_home": p_home,
+        "p_draw": p_draw,
+        "p_away": p_away,
+        "btts": btts,
+        "over_1_5": over15,
+        "over_2_5": over25,
+        "top_scores": [{"score": s, "p": p} for s, p in top3],
+        "mode": "baseline",
+    }
+
+
+# =========================
+# Standings
+# =========================
+
+def parse_standings(standings_json: Dict[str, Any]) -> List[Dict[str, Any]]:
+    standings = standings_json.get("standings") or []
+    table = None
+    for st in standings:
+        if (st.get("type") or "").upper() == "TOTAL":
+            table = st.get("table")
+            break
+    if table is None:
+        for st in standings:
+            t = st.get("table")
+            if t:
+                table = t
+                break
+    return table or []
+
+
+def find_team_in_table(table: List[Dict[str, Any]], team_name: str) -> Optional[Dict[str, Any]]:
+    target = normalize_team_name(team_name)
+    best = None
+    for row in table:
+        t = row.get("team", {}) or {}
+        name = t.get("name") or ""
+        if normalize_team_name(name) == target:
+            return row
+        if target and target in normalize_team_name(name):
+            best = best or row
+    return best
+
+
+def fetch_standings_cached(code: str, home_team: str, away_team: str) -> Dict[str, Any]:
+    cache_key = f"standings:{code}"
+    cached = cache_get(cache_key)
+    if cached is None:
+        try:
+            cached = fetch_competition_standings(code)
+            cache_set(cache_key, cached)
+        except Exception:
+            return {"home": None, "away": None}
+
+    table = parse_standings(cached)
+    home_row = find_team_in_table(table, home_team)
+    away_row = find_team_in_table(table, away_team)
+
+    def pack(row: Optional[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
+        if not row:
+            return None
+        team = row.get("team", {}) or {}
+        return {
+            "team": team.get("name"),
+            "crest": get_team_crest(team),
+            "pos": row.get("position"),
+            "pts": row.get("points"),
+            "pj": row.get("playedGames"),
+            "sg": row.get("goalDifference"),
+            "w": row.get("won"),
+        }
+
+    return {"home": pack(home_row), "away": pack(away_row)}
+
+
+# =========================
+# Last5 + streak (computado)
+# =========================
+
+def compute_outcome_for_team(is_home: bool, hg: int, ag: int) -> str:
+    if hg == ag:
+        return "E"
+    if is_home:
+        return "V" if hg > ag else "D"
+    else:
+        return "V" if ag > hg else "D"
+
+
+def compute_streak(outcomes: List[str]) -> str:
+    if not outcomes:
+        return "—"
+    first = outcomes[0]
+    k = 1
+    for i in range(1, len(outcomes)):
+        if outcomes[i] == first:
+            k += 1
+        else:
+            break
+    return f"{k}{first}"
+
+
+def fetch_last5(code: str, home_team: str, away_team: str) -> Tuple[List[str], List[str], str, str]:
+    cache_key = f"last5:{code}"
+    cached = cache_get(cache_key)
+    if cached is None:
+        today = datetime.utcnow().date()
+        date_from = (today - timedelta(days=180)).strftime("%Y-%m-%d")
+        date_to = today.strftime("%Y-%m-%d")
+        try:
+            cached = fetch_competition_matches(code, statuses=["FINISHED"], limit=400, date_from=date_from, date_to=date_to)
+            cache_set(cache_key, cached)
+        except Exception:
+            return [], [], "—", "—"
+
+    matches = cached.get("matches", []) or []
+    matches.sort(key=lambda m: (m.get("utcDate") or ""), reverse=True)
+
+    home_norm = normalize_team_name(home_team)
+    away_norm = normalize_team_name(away_team)
+
+    home_list: List[str] = []
+    away_list: List[str] = []
+    home_outcomes: List[str] = []
+    away_outcomes: List[str] = []
+
+    for m in matches:
+        sc = m.get("score") or {}
+        ft = sc.get("fullTime") or {}
+        hg = ft.get("home")
+        ag = ft.get("away")
+        if hg is None or ag is None:
+            continue
+
+        h = ((m.get("homeTeam") or {}).get("name") or "")
+        a = ((m.get("awayTeam") or {}).get("name") or "")
+        if not h or not a:
+            continue
+
+        h_norm = normalize_team_name(h)
+        a_norm = normalize_team_name(a)
+
+        line = f"{h} {int(hg)}-{int(ag)} {a}"
+
+        if home_norm and (h_norm == home_norm or a_norm == home_norm):
+            if len(home_list) < 5:
+                home_list.append(line)
+                home_is_home = (h_norm == home_norm)
+                home_outcomes.append(compute_outcome_for_team(home_is_home, int(hg), int(ag)))
+
+        if away_norm and (h_norm == away_norm or a_norm == away_norm):
+            if len(away_list) < 5:
+                away_list.append(line)
+                away_is_home = (h_norm == away_norm)
+                away_outcomes.append(compute_outcome_for_team(away_is_home, int(hg), int(ag)))
+
+        if len(home_list) >= 5 and len(away_list) >= 5:
+            break
+
+    return home_list, away_list, compute_streak(home_outcomes), compute_streak(away_outcomes)
+
+
+# =========================
+# API
+# =========================
+
+@app.get("/", response_class=HTMLResponse)
+def home():
+    return HTMLResponse(
+        INDEX_HTML.replace("__TZ__", TZ_NAME),
+        headers={"Cache-Control": "no-store, no-cache, must-revalidate, max-age=0"},
+    )
+
+
+@app.get("/leagues")
+def leagues():
+    return {"count": len(LEAGUES), "leagues": LEAGUES}
+
+
+@app.get("/matches")
+def matches(
+    code: str = Query(...),
+    status: str = Query("SCHEDULED"),
+    limit: int = Query(DEFAULT_LIMIT, ge=1, le=50),
+):
+    status = (status or "SCHEDULED").upper()
+    today = datetime.utcnow().date()
+
+    if status == "FINISHED":
+        date_from = (today - timedelta(days=14)).strftime("%Y-%m-%d")
+        date_to = today.strftime("%Y-%m-%d")
+    elif status == "SCHEDULED":
+        date_from = today.strftime("%Y-%m-%d")
+        date_to = (today + timedelta(days=30)).strftime("%Y-%m-%d")
+    elif status == "LIVE":
+        date_from = (today - timedelta(days=1)).strftime("%Y-%m-%d")
+        date_to = (today + timedelta(days=1)).strftime("%Y-%m-%d")
+    else:
+        date_from = (today - timedelta(days=7)).strftime("%Y-%m-%d")
+        date_to = (today + timedelta(days=30)).strftime("%Y-%m-%d")
+
+    cache_key = f"matches:{code}:{status}:{limit}"
+    cached = cache_get(cache_key)
+    if cached is not None:
+        return cached
+
+    statuses_query = None if status == "LIVE" else STATUS_FILTERS.get(status)
+
+    data = fetch_competition_matches(code, statuses=statuses_query, limit=400, date_from=date_from, date_to=date_to)
+    ms_raw = data.get("matches", []) or []
+
+    ms: List[Dict[str, Any]] = []
+    for m in ms_raw:
+        utc = m.get("utcDate") or ""
+        st_raw = (m.get("status") or "").upper()
+        st_eff = effective_status(st_raw, utc)
+
+        home_obj = (m.get("homeTeam") or {}) if isinstance(m.get("homeTeam"), dict) else {}
+        away_obj = (m.get("awayTeam") or {}) if isinstance(m.get("awayTeam"), dict) else {}
+
+        ms.append({
+            "id": m.get("id"),
+            "utcDate": utc,
+            "dateBR": utc_to_br(utc),
+            "home": home_obj.get("name"),
+            "away": away_obj.get("name"),
+            "homeCrest": get_team_crest(home_obj),
+            "awayCrest": get_team_crest(away_obj),
+            "status_raw": st_raw,
+            "status_eff": st_eff,
+            "status_pt": STATUS_PT.get(st_eff, st_eff or "-"),
+            "score": m.get("score") or {},
+        })
+
+    desired = STATUS_FILTERS.get(status)
+    if desired is not None:
+        desired_set = set(desired)
+        ms = [x for x in ms if (x.get("status_eff") in desired_set)]
+
+    if status == "FINISHED":
+        ms.sort(key=lambda x: (x.get("utcDate") or ""), reverse=True)
+    else:
+        ms.sort(key=lambda x: (x.get("utcDate") or ""))
+
+    ms = ms[:limit]
+
+    out = {
+        "code": code,
+        "league": league_name(code),
+        "status_filter": status,
+        "count": len(ms),
+        "matches": ms,
+    }
+
+    cache_set(cache_key, out)
+    return out
+
+
+@app.get("/card")
+def card(
+    code: str = Query(...),
+    match_id: int = Query(...),
+):
+    found = None
+
+    for st in ["SCHEDULED", "LIVE", "FINISHED", "ALL"]:
+        block = cache_get(f"matches:{code}:{st}:50")
+        if block:
+            for m in block.get("matches", []) or []:
+                if int(m.get("id", -1)) == int(match_id):
+                    found = m
+                    break
+        if found:
+            break
+
+    if not found:
+        today = datetime.utcnow().date()
+        date_from = (today - timedelta(days=30)).strftime("%Y-%m-%d")
+        date_to = (today + timedelta(days=60)).strftime("%Y-%m-%d")
+        data = fetch_competition_matches(code, statuses=None, limit=400, date_from=date_from, date_to=date_to)
+        for m in data.get("matches", []) or []:
+            if int(m.get("id", -1)) == int(match_id):
+                utc = m.get("utcDate") or ""
+                st_raw = (m.get("status") or "").upper()
+                st_eff = effective_status(st_raw, utc)
+
+                home_obj = (m.get("homeTeam") or {}) if isinstance(m.get("homeTeam"), dict) else {}
+                away_obj = (m.get("awayTeam") or {}) if isinstance(m.get("awayTeam"), dict) else {}
+
+                found = {
+                    "id": m.get("id"),
+                    "utcDate": utc,
+                    "dateBR": utc_to_br(utc),
+                    "home": home_obj.get("name"),
+                    "away": away_obj.get("name"),
+                    "homeCrest": get_team_crest(home_obj),
+                    "awayCrest": get_team_crest(away_obj),
+                    "homeCrest": get_team_crest(home_obj),
+                    "awayCrest": get_team_crest(away_obj),
+                    "status_raw": st_raw,
+                    "status_eff": st_eff,
+                    "status_pt": STATUS_PT.get(st_eff, st_eff or "-"),
+                    "score": m.get("score") or {},
+                }
+                break
+
+    if not found:
+        raise HTTPException(status_code=404, detail="Jogo não encontrado.")
+
+    home_team = found.get("home") or ""
+    away_team = found.get("away") or ""
+
+    pred = compute_prediction(code, home_team, away_team)
+
+    last5_home, last5_away, streak_home, streak_away = fetch_last5(code, home_team, away_team)
+    standings = fetch_standings_cached(code, home_team, away_team)
+
+    live_score = extract_live_score(found.get("score") or {}, found.get("status_eff") or "")
+
+    return {
+        "match": found,
+        "league": {"code": code, "name": league_name(code)},
+        "prediction": present_prediction(pred),
+        "last5": {"home": last5_home, "away": last5_away},
+        "standings": standings,
+        "streak": {"home": streak_home, "away": streak_away},
+        "live_score": live_score,
+    }
+
+
+def pct(x: Optional[float]) -> Optional[float]:
+    if x is None:
+        return None
+    try:
+        return float(x) * 100.0
+    except Exception:
+        return None
+
+
+def present_prediction(pred: Dict[str, Any]) -> Dict[str, Any]:
+    return {
+        "p_home": pct(pred.get("p_home")),
+        "p_draw": pct(pred.get("p_draw")),
+        "p_away": pct(pred.get("p_away")),
+        "lambda_home": pred.get("lambda_home"),
+        "lambda_away": pred.get("lambda_away"),
+        "btts": pct(pred.get("btts")),
+        "over_1_5": pct(pred.get("over_1_5")),
+        "over_2_5": pct(pred.get("over_2_5")),
+        "top_scores": pred.get("top_scores") or [],
+        "mode": pred.get("mode") or "baseline",
+    }
+
+
+# =========================
+# HTML
+# =========================
+
+INDEX_HTML = r"""
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SQUARE FOOT</title>
+  <style>
+    :root{
+      --bg1:#07131f;
+      --bg2:#050b14;
+      --txt:#eaf1ff;
+      --muted:#b9c7e6;
+      --accent:#1db954;
+      --shadow: 0 18px 60px rgba(0,0,0,.45);
+      --radius:16px;
+    }
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+      color: var(--txt);
+      background:
+        radial-gradient(1200px 600px at 20% 0%, rgba(29,185,84,.18), transparent 55%),
+        radial-gradient(1000px 500px at 85% 10%, rgba(14,165,233,.16), transparent 60%),
+        linear-gradient(180deg, var(--bg1), var(--bg2));
+      min-height:100vh;
+    }
+    .wrap{ max-width: 1200px; margin: 0 auto; padding: 28px 18px 40px; }
+
+    header{
+      display:flex;
+      align-items:flex-start;
+      justify-content:space-between;
+      gap:12px;
+      margin-bottom:18px;
+    }
+
+    .brand{
+      display:flex;
+      align-items:flex-start;
+      gap:14px;
+    }
+
+    /* LOGO PIXELADO (placeholder) */
+    .logo{
+      width: 58px;
+      height: 58px;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,.08);
+      background: rgba(10,18,33,.62);
+      box-shadow: 0 10px 30px rgba(0,0,0,.35);
+      position: relative;
+      overflow: hidden;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+    .pixelfoot{
+      width: 40px;
+      height: 40px;
+      display:grid;
+      grid-template-columns: repeat(8, 1fr);
+      grid-template-rows: repeat(8, 1fr);
+      gap: 2px;
+    }
+    .px{
+      background: rgba(234,241,255,.08);
+      border-radius: 3px;
+      border: 1px solid rgba(255,255,255,.04);
+    }
+    .px.on{
+      background: rgba(29,185,84,.75);
+      border-color: rgba(29,185,84,.25);
+      box-shadow: 0 6px 18px rgba(29,185,84,.10);
+    }
+
+    h1{ margin:0; font-size:44px; letter-spacing:.5px; font-weight:800; }
+    .sub{ margin-top:6px; color:var(--muted); font-size:15px; }
+    .tz{ color: var(--muted); font-size:14px; padding-top:10px; }
+
+    .panel{
+      background: rgba(10,18,33,.62);
+      border: 1px solid rgba(255,255,255,.06);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 16px;
+      backdrop-filter: blur(10px);
+    }
+    .filters{ display:grid; grid-template-columns: 1.2fr 1fr .5fr auto; gap: 12px; align-items:end; }
+    label{ display:block; font-size: 12px; color: var(--muted); margin-bottom: 6px; }
+    select, input{
+      width:100%;
+      background: rgba(8,14,28,.75);
+      border:1px solid rgba(255,255,255,.08);
+      color: var(--txt);
+      padding: 10px 12px;
+      border-radius: 12px;
+      outline:none;
+    }
+    select option{ background:#071225; color: var(--txt); }
+    button{
+      background: rgba(29,185,84,.25);
+      border: 1px solid rgba(29,185,84,.45);
+      color: var(--txt);
+      padding: 10px 16px;
+      border-radius: 12px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .how{
+      margin-top: 12px;
+      padding: 12px 14px;
+      border-radius: 12px;
+      border: 1px dashed rgba(29,185,84,.35);
+      background: rgba(8,14,28,.5);
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .grid{ display:grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 14px; }
+    .box-title{ display:flex; align-items:center; justify-content:space-between; margin-bottom: 10px; color: var(--txt); font-weight: 800; }
+    .pill{
+      display:inline-flex; align-items:center; gap:8px;
+      padding: 6px 10px; border-radius: 999px;
+      border: 1px solid rgba(255,255,255,.08);
+      background: rgba(8,14,28,.55);
+      color: var(--muted); font-size: 12px;
+    }
+    table{ width:100%; border-collapse: collapse; }
+    th, td{
+      text-align:left; padding: 10px 10px;
+      border-bottom: 1px solid rgba(255,255,255,.06);
+      vertical-align:top; font-size: 14px; color: var(--txt);
+    }
+    th{ color: var(--muted); font-size: 12px; font-weight: 700; }
+    tr.clickable{ cursor:pointer; }
+    tr.clickable:hover{ background: rgba(29,185,84,.06); }
+    .tag{
+      display:inline-block; padding: 6px 10px; border-radius: 999px;
+      border: 1px solid rgba(255,255,255,.08);
+      background: rgba(8,14,28,.55);
+      color: var(--muted); font-size: 12px;
+    }
+    .card h2{ margin: 0; font-size: 22px; font-weight: 900; }
+    .card .meta{ margin-top: 4px; color: var(--muted); font-size: 13px; }
+
+    .teamline{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      flex-wrap: wrap;
+    }
+    .crest{
+      width:22px;
+      height:22px;
+      object-fit: contain;
+      filter: drop-shadow(0 2px 6px rgba(0,0,0,.35));
+    }
+    .vs{ color: var(--muted); font-weight: 800; }
+
+    .livebox{
+      margin-top: 8px;
+      display:inline-flex;
+      gap:10px;
+      align-items:center;
+      padding: 8px 10px;
+      border-radius: 12px;
+      border: 1px solid rgba(29,185,84,.35);
+      background: rgba(29,185,84,.08);
+      color: var(--txt);
+      font-weight: 900;
+    }
+    .livebox span{ color: var(--muted); font-weight: 800; font-size: 12px; }
+
+    .metrics{ margin-top: 12px; display:grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; }
+    .m{
+      background: rgba(8,14,28,.55);
+      border: 1px solid rgba(255,255,255,.07);
+      border-radius: 14px;
+      padding: 10px;
+      min-height: 64px;
+    }
+    .m .k{ color: var(--muted); font-size: 12px; }
+    .m .v{ font-size: 20px; font-weight: 900; margin-top: 6px; }
+    .split{
+      margin-top: 12px; padding-top: 12px;
+      border-top: 1px solid rgba(255,255,255,.06);
+      display:grid; grid-template-columns: 1fr 1fr; gap: 12px;
+    }
+    .list .t{ font-weight: 900; margin-bottom: 6px; }
+    .list .s{ color: var(--muted); font-size: 12px; margin-bottom: 6px; }
+    .list ul{ margin: 0; padding-left: 18px; color: var(--muted); font-size: 13px; }
+    .list li{ margin: 2px 0; }
+
+    .standings-block{
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid rgba(255,255,255,.06);
+    }
+    .mini{
+      width: 100%;
+      border-collapse: collapse;
+      background: rgba(8,14,28,.35);
+      border: 1px solid rgba(255,255,255,.07);
+      border-radius: 14px;
+      overflow: hidden;
+    }
+    .mini th, .mini td{
+      padding: 9px 10px;
+      border-bottom: 1px solid rgba(255,255,255,.06);
+      font-size: 13px;
+    }
+    .mini th{
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+    .mini tr:last-child td{ border-bottom: 0; }
+    .mini .num{ color: var(--muted); width: 44px; }
+    .mini .right{ text-align:right; width: 58px; }
+    .mini .teamcell{
+      display:flex; align-items:center; gap:8px;
+      font-weight: 900;
+    }
+    .streakline{
+      display:flex; gap:16px; flex-wrap:wrap;
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+    details{ margin-top: 12px; background: rgba(8,14,28,.55); border: 1px solid rgba(255,255,255,.07); border-radius: 14px; padding: 10px; }
+    summary{ cursor:pointer; font-weight: 900; }
+    .gloss p{ color: var(--muted); font-size: 13px; line-height: 1.35; }
+
+    .rowgame{
+      display:flex;
+      align-items:center;
+      gap:8px;
+    }
+    .rowgame b{ font-weight:900; }
+
+    @media (max-width: 980px){
+      .filters{ grid-template-columns: 1fr; }
+      .grid{ grid-template-columns: 1fr; }
+      .metrics{ grid-template-columns: 1fr 1fr; }
+      .split{ grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo" title="Square Foot">
+          <!-- Placeholder: pé pixelado -->
+          <div class="pixelfoot" aria-hidden="true">
+            <!-- 8x8: marque os pixels com class "on" -->
+            <div class="px"></div><div class="px on"></div><div class="px on"></div><div class="px"></div><div class="px"></div><div class="px on"></div><div class="px on"></div><div class="px"></div>
+            <div class="px on"></div><div class="px on"></div><div class="px on"></div><div class="px"></div><div class="px on"></div><div class="px on"></div><div class="px on"></div><div class="px"></div>
+            <div class="px on"></div><div class="px on"></div><div class="px on"></div><div class="px on"></div><div class="px on"></div><div class="px on"></div><div class="px on"></div><div class="px"></div>
+            <div class="px"></div><div class="px on"></div><div class="px on"></div><div class="px on"></div><div class="px on"></div><div class="px on"></div><div class="px"></div><div class="px"></div>
+            <div class="px"></div><div class="px"></div><div class="px on"></div><div class="px on"></div><div class="px on"></div><div class="px on"></div><div class="px"></div><div class="px"></div>
+            <div class="px"></div><div class="px"></div><div class="px on"></div><div class="px on"></div><div class="px on"></div><div class="px on"></div><div class="px"></div><div class="px"></div>
+            <div class="px"></div><div class="px"></div><div class="px"></div><div class="px on"></div><div class="px on"></div><div class="px"></div><div class="px"></div><div class="px"></div>
+            <div class="px"></div><div class="px"></div><div class="px"></div><div class="px"></div><div class="px"></div><div class="px"></div><div class="px"></div><div class="px"></div>
+          </div>
+        </div>
+
+        <div>
+          <h1>SQUARE FOOT</h1>
+          <div class="sub">Probabilidades simples para jogos de futebol — em tempo real</div>
+        </div>
+      </div>
+
+      <div class="tz">Fuso: Horário de Brasília (__TZ__)</div>
+    </header>
+
+    <div class="panel">
+      <div class="filters">
+        <div>
+          <label>Competição</label>
+          <select id="league"></select>
+        </div>
+        <div>
+          <label>Status</label>
+          <select id="status">
+            <option value="SCHEDULED">Agendado</option>
+            <option value="LIVE">Ao vivo</option>
+            <option value="FINISHED">Finalizado</option>
+            <option value="ALL">Todos</option>
+          </select>
+        </div>
+        <div>
+          <label>Qtd jogos</label>
+          <input id="limit" type="number" value="15" min="1" max="50" />
+        </div>
+        <div>
+          <button id="btn">Carregar</button>
+        </div>
+      </div>
+
+      <div class="how">
+        <b>Como usar:</b> escolha a competição → clique em <b>Carregar</b> → clique em um jogo para ver o card.
+      </div>
+
+      <div class="grid">
+        <div class="panel">
+          <div class="box-title">
+            <div>Jogos</div>
+            <div class="pill" id="info">—</div>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th>Data (BR)</th>
+                <th>Jogo</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody id="rows"></tbody>
+          </table>
+        </div>
+
+        <div class="panel card" id="card">
+          <div class="box-title">
+            <div>Detalhes do jogo</div>
+            <div class="pill" id="updated">—</div>
+          </div>
+          <div id="cardBody" class="meta">Selecione um jogo na lista para ver as métricas.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+
+function fmtPct(v){
+  if(v === null || v === undefined) return "–";
+  if(isNaN(v)) return "–";
+  return v.toFixed(1) + "%";
+}
+function fmtNum(v){
+  if(v === null || v === undefined) return "–";
+  if(isNaN(v)) return "–";
+  return Number(v).toFixed(2);
+}
+function crestImg(url){
+  if(!url) return "";
+  return `<img class="crest" src="${url}" alt="" loading="lazy" referrerpolicy="no-referrer" />`;
+}
+function safe(v, dash="—"){
+  if(v === null || v === undefined) return dash;
+  if(v === "") return dash;
+  return v;
+}
+
+async function loadLeagues(){
+  const r = await fetch("/leagues");
+  const data = await r.json();
+  const sel = $("league");
+  sel.innerHTML = "";
+  data.leagues.forEach(l => {
+    const opt = document.createElement("option");
+    opt.value = l.code;
+    opt.textContent = l.name;
+    sel.appendChild(opt);
+  });
+  sel.value = "PL";
+}
+
+async function loadMatches(){
+  const code = $("league").value;
+  const status = $("status").value;
+  const limit = Number($("limit").value || 15);
+
+  $("info").textContent = "Carregando…";
+  $("rows").innerHTML = "";
+
+  const r = await fetch(`/matches?code=${encodeURIComponent(code)}&status=${encodeURIComponent(status)}&limit=${limit}`);
+  const data = await r.json();
+
+  $("info").textContent = `${data.league} • mostrando: ${data.count}`;
+
+  data.matches.forEach(m => {
+    const tr = document.createElement("tr");
+    tr.className = "clickable";
+    tr.innerHTML = `
+      <td>${m.dateBR}</td>
+      <td>
+        <div class="rowgame">
+          ${crestImg(m.homeCrest)}
+          <b>${m.home}</b>
+          <span class="vs">vs</span>
+          ${crestImg(m.awayCrest)}
+          <b>${m.away}</b>
+        </div>
+      </td>
+      <td><span class="tag">${m.status_pt}</span></td>
+    `;
+    tr.addEventListener("click", () => loadCard(code, m.id));
+    $("rows").appendChild(tr);
+  });
+
+  if(data.matches.length){
+    loadCard(code, data.matches[0].id);
+  }else{
+    $("cardBody").innerHTML = `<div class="meta">Sem jogos para este filtro.</div>`;
+  }
+}
+
+function standingsRowHTML(row, fallbackTeamName, fallbackCrest){
+  if(!row){
+    return `
+      <tr>
+        <td class="num">—</td>
+        <td>
+          <div class="teamcell">
+            ${crestImg(fallbackCrest)}
+            ${safe(fallbackTeamName)}
+          </div>
+        </td>
+        <td class="right">—</td>
+        <td class="right">—</td>
+        <td class="right">—</td>
+      </tr>
+    `;
+  }
+  return `
+    <tr>
+      <td class="num">${safe(row.pos)}</td>
+      <td>
+        <div class="teamcell">
+          ${crestImg(row.crest || fallbackCrest)}
+          ${safe(row.team || fallbackTeamName)}
+        </div>
+      </td>
+      <td class="right">${safe(row.pts)}</td>
+      <td class="right">${safe(row.sg)}</td>
+      <td class="right">${safe(row.w)}</td>
+    </tr>
+  `;
+}
+
+async function loadCard(code, matchId){
+  $("updated").textContent = "Carregando…";
+  const r = await fetch(`/card?code=${encodeURIComponent(code)}&match_id=${encodeURIComponent(matchId)}`);
+  const data = await r.json();
+
+  const m = data.match;
+  const p = data.prediction || {};
+  const last5 = data.last5 || {home:[], away:[]};
+  const st = data.standings || {home:null, away:null};
+  const streak = data.streak || {home:"—", away:"—"};
+  const live = data.live_score || null;
+
+  const topScores = (p.top_scores || [])
+    .map(x => `${x.score} (${(x.p*100).toFixed(1)}%)`)
+    .join("<br/>") || "–";
+
+  const liveHTML = live
+    ? `<div class="livebox">${crestImg(m.homeCrest)} ${live.home}–${live.away} ${crestImg(m.awayCrest)} <span>${live.label}</span></div>`
+    : "";
+
+  $("cardBody").innerHTML = `
+    <div class="teamline">
+      ${crestImg(m.homeCrest)}
+      <h2 style="margin:0">${m.home}</h2>
+      <span class="vs">vs</span>
+      ${crestImg(m.awayCrest)}
+      <h2 style="margin:0">${m.away}</h2>
+    </div>
+    <div class="meta">${data.league.name} • ${m.dateBR} • ${m.status_pt}</div>
+    ${liveHTML}
+
+    <div class="metrics">
+      <div class="m"><div class="k">Prob. Mandante</div><div class="v">${fmtPct(p.p_home)}</div></div>
+      <div class="m"><div class="k">Prob. Empate</div><div class="v">${fmtPct(p.p_draw)}</div></div>
+      <div class="m"><div class="k">Prob. Visitante</div><div class="v">${fmtPct(p.p_away)}</div></div>
+
+      <div class="m"><div class="k">Gols esperados (mandante)</div><div class="v">${fmtNum(p.lambda_home)}</div></div>
+      <div class="m"><div class="k">Gols esperados (visitante)</div><div class="v">${fmtNum(p.lambda_away)}</div></div>
+      <div class="m"><div class="k">Ambos marcam</div><div class="v">${fmtPct(p.btts)}</div></div>
+
+      <div class="m"><div class="k">Over 1.5 gols</div><div class="v">${fmtPct(p.over_1_5)}</div></div>
+      <div class="m"><div class="k">Over 2.5 gols</div><div class="v">${fmtPct(p.over_2_5)}</div></div>
+      <div class="m"><div class="k">Placares mais prováveis</div><div class="v" style="font-size:14px; font-weight:800; line-height:1.25">${topScores}</div></div>
+    </div>
+
+    <div class="split">
+      <div class="list">
+        <div class="t">Últimos 5 jogos — Mandante</div>
+        <div class="s">Resultados recentes do time (placar final).</div>
+        <ul>${(last5.home||[]).map(x=>`<li>${x}</li>`).join("") || "<li>—</li>"}</ul>
+      </div>
+      <div class="list">
+        <div class="t">Últimos 5 jogos — Visitante</div>
+        <div class="s">Resultados recentes do time (placar final).</div>
+        <ul>${(last5.away||[]).map(x=>`<li>${x}</li>`).join("") || "<li>—</li>"}</ul>
+      </div>
+    </div>
+
+    <div class="standings-block">
+      <div class="list">
+        <div class="t">Classificação na liga</div>
+        <div class="s">Posição, pontos, saldo de gols e vitórias.</div>
+      </div>
+
+      <table class="mini">
+        <thead>
+          <tr>
+            <th class="num">#</th>
+            <th>Time</th>
+            <th class="right">Pts</th>
+            <th class="right">SG</th>
+            <th class="right">V</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${standingsRowHTML(st.home, m.home, m.homeCrest)}
+          ${standingsRowHTML(st.away, m.away, m.awayCrest)}
+        </tbody>
+      </table>
+
+      <div class="streakline">
+        <div><b>Streak mandante:</b> ${safe(streak.home, "—")}</div>
+        <div><b>Streak visitante:</b> ${safe(streak.away, "—")}</div>
+      </div>
+    </div>
+
+    <details class="gloss">
+      <summary>Glossário (o que significa cada métrica)</summary>
+      <p><b>Prob. Mandante/Empate/Visitante</b>: chance de cada resultado (1X2) a partir de um baseline Poisson usando histórico recente da liga.</p>
+      <p><b>Gols esperados</b>: média de gols estimada para cada time (λ).</p>
+      <p><b>Ambos marcam</b>: probabilidade de os dois times fazerem pelo menos 1 gol.</p>
+      <p><b>Over 1.5 / Over 2.5</b>: probabilidade de o jogo ter pelo menos 2 gols / 3 gols no total.</p>
+      <p><b>Placares mais prováveis</b>: top 3 placares com maior probabilidade.</p>
+      <p><b>Pts / SG / V</b>: pontos, saldo de gols e vitórias na tabela da liga.</p>
+      <p><b>Streak</b>: sequência atual (ex.: 3V, 2E, 1D) calculada pelos últimos resultados.</p>
+    </details>
+  `;
+
+  $("updated").textContent = "Atualizado";
+}
+
+$("btn").addEventListener("click", loadMatches);
+loadLeagues().then(loadMatches);
+</script>
+</body>
+</html>
+"""

@@ -1,0 +1,151 @@
+date,home_team,away_team,home_goals,away_goals
+2025-08-23T16:30:00Z,Genoa CFC,US Lecce,0,0
+2025-08-23T16:30:00Z,US Sassuolo Calcio,SSC Napoli,0,2
+2025-08-23T18:45:00Z,AC Milan,US Cremonese,1,2
+2025-08-23T18:45:00Z,AS Roma,Bologna FC 1909,1,0
+2025-08-24T16:30:00Z,Cagliari Calcio,ACF Fiorentina,1,1
+2025-08-24T16:30:00Z,Como 1907,SS Lazio,2,0
+2025-08-24T18:45:00Z,Atalanta BC,AC Pisa 1909,1,1
+2025-08-24T18:45:00Z,Juventus FC,Parma Calcio 1913,2,0
+2025-08-25T16:30:00Z,Udinese Calcio,Hellas Verona FC,1,1
+2025-08-25T18:45:00Z,FC Internazionale Milano,Torino FC,5,0
+2025-08-29T16:30:00Z,US Cremonese,US Sassuolo Calcio,3,2
+2025-08-29T18:45:00Z,US Lecce,AC Milan,0,2
+2025-08-30T16:30:00Z,Bologna FC 1909,Como 1907,1,0
+2025-08-30T16:30:00Z,Parma Calcio 1913,Atalanta BC,1,1
+2025-08-30T18:45:00Z,SSC Napoli,Cagliari Calcio,1,0
+2025-08-30T18:45:00Z,AC Pisa 1909,AS Roma,0,1
+2025-08-31T16:30:00Z,Genoa CFC,Juventus FC,0,1
+2025-08-31T16:30:00Z,Torino FC,ACF Fiorentina,0,0
+2025-08-31T18:45:00Z,FC Internazionale Milano,Udinese Calcio,1,2
+2025-08-31T18:45:00Z,SS Lazio,Hellas Verona FC,4,0
+2025-09-13T13:00:00Z,Cagliari Calcio,Parma Calcio 1913,2,0
+2025-09-13T16:00:00Z,Juventus FC,FC Internazionale Milano,4,3
+2025-09-13T18:45:00Z,ACF Fiorentina,SSC Napoli,1,3
+2025-09-14T10:30:00Z,AS Roma,Torino FC,0,1
+2025-09-14T13:00:00Z,Atalanta BC,US Lecce,4,1
+2025-09-14T13:00:00Z,AC Pisa 1909,Udinese Calcio,0,1
+2025-09-14T16:00:00Z,US Sassuolo Calcio,SS Lazio,1,0
+2025-09-14T18:45:00Z,AC Milan,Bologna FC 1909,1,0
+2025-09-15T16:30:00Z,Hellas Verona FC,US Cremonese,0,0
+2025-09-15T18:45:00Z,Como 1907,Genoa CFC,1,1
+2025-09-19T18:45:00Z,US Lecce,Cagliari Calcio,1,2
+2025-09-20T13:00:00Z,Bologna FC 1909,Genoa CFC,2,1
+2025-09-20T16:00:00Z,Hellas Verona FC,Juventus FC,1,1
+2025-09-20T18:45:00Z,Udinese Calcio,AC Milan,0,3
+2025-09-21T10:30:00Z,SS Lazio,AS Roma,0,1
+2025-09-21T13:00:00Z,Torino FC,Atalanta BC,0,3
+2025-09-21T13:00:00Z,US Cremonese,Parma Calcio 1913,0,0
+2025-09-21T16:00:00Z,ACF Fiorentina,Como 1907,1,2
+2025-09-21T18:45:00Z,FC Internazionale Milano,US Sassuolo Calcio,2,1
+2025-09-22T18:45:00Z,SSC Napoli,AC Pisa 1909,3,2
+2025-09-27T13:00:00Z,Como 1907,US Cremonese,1,1
+2025-09-27T16:00:00Z,Juventus FC,Atalanta BC,1,1
+2025-09-27T18:45:00Z,Cagliari Calcio,FC Internazionale Milano,0,2
+2025-09-28T10:30:00Z,US Sassuolo Calcio,Udinese Calcio,3,1
+2025-09-28T13:00:00Z,AS Roma,Hellas Verona FC,2,0
+2025-09-28T13:00:00Z,AC Pisa 1909,ACF Fiorentina,0,0
+2025-09-28T16:00:00Z,US Lecce,Bologna FC 1909,2,2
+2025-09-28T18:45:00Z,AC Milan,SSC Napoli,2,1
+2025-09-29T16:30:00Z,Parma Calcio 1913,Torino FC,2,1
+2025-09-29T18:45:00Z,Genoa CFC,SS Lazio,0,3
+2025-10-03T18:45:00Z,Hellas Verona FC,US Sassuolo Calcio,0,1
+2025-10-04T13:00:00Z,SS Lazio,Torino FC,3,3
+2025-10-04T13:00:00Z,Parma Calcio 1913,US Lecce,0,1
+2025-10-04T16:00:00Z,FC Internazionale Milano,US Cremonese,4,1
+2025-10-04T18:45:00Z,Atalanta BC,Como 1907,1,1
+2025-10-05T10:30:00Z,Udinese Calcio,Cagliari Calcio,1,1
+2025-10-05T13:00:00Z,ACF Fiorentina,AS Roma,1,2
+2025-10-05T13:00:00Z,Bologna FC 1909,AC Pisa 1909,4,0
+2025-10-05T16:00:00Z,SSC Napoli,Genoa CFC,2,1
+2025-10-05T18:45:00Z,Juventus FC,AC Milan,0,0
+2025-10-18T13:00:00Z,AC Pisa 1909,Hellas Verona FC,0,0
+2025-10-18T13:00:00Z,US Lecce,US Sassuolo Calcio,0,0
+2025-10-18T16:00:00Z,Torino FC,SSC Napoli,1,0
+2025-10-18T18:45:00Z,AS Roma,FC Internazionale Milano,0,1
+2025-10-19T10:30:00Z,Como 1907,Juventus FC,2,0
+2025-10-19T13:00:00Z,Cagliari Calcio,Bologna FC 1909,0,2
+2025-10-19T13:00:00Z,Genoa CFC,Parma Calcio 1913,0,0
+2025-10-19T16:00:00Z,Atalanta BC,SS Lazio,0,0
+2025-10-19T18:45:00Z,AC Milan,ACF Fiorentina,2,1
+2025-10-20T18:45:00Z,US Cremonese,Udinese Calcio,1,1
+2025-10-24T18:45:00Z,AC Milan,AC Pisa 1909,2,2
+2025-10-25T13:00:00Z,Parma Calcio 1913,Como 1907,0,0
+2025-10-25T13:00:00Z,Udinese Calcio,US Lecce,3,2
+2025-10-25T16:00:00Z,SSC Napoli,FC Internazionale Milano,3,1
+2025-10-25T18:45:00Z,US Cremonese,Atalanta BC,1,1
+2025-10-26T11:30:00Z,Torino FC,Genoa CFC,2,1
+2025-10-26T14:00:00Z,Hellas Verona FC,Cagliari Calcio,2,2
+2025-10-26T14:00:00Z,US Sassuolo Calcio,AS Roma,0,1
+2025-10-26T17:00:00Z,ACF Fiorentina,Bologna FC 1909,2,2
+2025-10-26T19:45:00Z,SS Lazio,Juventus FC,1,0
+2025-10-28T17:30:00Z,US Lecce,SSC Napoli,0,1
+2025-10-28T19:45:00Z,Atalanta BC,AC Milan,1,1
+2025-10-29T17:30:00Z,AS Roma,Parma Calcio 1913,2,1
+2025-10-29T17:30:00Z,Como 1907,Hellas Verona FC,3,1
+2025-10-29T17:30:00Z,Juventus FC,Udinese Calcio,3,1
+2025-10-29T19:45:00Z,Genoa CFC,US Cremonese,0,2
+2025-10-29T19:45:00Z,Bologna FC 1909,Torino FC,0,0
+2025-10-29T19:45:00Z,FC Internazionale Milano,ACF Fiorentina,3,0
+2025-10-30T17:30:00Z,Cagliari Calcio,US Sassuolo Calcio,1,2
+2025-10-30T19:45:00Z,AC Pisa 1909,SS Lazio,0,0
+2025-11-01T14:00:00Z,Udinese Calcio,Atalanta BC,1,0
+2025-11-01T17:00:00Z,SSC Napoli,Como 1907,0,0
+2025-11-01T19:45:00Z,US Cremonese,Juventus FC,1,2
+2025-11-02T11:30:00Z,Hellas Verona FC,FC Internazionale Milano,1,2
+2025-11-02T14:00:00Z,ACF Fiorentina,US Lecce,0,1
+2025-11-02T14:00:00Z,Torino FC,AC Pisa 1909,2,2
+2025-11-02T17:00:00Z,Parma Calcio 1913,Bologna FC 1909,1,3
+2025-11-02T19:45:00Z,AC Milan,AS Roma,1,0
+2025-11-03T17:30:00Z,US Sassuolo Calcio,Genoa CFC,1,2
+2025-11-03T19:45:00Z,SS Lazio,Cagliari Calcio,2,0
+2025-11-07T19:45:00Z,AC Pisa 1909,US Cremonese,1,0
+2025-11-08T14:00:00Z,Como 1907,Cagliari Calcio,0,0
+2025-11-08T14:00:00Z,US Lecce,Hellas Verona FC,0,0
+2025-11-08T17:00:00Z,Juventus FC,Torino FC,0,0
+2025-11-08T19:45:00Z,Parma Calcio 1913,AC Milan,2,2
+2025-11-09T11:30:00Z,Atalanta BC,US Sassuolo Calcio,0,3
+2025-11-09T14:00:00Z,Genoa CFC,ACF Fiorentina,2,2
+2025-11-09T14:00:00Z,Bologna FC 1909,SSC Napoli,2,0
+2025-11-09T17:00:00Z,AS Roma,Udinese Calcio,2,0
+2025-11-09T19:45:00Z,FC Internazionale Milano,SS Lazio,2,0
+2025-11-22T14:00:00Z,Cagliari Calcio,Genoa CFC,3,3
+2025-11-22T14:00:00Z,Udinese Calcio,Bologna FC 1909,0,3
+2025-11-22T17:00:00Z,ACF Fiorentina,Juventus FC,1,1
+2025-11-22T19:45:00Z,SSC Napoli,Atalanta BC,3,1
+2025-11-23T11:30:00Z,Hellas Verona FC,Parma Calcio 1913,1,2
+2025-11-23T14:00:00Z,US Cremonese,AS Roma,1,3
+2025-11-23T17:00:00Z,SS Lazio,US Lecce,2,0
+2025-11-23T19:45:00Z,FC Internazionale Milano,AC Milan,0,1
+2025-11-24T17:30:00Z,Torino FC,Como 1907,1,5
+2025-11-24T19:45:00Z,US Sassuolo Calcio,AC Pisa 1909,2,2
+2025-11-28T19:45:00Z,Como 1907,US Sassuolo Calcio,2,0
+2025-11-29T14:00:00Z,Genoa CFC,Hellas Verona FC,2,1
+2025-11-29T14:00:00Z,Parma Calcio 1913,Udinese Calcio,0,2
+2025-11-29T17:00:00Z,Juventus FC,Cagliari Calcio,2,1
+2025-11-29T19:45:00Z,AC Milan,SS Lazio,1,0
+2025-11-30T11:30:00Z,US Lecce,Torino FC,2,1
+2025-11-30T14:00:00Z,AC Pisa 1909,FC Internazionale Milano,0,2
+2025-11-30T17:00:00Z,Atalanta BC,ACF Fiorentina,2,0
+2025-11-30T19:45:00Z,AS Roma,SSC Napoli,0,1
+2025-12-01T19:45:00Z,Bologna FC 1909,US Cremonese,1,3
+2025-12-06T14:00:00Z,US Sassuolo Calcio,ACF Fiorentina,3,1
+2025-12-06T17:00:00Z,FC Internazionale Milano,Como 1907,4,0
+2025-12-06T19:45:00Z,Hellas Verona FC,Atalanta BC,3,1
+2025-12-07T11:30:00Z,US Cremonese,US Lecce,2,0
+2025-12-07T14:00:00Z,Cagliari Calcio,AS Roma,1,0
+2025-12-07T17:00:00Z,SS Lazio,Bologna FC 1909,1,1
+2025-12-07T19:45:00Z,SSC Napoli,Juventus FC,2,1
+2025-12-08T14:00:00Z,AC Pisa 1909,Parma Calcio 1913,0,1
+2025-12-08T17:00:00Z,Udinese Calcio,Genoa CFC,1,2
+2025-12-08T19:45:00Z,Torino FC,AC Milan,2,3
+2025-12-12T19:45:00Z,US Lecce,AC Pisa 1909,1,0
+2025-12-13T14:00:00Z,Torino FC,US Cremonese,1,0
+2025-12-13T17:00:00Z,Parma Calcio 1913,SS Lazio,0,1
+2025-12-13T19:45:00Z,Atalanta BC,Cagliari Calcio,2,1
+2025-12-14T11:30:00Z,AC Milan,US Sassuolo Calcio,2,2
+2025-12-14T14:00:00Z,ACF Fiorentina,Hellas Verona FC,1,2
+2025-12-14T14:00:00Z,Udinese Calcio,SSC Napoli,1,0
+2025-12-14T17:00:00Z,Genoa CFC,FC Internazionale Milano,1,2
+2025-12-14T19:45:00Z,Bologna FC 1909,Juventus FC,0,1
+2025-12-15T19:45:00Z,AS Roma,Como 1907,1,0

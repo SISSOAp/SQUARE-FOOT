@@ -1,0 +1,2856 @@
+{
+  "competition": "PPL",
+  "generated_at": "2025-12-20T18:06:22.304821+00:00",
+  "model_path": "data/models/PPL.joblib",
+  "matches_fetched": 178,
+  "predictions": [
+    {
+      "match_id": 545827,
+      "utcDate": "2025-12-20T20:30:00Z",
+      "status": "TIMED",
+      "home": "CF Estrela da Amadora",
+      "away": "Moreirense FC",
+      "expected_goals": {
+        "home": 1.4588320258669076,
+        "away": 1.5417800132956412
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3603918971367705,
+        "draw": 0.24274680232795168,
+        "away_win": 0.3968613005352779
+      }
+    },
+    {
+      "match_id": 545826,
+      "utcDate": "2025-12-21T15:30:00Z",
+      "status": "TIMED",
+      "home": "AVS",
+      "away": "CD Nacional",
+      "expected_goals": {
+        "home": 0.8065848041328934,
+        "away": 1.8180240733873034
+      },
+      "probabilities_1x2": {
+        "home_win": 0.16162235286043125,
+        "draw": 0.22465710996601645,
+        "away_win": 0.6137205371735522
+      }
+    },
+    {
+      "match_id": 545832,
+      "utcDate": "2025-12-21T18:00:00Z",
+      "status": "TIMED",
+      "home": "CD Tondela",
+      "away": "Casa Pia AC",
+      "expected_goals": {
+        "home": 1.144436981717921,
+        "away": 1.1542351260373966
+      },
+      "probabilities_1x2": {
+        "home_win": 0.35568615084457483,
+        "draw": 0.2837860924161893,
+        "away_win": 0.3605277567392358
+      }
+    },
+    {
+      "match_id": 545833,
+      "utcDate": "2025-12-21T20:30:00Z",
+      "status": "TIMED",
+      "home": "CD Santa Clara",
+      "away": "FC Arouca",
+      "expected_goals": {
+        "home": 1.6189209497518204,
+        "away": 0.778881572287713
+      },
+      "probabilities_1x2": {
+        "home_win": 0.573952440116519,
+        "draw": 0.24718273372660202,
+        "away_win": 0.17886482615687888
+      }
+    },
+    {
+      "match_id": 545828,
+      "utcDate": "2025-12-22T18:45:00Z",
+      "status": "TIMED",
+      "home": "FC Alverca",
+      "away": "FC Porto",
+      "expected_goals": {
+        "home": 0.4714915406870711,
+        "away": 1.8475135544269574
+      },
+      "probabilities_1x2": {
+        "home_win": 0.08660485742823042,
+        "draw": 0.2046311317421427,
+        "away_win": 0.7087640108296269
+      }
+    },
+    {
+      "match_id": 545830,
+      "utcDate": "2025-12-22T20:45:00Z",
+      "status": "TIMED",
+      "home": "Sport Lisboa e Benfica",
+      "away": "FC Famalicão",
+      "expected_goals": {
+        "home": 1.2115405799887269,
+        "away": 0.6120506169708797
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5073835978980452,
+        "draw": 0.30526903413762085,
+        "away_win": 0.18734736796433396
+      }
+    },
+    {
+      "match_id": 545831,
+      "utcDate": "2025-12-23T20:45:00Z",
+      "status": "TIMED",
+      "home": "Vitória SC",
+      "away": "Sporting Clube de Portugal",
+      "expected_goals": {
+        "home": 0.6075611102508806,
+        "away": 1.8831924529499708
+      },
+      "probabilities_1x2": {
+        "home_win": 0.11195569025248774,
+        "draw": 0.208457615245433,
+        "away_win": 0.6795866945020794
+      }
+    },
+    {
+      "match_id": 545839,
+      "utcDate": "2025-12-27T18:00:00Z",
+      "status": "TIMED",
+      "home": "FC Famalicão",
+      "away": "CF Estrela da Amadora",
+      "expected_goals": {
+        "home": 1.4917531099411052,
+        "away": 0.6136731429137529
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5862265207714328,
+        "draw": 0.26155664053028427,
+        "away_win": 0.15221683869828312
+      }
+    },
+    {
+      "match_id": 545840,
+      "utcDate": "2025-12-27T20:30:00Z",
+      "status": "TIMED",
+      "home": "GD Estoril Praia",
+      "away": "FC Alverca",
+      "expected_goals": {
+        "home": 1.625353435123066,
+        "away": 1.1467256408038355
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4849801761504178,
+        "draw": 0.2460478586904669,
+        "away_win": 0.26897196515911526
+      }
+    },
+    {
+      "match_id": 545835,
+      "utcDate": "2025-12-28T15:30:00Z",
+      "status": "TIMED",
+      "home": "Casa Pia AC",
+      "away": "Vitória SC",
+      "expected_goals": {
+        "home": 1.0649808274087582,
+        "away": 1.25377812702416
+      },
+      "probabilities_1x2": {
+        "home_win": 0.313244235567856,
+        "draw": 0.2807153739074977,
+        "away_win": 0.40604039052464636
+      }
+    },
+    {
+      "match_id": 545836,
+      "utcDate": "2025-12-28T15:30:00Z",
+      "status": "TIMED",
+      "home": "FC Arouca",
+      "away": "Gil Vicente FC",
+      "expected_goals": {
+        "home": 0.6120089406574477,
+        "away": 1.851177785800676
+      },
+      "probabilities_1x2": {
+        "home_win": 0.11566052280583375,
+        "draw": 0.21267124386399522,
+        "away_win": 0.671668233330171
+      }
+    },
+    {
+      "match_id": 545843,
+      "utcDate": "2025-12-28T18:00:00Z",
+      "status": "TIMED",
+      "home": "Sporting Clube de Braga",
+      "away": "Sport Lisboa e Benfica",
+      "expected_goals": {
+        "home": 0.9640639342498563,
+        "away": 1.1718597779518913
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2999651692881861,
+        "draw": 0.29437503947639165,
+        "away_win": 0.4056597912354222
+      }
+    },
+    {
+      "match_id": 545841,
+      "utcDate": "2025-12-28T20:30:00Z",
+      "status": "TIMED",
+      "home": "Sporting Clube de Portugal",
+      "away": "Rio Ave FC",
+      "expected_goals": {
+        "home": 2.8933716014561166,
+        "away": 0.5488299092964247
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8479334294952543,
+        "draw": 0.10692788469129536,
+        "away_win": 0.04513868581345029
+      }
+    },
+    {
+      "match_id": 545838,
+      "utcDate": "2025-12-29T20:15:00Z",
+      "status": "TIMED",
+      "home": "FC Porto",
+      "away": "AVS",
+      "expected_goals": {
+        "home": 3.938915796256865,
+        "away": 0.2882442535357419
+      },
+      "probabilities_1x2": {
+        "home_win": 0.9553384688534358,
+        "draw": 0.03659619549777406,
+        "away_win": 0.008065335648790087
+      }
+    },
+    {
+      "match_id": 545846,
+      "utcDate": "2026-01-02T18:45:00Z",
+      "status": "TIMED",
+      "home": "Gil Vicente FC",
+      "away": "Sporting Clube de Portugal",
+      "expected_goals": {
+        "home": 0.6873764765335494,
+        "away": 1.0702097508007289
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2328519521806709,
+        "draw": 0.32465879723457797,
+        "away_win": 0.4424892505847512
+      }
+    },
+    {
+      "match_id": 545849,
+      "utcDate": "2026-01-02T20:45:00Z",
+      "status": "TIMED",
+      "home": "Vitória SC",
+      "away": "CD Nacional",
+      "expected_goals": {
+        "home": 1.0829461097686304,
+        "away": 0.9077118951259143
+      },
+      "probabilities_1x2": {
+        "home_win": 0.39204869169920964,
+        "draw": 0.3077242291566126,
+        "away_win": 0.30022707914417757
+      }
+    },
+    {
+      "match_id": 545851,
+      "utcDate": "2026-01-03T15:30:00Z",
+      "status": "TIMED",
+      "home": "CD Tondela",
+      "away": "FC Arouca",
+      "expected_goals": {
+        "home": 1.4935323223328862,
+        "away": 1.167175238713694
+      },
+      "probabilities_1x2": {
+        "home_win": 0.44718501532335075,
+        "draw": 0.2563373566590489,
+        "away_win": 0.29647762801760036
+      }
+    },
+    {
+      "match_id": 545848,
+      "utcDate": "2026-01-03T18:00:00Z",
+      "status": "TIMED",
+      "home": "Sport Lisboa e Benfica",
+      "away": "GD Estoril Praia",
+      "expected_goals": {
+        "home": 2.4689651084154938,
+        "away": 0.7134463474028193
+      },
+      "probabilities_1x2": {
+        "home_win": 0.758801880246191,
+        "draw": 0.15379283492812082,
+        "away_win": 0.0874052848256884
+      }
+    },
+    {
+      "match_id": 545852,
+      "utcDate": "2026-01-03T18:00:00Z",
+      "status": "TIMED",
+      "home": "CF Estrela da Amadora",
+      "away": "Sporting Clube de Braga",
+      "expected_goals": {
+        "home": 0.889149644599812,
+        "away": 1.568611478584637
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2132741311891413,
+        "draw": 0.2537425348982277,
+        "away_win": 0.5329833339126309
+      }
+    },
+    {
+      "match_id": 545844,
+      "utcDate": "2026-01-03T20:30:00Z",
+      "status": "TIMED",
+      "home": "AVS",
+      "away": "Moreirense FC",
+      "expected_goals": {
+        "home": 1.0008926276560053,
+        "away": 2.5103734206444486
+      },
+      "probabilities_1x2": {
+        "home_win": 0.13055596707909056,
+        "draw": 0.1674668703531428,
+        "away_win": 0.7019771625677668
+      }
+    },
+    {
+      "match_id": 545850,
+      "utcDate": "2026-01-04T15:30:00Z",
+      "status": "TIMED",
+      "home": "Rio Ave FC",
+      "away": "Casa Pia AC",
+      "expected_goals": {
+        "home": 1.696557377784324,
+        "away": 1.092323405626289
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5150060131868601,
+        "draw": 0.2404651991819586,
+        "away_win": 0.24452878763118135
+      }
+    },
+    {
+      "match_id": 545847,
+      "utcDate": "2026-01-04T18:00:00Z",
+      "status": "TIMED",
+      "home": "CD Santa Clara",
+      "away": "FC Porto",
+      "expected_goals": {
+        "home": 0.3829126193292781,
+        "away": 1.4223712146601704
+      },
+      "probabilities_1x2": {
+        "home_win": 0.09807071987130868,
+        "draw": 0.2669398892619027,
+        "away_win": 0.6349893908667887
+      }
+    },
+    {
+      "match_id": 545845,
+      "utcDate": "2026-01-04T20:30:00Z",
+      "status": "TIMED",
+      "home": "FC Alverca",
+      "away": "FC Famalicão",
+      "expected_goals": {
+        "home": 0.6887039372545591,
+        "away": 1.1392625069223754
+      },
+      "probabilities_1x2": {
+        "home_win": 0.22195197065222516,
+        "draw": 0.31386372162185455,
+        "away_win": 0.4641843077259201
+      }
+    },
+    {
+      "match_id": 545842,
+      "utcDate": "2026-01-11T15:30:00Z",
+      "status": "TIMED",
+      "home": "CD Nacional",
+      "away": "CD Santa Clara",
+      "expected_goals": {
+        "home": 0.9834130038911535,
+        "away": 0.7153012727347553
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4066503502802973,
+        "draw": 0.33606682755325357,
+        "away_win": 0.25728282216644915
+      }
+    },
+    {
+      "match_id": 545837,
+      "utcDate": "2026-01-11T18:00:00Z",
+      "status": "TIMED",
+      "home": "Moreirense FC",
+      "away": "CD Tondela",
+      "expected_goals": {
+        "home": 2.0348822420564696,
+        "away": 0.8188708945988389
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6568489008140718,
+        "draw": 0.2018880415899901,
+        "away_win": 0.14126305759593827
+      }
+    },
+    {
+      "match_id": 545853,
+      "utcDate": "2026-01-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sporting Clube de Portugal",
+      "away": "Casa Pia AC",
+      "expected_goals": {
+        "home": 3.342258293885573,
+        "away": 0.49958142572707753
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8968128041445547,
+        "draw": 0.07536742955544619,
+        "away_win": 0.027819766299999094
+      }
+    },
+    {
+      "match_id": 545854,
+      "utcDate": "2026-01-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CD Tondela",
+      "away": "Sporting Clube de Braga",
+      "expected_goals": {
+        "home": 0.6108506426926222,
+        "away": 1.6915398340251384
+      },
+      "probabilities_1x2": {
+        "home_win": 0.13026161943884645,
+        "draw": 0.2333359742703144,
+        "away_win": 0.6364024062908393
+      }
+    },
+    {
+      "match_id": 545855,
+      "utcDate": "2026-01-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Rio Ave FC",
+      "away": "Sport Lisboa e Benfica",
+      "expected_goals": {
+        "home": 0.7226855668394236,
+        "away": 1.900626153747913
+      },
+      "probabilities_1x2": {
+        "home_win": 0.1345816250901049,
+        "draw": 0.21215361830014146,
+        "away_win": 0.6532647566097536
+      }
+    },
+    {
+      "match_id": 545856,
+      "utcDate": "2026-01-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AVS",
+      "away": "FC Arouca",
+      "expected_goals": {
+        "home": 1.4915459988603688,
+        "away": 1.7623215075404641
+      },
+      "probabilities_1x2": {
+        "home_win": 0.32778624973019554,
+        "draw": 0.2299216845043203,
+        "away_win": 0.4422920657654843
+      }
+    },
+    {
+      "match_id": 545857,
+      "utcDate": "2026-01-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CF Estrela da Amadora",
+      "away": "GD Estoril Praia",
+      "expected_goals": {
+        "home": 1.530608546441903,
+        "away": 1.4207605874329177
+      },
+      "probabilities_1x2": {
+        "home_win": 0.40188539342373664,
+        "draw": 0.2448741058067407,
+        "away_win": 0.3532405007695226
+      }
+    },
+    {
+      "match_id": 545858,
+      "utcDate": "2026-01-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Alverca",
+      "away": "Moreirense FC",
+      "expected_goals": {
+        "home": 1.3376753001004154,
+        "away": 1.4411171753976018
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3497086096212169,
+        "draw": 0.25353017221120444,
+        "away_win": 0.3967612181675787
+      }
+    },
+    {
+      "match_id": 545859,
+      "utcDate": "2026-01-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Gil Vicente FC",
+      "away": "CD Nacional",
+      "expected_goals": {
+        "home": 1.2252128529113613,
+        "away": 0.5158485631990634
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5388736067045673,
+        "draw": 0.30493863848363867,
+        "away_win": 0.15618775481179403
+      }
+    },
+    {
+      "match_id": 545860,
+      "utcDate": "2026-01-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CD Santa Clara",
+      "away": "FC Famalicão",
+      "expected_goals": {
+        "home": 0.5593174125080572,
+        "away": 0.8771000309605771
+      },
+      "probabilities_1x2": {
+        "home_win": 0.22108000583335286,
+        "draw": 0.36953710873529255,
+        "away_win": 0.40938288543135465
+      }
+    },
+    {
+      "match_id": 545861,
+      "utcDate": "2026-01-18T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Vitória SC",
+      "away": "FC Porto",
+      "expected_goals": {
+        "home": 0.4736608580239598,
+        "away": 1.6068489903711467
+      },
+      "probabilities_1x2": {
+        "home_win": 0.10561239872829306,
+        "draw": 0.23959015005444748,
+        "away_win": 0.6547974512172593
+      }
+    },
+    {
+      "match_id": 545862,
+      "utcDate": "2026-01-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Casa Pia AC",
+      "away": "AVS",
+      "expected_goals": {
+        "home": 2.133012459483606,
+        "away": 0.9338215225021177
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6486499579146053,
+        "draw": 0.1971207943386842,
+        "away_win": 0.15422924774671046
+      }
+    },
+    {
+      "match_id": 545863,
+      "utcDate": "2026-01-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sporting Clube de Braga",
+      "away": "FC Alverca",
+      "expected_goals": {
+        "home": 1.7944952004177062,
+        "away": 0.666147264331196
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6449737023225681,
+        "draw": 0.22231439026467426,
+        "away_win": 0.13271190741275765
+      }
+    },
+    {
+      "match_id": 545864,
+      "utcDate": "2026-01-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Porto",
+      "away": "Gil Vicente FC",
+      "expected_goals": {
+        "home": 1.1176331951839533,
+        "away": 0.4378467861039014
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5278455513136288,
+        "draw": 0.32773004165774117,
+        "away_win": 0.14442440702863008
+      }
+    },
+    {
+      "match_id": 545865,
+      "utcDate": "2026-01-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Moreirense FC",
+      "away": "CD Santa Clara",
+      "expected_goals": {
+        "home": 1.3579214393375858,
+        "away": 0.8876187187816341
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4774206833239075,
+        "draw": 0.2774863431009604,
+        "away_win": 0.24509297357513185
+      }
+    },
+    {
+      "match_id": 545866,
+      "utcDate": "2026-01-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CD Nacional",
+      "away": "Rio Ave FC",
+      "expected_goals": {
+        "home": 1.394625289384061,
+        "away": 0.9782607957770811
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4652370981890568,
+        "draw": 0.2709221845361024,
+        "away_win": 0.2638407172748411
+      }
+    },
+    {
+      "match_id": 545867,
+      "utcDate": "2026-01-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "GD Estoril Praia",
+      "away": "Vitória SC",
+      "expected_goals": {
+        "home": 1.4136283438709834,
+        "away": 1.152001688407204
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4298481077125503,
+        "draw": 0.2632452601297668,
+        "away_win": 0.30690663215768305
+      }
+    },
+    {
+      "match_id": 545868,
+      "utcDate": "2026-01-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Arouca",
+      "away": "Sporting Clube de Portugal",
+      "expected_goals": {
+        "home": 0.6182983556747211,
+        "away": 3.5637950687897373
+      },
+      "probabilities_1x2": {
+        "home_win": 0.03140262095077677,
+        "draw": 0.07274311751328882,
+        "away_win": 0.8958542615359344
+      }
+    },
+    {
+      "match_id": 545869,
+      "utcDate": "2026-01-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Famalicão",
+      "away": "CD Tondela",
+      "expected_goals": {
+        "home": 1.6086582576031487,
+        "away": 0.4215967874797783
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6702943515903055,
+        "draw": 0.23663781518003704,
+        "away_win": 0.0930678332296574
+      }
+    },
+    {
+      "match_id": 545870,
+      "utcDate": "2026-01-25T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sport Lisboa e Benfica",
+      "away": "CF Estrela da Amadora",
+      "expected_goals": {
+        "home": 2.2794125614139715,
+        "away": 0.5797790347332941
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7597199730887728,
+        "draw": 0.16208474983096152,
+        "away_win": 0.07819527708026568
+      }
+    },
+    {
+      "match_id": 545871,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sporting Clube de Portugal",
+      "away": "CD Nacional",
+      "expected_goals": {
+        "home": 2.3587186260096282,
+        "away": 0.5211497695777443
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7858733268106352,
+        "draw": 0.14949905844428196,
+        "away_win": 0.06462761474508277
+      }
+    },
+    {
+      "match_id": 545872,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Rio Ave FC",
+      "away": "FC Arouca",
+      "expected_goals": {
+        "home": 2.2140697311350572,
+        "away": 1.1045694269341721
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6249447179094534,
+        "draw": 0.19606514714026402,
+        "away_win": 0.17899013495028254
+      }
+    },
+    {
+      "match_id": 545873,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Gil Vicente FC",
+      "away": "FC Famalicão",
+      "expected_goals": {
+        "home": 0.7827640227636925,
+        "away": 0.5630998795669723
+      },
+      "probabilities_1x2": {
+        "home_win": 0.372661885415947,
+        "draw": 0.38833497184827537,
+        "away_win": 0.23900314273577744
+      }
+    },
+    {
+      "match_id": 545874,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CD Tondela",
+      "away": "Sport Lisboa e Benfica",
+      "expected_goals": {
+        "home": 0.48749785870782164,
+        "away": 2.008351607977663
+      },
+      "probabilities_1x2": {
+        "home_win": 0.07902868528273385,
+        "draw": 0.18516750926501307,
+        "away_win": 0.7358038054522532
+      }
+    },
+    {
+      "match_id": 545875,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AVS",
+      "away": "Sporting Clube de Braga",
+      "expected_goals": {
+        "home": 0.6100382418147574,
+        "away": 2.55406123389769
+      },
+      "probabilities_1x2": {
+        "home_win": 0.06733639335521807,
+        "draw": 0.13863706083012167,
+        "away_win": 0.7940265458146599
+      }
+    },
+    {
+      "match_id": 545876,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Casa Pia AC",
+      "away": "FC Porto",
+      "expected_goals": {
+        "home": 0.4766875870336968,
+        "away": 2.3300773552680822
+      },
+      "probabilities_1x2": {
+        "home_win": 0.059423598206855194,
+        "draw": 0.14858730208976534,
+        "away_win": 0.7919890997033794
+      }
+    },
+    {
+      "match_id": 545877,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Alverca",
+      "away": "CF Estrela da Amadora",
+      "expected_goals": {
+        "home": 1.2957390215422324,
+        "away": 1.0791926325314267
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4145059534621494,
+        "draw": 0.27628839291482193,
+        "away_win": 0.3092056536230287
+      }
+    },
+    {
+      "match_id": 545878,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CD Santa Clara",
+      "away": "GD Estoril Praia",
+      "expected_goals": {
+        "home": 1.1398175173170662,
+        "away": 1.0224053306125434
+      },
+      "probabilities_1x2": {
+        "home_win": 0.38291071347453676,
+        "draw": 0.293677708031601,
+        "away_win": 0.32341157849386215
+      }
+    },
+    {
+      "match_id": 545879,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Vitória SC",
+      "away": "Moreirense FC",
+      "expected_goals": {
+        "home": 1.343829900913416,
+        "away": 1.2533914421063082
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3893123290539131,
+        "draw": 0.2637566965976681,
+        "away_win": 0.3469309743484187
+      }
+    },
+    {
+      "match_id": 545880,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Famalicão",
+      "away": "AVS",
+      "expected_goals": {
+        "home": 2.428918084983476,
+        "away": 0.4210360847869829
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8187674417384443,
+        "draw": 0.13396899858304165,
+        "away_win": 0.04726355967851398
+      }
+    },
+    {
+      "match_id": 545881,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CD Nacional",
+      "away": "Casa Pia AC",
+      "expected_goals": {
+        "home": 1.6109918055325676,
+        "away": 0.8904779327965888
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5433026010173001,
+        "draw": 0.24907678435626612,
+        "away_win": 0.20762061462643383
+      }
+    },
+    {
+      "match_id": 545882,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sport Lisboa e Benfica",
+      "away": "FC Alverca",
+      "expected_goals": {
+        "home": 2.1305896844836223,
+        "away": 0.5316280973595405
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7464760724504478,
+        "draw": 0.17426106465315022,
+        "away_win": 0.07926286289640211
+      }
+    },
+    {
+      "match_id": 545883,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Moreirense FC",
+      "away": "Gil Vicente FC",
+      "expected_goals": {
+        "home": 0.8717881335780875,
+        "away": 1.242221292339719
+      },
+      "probabilities_1x2": {
+        "home_win": 0.26006371089250063,
+        "draw": 0.2914883890110913,
+        "away_win": 0.44844790009640795
+      }
+    },
+    {
+      "match_id": 545884,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CF Estrela da Amadora",
+      "away": "CD Santa Clara",
+      "expected_goals": {
+        "home": 1.0168908107595591,
+        "away": 0.8597917671727573
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3825635351422313,
+        "draw": 0.31921320335664377,
+        "away_win": 0.29822326150112505
+      }
+    },
+    {
+      "match_id": 545885,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "GD Estoril Praia",
+      "away": "CD Tondela",
+      "expected_goals": {
+        "home": 1.8751575871068116,
+        "away": 0.8591604567775354
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6131455456143841,
+        "draw": 0.22004948639631236,
+        "away_win": 0.16680496798930336
+      }
+    },
+    {
+      "match_id": 545886,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Arouca",
+      "away": "Vitória SC",
+      "expected_goals": {
+        "home": 1.0769203114825772,
+        "away": 1.6362265355438463
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2500638863051562,
+        "draw": 0.24596194483101053,
+        "away_win": 0.5039741688638333
+      }
+    },
+    {
+      "match_id": 545887,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Porto",
+      "away": "Sporting Clube de Portugal",
+      "expected_goals": {
+        "home": 1.1291187447153734,
+        "away": 0.842920776800275
+      },
+      "probabilities_1x2": {
+        "home_win": 0.42173789916405224,
+        "draw": 0.30668755620650623,
+        "away_win": 0.2715745446294416
+      }
+    },
+    {
+      "match_id": 545888,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sporting Clube de Braga",
+      "away": "Rio Ave FC",
+      "expected_goals": {
+        "home": 1.9592470966529134,
+        "away": 0.7398806583440553
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6611414632185437,
+        "draw": 0.2063473624259167,
+        "away_win": 0.13251117435553972
+      }
+    },
+    {
+      "match_id": 545889,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Vitória SC",
+      "away": "CF Estrela da Amadora",
+      "expected_goals": {
+        "home": 1.3017006748932525,
+        "away": 0.9386126493328857
+      },
+      "probabilities_1x2": {
+        "home_win": 0.449142582902624,
+        "draw": 0.28199629849133034,
+        "away_win": 0.26886111860604556
+      }
+    },
+    {
+      "match_id": 545890,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CD Tondela",
+      "away": "FC Alverca",
+      "expected_goals": {
+        "home": 0.9074217347896036,
+        "away": 1.1416535959683753
+      },
+      "probabilities_1x2": {
+        "home_win": 0.28884781297359474,
+        "draw": 0.301161924527908,
+        "away_win": 0.4099902624984973
+      }
+    },
+    {
+      "match_id": 545891,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Casa Pia AC",
+      "away": "FC Arouca",
+      "expected_goals": {
+        "home": 2.0153932834265538,
+        "away": 1.2759357721231732
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5453305487032756,
+        "draw": 0.2150931852167073,
+        "away_win": 0.23957626608001742
+      }
+    },
+    {
+      "match_id": 545892,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sporting Clube de Portugal",
+      "away": "FC Famalicão",
+      "expected_goals": {
+        "home": 1.5069382237345161,
+        "away": 0.5688866722157345
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6027395894388703,
+        "draw": 0.25836783898995863,
+        "away_win": 0.13889257157117121
+      }
+    },
+    {
+      "match_id": 545893,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Rio Ave FC",
+      "away": "Moreirense FC",
+      "expected_goals": {
+        "home": 1.4857376659537052,
+        "away": 1.5734255746001269
+      },
+      "probabilities_1x2": {
+        "home_win": 0.360855590049032,
+        "draw": 0.2400690158217971,
+        "away_win": 0.39907539412917115
+      }
+    },
+    {
+      "match_id": 545894,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Gil Vicente FC",
+      "away": "Sporting Clube de Braga",
+      "expected_goals": {
+        "home": 0.9266560575020992,
+        "away": 0.724692723883351
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3850259810170106,
+        "draw": 0.3438924282438263,
+        "away_win": 0.2710815907391634
+      }
+    },
+    {
+      "match_id": 545895,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CD Santa Clara",
+      "away": "Sport Lisboa e Benfica",
+      "expected_goals": {
+        "home": 0.5284254546218919,
+        "away": 1.3402169667788086
+      },
+      "probabilities_1x2": {
+        "home_win": 0.1463140587916299,
+        "draw": 0.28457618627977904,
+        "away_win": 0.569109754928591
+      }
+    },
+    {
+      "match_id": 545896,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AVS",
+      "away": "GD Estoril Praia",
+      "expected_goals": {
+        "home": 1.0501379067618168,
+        "away": 2.3133258863350408
+      },
+      "probabilities_1x2": {
+        "home_win": 0.15788310512054735,
+        "draw": 0.18587874240088945,
+        "away_win": 0.656238152478563
+      }
+    },
+    {
+      "match_id": 545897,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CD Nacional",
+      "away": "FC Porto",
+      "expected_goals": {
+        "home": 0.4972675390836037,
+        "away": 1.6443962059930015
+      },
+      "probabilities_1x2": {
+        "home_win": 0.10801317767726805,
+        "draw": 0.23501923903987967,
+        "away_win": 0.6569675832828521
+      }
+    },
+    {
+      "match_id": 545898,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sport Lisboa e Benfica",
+      "away": "AVS",
+      "expected_goals": {
+        "home": 3.7114093187816355,
+        "away": 0.3977816165567307
+      },
+      "probabilities_1x2": {
+        "home_win": 0.9336331230807992,
+        "draw": 0.05130569439813747,
+        "away_win": 0.015061182521063522
+      }
+    },
+    {
+      "match_id": 545899,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Famalicão",
+      "away": "Casa Pia AC",
+      "expected_goals": {
+        "home": 1.7585573681799784,
+        "away": 0.5689085673577913
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6631288211026952,
+        "draw": 0.22242838906358572,
+        "away_win": 0.11444278983371894
+      }
+    },
+    {
+      "match_id": 545900,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "GD Estoril Praia",
+      "away": "Gil Vicente FC",
+      "expected_goals": {
+        "home": 0.8033585920807657,
+        "away": 1.3033402701023127
+      },
+      "probabilities_1x2": {
+        "home_win": 0.23012641109264972,
+        "draw": 0.28648269360765455,
+        "away_win": 0.48339089529969576
+      }
+    },
+    {
+      "match_id": 545901,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CF Estrela da Amadora",
+      "away": "CD Tondela",
+      "expected_goals": {
+        "home": 1.523838561628753,
+        "away": 0.7931991953931292
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5461469944257258,
+        "draw": 0.2589203530082996,
+        "away_win": 0.19493265256597453
+      }
+    },
+    {
+      "match_id": 545902,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Alverca",
+      "away": "CD Santa Clara",
+      "expected_goals": {
+        "home": 0.9324375228490139,
+        "away": 0.8036559510779718
+      },
+      "probabilities_1x2": {
+        "home_win": 0.36809936765596285,
+        "draw": 0.33514590989987353,
+        "away_win": 0.2967547224441638
+      }
+    },
+    {
+      "match_id": 545903,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Arouca",
+      "away": "CD Nacional",
+      "expected_goals": {
+        "home": 1.1020846918226685,
+        "away": 1.7177740759655966
+      },
+      "probabilities_1x2": {
+        "home_win": 0.24365447753137498,
+        "draw": 0.23855750581789356,
+        "away_win": 0.5177880166507315
+      }
+    },
+    {
+      "match_id": 545904,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Porto",
+      "away": "Rio Ave FC",
+      "expected_goals": {
+        "home": 2.4687924111449373,
+        "away": 0.4278734128311989
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8225147893221881,
+        "draw": 0.13086358071521187,
+        "away_win": 0.046621629962599984
+      }
+    },
+    {
+      "match_id": 545905,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Moreirense FC",
+      "away": "Sporting Clube de Portugal",
+      "expected_goals": {
+        "home": 0.8807472140995527,
+        "away": 2.3914624245942533
+      },
+      "probabilities_1x2": {
+        "home_win": 0.12034623487508517,
+        "draw": 0.17111962144869405,
+        "away_win": 0.7085341436762207
+      }
+    },
+    {
+      "match_id": 545906,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sporting Clube de Braga",
+      "away": "Vitória SC",
+      "expected_goals": {
+        "home": 1.560737020904525,
+        "away": 0.6692121863599746
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5886717859337154,
+        "draw": 0.252811946186645,
+        "away_win": 0.15851626787963952
+      }
+    },
+    {
+      "match_id": 545907,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sporting Clube de Portugal",
+      "away": "GD Estoril Praia",
+      "expected_goals": {
+        "home": 3.070947813380515,
+        "away": 0.6631316220007525
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8456721822416251,
+        "draw": 0.10374761797666116,
+        "away_win": 0.050580199781713846
+      }
+    },
+    {
+      "match_id": 545908,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Vitória SC",
+      "away": "FC Alverca",
+      "expected_goals": {
+        "home": 1.2167126202430578,
+        "away": 0.8606604016855885
+      },
+      "probabilities_1x2": {
+        "home_win": 0.44371984728059355,
+        "draw": 0.29503419717524965,
+        "away_win": 0.2612459555441569
+      }
+    },
+    {
+      "match_id": 545909,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Porto",
+      "away": "FC Arouca",
+      "expected_goals": {
+        "home": 3.721714987863086,
+        "away": 0.393845232020084
+      },
+      "probabilities_1x2": {
+        "home_win": 0.9346214340046128,
+        "draw": 0.05064725304926715,
+        "away_win": 0.014731312946119927
+      }
+    },
+    {
+      "match_id": 545910,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Rio Ave FC",
+      "away": "FC Famalicão",
+      "expected_goals": {
+        "home": 0.7649340465454544,
+        "away": 1.2438577481252762
+      },
+      "probabilities_1x2": {
+        "home_win": 0.22841803169751432,
+        "draw": 0.2955604360725236,
+        "away_win": 0.4760215322299619
+      }
+    },
+    {
+      "match_id": 545911,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CD Tondela",
+      "away": "CD Santa Clara",
+      "expected_goals": {
+        "home": 0.6986095187388547,
+        "away": 0.9271716055857697
+      },
+      "probabilities_1x2": {
+        "home_win": 0.261981630858694,
+        "draw": 0.34638883539962523,
+        "away_win": 0.39162953374168075
+      }
+    },
+    {
+      "match_id": 545912,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CD Nacional",
+      "away": "Sporting Clube de Braga",
+      "expected_goals": {
+        "home": 0.859877298184576,
+        "away": 1.3050017805444847
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2459940290344177,
+        "draw": 0.2845077976937346,
+        "away_win": 0.4694981732718476
+      }
+    },
+    {
+      "match_id": 545913,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Gil Vicente FC",
+      "away": "Sport Lisboa e Benfica",
+      "expected_goals": {
+        "home": 0.7395307661454336,
+        "away": 0.8604218286941098
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2892710653331549,
+        "draw": 0.3523218850960504,
+        "away_win": 0.3584070495707947
+      }
+    },
+    {
+      "match_id": 545914,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AVS",
+      "away": "CF Estrela da Amadora",
+      "expected_goals": {
+        "home": 0.9695145256329933,
+        "away": 1.8799141018597243
+      },
+      "probabilities_1x2": {
+        "home_win": 0.19065379799472443,
+        "draw": 0.22235919273353338,
+        "away_win": 0.5869870092717422
+      }
+    },
+    {
+      "match_id": 545915,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Casa Pia AC",
+      "away": "Moreirense FC",
+      "expected_goals": {
+        "home": 1.3524170764765713,
+        "away": 1.8175317245363194
+      },
+      "probabilities_1x2": {
+        "home_win": 0.28653420753816083,
+        "draw": 0.2289819120121941,
+        "away_win": 0.4844838804496449
+      }
+    },
+    {
+      "match_id": 545916,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Alverca",
+      "away": "AVS",
+      "expected_goals": {
+        "home": 2.109761945102951,
+        "away": 0.7404251692921953
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6908355295154055,
+        "draw": 0.19022133748074577,
+        "away_win": 0.11894313300384877
+      }
+    },
+    {
+      "match_id": 545917,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "GD Estoril Praia",
+      "away": "Casa Pia AC",
+      "expected_goals": {
+        "home": 2.0498898232235816,
+        "away": 1.1593630670613626
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5790154976309294,
+        "draw": 0.21092045075779875,
+        "away_win": 0.21006405161127178
+      }
+    },
+    {
+      "match_id": 545918,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Famalicão",
+      "away": "FC Arouca",
+      "expected_goals": {
+        "home": 2.294981997270705,
+        "away": 0.5752865927687787
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7632958773610468,
+        "draw": 0.16016691452163204,
+        "away_win": 0.07653720811732118
+      }
+    },
+    {
+      "match_id": 545919,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CD Tondela",
+      "away": "Rio Ave FC",
+      "expected_goals": {
+        "home": 0.990731766188311,
+        "away": 1.2680190393546027
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2896285594532257,
+        "draw": 0.28318941266608566,
+        "away_win": 0.4271820278806888
+      }
+    },
+    {
+      "match_id": 545920,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CF Estrela da Amadora",
+      "away": "Gil Vicente FC",
+      "expected_goals": {
+        "home": 0.652845824716663,
+        "away": 1.203277508192285
+      },
+      "probabilities_1x2": {
+        "home_win": 0.20099369421389687,
+        "draw": 0.3053622135895003,
+        "away_win": 0.4936440921966029
+      }
+    },
+    {
+      "match_id": 545921,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Moreirense FC",
+      "away": "CD Nacional",
+      "expected_goals": {
+        "home": 1.569886144958843,
+        "away": 1.1527015659766624
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4698332234705676,
+        "draw": 0.25052668528489536,
+        "away_win": 0.27964009124453704
+      }
+    },
+    {
+      "match_id": 545922,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CD Santa Clara",
+      "away": "Vitória SC",
+      "expected_goals": {
+        "home": 0.8554755971225295,
+        "away": 0.7653556708826645
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3506517414287386,
+        "draw": 0.3499974493820201,
+        "away_win": 0.29935080918924123
+      }
+    },
+    {
+      "match_id": 545923,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sporting Clube de Braga",
+      "away": "Sporting Clube de Portugal",
+      "expected_goals": {
+        "home": 0.8960747822997512,
+        "away": 1.4575824544557798
+      },
+      "probabilities_1x2": {
+        "home_win": 0.23157599108101995,
+        "draw": 0.2660396019319831,
+        "away_win": 0.5023844069869968
+      }
+    },
+    {
+      "match_id": 545924,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sport Lisboa e Benfica",
+      "away": "FC Porto",
+      "expected_goals": {
+        "home": 0.8294291694351877,
+        "away": 0.9925471995947358
+      },
+      "probabilities_1x2": {
+        "home_win": 0.29326201923593753,
+        "draw": 0.32486777892889035,
+        "away_win": 0.3818702018351721
+      }
+    },
+    {
+      "match_id": 545925,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CD Nacional",
+      "away": "GD Estoril Praia",
+      "expected_goals": {
+        "home": 1.4802182618934188,
+        "away": 1.1819976594843875
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4404312001854044,
+        "draw": 0.25691937915187163,
+        "away_win": 0.30264942066272427
+      }
+    },
+    {
+      "match_id": 545926,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Rio Ave FC",
+      "away": "CF Estrela da Amadora",
+      "expected_goals": {
+        "home": 1.4391596147486467,
+        "away": 1.1782728822703123
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4306476236987199,
+        "draw": 0.26023964240668784,
+        "away_win": 0.3091127338945923
+      }
+    },
+    {
+      "match_id": 545927,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Gil Vicente FC",
+      "away": "FC Alverca",
+      "expected_goals": {
+        "home": 1.376552283787923,
+        "away": 0.48910941235407485
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5907849972418346,
+        "draw": 0.27792563368708734,
+        "away_win": 0.13128936907107797
+      }
+    },
+    {
+      "match_id": 545928,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Vitória SC",
+      "away": "FC Famalicão",
+      "expected_goals": {
+        "home": 0.6918726418062732,
+        "away": 0.990857579707297
+      },
+      "probabilities_1x2": {
+        "home_win": 0.24805741633492664,
+        "draw": 0.3368604264558743,
+        "away_win": 0.4150821572091989
+      }
+    },
+    {
+      "match_id": 545929,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Porto",
+      "away": "Moreirense FC",
+      "expected_goals": {
+        "home": 2.4974336000600554,
+        "away": 0.5610205618443679
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7968802952557131,
+        "draw": 0.13973281618258993,
+        "away_win": 0.06338688856169687
+      }
+    },
+    {
+      "match_id": 545930,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Casa Pia AC",
+      "away": "Sporting Clube de Braga",
+      "expected_goals": {
+        "home": 0.8242903511699893,
+        "away": 1.849162073196958
+      },
+      "probabilities_1x2": {
+        "home_win": 0.1620568960129749,
+        "draw": 0.22177013259939957,
+        "away_win": 0.6161729713876254
+      }
+    },
+    {
+      "match_id": 545931,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AVS",
+      "away": "CD Santa Clara",
+      "expected_goals": {
+        "home": 0.6976804029343654,
+        "away": 1.399939278617131
+      },
+      "probabilities_1x2": {
+        "home_win": 0.18623140510171882,
+        "draw": 0.2752908046038119,
+        "away_win": 0.5384777902944693
+      }
+    },
+    {
+      "match_id": 545932,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Arouca",
+      "away": "Sport Lisboa e Benfica",
+      "expected_goals": {
+        "home": 0.6652113831193507,
+        "away": 2.865201954929739
+      },
+      "probabilities_1x2": {
+        "home_win": 0.05937491615312542,
+        "draw": 0.11810929586153705,
+        "away_win": 0.8225157879853375
+      }
+    },
+    {
+      "match_id": 545933,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sporting Clube de Portugal",
+      "away": "CD Tondela",
+      "expected_goals": {
+        "home": 3.057364804121294,
+        "away": 0.3702210447441574
+      },
+      "probabilities_1x2": {
+        "home_win": 0.895126876674359,
+        "draw": 0.08104359964828044,
+        "away_win": 0.023829523677360458
+      }
+    },
+    {
+      "match_id": 545934,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CD Tondela",
+      "away": "AVS",
+      "expected_goals": {
+        "home": 1.5806954793265924,
+        "away": 0.8542227455765518
+      },
+      "probabilities_1x2": {
+        "home_win": 0.544913209756474,
+        "draw": 0.2523505169750777,
+        "away_win": 0.20273627326844829
+      }
+    },
+    {
+      "match_id": 545935,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CF Estrela da Amadora",
+      "away": "Casa Pia AC",
+      "expected_goals": {
+        "home": 1.6658339444089139,
+        "away": 1.0703540237533293
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5127745594255876,
+        "draw": 0.2433334751593874,
+        "away_win": 0.24389196541502497
+      }
+    },
+    {
+      "match_id": 545936,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Moreirense FC",
+      "away": "FC Arouca",
+      "expected_goals": {
+        "home": 2.9030517140686114,
+        "away": 1.1173838626412285
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7388413573294079,
+        "draw": 0.14434912615720527,
+        "away_win": 0.11680951651338682
+      }
+    },
+    {
+      "match_id": 545937,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "GD Estoril Praia",
+      "away": "Rio Ave FC",
+      "expected_goals": {
+        "home": 1.7745764926306047,
+        "away": 1.2736524902039108
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4919041763856479,
+        "draw": 0.23283656713239465,
+        "away_win": 0.27525925648195754
+      }
+    },
+    {
+      "match_id": 545938,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Alverca",
+      "away": "Sporting Clube de Portugal",
+      "expected_goals": {
+        "home": 0.6047785437217715,
+        "away": 2.165246145262224
+      },
+      "probabilities_1x2": {
+        "home_win": 0.08979370921327497,
+        "draw": 0.17582483364475765,
+        "away_win": 0.7343814571419673
+      }
+    },
+    {
+      "match_id": 545939,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Famalicão",
+      "away": "CD Nacional",
+      "expected_goals": {
+        "home": 1.2410596831552352,
+        "away": 0.5934699600927295
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5215172949504567,
+        "draw": 0.3008176191556583,
+        "away_win": 0.1776650858938849
+      }
+    },
+    {
+      "match_id": 545940,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CD Santa Clara",
+      "away": "Gil Vicente FC",
+      "expected_goals": {
+        "home": 0.4861629113787285,
+        "away": 0.8659005250172433
+      },
+      "probabilities_1x2": {
+        "home_win": 0.19548718121437397,
+        "draw": 0.37962504717611484,
+        "away_win": 0.42488777160951124
+      }
+    },
+    {
+      "match_id": 545941,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sporting Clube de Braga",
+      "away": "FC Porto",
+      "expected_goals": {
+        "home": 0.698589068781033,
+        "away": 1.2436938623326081
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2087593677696351,
+        "draw": 0.2977624551004787,
+        "away_win": 0.49347817712988606
+      }
+    },
+    {
+      "match_id": 545942,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sport Lisboa e Benfica",
+      "away": "Vitória SC",
+      "expected_goals": {
+        "home": 1.8530504824737621,
+        "away": 0.5340741010496568
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6929175440314985,
+        "draw": 0.20797291094246534,
+        "away_win": 0.09910954502603594
+      }
+    },
+    {
+      "match_id": 545943,
+      "utcDate": "2026-04-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Gil Vicente FC",
+      "away": "AVS",
+      "expected_goals": {
+        "home": 2.397903740474958,
+        "away": 0.36596773888671325
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8271383237761778,
+        "draw": 0.13176927599338012,
+        "away_win": 0.04109240023044222
+      }
+    },
+    {
+      "match_id": 545944,
+      "utcDate": "2026-04-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CD Nacional",
+      "away": "CF Estrela da Amadora",
+      "expected_goals": {
+        "home": 1.3665758532973205,
+        "away": 0.9605451966606605
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4618731792019862,
+        "draw": 0.2743541249585284,
+        "away_win": 0.2637726958394855
+      }
+    },
+    {
+      "match_id": 545945,
+      "utcDate": "2026-04-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Rio Ave FC",
+      "away": "FC Alverca",
+      "expected_goals": {
+        "home": 1.3451968640581768,
+        "away": 1.0804167330056385
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4277829714695007,
+        "draw": 0.27189792283690545,
+        "away_win": 0.3003191056935938
+      }
+    },
+    {
+      "match_id": 545946,
+      "utcDate": "2026-04-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Porto",
+      "away": "FC Famalicão",
+      "expected_goals": {
+        "home": 1.2858070663815602,
+        "away": 0.44350987042082396
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5783734439476397,
+        "draw": 0.29394487367459055,
+        "away_win": 0.12768168237777
+      }
+    },
+    {
+      "match_id": 545947,
+      "utcDate": "2026-04-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sporting Clube de Portugal",
+      "away": "CD Santa Clara",
+      "expected_goals": {
+        "home": 2.04024642290689,
+        "away": 0.40130273474036965
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7640342905911592,
+        "draw": 0.17426242037814837,
+        "away_win": 0.061703289030692485
+      }
+    },
+    {
+      "match_id": 545948,
+      "utcDate": "2026-04-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Moreirense FC",
+      "away": "Sporting Clube de Braga",
+      "expected_goals": {
+        "home": 1.1873402261149595,
+        "away": 1.6193792079050002
+      },
+      "probabilities_1x2": {
+        "home_win": 0.27994585541047534,
+        "draw": 0.24584644034628736,
+        "away_win": 0.47420770424323727
+      }
+    },
+    {
+      "match_id": 545949,
+      "utcDate": "2026-04-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Casa Pia AC",
+      "away": "Sport Lisboa e Benfica",
+      "expected_goals": {
+        "home": 0.6578363892318804,
+        "away": 2.1954952218176547
+      },
+      "probabilities_1x2": {
+        "home_win": 0.09699409927404998,
+        "draw": 0.1762715435944569,
+        "away_win": 0.7267343571314931
+      }
+    },
+    {
+      "match_id": 545950,
+      "utcDate": "2026-04-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Arouca",
+      "away": "GD Estoril Praia",
+      "expected_goals": {
+        "home": 1.4348657517656571,
+        "away": 2.1857638163187927
+      },
+      "probabilities_1x2": {
+        "home_win": 0.24897525071476842,
+        "draw": 0.2045820523202525,
+        "away_win": 0.5464426969649792
+      }
+    },
+    {
+      "match_id": 545951,
+      "utcDate": "2026-04-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Vitória SC",
+      "away": "CD Tondela",
+      "expected_goals": {
+        "home": 1.4037118646779918,
+        "away": 0.6448319960162298
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5539642090986391,
+        "draw": 0.27483642331275115,
+        "away_win": 0.1711993675886098
+      }
+    },
+    {
+      "match_id": 545952,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sporting Clube de Braga",
+      "away": "FC Arouca",
+      "expected_goals": {
+        "home": 2.9535732739711107,
+        "away": 0.6810389727759203
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8296971886521327,
+        "draw": 0.11299470348247838,
+        "away_win": 0.057308107865388994
+      }
+    },
+    {
+      "match_id": 545953,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CD Tondela",
+      "away": "Gil Vicente FC",
+      "expected_goals": {
+        "home": 0.448508632972413,
+        "away": 1.297575508200603
+      },
+      "probabilities_1x2": {
+        "home_win": 0.1279293534760617,
+        "draw": 0.29174699231954415,
+        "away_win": 0.5803236542043941
+      }
+    },
+    {
+      "match_id": 545954,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AVS",
+      "away": "Vitória SC",
+      "expected_goals": {
+        "home": 0.7881677015832064,
+        "away": 1.731717385164099
+      },
+      "probabilities_1x2": {
+        "home_win": 0.1673627088666838,
+        "draw": 0.23397227945560017,
+        "away_win": 0.5986650116777159
+      }
+    },
+    {
+      "match_id": 545955,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "GD Estoril Praia",
+      "away": "FC Porto",
+      "expected_goals": {
+        "home": 0.6327429253744313,
+        "away": 2.140931469078419
+      },
+      "probabilities_1x2": {
+        "home_win": 0.096497491448819,
+        "draw": 0.18034839140648148,
+        "away_win": 0.7231541171446993
+      }
+    },
+    {
+      "match_id": 545956,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CF Estrela da Amadora",
+      "away": "Sporting Clube de Portugal",
+      "expected_goals": {
+        "home": 0.6595549069884453,
+        "away": 2.3164897952934926
+      },
+      "probabilities_1x2": {
+        "home_win": 0.08885145225498037,
+        "draw": 0.1642352785081707,
+        "away_win": 0.746913269236849
+      }
+    },
+    {
+      "match_id": 545957,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Alverca",
+      "away": "Casa Pia AC",
+      "expected_goals": {
+        "home": 1.527485606288677,
+        "away": 1.0004705950816313
+      },
+      "probabilities_1x2": {
+        "home_win": 0.49493620354517326,
+        "draw": 0.2571282203667966,
+        "away_win": 0.24793557608803
+      }
+    },
+    {
+      "match_id": 545958,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Famalicão",
+      "away": "Moreirense FC",
+      "expected_goals": {
+        "home": 1.5400333368374648,
+        "away": 0.8194782652090454
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5434925630257403,
+        "draw": 0.25701179406879465,
+        "away_win": 0.19949564290546523
+      }
+    },
+    {
+      "match_id": 545959,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CD Santa Clara",
+      "away": "Rio Ave FC",
+      "expected_goals": {
+        "home": 1.0739080687330378,
+        "away": 0.8461768467190162
+      },
+      "probabilities_1x2": {
+        "home_win": 0.403832093860081,
+        "draw": 0.3133061150202723,
+        "away_win": 0.28286179111964693
+      }
+    },
+    {
+      "match_id": 545960,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sport Lisboa e Benfica",
+      "away": "CD Nacional",
+      "expected_goals": {
+        "home": 1.8963506845715052,
+        "away": 0.5606917046622769
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6947138201865316,
+        "draw": 0.20407643422918742,
+        "away_win": 0.10120974558428096
+      }
+    },
+    {
+      "match_id": 545961,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Rio Ave FC",
+      "away": "AVS",
+      "expected_goals": {
+        "home": 2.343283745913456,
+        "away": 0.8084033119101129
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7168044352092915,
+        "draw": 0.17131355245307123,
+        "away_win": 0.11188201233763745
+      }
+    },
+    {
+      "match_id": 545962,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Moreirense FC",
+      "away": "GD Estoril Praia",
+      "expected_goals": {
+        "home": 2.043922649762484,
+        "away": 1.4667431585900004
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5100027451080819,
+        "draw": 0.21367515409172835,
+        "away_win": 0.2763221008001898
+      }
+    },
+    {
+      "match_id": 545963,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CD Nacional",
+      "away": "FC Alverca",
+      "expected_goals": {
+        "home": 1.2773520973726387,
+        "away": 0.8807714400426012
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4563854808048572,
+        "draw": 0.2870010421343474,
+        "away_win": 0.25661347706079546
+      }
+    },
+    {
+      "match_id": 545964,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Casa Pia AC",
+      "away": "CD Santa Clara",
+      "expected_goals": {
+        "home": 0.9427133988000352,
+        "away": 1.0135679538297264
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3250876529205324,
+        "draw": 0.3123843979826934,
+        "away_win": 0.3625279490967742
+      }
+    },
+    {
+      "match_id": 545965,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sporting Clube de Portugal",
+      "away": "Sport Lisboa e Benfica",
+      "expected_goals": {
+        "home": 1.4237077161486489,
+        "away": 0.8692641014307878
+      },
+      "probabilities_1x2": {
+        "home_win": 0.50005638932369,
+        "draw": 0.2703274874733094,
+        "away_win": 0.22961612320300054
+      }
+    },
+    {
+      "match_id": 545966,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Gil Vicente FC",
+      "away": "Vitória SC",
+      "expected_goals": {
+        "home": 1.1972370335782396,
+        "away": 0.491359788948974
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5374063000439254,
+        "draw": 0.3105498128596767,
+        "away_win": 0.15204388709639774
+      }
+    },
+    {
+      "match_id": 545967,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Arouca",
+      "away": "CF Estrela da Amadora",
+      "expected_goals": {
+        "home": 1.3247052408190345,
+        "away": 1.776251346991286
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2868579392878676,
+        "draw": 0.2321255785587083,
+        "away_win": 0.481016482153424
+      }
+    },
+    {
+      "match_id": 545968,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Porto",
+      "away": "CD Tondela",
+      "expected_goals": {
+        "home": 2.6087209201603,
+        "away": 0.2886281145276616
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8688371675185766,
+        "draw": 0.10522363144944431,
+        "away_win": 0.02593920103197902
+      }
+    },
+    {
+      "match_id": 545969,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sporting Clube de Braga",
+      "away": "FC Famalicão",
+      "expected_goals": {
+        "home": 1.0204234873257532,
+        "away": 0.7669192921750966
+      },
+      "probabilities_1x2": {
+        "home_win": 0.40605429403521276,
+        "draw": 0.3263844742654331,
+        "away_win": 0.2675612316993539
+      }
+    },
+    {
+      "match_id": 545970,
+      "utcDate": "2026-04-26T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Gil Vicente FC",
+      "away": "Casa Pia AC",
+      "expected_goals": {
+        "home": 1.7361027187655262,
+        "away": 0.49449961547725096
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6786749189002648,
+        "draw": 0.22151655145521199,
+        "away_win": 0.09980852964452336
+      }
+    },
+    {
+      "match_id": 545971,
+      "utcDate": "2026-04-26T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CD Tondela",
+      "away": "CD Nacional",
+      "expected_goals": {
+        "home": 0.807658950240522,
+        "away": 1.204066722651824
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2476820500477434,
+        "draw": 0.2990906509100517,
+        "away_win": 0.45322729904220493
+      }
+    },
+    {
+      "match_id": 545972,
+      "utcDate": "2026-04-26T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CD Santa Clara",
+      "away": "Sporting Clube de Braga",
+      "expected_goals": {
+        "home": 0.662134249012948,
+        "away": 1.1288015388030173
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2152340993710018,
+        "draw": 0.31679969674893554,
+        "away_win": 0.46796620388006294
+      }
+    },
+    {
+      "match_id": 545973,
+      "utcDate": "2026-04-26T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AVS",
+      "away": "Sporting Clube de Portugal",
+      "expected_goals": {
+        "home": 0.4525151849108799,
+        "away": 3.771779606137488
+      },
+      "probabilities_1x2": {
+        "home_win": 0.017097684558334363,
+        "draw": 0.05262280819071239,
+        "away_win": 0.9302795072509533
+      }
+    },
+    {
+      "match_id": 545974,
+      "utcDate": "2026-04-26T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "GD Estoril Praia",
+      "away": "FC Famalicão",
+      "expected_goals": {
+        "home": 0.9242425502275569,
+        "away": 1.3201975957182157
+      },
+      "probabilities_1x2": {
+        "home_win": 0.26162034935429224,
+        "draw": 0.28053666097885477,
+        "away_win": 0.45784298966685294
+      }
+    },
+    {
+      "match_id": 545975,
+      "utcDate": "2026-04-26T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CF Estrela da Amadora",
+      "away": "FC Porto",
+      "expected_goals": {
+        "home": 0.5141957539531428,
+        "away": 1.9765634059023591
+      },
+      "probabilities_1x2": {
+        "home_win": 0.08614151094866607,
+        "draw": 0.19101931653092485,
+        "away_win": 0.7228391725204091
+      }
+    },
+    {
+      "match_id": 545976,
+      "utcDate": "2026-04-26T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Alverca",
+      "away": "FC Arouca",
+      "expected_goals": {
+        "home": 1.9934248554829452,
+        "away": 1.0116868559089416
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6015206678099201,
+        "draw": 0.21262438700882125,
+        "away_win": 0.1858549451812587
+      }
+    },
+    {
+      "match_id": 545977,
+      "utcDate": "2026-04-26T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sport Lisboa e Benfica",
+      "away": "Moreirense FC",
+      "expected_goals": {
+        "home": 2.35318519505026,
+        "away": 0.7742172247133662
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7263620832253308,
+        "draw": 0.16833038115900337,
+        "away_win": 0.105307535615666
+      }
+    },
+    {
+      "match_id": 545978,
+      "utcDate": "2026-04-26T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Vitória SC",
+      "away": "Rio Ave FC",
+      "expected_goals": {
+        "home": 1.328418525787799,
+        "away": 0.9559237404496708
+      },
+      "probabilities_1x2": {
+        "home_win": 0.452443362305627,
+        "draw": 0.2784986877096303,
+        "away_win": 0.26905794998474253
+      }
+    },
+    {
+      "match_id": 545979,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CD Nacional",
+      "away": "AVS",
+      "expected_goals": {
+        "home": 2.2251006433005753,
+        "away": 0.6590221415633726
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7316215654204027,
+        "draw": 0.17330964745153252,
+        "away_win": 0.09506878712806474
+      }
+    },
+    {
+      "match_id": 545980,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Moreirense FC",
+      "away": "CF Estrela da Amadora",
+      "expected_goals": {
+        "home": 1.8870023503155549,
+        "away": 1.1919423735010528
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5360886495805146,
+        "draw": 0.22445831727020635,
+        "away_win": 0.23945303314927924
+      }
+    },
+    {
+      "match_id": 545981,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Porto",
+      "away": "FC Alverca",
+      "expected_goals": {
+        "home": 2.261193159451738,
+        "away": 0.3852333484098377
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8035471645973365,
+        "draw": 0.14749716080516156,
+        "away_win": 0.048955674597502025
+      }
+    },
+    {
+      "match_id": 545982,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Rio Ave FC",
+      "away": "Gil Vicente FC",
+      "expected_goals": {
+        "home": 0.6648864397295923,
+        "away": 1.227975189977907
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2010055451071098,
+        "draw": 0.30113461484535664,
+        "away_win": 0.4978598400475337
+      }
+    },
+    {
+      "match_id": 545983,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Famalicão",
+      "away": "Sport Lisboa e Benfica",
+      "expected_goals": {
+        "home": 0.7490958131357434,
+        "away": 0.9898922760805585
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2673780029070723,
+        "draw": 0.3322197062280087,
+        "away_win": 0.40040229086491896
+      }
+    },
+    {
+      "match_id": 545984,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sporting Clube de Portugal",
+      "away": "Vitória SC",
+      "expected_goals": {
+        "home": 2.304860975086268,
+        "away": 0.4964093322320837
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7835382736840206,
+        "draw": 0.15281748150814412,
+        "away_win": 0.06364424480783541
+      }
+    },
+    {
+      "match_id": 545985,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Casa Pia AC",
+      "away": "CD Tondela",
+      "expected_goals": {
+        "home": 1.412681690556908,
+        "away": 0.935065112448861
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4806512391289104,
+        "draw": 0.2701956418644498,
+        "away_win": 0.24915311900663983
+      }
+    },
+    {
+      "match_id": 545986,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Arouca",
+      "away": "CD Santa Clara",
+      "expected_goals": {
+        "home": 0.9532821445665998,
+        "away": 1.322743431143875
+      },
+      "probabilities_1x2": {
+        "home_win": 0.26930813580487384,
+        "draw": 0.27919315201502726,
+        "away_win": 0.45149871218009885
+      }
+    },
+    {
+      "match_id": 545987,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sporting Clube de Braga",
+      "away": "GD Estoril Praia",
+      "expected_goals": {
+        "home": 2.0794928602708356,
+        "away": 0.89397143403437
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6475344481794324,
+        "draw": 0.20061032494847397,
+        "away_win": 0.15185522687209368
+      }
+    },
+    {
+      "match_id": 545988,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Vitória SC",
+      "away": "Casa Pia AC",
+      "expected_goals": {
+        "home": 1.5345135181844902,
+        "away": 0.8701452618579407
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5290793920068406,
+        "draw": 0.25760876015457346,
+        "away_win": 0.21331184783858592
+      }
+    },
+    {
+      "match_id": 545989,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Gil Vicente FC",
+      "away": "FC Arouca",
+      "expected_goals": {
+        "home": 2.2656778545150287,
+        "away": 0.5000434432453673
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7765998788911296,
+        "draw": 0.15715532755970155,
+        "away_win": 0.0662447935491687
+      }
+    },
+    {
+      "match_id": 545990,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CD Tondela",
+      "away": "Moreirense FC",
+      "expected_goals": {
+        "home": 1.0022255376174156,
+        "away": 1.6626056505378723
+      },
+      "probabilities_1x2": {
+        "home_win": 0.22777689006012308,
+        "draw": 0.24386797472790492,
+        "away_win": 0.528355135211972
+      }
+    },
+    {
+      "match_id": 545991,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AVS",
+      "away": "FC Porto",
+      "expected_goals": {
+        "home": 0.35278546822269635,
+        "away": 3.218301051775462
+      },
+      "probabilities_1x2": {
+        "home_win": 0.019547373268921548,
+        "draw": 0.0703867155632578,
+        "away_win": 0.9100659111678209
+      }
+    },
+    {
+      "match_id": 545992,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CF Estrela da Amadora",
+      "away": "FC Famalicão",
+      "expected_goals": {
+        "home": 0.7510816413610717,
+        "away": 1.2188406279908448
+      },
+      "probabilities_1x2": {
+        "home_win": 0.22830458662769457,
+        "draw": 0.29951197259846657,
+        "away_win": 0.4721834407738388
+      }
+    },
+    {
+      "match_id": 545993,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Alverca",
+      "away": "GD Estoril Praia",
+      "expected_goals": {
+        "home": 1.403490744920572,
+        "away": 1.3279991094844688
+      },
+      "probabilities_1x2": {
+        "home_win": 0.38918355017198236,
+        "draw": 0.25624000233163,
+        "away_win": 0.35457644749638756
+      }
+    },
+    {
+      "match_id": 545994,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Rio Ave FC",
+      "away": "Sporting Clube de Portugal",
+      "expected_goals": {
+        "home": 0.6717192594500435,
+        "away": 2.3640365394437675
+      },
+      "probabilities_1x2": {
+        "home_win": 0.08767918829233923,
+        "draw": 0.16052054798005813,
+        "away_win": 0.7518002637276028
+      }
+    },
+    {
+      "match_id": 545995,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CD Santa Clara",
+      "away": "CD Nacional",
+      "expected_goals": {
+        "home": 0.875465482231133,
+        "away": 0.8035000666325935
+      },
+      "probabilities_1x2": {
+        "home_win": 0.34882432286087606,
+        "draw": 0.34276968672355174,
+        "away_win": 0.30840599041557204
+      }
+    },
+    {
+      "match_id": 545996,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sport Lisboa e Benfica",
+      "away": "Sporting Clube de Braga",
+      "expected_goals": {
+        "home": 1.434252705422417,
+        "away": 0.7876908606483886
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5238930700801882,
+        "draw": 0.2701115569280377,
+        "away_win": 0.20599537299177417
+      }
+    },
+    {
+      "match_id": 545997,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Moreirense FC",
+      "away": "AVS",
+      "expected_goals": {
+        "home": 3.0724749990759053,
+        "away": 0.8177818371646065
+      },
+      "probabilities_1x2": {
+        "home_win": 0.817910435632863,
+        "draw": 0.11467329278513927,
+        "away_win": 0.06741627158199778
+      }
+    },
+    {
+      "match_id": 545998,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Famalicão",
+      "away": "FC Alverca",
+      "expected_goals": {
+        "home": 1.394356529238964,
+        "away": 0.5627072829875011
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5744330285493221,
+        "draw": 0.2758512443528875,
+        "away_win": 0.14971572709779038
+      }
+    },
+    {
+      "match_id": 545999,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sporting Clube de Portugal",
+      "away": "Gil Vicente FC",
+      "expected_goals": {
+        "home": 1.3098420641572792,
+        "away": 0.5616226778688346
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5508472853725567,
+        "draw": 0.28971462565679346,
+        "away_win": 0.15943808897064976
+      }
+    },
+    {
+      "match_id": 546000,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Porto",
+      "away": "CD Santa Clara",
+      "expected_goals": {
+        "home": 1.740856543695682,
+        "away": 0.31285971807180774
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7313817110667288,
+        "draw": 0.20821954412066013,
+        "away_win": 0.060398744812611004
+      }
+    },
+    {
+      "match_id": 546001,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "GD Estoril Praia",
+      "away": "Sport Lisboa e Benfica",
+      "expected_goals": {
+        "home": 0.8731952177116565,
+        "away": 2.0172741475614764
+      },
+      "probabilities_1x2": {
+        "home_win": 0.1541453600696653,
+        "draw": 0.20592300066823033,
+        "away_win": 0.6399316392621041
+      }
+    },
+    {
+      "match_id": 546002,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "CD Nacional",
+      "away": "Vitória SC",
+      "expected_goals": {
+        "home": 1.1109590633819832,
+        "away": 0.8848238409657153
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4060493438567001,
+        "draw": 0.30615120938466306,
+        "away_win": 0.28779944675863695
+      }
+    },
+    {
+      "match_id": 546003,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Casa Pia AC",
+      "away": "Rio Ave FC",
+      "expected_goals": {
+        "home": 1.3369072214884485,
+        "away": 1.3861764698065788
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3602806064786307,
+        "draw": 0.2568188809147955,
+        "away_win": 0.38290051260657376
+      }
+    },
+    {
+      "match_id": 546004,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Arouca",
+      "away": "CD Tondela",
+      "expected_goals": {
+        "home": 1.4285192437895033,
+        "away": 1.2202943379475903
+      },
+      "probabilities_1x2": {
+        "home_win": 0.41859765428865203,
+        "draw": 0.2594043903493893,
+        "away_win": 0.3219979553619586
+      }
+    },
+    {
+      "match_id": 546005,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sporting Clube de Braga",
+      "away": "CF Estrela da Amadora",
+      "expected_goals": {
+        "home": 1.9198416903161553,
+        "away": 0.7264819519931535
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6563482792550288,
+        "draw": 0.2101375753343542,
+        "away_win": 0.1335141454106171
+      }
+    }
+  ]
+}

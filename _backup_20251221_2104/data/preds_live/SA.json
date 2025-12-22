@@ -1,0 +1,3672 @@
+{
+  "competition": "SA",
+  "generated_at": "2025-12-20T18:07:14.368151+00:00",
+  "model_path": "data/models/SA.joblib",
+  "matches_fetched": 229,
+  "predictions": [
+    {
+      "match_id": 536971,
+      "utcDate": "2025-12-20T19:45:00Z",
+      "status": "TIMED",
+      "home": "Juventus FC",
+      "away": "AS Roma",
+      "expected_goals": {
+        "home": 0.8050643162530209,
+        "away": 0.7971058932364083
+      },
+      "probabilities_1x2": {
+        "home_win": 0.32576648582218193,
+        "draw": 0.35301952995165625,
+        "away_win": 0.32121398422616193
+      }
+    },
+    {
+      "match_id": 536966,
+      "utcDate": "2025-12-21T11:30:00Z",
+      "status": "TIMED",
+      "home": "Cagliari Calcio",
+      "away": "AC Pisa 1909",
+      "expected_goals": {
+        "home": 1.2318167677683542,
+        "away": 0.8201534185618202
+      },
+      "probabilities_1x2": {
+        "home_win": 0.45830870109839567,
+        "draw": 0.29498993165702386,
+        "away_win": 0.24670136724458053
+      }
+    },
+    {
+      "match_id": 536973,
+      "utcDate": "2025-12-21T14:00:00Z",
+      "status": "TIMED",
+      "home": "US Sassuolo Calcio",
+      "away": "Torino FC",
+      "expected_goals": {
+        "home": 1.9704764549875635,
+        "away": 1.0115168683954567
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5966579443218372,
+        "draw": 0.21473237202971093,
+        "away_win": 0.188609683648452
+      }
+    },
+    {
+      "match_id": 536965,
+      "utcDate": "2025-12-21T17:00:00Z",
+      "status": "TIMED",
+      "home": "ACF Fiorentina",
+      "away": "Udinese Calcio",
+      "expected_goals": {
+        "home": 1.1578196320914254,
+        "away": 1.297283368723706
+      },
+      "probabilities_1x2": {
+        "home_win": 0.33047061207443995,
+        "draw": 0.27212021027465394,
+        "away_win": 0.3974091776509063
+      }
+    },
+    {
+      "match_id": 536967,
+      "utcDate": "2025-12-21T19:45:00Z",
+      "status": "TIMED",
+      "home": "Genoa CFC",
+      "away": "Atalanta BC",
+      "expected_goals": {
+        "home": 1.2224301628736745,
+        "away": 1.331791880869048
+      },
+      "probabilities_1x2": {
+        "home_win": 0.34109829090615884,
+        "draw": 0.2661884124911706,
+        "away_win": 0.39271329660267046
+      }
+    },
+    {
+      "match_id": 536980,
+      "utcDate": "2025-12-27T11:30:00Z",
+      "status": "TIMED",
+      "home": "Parma Calcio 1913",
+      "away": "ACF Fiorentina",
+      "expected_goals": {
+        "home": 1.1485253697349451,
+        "away": 0.8648701129521268
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4222977054838123,
+        "draw": 0.3029875755067801,
+        "away_win": 0.27471471900940764
+      }
+    },
+    {
+      "match_id": 536979,
+      "utcDate": "2025-12-27T14:00:00Z",
+      "status": "TIMED",
+      "home": "Torino FC",
+      "away": "Cagliari Calcio",
+      "expected_goals": {
+        "home": 1.3077307100200644,
+        "away": 1.2891513260094467
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3723123295391316,
+        "draw": 0.26408543167371357,
+        "away_win": 0.3636022387871549
+      }
+    },
+    {
+      "match_id": 536984,
+      "utcDate": "2025-12-27T14:00:00Z",
+      "status": "TIMED",
+      "home": "US Lecce",
+      "away": "Como 1907",
+      "expected_goals": {
+        "home": 0.6646938129814531,
+        "away": 1.2071180963002226
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2040356628591497,
+        "draw": 0.3043667103944071,
+        "away_win": 0.4915976267464429
+      }
+    },
+    {
+      "match_id": 536982,
+      "utcDate": "2025-12-27T17:00:00Z",
+      "status": "TIMED",
+      "home": "Udinese Calcio",
+      "away": "SS Lazio",
+      "expected_goals": {
+        "home": 0.8488336326732275,
+        "away": 1.201235372709248
+      },
+      "probabilities_1x2": {
+        "home_win": 0.26045305730725393,
+        "draw": 0.2974823727802443,
+        "away_win": 0.44206456991250176
+      }
+    },
+    {
+      "match_id": 536981,
+      "utcDate": "2025-12-27T19:45:00Z",
+      "status": "TIMED",
+      "home": "AC Pisa 1909",
+      "away": "Juventus FC",
+      "expected_goals": {
+        "home": 0.7179231474972386,
+        "away": 1.18258352676235
+      },
+      "probabilities_1x2": {
+        "home_win": 0.22407527075632439,
+        "draw": 0.3060326118545166,
+        "away_win": 0.46989211738915904
+      }
+    },
+    {
+      "match_id": 536975,
+      "utcDate": "2025-12-28T11:30:00Z",
+      "status": "TIMED",
+      "home": "AC Milan",
+      "away": "Hellas Verona FC",
+      "expected_goals": {
+        "home": 1.9728162320443974,
+        "away": 0.6894251804824639
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6767438258058025,
+        "draw": 0.20230999482045728,
+        "away_win": 0.12094617937374028
+      }
+    },
+    {
+      "match_id": 536983,
+      "utcDate": "2025-12-28T14:00:00Z",
+      "status": "TIMED",
+      "home": "US Cremonese",
+      "away": "SSC Napoli",
+      "expected_goals": {
+        "home": 1.0164868396028308,
+        "away": 1.238530145087363
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3024429442679255,
+        "draw": 0.28474825808089843,
+        "away_win": 0.412808797651176
+      }
+    },
+    {
+      "match_id": 536978,
+      "utcDate": "2025-12-28T17:00:00Z",
+      "status": "TIMED",
+      "home": "Bologna FC 1909",
+      "away": "US Sassuolo Calcio",
+      "expected_goals": {
+        "home": 1.6360082496728598,
+        "away": 1.0225387452837642
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5169169677389889,
+        "draw": 0.24637366685988357,
+        "away_win": 0.23670936540112766
+      }
+    },
+    {
+      "match_id": 536977,
+      "utcDate": "2025-12-28T19:45:00Z",
+      "status": "TIMED",
+      "home": "Atalanta BC",
+      "away": "FC Internazionale Milano",
+      "expected_goals": {
+        "home": 1.1309272577691916,
+        "away": 1.9264099294595127
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2203335016380702,
+        "draw": 0.22073607138182685,
+        "away_win": 0.5589304269801031
+      }
+    },
+    {
+      "match_id": 536976,
+      "utcDate": "2025-12-29T19:45:00Z",
+      "status": "TIMED",
+      "home": "AS Roma",
+      "away": "Genoa CFC",
+      "expected_goals": {
+        "home": 1.4146625449625563,
+        "away": 0.5913025560201356
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5718995707915309,
+        "draw": 0.2729033067528884,
+        "away_win": 0.15519712245558048
+      }
+    },
+    {
+      "match_id": 536987,
+      "utcDate": "2026-01-02T19:45:00Z",
+      "status": "TIMED",
+      "home": "Cagliari Calcio",
+      "away": "AC Milan",
+      "expected_goals": {
+        "home": 0.922160189832446,
+        "away": 1.5306596048269883
+      },
+      "probabilities_1x2": {
+        "home_win": 0.227282709881315,
+        "draw": 0.25772347752745794,
+        "away_win": 0.5149938125912272
+      }
+    },
+    {
+      "match_id": 536989,
+      "utcDate": "2026-01-03T11:30:00Z",
+      "status": "TIMED",
+      "home": "Como 1907",
+      "away": "Udinese Calcio",
+      "expected_goals": {
+        "home": 1.5571644840461094,
+        "away": 0.7399518621388128
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5687364218124236,
+        "draw": 0.2543706428920865,
+        "away_win": 0.17689293529548972
+      }
+    },
+    {
+      "match_id": 536988,
+      "utcDate": "2026-01-03T14:00:00Z",
+      "status": "TIMED",
+      "home": "Genoa CFC",
+      "away": "AC Pisa 1909",
+      "expected_goals": {
+        "home": 1.245887397047397,
+        "away": 0.8882741069870912
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4454520479864862,
+        "draw": 0.29032737071251974,
+        "away_win": 0.2642205813009942
+      }
+    },
+    {
+      "match_id": 536994,
+      "utcDate": "2026-01-03T14:00:00Z",
+      "status": "TIMED",
+      "home": "US Sassuolo Calcio",
+      "away": "Parma Calcio 1913",
+      "expected_goals": {
+        "home": 1.5263622173300522,
+        "away": 0.7623594145796845
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5548997878534152,
+        "draw": 0.2584841835345924,
+        "away_win": 0.1866160286119924
+      }
+    },
+    {
+      "match_id": 536992,
+      "utcDate": "2026-01-03T17:00:00Z",
+      "status": "TIMED",
+      "home": "Juventus FC",
+      "away": "US Lecce",
+      "expected_goals": {
+        "home": 1.4270823988456294,
+        "away": 0.610284662486287
+      },
+      "probabilities_1x2": {
+        "home_win": 0.569948598039367,
+        "draw": 0.2711649663881809,
+        "away_win": 0.15888643557245202
+      }
+    },
+    {
+      "match_id": 536986,
+      "utcDate": "2026-01-03T19:45:00Z",
+      "status": "TIMED",
+      "home": "Atalanta BC",
+      "away": "AS Roma",
+      "expected_goals": {
+        "home": 0.7995105356304748,
+        "away": 1.0220056608383266
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2778554168375994,
+        "draw": 0.3235561890585631,
+        "away_win": 0.39858839410383734
+      }
+    },
+    {
+      "match_id": 536993,
+      "utcDate": "2026-01-04T11:30:00Z",
+      "status": "TIMED",
+      "home": "SS Lazio",
+      "away": "SSC Napoli",
+      "expected_goals": {
+        "home": 0.973758819840824,
+        "away": 0.8949127716484193
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3606656740796973,
+        "draw": 0.32111067873215987,
+        "away_win": 0.31822364718814267
+      }
+    },
+    {
+      "match_id": 536985,
+      "utcDate": "2026-01-04T14:00:00Z",
+      "status": "TIMED",
+      "home": "ACF Fiorentina",
+      "away": "US Cremonese",
+      "expected_goals": {
+        "home": 0.984194891573481,
+        "away": 1.4097397836806542
+      },
+      "probabilities_1x2": {
+        "home_win": 0.26289206693891554,
+        "draw": 0.26922025463104693,
+        "away_win": 0.4678876784300373
+      }
+    },
+    {
+      "match_id": 536990,
+      "utcDate": "2026-01-04T17:00:00Z",
+      "status": "TIMED",
+      "home": "Hellas Verona FC",
+      "away": "Torino FC",
+      "expected_goals": {
+        "home": 1.3824596369635818,
+        "away": 1.1750559487661343
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4164790917762956,
+        "draw": 0.26474397047461407,
+        "away_win": 0.31877693774909044
+      }
+    },
+    {
+      "match_id": 536991,
+      "utcDate": "2026-01-04T19:45:00Z",
+      "status": "TIMED",
+      "home": "FC Internazionale Milano",
+      "away": "Bologna FC 1909",
+      "expected_goals": {
+        "home": 1.8317720903968862,
+        "away": 1.1323461587706252
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5373322239420193,
+        "draw": 0.22875057231861337,
+        "away_win": 0.23391720373936722
+      }
+    },
+    {
+      "match_id": 537000,
+      "utcDate": "2026-01-06T14:00:00Z",
+      "status": "TIMED",
+      "home": "AC Pisa 1909",
+      "away": "Como 1907",
+      "expected_goals": {
+        "home": 0.6528798163794477,
+        "away": 1.1980265155607621
+      },
+      "probabilities_1x2": {
+        "home_win": 0.20178112987350755,
+        "draw": 0.30618965373068474,
+        "away_win": 0.49202921639580777
+      }
+    },
+    {
+      "match_id": 537004,
+      "utcDate": "2026-01-06T17:00:00Z",
+      "status": "TIMED",
+      "home": "US Lecce",
+      "away": "AS Roma",
+      "expected_goals": {
+        "home": 0.5429042288030563,
+        "away": 1.0495215658435348
+      },
+      "probabilities_1x2": {
+        "home_win": 0.18830297608150157,
+        "draw": 0.3369396932740613,
+        "away_win": 0.4747573306444372
+      }
+    },
+    {
+      "match_id": 537001,
+      "utcDate": "2026-01-06T19:45:00Z",
+      "status": "TIMED",
+      "home": "US Sassuolo Calcio",
+      "away": "Juventus FC",
+      "expected_goals": {
+        "home": 1.2030607296153961,
+        "away": 1.1470425996834852
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3737356703853685,
+        "draw": 0.27994525602077847,
+        "away_win": 0.34631907359385306
+      }
+    },
+    {
+      "match_id": 536996,
+      "utcDate": "2026-01-07T17:30:00Z",
+      "status": "TIMED",
+      "home": "Bologna FC 1909",
+      "away": "Atalanta BC",
+      "expected_goals": {
+        "home": 1.6549429672473908,
+        "away": 0.9148703202187847
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5480196959524333,
+        "draw": 0.2444440062333065,
+        "away_win": 0.20753629781426017
+      }
+    },
+    {
+      "match_id": 537002,
+      "utcDate": "2026-01-07T17:30:00Z",
+      "status": "TIMED",
+      "home": "SSC Napoli",
+      "away": "Hellas Verona FC",
+      "expected_goals": {
+        "home": 1.8117540950456672,
+        "away": 0.6764729670731437
+      },
+      "probabilities_1x2": {
+        "home_win": 0.646067158131769,
+        "draw": 0.22063213001659565,
+        "away_win": 0.1333007118516353
+      }
+    },
+    {
+      "match_id": 536997,
+      "utcDate": "2026-01-07T19:45:00Z",
+      "status": "TIMED",
+      "home": "Torino FC",
+      "away": "Udinese Calcio",
+      "expected_goals": {
+        "home": 1.3554811010845402,
+        "away": 1.3326984115970253
+      },
+      "probabilities_1x2": {
+        "home_win": 0.375850561874032,
+        "draw": 0.25881896180641933,
+        "away_win": 0.36533047631954885
+      }
+    },
+    {
+      "match_id": 536998,
+      "utcDate": "2026-01-07T19:45:00Z",
+      "status": "TIMED",
+      "home": "SS Lazio",
+      "away": "ACF Fiorentina",
+      "expected_goals": {
+        "home": 1.6174188282916124,
+        "away": 0.5937742185474264
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6234528351570252,
+        "draw": 0.24292816907014145,
+        "away_win": 0.13361899577283332
+      }
+    },
+    {
+      "match_id": 536999,
+      "utcDate": "2026-01-07T19:45:00Z",
+      "status": "TIMED",
+      "home": "Parma Calcio 1913",
+      "away": "FC Internazionale Milano",
+      "expected_goals": {
+        "home": 0.7568699772921986,
+        "away": 1.9062571394208512
+      },
+      "probabilities_1x2": {
+        "home_win": 0.14128862267031383,
+        "draw": 0.2129979048704065,
+        "away_win": 0.6457134724592797
+      }
+    },
+    {
+      "match_id": 537003,
+      "utcDate": "2026-01-08T17:30:00Z",
+      "status": "TIMED",
+      "home": "US Cremonese",
+      "away": "Cagliari Calcio",
+      "expected_goals": {
+        "home": 1.4488960165269618,
+        "away": 0.9488260059709246
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4869770041348225,
+        "draw": 0.2660427710790867,
+        "away_win": 0.24698022478609102
+      }
+    },
+    {
+      "match_id": 536995,
+      "utcDate": "2026-01-08T19:45:00Z",
+      "status": "TIMED",
+      "home": "AC Milan",
+      "away": "Genoa CFC",
+      "expected_goals": {
+        "home": 1.9854749796715423,
+        "away": 0.7787627255066847
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6567477168520246,
+        "draw": 0.2052810825184706,
+        "away_win": 0.13797120062950458
+      }
+    },
+    {
+      "match_id": 537009,
+      "utcDate": "2026-01-10T14:00:00Z",
+      "status": "TIMED",
+      "home": "Como 1907",
+      "away": "Bologna FC 1909",
+      "expected_goals": {
+        "home": 1.1177236093434562,
+        "away": 0.9800926730082214
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3859137233339686,
+        "draw": 0.2987864699892443,
+        "away_win": 0.31529980667678714
+      }
+    },
+    {
+      "match_id": 537013,
+      "utcDate": "2026-01-10T14:00:00Z",
+      "status": "TIMED",
+      "home": "Udinese Calcio",
+      "away": "AC Pisa 1909",
+      "expected_goals": {
+        "home": 1.273427111823362,
+        "away": 0.8501004452463833
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4629045337869495,
+        "draw": 0.28864573964805257,
+        "away_win": 0.24844972656499792
+      }
+    },
+    {
+      "match_id": 537006,
+      "utcDate": "2026-01-10T17:00:00Z",
+      "status": "TIMED",
+      "home": "AS Roma",
+      "away": "US Sassuolo Calcio",
+      "expected_goals": {
+        "home": 1.2100119329797927,
+        "away": 0.7461231774374093
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4708257526807975,
+        "draw": 0.30093927569788415,
+        "away_win": 0.22823497162131834
+      }
+    },
+    {
+      "match_id": 537007,
+      "utcDate": "2026-01-10T19:45:00Z",
+      "status": "TIMED",
+      "home": "Atalanta BC",
+      "away": "Torino FC",
+      "expected_goals": {
+        "home": 1.762994736065256,
+        "away": 1.0232238914063567
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5472692557853629,
+        "draw": 0.23430599618741293,
+        "away_win": 0.21842474802722428
+      }
+    },
+    {
+      "match_id": 537014,
+      "utcDate": "2026-01-11T11:30:00Z",
+      "status": "TIMED",
+      "home": "US Lecce",
+      "away": "Parma Calcio 1913",
+      "expected_goals": {
+        "home": 0.9273344765297178,
+        "away": 0.7919456468678807
+      },
+      "probabilities_1x2": {
+        "home_win": 0.36913147252682077,
+        "draw": 0.33702234836432615,
+        "away_win": 0.293846179108853
+      }
+    },
+    {
+      "match_id": 537005,
+      "utcDate": "2026-01-11T14:00:00Z",
+      "status": "TIMED",
+      "home": "ACF Fiorentina",
+      "away": "AC Milan",
+      "expected_goals": {
+        "home": 0.7986693206293918,
+        "away": 1.7836689528536342
+      },
+      "probabilities_1x2": {
+        "home_win": 0.16374705440362455,
+        "draw": 0.22828738733962575,
+        "away_win": 0.6079655582567496
+      }
+    },
+    {
+      "match_id": 537010,
+      "utcDate": "2026-01-11T17:00:00Z",
+      "status": "TIMED",
+      "home": "Hellas Verona FC",
+      "away": "SS Lazio",
+      "expected_goals": {
+        "home": 0.7352063760119274,
+        "away": 1.2471741060180925
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2191005076953943,
+        "draw": 0.296116707764516,
+        "away_win": 0.4847827845400896
+      }
+    },
+    {
+      "match_id": 537011,
+      "utcDate": "2026-01-11T19:45:00Z",
+      "status": "TIMED",
+      "home": "FC Internazionale Milano",
+      "away": "SSC Napoli",
+      "expected_goals": {
+        "home": 1.7272726664796014,
+        "away": 1.0794624947382991
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5253915528191395,
+        "draw": 0.23776195963456412,
+        "away_win": 0.2368464875462964
+      }
+    },
+    {
+      "match_id": 537008,
+      "utcDate": "2026-01-12T17:30:00Z",
+      "status": "TIMED",
+      "home": "Genoa CFC",
+      "away": "Cagliari Calcio",
+      "expected_goals": {
+        "home": 1.3044811673572019,
+        "away": 1.1663345514637096
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3975033370066966,
+        "draw": 0.271118437353462,
+        "away_win": 0.33137822563984143
+      }
+    },
+    {
+      "match_id": 537012,
+      "utcDate": "2026-01-12T19:45:00Z",
+      "status": "TIMED",
+      "home": "Juventus FC",
+      "away": "US Cremonese",
+      "expected_goals": {
+        "home": 1.3065922618070216,
+        "away": 0.8842036156781258
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4638745045245292,
+        "draw": 0.2834880364598649,
+        "away_win": 0.2526374590156058
+      }
+    },
+    {
+      "match_id": 536974,
+      "utcDate": "2026-01-14T17:30:00Z",
+      "status": "TIMED",
+      "home": "SSC Napoli",
+      "away": "Parma Calcio 1913",
+      "expected_goals": {
+        "home": 1.561148274126564,
+        "away": 0.5773452649549363
+      },
+      "probabilities_1x2": {
+        "home_win": 0.614150624676943,
+        "draw": 0.25050492204690594,
+        "away_win": 0.13534445327615105
+      }
+    },
+    {
+      "match_id": 536970,
+      "utcDate": "2026-01-14T19:45:00Z",
+      "status": "TIMED",
+      "home": "FC Internazionale Milano",
+      "away": "US Lecce",
+      "expected_goals": {
+        "home": 2.369303347935428,
+        "away": 0.6412092970808037
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7596857201005226,
+        "draw": 0.1578290983864243,
+        "away_win": 0.08248518151305313
+      }
+    },
+    {
+      "match_id": 536969,
+      "utcDate": "2026-01-15T17:30:00Z",
+      "status": "TIMED",
+      "home": "Hellas Verona FC",
+      "away": "Bologna FC 1909",
+      "expected_goals": {
+        "home": 0.8592012054543721,
+        "away": 1.5868541457888912
+      },
+      "probabilities_1x2": {
+        "home_win": 0.20314033740103082,
+        "draw": 0.25166550470677496,
+        "away_win": 0.5451941578921944
+      }
+    },
+    {
+      "match_id": 536968,
+      "utcDate": "2026-01-15T19:45:00Z",
+      "status": "TIMED",
+      "home": "Como 1907",
+      "away": "AC Milan",
+      "expected_goals": {
+        "home": 1.0741392407855805,
+        "away": 1.0173792364282817
+      },
+      "probabilities_1x2": {
+        "home_win": 0.36452567318829643,
+        "draw": 0.30012877047854863,
+        "away_win": 0.33534555633315477
+      }
+    },
+    {
+      "match_id": 537021,
+      "utcDate": "2026-01-16T19:45:00Z",
+      "status": "TIMED",
+      "home": "AC Pisa 1909",
+      "away": "Atalanta BC",
+      "expected_goals": {
+        "home": 0.9204818669825556,
+        "away": 1.1744254090282995
+      },
+      "probabilities_1x2": {
+        "home_win": 0.28659886493985814,
+        "draw": 0.29672125264472865,
+        "away_win": 0.4166798824154131
+      }
+    },
+    {
+      "match_id": 537023,
+      "utcDate": "2026-01-17T14:00:00Z",
+      "status": "TIMED",
+      "home": "Udinese Calcio",
+      "away": "FC Internazionale Milano",
+      "expected_goals": {
+        "home": 1.0238808739486758,
+        "away": 2.1307750779893206
+      },
+      "probabilities_1x2": {
+        "home_win": 0.1723850984298758,
+        "draw": 0.20060002822359976,
+        "away_win": 0.6270148733465245
+      }
+    },
+    {
+      "match_id": 537022,
+      "utcDate": "2026-01-17T17:00:00Z",
+      "status": "TIMED",
+      "home": "SSC Napoli",
+      "away": "US Sassuolo Calcio",
+      "expected_goals": {
+        "home": 1.559602187834186,
+        "away": 0.9642046815782164
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5119968722445088,
+        "draw": 0.2543289582347635,
+        "away_win": 0.23367416952072767
+      }
+    },
+    {
+      "match_id": 537016,
+      "utcDate": "2026-01-17T19:45:00Z",
+      "status": "TIMED",
+      "home": "Cagliari Calcio",
+      "away": "Juventus FC",
+      "expected_goals": {
+        "home": 0.9426578638678871,
+        "away": 1.2382001320057177
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2813369884362223,
+        "draw": 0.2886113505299488,
+        "away_win": 0.4300516610338288
+      }
+    },
+    {
+      "match_id": 537020,
+      "utcDate": "2026-01-18T11:30:00Z",
+      "status": "TIMED",
+      "home": "Parma Calcio 1913",
+      "away": "Genoa CFC",
+      "expected_goals": {
+        "home": 1.067472914069835,
+        "away": 1.0100036381490967
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3641418847865474,
+        "draw": 0.30134368198373185,
+        "away_win": 0.33451443322972063
+      }
+    },
+    {
+      "match_id": 537017,
+      "utcDate": "2026-01-18T14:00:00Z",
+      "status": "TIMED",
+      "home": "Bologna FC 1909",
+      "away": "ACF Fiorentina",
+      "expected_goals": {
+        "home": 2.0579386316366666,
+        "away": 0.6939160771579053
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6924347684822416,
+        "draw": 0.19311499127387544,
+        "away_win": 0.114450240243883
+      }
+    },
+    {
+      "match_id": 537018,
+      "utcDate": "2026-01-18T17:00:00Z",
+      "status": "TIMED",
+      "home": "Torino FC",
+      "away": "AS Roma",
+      "expected_goals": {
+        "home": 0.7099441086650952,
+        "away": 1.3055686683882533
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2029243402628369,
+        "draw": 0.28850501477679025,
+        "away_win": 0.5085706449603726
+      }
+    },
+    {
+      "match_id": 537015,
+      "utcDate": "2026-01-18T19:45:00Z",
+      "status": "TIMED",
+      "home": "AC Milan",
+      "away": "US Lecce",
+      "expected_goals": {
+        "home": 1.7641553446890723,
+        "away": 0.5970142951982608
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6567352162428735,
+        "draw": 0.22306503874973221,
+        "away_win": 0.12019974500739444
+      }
+    },
+    {
+      "match_id": 537024,
+      "utcDate": "2026-01-19T17:30:00Z",
+      "status": "TIMED",
+      "home": "US Cremonese",
+      "away": "Hellas Verona FC",
+      "expected_goals": {
+        "home": 1.559234141377226,
+        "away": 0.8495740642926551
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5406602251967808,
+        "draw": 0.25480368955239086,
+        "away_win": 0.20453608525082834
+      }
+    },
+    {
+      "match_id": 537019,
+      "utcDate": "2026-01-19T19:45:00Z",
+      "status": "TIMED",
+      "home": "SS Lazio",
+      "away": "Como 1907",
+      "expected_goals": {
+        "home": 0.9225525453472849,
+        "away": 0.7985735420586436
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3659661085930011,
+        "draw": 0.3369901859007818,
+        "away_win": 0.2970437055062171
+      }
+    },
+    {
+      "match_id": 537031,
+      "utcDate": "2026-01-23T19:45:00Z",
+      "status": "TIMED",
+      "home": "FC Internazionale Milano",
+      "away": "AC Pisa 1909",
+      "expected_goals": {
+        "home": 2.3514586045337253,
+        "away": 0.6298127046815025
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7595018284592127,
+        "draw": 0.1587040525989157,
+        "away_win": 0.08179411894187158
+      }
+    },
+    {
+      "match_id": 537029,
+      "utcDate": "2026-01-24T14:00:00Z",
+      "status": "TIMED",
+      "home": "Como 1907",
+      "away": "Torino FC",
+      "expected_goals": {
+        "home": 1.7984236583809552,
+        "away": 0.725752728325181
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6301762743125408,
+        "draw": 0.22420289714426003,
+        "away_win": 0.1456208285431994
+      }
+    },
+    {
+      "match_id": 537025,
+      "utcDate": "2026-01-24T17:00:00Z",
+      "status": "TIMED",
+      "home": "ACF Fiorentina",
+      "away": "Cagliari Calcio",
+      "expected_goals": {
+        "home": 1.1170323867581944,
+        "away": 1.2548935006203477
+      },
+      "probabilities_1x2": {
+        "home_win": 0.327561663485524,
+        "draw": 0.2777185091919772,
+        "away_win": 0.39471982732249894
+      }
+    },
+    {
+      "match_id": 537034,
+      "utcDate": "2026-01-24T19:45:00Z",
+      "status": "TIMED",
+      "home": "US Lecce",
+      "away": "SS Lazio",
+      "expected_goals": {
+        "home": 0.636658957093594,
+        "away": 1.1152629571633201
+      },
+      "probabilities_1x2": {
+        "home_win": 0.20923021344990209,
+        "draw": 0.320254014618843,
+        "away_win": 0.4705157719312548
+      }
+    },
+    {
+      "match_id": 537033,
+      "utcDate": "2026-01-25T11:30:00Z",
+      "status": "TIMED",
+      "home": "US Sassuolo Calcio",
+      "away": "US Cremonese",
+      "expected_goals": {
+        "home": 1.4502869189399537,
+        "away": 1.1207068473948418
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4465644790541774,
+        "draw": 0.26133845897233543,
+        "away_win": 0.2920970619734873
+      }
+    },
+    {
+      "match_id": 537027,
+      "utcDate": "2026-01-25T14:00:00Z",
+      "status": "TIMED",
+      "home": "Atalanta BC",
+      "away": "Parma Calcio 1913",
+      "expected_goals": {
+        "home": 1.3656435973495344,
+        "away": 0.7711827565208009
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5093776226616593,
+        "draw": 0.27915284438180793,
+        "away_win": 0.21146953295653287
+      }
+    },
+    {
+      "match_id": 537028,
+      "utcDate": "2026-01-25T14:00:00Z",
+      "status": "TIMED",
+      "home": "Genoa CFC",
+      "away": "Bologna FC 1909",
+      "expected_goals": {
+        "home": 0.9705387784792336,
+        "away": 1.5970363339858191
+      },
+      "probabilities_1x2": {
+        "home_win": 0.22963765331379127,
+        "draw": 0.25047302250370523,
+        "away_win": 0.5198893241825037
+      }
+    },
+    {
+      "match_id": 537032,
+      "utcDate": "2026-01-25T17:00:00Z",
+      "status": "TIMED",
+      "home": "Juventus FC",
+      "away": "SSC Napoli",
+      "expected_goals": {
+        "home": 1.0403735015561104,
+        "away": 1.0274015165830486
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3521725047065041,
+        "draw": 0.3023565234136235,
+        "away_win": 0.3454709718798725
+      }
+    },
+    {
+      "match_id": 537026,
+      "utcDate": "2026-01-25T19:45:00Z",
+      "status": "TIMED",
+      "home": "AS Roma",
+      "away": "AC Milan",
+      "expected_goals": {
+        "home": 0.933903900023125,
+        "away": 0.8309683029481583
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3622448092056286,
+        "draw": 0.33218555227030416,
+        "away_win": 0.30556963852406727
+      }
+    },
+    {
+      "match_id": 537030,
+      "utcDate": "2026-01-26T19:45:00Z",
+      "status": "TIMED",
+      "home": "Hellas Verona FC",
+      "away": "Udinese Calcio",
+      "expected_goals": {
+        "home": 1.197002184260058,
+        "away": 1.1980455649313233
+      },
+      "probabilities_1x2": {
+        "home_win": 0.36126651728362325,
+        "draw": 0.276960368985517,
+        "away_win": 0.36177311373085963
+      }
+    },
+    {
+      "match_id": 537035,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Cagliari Calcio",
+      "away": "Hellas Verona FC",
+      "expected_goals": {
+        "home": 1.3879673487336799,
+        "away": 0.9642416892120508
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4668210000294975,
+        "draw": 0.2720197126943344,
+        "away_win": 0.2611592872761681
+      }
+    },
+    {
+      "match_id": 537036,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Como 1907",
+      "away": "Atalanta BC",
+      "expected_goals": {
+        "home": 1.4078150034957182,
+        "away": 0.8173135680350666
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5090158031325464,
+        "draw": 0.27306374950568285,
+        "away_win": 0.21792044736177063
+      }
+    },
+    {
+      "match_id": 537037,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Bologna FC 1909",
+      "away": "AC Milan",
+      "expected_goals": {
+        "home": 1.2626937331741221,
+        "away": 1.1388163664684816
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3920909661977686,
+        "draw": 0.27585403837177164,
+        "away_win": 0.3320549954304597
+      }
+    },
+    {
+      "match_id": 537038,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Torino FC",
+      "away": "US Lecce",
+      "expected_goals": {
+        "home": 1.2584693187689207,
+        "away": 0.9995767700386178
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4224023730976441,
+        "draw": 0.28369895697554864,
+        "away_win": 0.29389866992680724
+      }
+    },
+    {
+      "match_id": 537039,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SS Lazio",
+      "away": "Genoa CFC",
+      "expected_goals": {
+        "home": 1.5032761447022418,
+        "away": 0.6934152446602505
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5673380112681515,
+        "draw": 0.26098832592974847,
+        "away_win": 0.1716736628020999
+      }
+    },
+    {
+      "match_id": 537040,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Parma Calcio 1913",
+      "away": "Juventus FC",
+      "expected_goals": {
+        "home": 0.7203671885929702,
+        "away": 1.1481797017303907
+      },
+      "probabilities_1x2": {
+        "home_win": 0.23039845490097544,
+        "draw": 0.31096400537037444,
+        "away_win": 0.45863753972864985
+      }
+    },
+    {
+      "match_id": 537041,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AC Pisa 1909",
+      "away": "US Sassuolo Calcio",
+      "expected_goals": {
+        "home": 0.9099503474506282,
+        "away": 1.3126401170058544
+      },
+      "probabilities_1x2": {
+        "home_win": 0.25889203445207987,
+        "draw": 0.2818862164387802,
+        "away_win": 0.4592217491091399
+      }
+    },
+    {
+      "match_id": 537042,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SSC Napoli",
+      "away": "ACF Fiorentina",
+      "expected_goals": {
+        "home": 1.9618272664400245,
+        "away": 0.6543293672772936
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6835168435133347,
+        "draw": 0.2016645741521889,
+        "away_win": 0.1148185823344764
+      }
+    },
+    {
+      "match_id": 537043,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Udinese Calcio",
+      "away": "AS Roma",
+      "expected_goals": {
+        "home": 0.72383395159052,
+        "away": 1.1304261665061563
+      },
+      "probabilities_1x2": {
+        "home_win": 0.23441383159108406,
+        "draw": 0.31339458952592947,
+        "away_win": 0.4521915788829865
+      }
+    },
+    {
+      "match_id": 537044,
+      "utcDate": "2026-02-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "US Cremonese",
+      "away": "FC Internazionale Milano",
+      "expected_goals": {
+        "home": 1.112637097302201,
+        "away": 1.8112475283054978
+      },
+      "probabilities_1x2": {
+        "home_win": 0.23234797185267653,
+        "draw": 0.23042588702338662,
+        "away_win": 0.537226141123937
+      }
+    },
+    {
+      "match_id": 537045,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "ACF Fiorentina",
+      "away": "Torino FC",
+      "expected_goals": {
+        "home": 1.3372063387168125,
+        "away": 1.2723894518498926
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3835670028750409,
+        "draw": 0.26318268457845206,
+        "away_win": 0.353250312546507
+      }
+    },
+    {
+      "match_id": 537046,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AC Milan",
+      "away": "Como 1907",
+      "expected_goals": {
+        "home": 1.21847539633654,
+        "away": 0.8968641992228271
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4353563811981335,
+        "draw": 0.29306386140953516,
+        "away_win": 0.2715797573923313
+      }
+    },
+    {
+      "match_id": 537047,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AS Roma",
+      "away": "Cagliari Calcio",
+      "expected_goals": {
+        "home": 1.306173751138359,
+        "away": 0.5846245857017688
+      },
+      "probabilities_1x2": {
+        "home_win": 0.543250367636406,
+        "draw": 0.29018545250133787,
+        "away_win": 0.1665641798622561
+      }
+    },
+    {
+      "match_id": 537048,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Atalanta BC",
+      "away": "US Cremonese",
+      "expected_goals": {
+        "home": 1.2975786629693955,
+        "away": 1.1336776057290419
+      },
+      "probabilities_1x2": {
+        "home_win": 0.40280200057863036,
+        "draw": 0.2733694372499536,
+        "away_win": 0.3238285621714161
+      }
+    },
+    {
+      "match_id": 537049,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Genoa CFC",
+      "away": "SSC Napoli",
+      "expected_goals": {
+        "home": 0.9151712227815757,
+        "away": 1.5224503672478582
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2267112147132584,
+        "draw": 0.25867016784602015,
+        "away_win": 0.5146186174407213
+      }
+    },
+    {
+      "match_id": 537050,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Bologna FC 1909",
+      "away": "Parma Calcio 1913",
+      "expected_goals": {
+        "home": 1.6376300798733865,
+        "away": 0.6122744621569783
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6232345818987239,
+        "draw": 0.24073922338871645,
+        "away_win": 0.1360261947125599
+      }
+    },
+    {
+      "match_id": 537051,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Hellas Verona FC",
+      "away": "AC Pisa 1909",
+      "expected_goals": {
+        "home": 1.1029625782504866,
+        "away": 0.882610757985364
+      },
+      "probabilities_1x2": {
+        "home_win": 0.40412419020176904,
+        "draw": 0.30723404443337626,
+        "away_win": 0.2886417653648546
+      }
+    },
+    {
+      "match_id": 537052,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Juventus FC",
+      "away": "SS Lazio",
+      "expected_goals": {
+        "home": 0.9440917583363464,
+        "away": 0.847036120642878
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3619196886643454,
+        "draw": 0.32928960012935904,
+        "away_win": 0.30879071120629553
+      }
+    },
+    {
+      "match_id": 537053,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "US Sassuolo Calcio",
+      "away": "FC Internazionale Milano",
+      "expected_goals": {
+        "home": 1.2640227949355363,
+        "away": 1.9043692738786395
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2530448993631965,
+        "draw": 0.22329516891925544,
+        "away_win": 0.5236599317175481
+      }
+    },
+    {
+      "match_id": 537054,
+      "utcDate": "2026-02-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "US Lecce",
+      "away": "Udinese Calcio",
+      "expected_goals": {
+        "home": 1.036555431419979,
+        "away": 1.0713306451074802
+      },
+      "probabilities_1x2": {
+        "home_win": 0.34167557400485027,
+        "draw": 0.29882724852084797,
+        "away_win": 0.35949717747430193
+      }
+    },
+    {
+      "match_id": 537055,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Cagliari Calcio",
+      "away": "US Lecce",
+      "expected_goals": {
+        "home": 1.241164775892486,
+        "away": 0.8349942659228928
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4573151696461514,
+        "draw": 0.29319671852777524,
+        "away_win": 0.24948811182607344
+      }
+    },
+    {
+      "match_id": 537056,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Como 1907",
+      "away": "ACF Fiorentina",
+      "expected_goals": {
+        "home": 1.7506324624046434,
+        "away": 0.6199206733509455
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6475067189544328,
+        "draw": 0.22588560141867542,
+        "away_win": 0.1266076796268919
+      }
+    },
+    {
+      "match_id": 537057,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Torino FC",
+      "away": "Bologna FC 1909",
+      "expected_goals": {
+        "home": 0.9729564501525015,
+        "away": 1.7652066510928057
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2063585112965845,
+        "draw": 0.23364532060092763,
+        "away_win": 0.5599961681024881
+      }
+    },
+    {
+      "match_id": 537058,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Internazionale Milano",
+      "away": "Juventus FC",
+      "expected_goals": {
+        "home": 1.7994729436418622,
+        "away": 0.9508393873953395
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5733637428671323,
+        "draw": 0.22994051894983752,
+        "away_win": 0.19669573818302993
+      }
+    },
+    {
+      "match_id": 537059,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SS Lazio",
+      "away": "Atalanta BC",
+      "expected_goals": {
+        "home": 1.3006879183981919,
+        "away": 0.7828416538280144
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4879329011509781,
+        "draw": 0.2874103933935788,
+        "away_win": 0.22465670545544314
+      }
+    },
+    {
+      "match_id": 537060,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Parma Calcio 1913",
+      "away": "Hellas Verona FC",
+      "expected_goals": {
+        "home": 1.0606670513133782,
+        "away": 0.8941387635955994
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3883240780506044,
+        "draw": 0.3112751039420971,
+        "away_win": 0.3004008180072984
+      }
+    },
+    {
+      "match_id": 537061,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AC Pisa 1909",
+      "away": "AC Milan",
+      "expected_goals": {
+        "home": 0.7023122294495018,
+        "away": 1.4619065100702202
+      },
+      "probabilities_1x2": {
+        "home_win": 0.17928831535644085,
+        "draw": 0.2666950797310015,
+        "away_win": 0.5540166049125576
+      }
+    },
+    {
+      "match_id": 537062,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SSC Napoli",
+      "away": "AS Roma",
+      "expected_goals": {
+        "home": 0.9139679600651013,
+        "away": 0.7651236027425791
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3709340199682136,
+        "draw": 0.34165029198893154,
+        "away_win": 0.28741568804285467
+      }
+    },
+    {
+      "match_id": 537063,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Udinese Calcio",
+      "away": "US Sassuolo Calcio",
+      "expected_goals": {
+        "home": 1.2351560053033246,
+        "away": 1.4245570232270868
+      },
+      "probabilities_1x2": {
+        "home_win": 0.32659404422748967,
+        "draw": 0.25907510164156283,
+        "away_win": 0.4143308541309476
+      }
+    },
+    {
+      "match_id": 537064,
+      "utcDate": "2026-02-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "US Cremonese",
+      "away": "Genoa CFC",
+      "expected_goals": {
+        "home": 1.5692391034039568,
+        "away": 0.9596641268097231
+      },
+      "probabilities_1x2": {
+        "home_win": 0.515560116633468,
+        "draw": 0.2533759395623636,
+        "away_win": 0.23106394380416834
+      }
+    },
+    {
+      "match_id": 537065,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "ACF Fiorentina",
+      "away": "AC Pisa 1909",
+      "expected_goals": {
+        "home": 1.0668583093271475,
+        "away": 0.9557201252664147
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3760706033998625,
+        "draw": 0.30576718063550934,
+        "away_win": 0.31816221596462807
+      }
+    },
+    {
+      "match_id": 537066,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AC Milan",
+      "away": "Parma Calcio 1913",
+      "expected_goals": {
+        "home": 1.6999319412314347,
+        "away": 0.5883995116825048
+      },
+      "probabilities_1x2": {
+        "home_win": 0.644496068157953,
+        "draw": 0.2312700418503973,
+        "away_win": 0.12423388999164958
+      }
+    },
+    {
+      "match_id": 537067,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AS Roma",
+      "away": "US Cremonese",
+      "expected_goals": {
+        "home": 1.1508435642663462,
+        "away": 0.6567637306067661
+      },
+      "probabilities_1x2": {
+        "home_win": 0.47635704256816624,
+        "draw": 0.31353021077201887,
+        "away_win": 0.210112746659815
+      }
+    },
+    {
+      "match_id": 537068,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Atalanta BC",
+      "away": "SSC Napoli",
+      "expected_goals": {
+        "home": 1.033196427530466,
+        "away": 1.3172781368338748
+      },
+      "probabilities_1x2": {
+        "home_win": 0.29248967252124536,
+        "draw": 0.27647895962787955,
+        "away_win": 0.4310313678508749
+      }
+    },
+    {
+      "match_id": 537069,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Cagliari Calcio",
+      "away": "SS Lazio",
+      "expected_goals": {
+        "home": 0.8210972517111309,
+        "away": 1.1589186935895952
+      },
+      "probabilities_1x2": {
+        "home_win": 0.25955444053091004,
+        "draw": 0.3042138812106121,
+        "away_win": 0.43623167825847786
+      }
+    },
+    {
+      "match_id": 537070,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Genoa CFC",
+      "away": "Torino FC",
+      "expected_goals": {
+        "home": 1.5616024265770565,
+        "away": 1.1825957978719943
+      },
+      "probabilities_1x2": {
+        "home_win": 0.46094543650652586,
+        "draw": 0.25051730242275766,
+        "away_win": 0.2885372610707166
+      }
+    },
+    {
+      "match_id": 537071,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Bologna FC 1909",
+      "away": "Udinese Calcio",
+      "expected_goals": {
+        "home": 1.8305092681357822,
+        "away": 0.8282745124235806
+      },
+      "probabilities_1x2": {
+        "home_win": 0.611007823211774,
+        "draw": 0.22392689648280031,
+        "away_win": 0.1650652803054259
+      }
+    },
+    {
+      "match_id": 537072,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Juventus FC",
+      "away": "Como 1907",
+      "expected_goals": {
+        "home": 0.985664214193563,
+        "away": 0.916799596795202
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3595406549363558,
+        "draw": 0.3177231677320497,
+        "away_win": 0.3227361773315944
+      }
+    },
+    {
+      "match_id": 537073,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "US Sassuolo Calcio",
+      "away": "Hellas Verona FC",
+      "expected_goals": {
+        "home": 1.7713839509049176,
+        "away": 0.8932532514960824
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5811624011947069,
+        "draw": 0.23184034711102525,
+        "away_win": 0.18699725169426784
+      }
+    },
+    {
+      "match_id": 537074,
+      "utcDate": "2026-02-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "US Lecce",
+      "away": "FC Internazionale Milano",
+      "expected_goals": {
+        "home": 0.7679513444151982,
+        "away": 1.9782755057975319
+      },
+      "probabilities_1x2": {
+        "home_win": 0.1364545634936486,
+        "draw": 0.20556611284058746,
+        "away_win": 0.6579793236657641
+      }
+    },
+    {
+      "match_id": 537075,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AS Roma",
+      "away": "Juventus FC",
+      "expected_goals": {
+        "home": 0.9546626119412565,
+        "away": 0.6721971750990807
+      },
+      "probabilities_1x2": {
+        "home_win": 0.40776737086715775,
+        "draw": 0.34441034431091705,
+        "away_win": 0.2478222848219251
+      }
+    },
+    {
+      "match_id": 537076,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Como 1907",
+      "away": "US Lecce",
+      "expected_goals": {
+        "home": 1.445718222025173,
+        "away": 0.5549933022389041
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5905875347261745,
+        "draw": 0.26755735750442816,
+        "away_win": 0.1418551077693974
+      }
+    },
+    {
+      "match_id": 537077,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Torino FC",
+      "away": "SS Lazio",
+      "expected_goals": {
+        "home": 0.8325451374986896,
+        "away": 1.3873486941796997
+      },
+      "probabilities_1x2": {
+        "home_win": 0.22520354533392334,
+        "draw": 0.2753094000155694,
+        "away_win": 0.4994870546505072
+      }
+    },
+    {
+      "match_id": 537078,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Hellas Verona FC",
+      "away": "SSC Napoli",
+      "expected_goals": {
+        "home": 0.8101852653875242,
+        "away": 1.512743715101059
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2008680788333512,
+        "draw": 0.26028888371340597,
+        "away_win": 0.5388430374532426
+      }
+    },
+    {
+      "match_id": 537079,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Internazionale Milano",
+      "away": "Genoa CFC",
+      "expected_goals": {
+        "home": 2.66654097709684,
+        "away": 0.836411965058633
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7616954208266284,
+        "draw": 0.14541294047967793,
+        "away_win": 0.0928916386936936
+      }
+    },
+    {
+      "match_id": 537080,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Parma Calcio 1913",
+      "away": "Cagliari Calcio",
+      "expected_goals": {
+        "home": 0.985609681527333,
+        "away": 0.9985969999596748
+      },
+      "probabilities_1x2": {
+        "home_win": 0.34159689748828065,
+        "draw": 0.30998161969149524,
+        "away_win": 0.3484214828202243
+      }
+    },
+    {
+      "match_id": 537081,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AC Pisa 1909",
+      "away": "Bologna FC 1909",
+      "expected_goals": {
+        "home": 0.7308093124055658,
+        "away": 1.4083281905506488
+      },
+      "probabilities_1x2": {
+        "home_win": 0.1941820330716019,
+        "draw": 0.27394350289169,
+        "away_win": 0.531874464036708
+      }
+    },
+    {
+      "match_id": 537082,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "US Sassuolo Calcio",
+      "away": "Atalanta BC",
+      "expected_goals": {
+        "home": 1.5424987902260592,
+        "away": 1.1391296629966294
+      },
+      "probabilities_1x2": {
+        "home_win": 0.46605275605754753,
+        "draw": 0.2530948212252733,
+        "away_win": 0.28085242271717903
+      }
+    },
+    {
+      "match_id": 537083,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Udinese Calcio",
+      "away": "ACF Fiorentina",
+      "expected_goals": {
+        "home": 1.5537056490515955,
+        "away": 0.9667340487632656
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5098742902111836,
+        "draw": 0.2549093073024472,
+        "away_win": 0.23521640248636916
+      }
+    },
+    {
+      "match_id": 537084,
+      "utcDate": "2026-03-01T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "US Cremonese",
+      "away": "AC Milan",
+      "expected_goals": {
+        "home": 1.0359491908203005,
+        "away": 1.3486335594804129
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2875692625371368,
+        "draw": 0.2734204153504828,
+        "away_win": 0.4390103221123804
+      }
+    },
+    {
+      "match_id": 537088,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Cagliari Calcio",
+      "away": "Como 1907",
+      "expected_goals": {
+        "home": 0.8572537258566045,
+        "away": 1.2543694006755657
+      },
+      "probabilities_1x2": {
+        "home_win": 0.25374329007465307,
+        "draw": 0.2906626256533714,
+        "away_win": 0.45559408427197545
+      }
+    },
+    {
+      "match_id": 537089,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Genoa CFC",
+      "away": "AS Roma",
+      "expected_goals": {
+        "home": 0.7081799888415882,
+        "away": 1.1811878221956136
+      },
+      "probabilities_1x2": {
+        "home_win": 0.22131267563896312,
+        "draw": 0.306652313086923,
+        "away_win": 0.47203501127411407
+      }
+    },
+    {
+      "match_id": 537090,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Bologna FC 1909",
+      "away": "Hellas Verona FC",
+      "expected_goals": {
+        "home": 1.9005132648534282,
+        "away": 0.7173993574031876
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6546000151093037,
+        "draw": 0.211928257453963,
+        "away_win": 0.13347172743673336
+      }
+    },
+    {
+      "match_id": 537091,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Juventus FC",
+      "away": "AC Pisa 1909",
+      "expected_goals": {
+        "home": 1.416334125838428,
+        "away": 0.5994377119233965
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5700665064163083,
+        "draw": 0.27271485712771165,
+        "away_win": 0.15721863645598005
+      }
+    },
+    {
+      "match_id": 537092,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SS Lazio",
+      "away": "US Sassuolo Calcio",
+      "expected_goals": {
+        "home": 1.2858063430962723,
+        "away": 0.8749720094425342
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4602481276455546,
+        "draw": 0.2862380531236924,
+        "away_win": 0.2535138192307529
+      }
+    },
+    {
+      "match_id": 537093,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SSC Napoli",
+      "away": "Torino FC",
+      "expected_goals": {
+        "home": 2.0153839514527783,
+        "away": 0.766035629942524
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6660108864392408,
+        "draw": 0.20149229292641824,
+        "away_win": 0.13249682063434087
+      }
+    },
+    {
+      "match_id": 537094,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "US Lecce",
+      "away": "US Cremonese",
+      "expected_goals": {
+        "home": 0.8811152723274368,
+        "away": 1.164200103305214
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2767415943482287,
+        "draw": 0.3001766696006707,
+        "away_win": 0.42308173605110067
+      }
+    },
+    {
+      "match_id": 537085,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "ACF Fiorentina",
+      "away": "Parma Calcio 1913",
+      "expected_goals": {
+        "home": 1.0358211726028854,
+        "away": 0.9589737036895534
+      },
+      "probabilities_1x2": {
+        "home_win": 0.36580316963792175,
+        "draw": 0.3086760621580025,
+        "away_win": 0.3255207682040758
+      }
+    },
+    {
+      "match_id": 537086,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AC Milan",
+      "away": "FC Internazionale Milano",
+      "expected_goals": {
+        "home": 1.407760686918861,
+        "away": 1.4698184732606014
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3617347519934815,
+        "draw": 0.24872821769358427,
+        "away_win": 0.3895370303129343
+      }
+    },
+    {
+      "match_id": 537087,
+      "utcDate": "2026-03-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Atalanta BC",
+      "away": "Udinese Calcio",
+      "expected_goals": {
+        "home": 1.5264883642781448,
+        "away": 1.0432429590423988
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4844094234679441,
+        "draw": 0.25650949667772044,
+        "away_win": 0.2590810798543356
+      }
+    },
+    {
+      "match_id": 537095,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Como 1907",
+      "away": "AS Roma",
+      "expected_goals": {
+        "home": 0.8155773996306783,
+        "away": 0.7248886611685181
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3458342171563201,
+        "draw": 0.3609652970373509,
+        "away_win": 0.29320048580632885
+      }
+    },
+    {
+      "match_id": 537096,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Torino FC",
+      "away": "Parma Calcio 1913",
+      "expected_goals": {
+        "home": 1.212655222498051,
+        "away": 0.9851530995327019
+      },
+      "probabilities_1x2": {
+        "home_win": 0.412648302520662,
+        "draw": 0.2890002473001852,
+        "away_win": 0.298351450179153
+      }
+    },
+    {
+      "match_id": 537097,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Hellas Verona FC",
+      "away": "Genoa CFC",
+      "expected_goals": {
+        "home": 1.25075342829286,
+        "away": 1.1721360858253096
+      },
+      "probabilities_1x2": {
+        "home_win": 0.38158073980681295,
+        "draw": 0.274810198350082,
+        "away_win": 0.34360906184310475
+      }
+    },
+    {
+      "match_id": 537098,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Internazionale Milano",
+      "away": "Atalanta BC",
+      "expected_goals": {
+        "home": 2.3071859718166103,
+        "away": 0.9442799693982187
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6791893411697594,
+        "draw": 0.18179204048755043,
+        "away_win": 0.13901861834269003
+      }
+    },
+    {
+      "match_id": 537099,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SS Lazio",
+      "away": "AC Milan",
+      "expected_goals": {
+        "home": 0.9924030712118066,
+        "away": 0.9744691329798494
+      },
+      "probabilities_1x2": {
+        "home_win": 0.348917223584085,
+        "draw": 0.3116233493908017,
+        "away_win": 0.3394594270251134
+      }
+    },
+    {
+      "match_id": 537100,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AC Pisa 1909",
+      "away": "Cagliari Calcio",
+      "expected_goals": {
+        "home": 0.9822657333240442,
+        "away": 1.0285187590817666
+      },
+      "probabilities_1x2": {
+        "home_win": 0.33421841202427116,
+        "draw": 0.30739293859907657,
+        "away_win": 0.35838864937665216
+      }
+    },
+    {
+      "match_id": 537101,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "US Sassuolo Calcio",
+      "away": "Bologna FC 1909",
+      "expected_goals": {
+        "home": 1.224654738682524,
+        "away": 1.3660028170013445
+      },
+      "probabilities_1x2": {
+        "home_win": 0.33502055072707704,
+        "draw": 0.2636804129099717,
+        "away_win": 0.4012990363629512
+      }
+    },
+    {
+      "match_id": 537102,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SSC Napoli",
+      "away": "US Lecce",
+      "expected_goals": {
+        "home": 1.6201284327050274,
+        "away": 0.5857982027509101
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6263224458528001,
+        "draw": 0.2422673480249679,
+        "away_win": 0.1314102061222321
+      }
+    },
+    {
+      "match_id": 537103,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Udinese Calcio",
+      "away": "Juventus FC",
+      "expected_goals": {
+        "home": 0.974500520233706,
+        "away": 1.2834116882277562
+      },
+      "probabilities_1x2": {
+        "home_win": 0.28223651910538217,
+        "draw": 0.28239265018256904,
+        "away_win": 0.43537083071204874
+      }
+    },
+    {
+      "match_id": 537104,
+      "utcDate": "2026-03-15T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "US Cremonese",
+      "away": "ACF Fiorentina",
+      "expected_goals": {
+        "home": 1.688390307317582,
+        "away": 0.8217641901479041
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5797368355728196,
+        "draw": 0.23968160871437047,
+        "away_win": 0.1805815557128099
+      }
+    },
+    {
+      "match_id": 537105,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "ACF Fiorentina",
+      "away": "FC Internazionale Milano",
+      "expected_goals": {
+        "home": 0.857792179851755,
+        "away": 2.395510596233477
+      },
+      "probabilities_1x2": {
+        "home_win": 0.11610420159747606,
+        "draw": 0.16947579968812862,
+        "away_win": 0.7144199987143953
+      }
+    },
+    {
+      "match_id": 537106,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AC Milan",
+      "away": "Torino FC",
+      "expected_goals": {
+        "home": 2.19454846775307,
+        "away": 0.7807026712599131
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6969182225812545,
+        "draw": 0.18387428517633697,
+        "away_win": 0.11920749224240863
+      }
+    },
+    {
+      "match_id": 537107,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AS Roma",
+      "away": "US Lecce",
+      "expected_goals": {
+        "home": 1.256971009546542,
+        "away": 0.45330376913148906
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5668882033956064,
+        "draw": 0.29948222314028705,
+        "away_win": 0.13362957346410648
+      }
+    },
+    {
+      "match_id": 537108,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Atalanta BC",
+      "away": "Hellas Verona FC",
+      "expected_goals": {
+        "home": 1.5848657176751477,
+        "away": 0.9035915233495354
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5334559653966389,
+        "draw": 0.2519455069603412,
+        "away_win": 0.21459852764302012
+      }
+    },
+    {
+      "match_id": 537109,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Cagliari Calcio",
+      "away": "SSC Napoli",
+      "expected_goals": {
+        "home": 0.9048355896953716,
+        "away": 1.4056954530896568
+      },
+      "probabilities_1x2": {
+        "home_win": 0.24209225813923257,
+        "draw": 0.27166408166613554,
+        "away_win": 0.48624366019463194
+      }
+    },
+    {
+      "match_id": 537110,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Genoa CFC",
+      "away": "Udinese Calcio",
+      "expected_goals": {
+        "home": 1.3521129048397562,
+        "away": 1.2057329289168526
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4017136353017069,
+        "draw": 0.26558841241917636,
+        "away_win": 0.3326979522791167
+      }
+    },
+    {
+      "match_id": 537111,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Como 1907",
+      "away": "AC Pisa 1909",
+      "expected_goals": {
+        "home": 1.434829590678881,
+        "away": 0.5451290777512764
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5904846962423603,
+        "draw": 0.26911872918982543,
+        "away_win": 0.1403965745678142
+      }
+    },
+    {
+      "match_id": 537112,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Bologna FC 1909",
+      "away": "SS Lazio",
+      "expected_goals": {
+        "home": 1.1243104674151272,
+        "away": 0.8622397635007033
+      },
+      "probabilities_1x2": {
+        "home_win": 0.41556206608925517,
+        "draw": 0.3060588213873211,
+        "away_win": 0.27837911252342373
+      }
+    },
+    {
+      "match_id": 537113,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Juventus FC",
+      "away": "US Sassuolo Calcio",
+      "expected_goals": {
+        "home": 1.3737681448767747,
+        "away": 1.0045085934052833
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4532834361486143,
+        "draw": 0.2721683484735293,
+        "away_win": 0.27454821537785645
+      }
+    },
+    {
+      "match_id": 537114,
+      "utcDate": "2026-03-22T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Parma Calcio 1913",
+      "away": "US Cremonese",
+      "expected_goals": {
+        "home": 0.8684009748900421,
+        "away": 1.1218178419215536
+      },
+      "probabilities_1x2": {
+        "home_win": 0.28072853943234577,
+        "draw": 0.3059607883296345,
+        "away_win": 0.4133106722380194
+      }
+    },
+    {
+      "match_id": 537115,
+      "utcDate": "2026-04-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Hellas Verona FC",
+      "away": "ACF Fiorentina",
+      "expected_goals": {
+        "home": 1.3457222424505744,
+        "away": 1.003704769619206
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4458021377771465,
+        "draw": 0.2749509120561577,
+        "away_win": 0.27924695016669565
+      }
+    },
+    {
+      "match_id": 537116,
+      "utcDate": "2026-04-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Internazionale Milano",
+      "away": "AS Roma",
+      "expected_goals": {
+        "home": 1.3366022742236627,
+        "away": 0.837497222064905
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4840975248005126,
+        "draw": 0.2813744466140145,
+        "away_win": 0.23452802858547284
+      }
+    },
+    {
+      "match_id": 537117,
+      "utcDate": "2026-04-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Juventus FC",
+      "away": "Genoa CFC",
+      "expected_goals": {
+        "home": 1.6061150200675935,
+        "away": 0.7960729766695419
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5662881254550061,
+        "draw": 0.24894988043409483,
+        "away_win": 0.18476199411089933
+      }
+    },
+    {
+      "match_id": 537118,
+      "utcDate": "2026-04-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SS Lazio",
+      "away": "Parma Calcio 1913",
+      "expected_goals": {
+        "home": 1.2870810063259224,
+        "away": 0.5239146379095591
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5550517719835808,
+        "draw": 0.29377484028161926,
+        "away_win": 0.15117338773479988
+      }
+    },
+    {
+      "match_id": 537119,
+      "utcDate": "2026-04-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AC Pisa 1909",
+      "away": "Torino FC",
+      "expected_goals": {
+        "home": 1.1758763492231346,
+        "away": 1.0428585528879113
+      },
+      "probabilities_1x2": {
+        "home_win": 0.38883381767115366,
+        "draw": 0.28900021405560644,
+        "away_win": 0.32216596827323984
+      }
+    },
+    {
+      "match_id": 537120,
+      "utcDate": "2026-04-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "US Sassuolo Calcio",
+      "away": "Cagliari Calcio",
+      "expected_goals": {
+        "home": 1.6460331916148057,
+        "away": 0.9976080374384104
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5254230641673591,
+        "draw": 0.24549413252014546,
+        "away_win": 0.2290828033124954
+      }
+    },
+    {
+      "match_id": 537121,
+      "utcDate": "2026-04-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SSC Napoli",
+      "away": "AC Milan",
+      "expected_goals": {
+        "home": 1.2037224807495088,
+        "away": 1.0738488659440322
+      },
+      "probabilities_1x2": {
+        "home_win": 0.38990234150744696,
+        "draw": 0.28457301932094636,
+        "away_win": 0.3255246391716068
+      }
+    },
+    {
+      "match_id": 537122,
+      "utcDate": "2026-04-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Udinese Calcio",
+      "away": "Como 1907",
+      "expected_goals": {
+        "home": 0.8862114600007452,
+        "away": 1.3001713604847465
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2542896910024258,
+        "draw": 0.2841565453444401,
+        "away_win": 0.4615537636531338
+      }
+    },
+    {
+      "match_id": 537123,
+      "utcDate": "2026-04-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "US Cremonese",
+      "away": "Bologna FC 1909",
+      "expected_goals": {
+        "home": 1.0779839565429672,
+        "away": 1.2992066506685849
+      },
+      "probabilities_1x2": {
+        "home_win": 0.30821735932312466,
+        "draw": 0.2760446175725191,
+        "away_win": 0.41573802310435615
+      }
+    },
+    {
+      "match_id": 537124,
+      "utcDate": "2026-04-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "US Lecce",
+      "away": "Atalanta BC",
+      "expected_goals": {
+        "home": 0.9371381785668907,
+        "away": 1.1833378857472783
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2898581046217513,
+        "draw": 0.29478001826497613,
+        "away_win": 0.41536187711327255
+      }
+    },
+    {
+      "match_id": 537125,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "ACF Fiorentina",
+      "away": "SS Lazio",
+      "expected_goals": {
+        "home": 0.7111402025649621,
+        "away": 1.3504813781710168
+      },
+      "probabilities_1x2": {
+        "home_win": 0.19681553446552325,
+        "draw": 0.2821210765014776,
+        "away_win": 0.5210633890329993
+      }
+    },
+    {
+      "match_id": 537126,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AC Milan",
+      "away": "Udinese Calcio",
+      "expected_goals": {
+        "home": 1.90014900914911,
+        "away": 0.7959768841773911
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6344767952156153,
+        "draw": 0.21522808517779682,
+        "away_win": 0.15029511960658776
+      }
+    },
+    {
+      "match_id": 537127,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AS Roma",
+      "away": "AC Pisa 1909",
+      "expected_goals": {
+        "home": 1.2475039545371942,
+        "away": 0.44524693291065137
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5664531943024211,
+        "draw": 0.3013219827721475,
+        "away_win": 0.13222482292543153
+      }
+    },
+    {
+      "match_id": 537128,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Atalanta BC",
+      "away": "Juventus FC",
+      "expected_goals": {
+        "home": 1.076384205510416,
+        "away": 1.1603181609010436
+      },
+      "probabilities_1x2": {
+        "home_win": 0.334968628426633,
+        "draw": 0.2881177667623915,
+        "away_win": 0.37691360481097547
+      }
+    },
+    {
+      "match_id": 537129,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Cagliari Calcio",
+      "away": "US Cremonese",
+      "expected_goals": {
+        "home": 1.1363718683100306,
+        "away": 1.2097714302563092
+      },
+      "probabilities_1x2": {
+        "home_win": 0.34196468394551327,
+        "draw": 0.28012488353286535,
+        "away_win": 0.37791043252162143
+      }
+    },
+    {
+      "match_id": 537130,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Genoa CFC",
+      "away": "US Sassuolo Calcio",
+      "expected_goals": {
+        "home": 1.20844395890974,
+        "away": 1.488526590869484
+      },
+      "probabilities_1x2": {
+        "home_win": 0.30793114637667673,
+        "draw": 0.25541111388219806,
+        "away_win": 0.43665773974112515
+      }
+    },
+    {
+      "match_id": 537131,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Como 1907",
+      "away": "FC Internazionale Milano",
+      "expected_goals": {
+        "home": 1.1536542308795232,
+        "away": 1.3663649509359719
+      },
+      "probabilities_1x2": {
+        "home_win": 0.31611285145785223,
+        "draw": 0.2669379853456369,
+        "away_win": 0.41694916319651076
+      }
+    },
+    {
+      "match_id": 537132,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Bologna FC 1909",
+      "away": "US Lecce",
+      "expected_goals": {
+        "home": 1.6994997199354958,
+        "away": 0.6212387998883706
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6354265761801252,
+        "draw": 0.2326793030524055,
+        "away_win": 0.13189412076746906
+      }
+    },
+    {
+      "match_id": 537133,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Torino FC",
+      "away": "Hellas Verona FC",
+      "expected_goals": {
+        "home": 1.407318639524206,
+        "away": 1.154299655188491
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4276699806653743,
+        "draw": 0.26366003841126756,
+        "away_win": 0.3086699809233582
+      }
+    },
+    {
+      "match_id": 537134,
+      "utcDate": "2026-04-12T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Parma Calcio 1913",
+      "away": "SSC Napoli",
+      "expected_goals": {
+        "home": 0.6914638861794595,
+        "away": 1.3034976691835753
+      },
+      "probabilities_1x2": {
+        "home_win": 0.1978858828558287,
+        "draw": 0.28916859269894063,
+        "away_win": 0.5129455244452308
+      }
+    },
+    {
+      "match_id": 537135,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AS Roma",
+      "away": "Atalanta BC",
+      "expected_goals": {
+        "home": 1.2240162842520839,
+        "away": 0.6675599857836096
+      },
+      "probabilities_1x2": {
+        "home_win": 0.49594135561525515,
+        "draw": 0.30166368731951,
+        "away_win": 0.20239495706523483
+      }
+    },
+    {
+      "match_id": 537136,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Hellas Verona FC",
+      "away": "AC Milan",
+      "expected_goals": {
+        "home": 0.8256976257761268,
+        "away": 1.6472242917708382
+      },
+      "probabilities_1x2": {
+        "home_win": 0.1867649381504265,
+        "draw": 0.24447539563189186,
+        "away_win": 0.5687596662176816
+      }
+    },
+    {
+      "match_id": 537137,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Internazionale Milano",
+      "away": "Cagliari Calcio",
+      "expected_goals": {
+        "home": 2.4620471101190518,
+        "away": 0.8269658122901032
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7323672544805429,
+        "draw": 0.16182170964305492,
+        "away_win": 0.10581103587640227
+      }
+    },
+    {
+      "match_id": 537138,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Juventus FC",
+      "away": "Bologna FC 1909",
+      "expected_goals": {
+        "home": 1.103315753628566,
+        "away": 1.077734674885554
+      },
+      "probabilities_1x2": {
+        "home_win": 0.36006306907665253,
+        "draw": 0.29279807431084115,
+        "away_win": 0.34713885661250643
+      }
+    },
+    {
+      "match_id": 537139,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AC Pisa 1909",
+      "away": "Genoa CFC",
+      "expected_goals": {
+        "home": 1.0638512226437402,
+        "away": 1.0402671834775465
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3564568547355302,
+        "draw": 0.29918203151287714,
+        "away_win": 0.3443611137515928
+      }
+    },
+    {
+      "match_id": 537140,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "US Sassuolo Calcio",
+      "away": "Como 1907",
+      "expected_goals": {
+        "home": 1.0940642755186345,
+        "away": 1.1620214706193166
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3397030164206392,
+        "draw": 0.2867531972011608,
+        "away_win": 0.3735437863782001
+      }
+    },
+    {
+      "match_id": 537141,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SSC Napoli",
+      "away": "SS Lazio",
+      "expected_goals": {
+        "home": 1.0718020921570157,
+        "away": 0.8130504789621029
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4112090830953122,
+        "draw": 0.3159566081236046,
+        "away_win": 0.27283430878108317
+      }
+    },
+    {
+      "match_id": 537142,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Udinese Calcio",
+      "away": "Parma Calcio 1913",
+      "expected_goals": {
+        "home": 1.2363804571434442,
+        "away": 0.8529944603382841
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4514063032134109,
+        "draw": 0.29301348578113906,
+        "away_win": 0.25558021100545014
+      }
+    },
+    {
+      "match_id": 537143,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "US Cremonese",
+      "away": "Torino FC",
+      "expected_goals": {
+        "home": 1.7344823305116939,
+        "away": 0.9620547090581467
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5554464063796604,
+        "draw": 0.23659184789202084,
+        "away_win": 0.20796174572831871
+      }
+    },
+    {
+      "match_id": 537144,
+      "utcDate": "2026-04-19T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "US Lecce",
+      "away": "ACF Fiorentina",
+      "expected_goals": {
+        "home": 1.165340980941569,
+        "away": 0.8975448929567545
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4194600059711139,
+        "draw": 0.2990857026246593,
+        "away_win": 0.2814542914042267
+      }
+    },
+    {
+      "match_id": 537145,
+      "utcDate": "2026-04-26T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "ACF Fiorentina",
+      "away": "US Sassuolo Calcio",
+      "expected_goals": {
+        "home": 1.0347953450483487,
+        "away": 1.6015493513747627
+      },
+      "probabilities_1x2": {
+        "home_win": 0.24501765186697394,
+        "draw": 0.2495593004479518,
+        "away_win": 0.5054230476850743
+      }
+    },
+    {
+      "match_id": 537146,
+      "utcDate": "2026-04-26T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AC Milan",
+      "away": "Juventus FC",
+      "expected_goals": {
+        "home": 1.3398663425328883,
+        "away": 0.8853033000253564
+      },
+      "probabilities_1x2": {
+        "home_win": 0.47296916898610863,
+        "draw": 0.27962200384358993,
+        "away_win": 0.2474088271703014
+      }
+    },
+    {
+      "match_id": 537147,
+      "utcDate": "2026-04-26T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Cagliari Calcio",
+      "away": "Atalanta BC",
+      "expected_goals": {
+        "home": 1.2086244516335753,
+        "away": 1.229658340050544
+      },
+      "probabilities_1x2": {
+        "home_win": 0.35791764622293,
+        "draw": 0.27403058263943947,
+        "away_win": 0.3680517711376303
+      }
+    },
+    {
+      "match_id": 537148,
+      "utcDate": "2026-04-26T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Genoa CFC",
+      "away": "Como 1907",
+      "expected_goals": {
+        "home": 0.8670458472907517,
+        "away": 1.3585554043911297
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2392765799343193,
+        "draw": 0.27796757533387406,
+        "away_win": 0.4827558447318065
+      }
+    },
+    {
+      "match_id": 537149,
+      "utcDate": "2026-04-26T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Bologna FC 1909",
+      "away": "AS Roma",
+      "expected_goals": {
+        "home": 0.9587439247438103,
+        "away": 0.8114133271524924
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3750381461242606,
+        "draw": 0.3308995293019063,
+        "away_win": 0.2940623245738333
+      }
+    },
+    {
+      "match_id": 537150,
+      "utcDate": "2026-04-26T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Torino FC",
+      "away": "FC Internazionale Milano",
+      "expected_goals": {
+        "home": 1.0042333505322292,
+        "away": 2.46090657101774
+      },
+      "probabilities_1x2": {
+        "home_win": 0.13549415266060805,
+        "draw": 0.17164495611738587,
+        "away_win": 0.692860891222006
+      }
+    },
+    {
+      "match_id": 537151,
+      "utcDate": "2026-04-26T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Hellas Verona FC",
+      "away": "US Lecce",
+      "expected_goals": {
+        "home": 1.111332738011161,
+        "away": 0.8985817839447152
+      },
+      "probabilities_1x2": {
+        "home_win": 0.40289511905644365,
+        "draw": 0.30517139431978413,
+        "away_win": 0.2919334866237723
+      }
+    },
+    {
+      "match_id": 537152,
+      "utcDate": "2026-04-26T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SS Lazio",
+      "away": "Udinese Calcio",
+      "expected_goals": {
+        "home": 1.438672713622411,
+        "away": 0.7087428401592545
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5460478635433417,
+        "draw": 0.2698884506085532,
+        "away_win": 0.18406368584810504
+      }
+    },
+    {
+      "match_id": 537153,
+      "utcDate": "2026-04-26T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Parma Calcio 1913",
+      "away": "AC Pisa 1909",
+      "expected_goals": {
+        "home": 0.9413387570098625,
+        "away": 0.7605260919913409
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3813377455303675,
+        "draw": 0.33819318855801556,
+        "away_win": 0.2804690659116169
+      }
+    },
+    {
+      "match_id": 537154,
+      "utcDate": "2026-04-26T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SSC Napoli",
+      "away": "US Cremonese",
+      "expected_goals": {
+        "home": 1.4833392066346343,
+        "away": 0.8487267020932893
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5212048984267923,
+        "draw": 0.2636327302506276,
+        "away_win": 0.21516237132258012
+      }
+    },
+    {
+      "match_id": 537155,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AS Roma",
+      "away": "ACF Fiorentina",
+      "expected_goals": {
+        "home": 1.5220768612373472,
+        "away": 0.5063347191017971
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6244638735935806,
+        "draw": 0.2542114049331011,
+        "away_win": 0.12132472147331834
+      }
+    },
+    {
+      "match_id": 537156,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Atalanta BC",
+      "away": "Genoa CFC",
+      "expected_goals": {
+        "home": 1.5950351469494464,
+        "away": 1.020681311605096
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5071897882491774,
+        "draw": 0.2503126457847558,
+        "away_win": 0.2424975659660667
+      }
+    },
+    {
+      "match_id": 537157,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Como 1907",
+      "away": "SSC Napoli",
+      "expected_goals": {
+        "home": 1.053959414066394,
+        "away": 0.9343196633693815
+      },
+      "probabilities_1x2": {
+        "home_win": 0.37697002744176256,
+        "draw": 0.30883175294086956,
+        "away_win": 0.31419821961736794
+      }
+    },
+    {
+      "match_id": 537158,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Bologna FC 1909",
+      "away": "Cagliari Calcio",
+      "expected_goals": {
+        "home": 1.7660247590336673,
+        "away": 0.8012099186875555
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6032671078922662,
+        "draw": 0.23036141642622998,
+        "away_win": 0.16637147568150368
+      }
+    },
+    {
+      "match_id": 537159,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Internazionale Milano",
+      "away": "Parma Calcio 1913",
+      "expected_goals": {
+        "home": 2.283049761885835,
+        "away": 0.6319567895159609
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7479099469036321,
+        "draw": 0.16557514879398788,
+        "away_win": 0.08651490430237993
+      }
+    },
+    {
+      "match_id": 537160,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Juventus FC",
+      "away": "Hellas Verona FC",
+      "expected_goals": {
+        "home": 1.595874949098497,
+        "away": 0.7047496466404775
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5878809113589818,
+        "draw": 0.24882265458618558,
+        "away_win": 0.16329643405483263
+      }
+    },
+    {
+      "match_id": 537161,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AC Pisa 1909",
+      "away": "US Lecce",
+      "expected_goals": {
+        "home": 0.9452644025216766,
+        "away": 0.7974885790246986
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3738412114042512,
+        "draw": 0.33403924540016566,
+        "away_win": 0.292119543195583
+      }
+    },
+    {
+      "match_id": 537162,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "US Sassuolo Calcio",
+      "away": "AC Milan",
+      "expected_goals": {
+        "home": 1.176900711621898,
+        "away": 1.4179709135607952
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3126463008153454,
+        "draw": 0.2619323794673174,
+        "away_win": 0.425421319717337
+      }
+    },
+    {
+      "match_id": 537163,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Udinese Calcio",
+      "away": "Torino FC",
+      "expected_goals": {
+        "home": 1.5961208634143713,
+        "away": 1.1317736342978801
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4812052886168602,
+        "draw": 0.2487415729836729,
+        "away_win": 0.2700531383994671
+      }
+    },
+    {
+      "match_id": 537164,
+      "utcDate": "2026-05-03T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "US Cremonese",
+      "away": "SS Lazio",
+      "expected_goals": {
+        "home": 0.9224156961812384,
+        "away": 1.021100078655821
+      },
+      "probabilities_1x2": {
+        "home_win": 0.31718218260452213,
+        "draw": 0.3133625876473488,
+        "away_win": 0.369455229748129
+      }
+    },
+    {
+      "match_id": 537165,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "ACF Fiorentina",
+      "away": "Genoa CFC",
+      "expected_goals": {
+        "home": 1.2098113881707895,
+        "away": 1.2692277276693087
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3501710746060357,
+        "draw": 0.271239154467314,
+        "away_win": 0.3785897709266504
+      }
+    },
+    {
+      "match_id": 537166,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AC Milan",
+      "away": "Atalanta BC",
+      "expected_goals": {
+        "home": 1.7179034786401075,
+        "away": 0.8791959863443317
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5721503777780947,
+        "draw": 0.2373230104758854,
+        "away_win": 0.19052661174601976
+      }
+    },
+    {
+      "match_id": 537167,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Cagliari Calcio",
+      "away": "Udinese Calcio",
+      "expected_goals": {
+        "home": 1.336842600739645,
+        "away": 1.1132666997103897
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4180513826771466,
+        "draw": 0.27115713801687735,
+        "away_win": 0.31079147930597617
+      }
+    },
+    {
+      "match_id": 537168,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Torino FC",
+      "away": "US Sassuolo Calcio",
+      "expected_goals": {
+        "home": 1.2114542669911603,
+        "away": 1.6452706695617634
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2815345157741279,
+        "draw": 0.24338754476084717,
+        "away_win": 0.47507793946502497
+      }
+    },
+    {
+      "match_id": 537169,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Hellas Verona FC",
+      "away": "Como 1907",
+      "expected_goals": {
+        "home": 0.7675807022813991,
+        "away": 1.349893693627831
+      },
+      "probabilities_1x2": {
+        "home_win": 0.21280200197846755,
+        "draw": 0.2812886119924755,
+        "away_win": 0.5059093860290571
+      }
+    },
+    {
+      "match_id": 537170,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SS Lazio",
+      "away": "FC Internazionale Milano",
+      "expected_goals": {
+        "home": 1.0658674018873093,
+        "away": 1.3087356429123385
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3030877140743212,
+        "draw": 0.27578170818117576,
+        "away_win": 0.4211305777445029
+      }
+    },
+    {
+      "match_id": 537171,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Parma Calcio 1913",
+      "away": "AS Roma",
+      "expected_goals": {
+        "home": 0.5350702415123942,
+        "away": 1.0113141329416773
+      },
+      "probabilities_1x2": {
+        "home_win": 0.1912254273610181,
+        "draw": 0.34484889795208346,
+        "away_win": 0.46392567468689866
+      }
+    },
+    {
+      "match_id": 537172,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SSC Napoli",
+      "away": "Bologna FC 1909",
+      "expected_goals": {
+        "home": 1.2525648302795542,
+        "away": 1.0344927120046703
+      },
+      "probabilities_1x2": {
+        "home_win": 0.412645815609493,
+        "draw": 0.2824636056378184,
+        "away_win": 0.30489057875268866
+      }
+    },
+    {
+      "match_id": 537173,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "US Cremonese",
+      "away": "AC Pisa 1909",
+      "expected_goals": {
+        "home": 1.3838155212928551,
+        "away": 0.7226207712720545
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5273080445100718,
+        "draw": 0.27735396058492306,
+        "away_win": 0.19533799490500503
+      }
+    },
+    {
+      "match_id": 537174,
+      "utcDate": "2026-05-10T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "US Lecce",
+      "away": "Juventus FC",
+      "expected_goals": {
+        "home": 0.7309141167571982,
+        "away": 1.1915579137855647
+      },
+      "probabilities_1x2": {
+        "home_win": 0.22660062573980577,
+        "draw": 0.30418075580503806,
+        "away_win": 0.4692186184551561
+      }
+    },
+    {
+      "match_id": 537175,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AS Roma",
+      "away": "SS Lazio",
+      "expected_goals": {
+        "home": 0.8315539253658575,
+        "away": 0.6291566701245075
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3746401629878986,
+        "draw": 0.37032014858900536,
+        "away_win": 0.25503968842309616
+      }
+    },
+    {
+      "match_id": 537176,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Atalanta BC",
+      "away": "Bologna FC 1909",
+      "expected_goals": {
+        "home": 1.0957044690027968,
+        "away": 1.3818125646301271
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2977541151269964,
+        "draw": 0.26807891056503935,
+        "away_win": 0.4341669743079643
+      }
+    },
+    {
+      "match_id": 537177,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Cagliari Calcio",
+      "away": "Torino FC",
+      "expected_goals": {
+        "home": 1.5439662189408834,
+        "away": 1.0919039278217466
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4773804480108806,
+        "draw": 0.25398749313637853,
+        "away_win": 0.2686320588527409
+      }
+    },
+    {
+      "match_id": 537178,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Genoa CFC",
+      "away": "AC Milan",
+      "expected_goals": {
+        "home": 0.9326937160082027,
+        "away": 1.6577938502812226
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2114948032482747,
+        "draw": 0.24423331682487506,
+        "away_win": 0.5442718799268503
+      }
+    },
+    {
+      "match_id": 537179,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Como 1907",
+      "away": "Parma Calcio 1913",
+      "expected_goals": {
+        "home": 1.3930874007436462,
+        "away": 0.546984872306929
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5785781403705901,
+        "draw": 0.2758991325016426,
+        "away_win": 0.14552272712776723
+      }
+    },
+    {
+      "match_id": 537180,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Internazionale Milano",
+      "away": "Hellas Verona FC",
+      "expected_goals": {
+        "home": 2.649539972494861,
+        "away": 0.7404610558280895
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7794584783460461,
+        "draw": 0.1403007551169105,
+        "away_win": 0.08024076653704369
+      }
+    },
+    {
+      "match_id": 537181,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Juventus FC",
+      "away": "ACF Fiorentina",
+      "expected_goals": {
+        "home": 1.7280661859859638,
+        "away": 0.6816804407873688
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6257814988862207,
+        "draw": 0.2312271195825502,
+        "away_win": 0.14299138153122898
+      }
+    },
+    {
+      "match_id": 537182,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AC Pisa 1909",
+      "away": "SSC Napoli",
+      "expected_goals": {
+        "home": 0.6891179073775409,
+        "away": 1.342555410469694
+      },
+      "probabilities_1x2": {
+        "home_win": 0.19169908231118096,
+        "draw": 0.28353641814458486,
+        "away_win": 0.524764499544234
+      }
+    },
+    {
+      "match_id": 537183,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "US Sassuolo Calcio",
+      "away": "US Lecce",
+      "expected_goals": {
+        "home": 1.5840281592000955,
+        "away": 0.7735211527990498
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5666598345769023,
+        "draw": 0.25137827233419535,
+        "away_win": 0.1819618930889024
+      }
+    },
+    {
+      "match_id": 537184,
+      "utcDate": "2026-05-17T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Udinese Calcio",
+      "away": "US Cremonese",
+      "expected_goals": {
+        "home": 1.1747581166970185,
+        "away": 1.2539449427774632
+      },
+      "probabilities_1x2": {
+        "home_win": 0.34368728660983305,
+        "draw": 0.27441829227232956,
+        "away_win": 0.3818944211178373
+      }
+    },
+    {
+      "match_id": 537185,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "ACF Fiorentina",
+      "away": "Atalanta BC",
+      "expected_goals": {
+        "home": 1.0467717868602087,
+        "away": 1.4329138868295952
+      },
+      "probabilities_1x2": {
+        "home_win": 0.27566615473460787,
+        "draw": 0.26516919790201454,
+        "away_win": 0.4591646473633777
+      }
+    },
+    {
+      "match_id": 537186,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AC Milan",
+      "away": "Cagliari Calcio",
+      "expected_goals": {
+        "home": 1.833211256793102,
+        "away": 0.7699676436775323
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6264842839475202,
+        "draw": 0.22174568107915865,
+        "away_win": 0.15177003497332098
+      }
+    },
+    {
+      "match_id": 537187,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Bologna FC 1909",
+      "away": "FC Internazionale Milano",
+      "expected_goals": {
+        "home": 1.356166791296078,
+        "away": 1.529457957248648
+      },
+      "probabilities_1x2": {
+        "home_win": 0.33755651810770043,
+        "draw": 0.24742880024681302,
+        "away_win": 0.41501468164548666
+      }
+    },
+    {
+      "match_id": 537188,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Torino FC",
+      "away": "Juventus FC",
+      "expected_goals": {
+        "home": 0.9558005696068416,
+        "away": 1.482256991601854
+      },
+      "probabilities_1x2": {
+        "home_win": 0.243499507821137,
+        "draw": 0.26242144435663917,
+        "away_win": 0.4940790478222239
+      }
+    },
+    {
+      "match_id": 537189,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Hellas Verona FC",
+      "away": "AS Roma",
+      "expected_goals": {
+        "home": 0.6269395036896772,
+        "away": 1.1736569498882201
+      },
+      "probabilities_1x2": {
+        "home_win": 0.1973698001005122,
+        "draw": 0.31103209692278905,
+        "away_win": 0.49159810297669865
+      }
+    },
+    {
+      "match_id": 537190,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SS Lazio",
+      "away": "AC Pisa 1909",
+      "expected_goals": {
+        "home": 1.3256468420368839,
+        "away": 0.5221371153821833
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5667668731609641,
+        "draw": 0.28705324464900267,
+        "away_win": 0.1461798821900332
+      }
+    },
+    {
+      "match_id": 537191,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Parma Calcio 1913",
+      "away": "US Sassuolo Calcio",
+      "expected_goals": {
+        "home": 0.9130481108421521,
+        "away": 1.2744526740951303
+      },
+      "probabilities_1x2": {
+        "home_win": 0.26636239001854567,
+        "draw": 0.2860180203709511,
+        "away_win": 0.4476195896105033
+      }
+    },
+    {
+      "match_id": 537192,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SSC Napoli",
+      "away": "Udinese Calcio",
+      "expected_goals": {
+        "home": 1.74501947652537,
+        "away": 0.7810228866086679
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6036149018514938,
+        "draw": 0.23224170909624076,
+        "away_win": 0.16414338905226564
+      }
+    },
+    {
+      "match_id": 537193,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "US Cremonese",
+      "away": "Como 1907",
+      "expected_goals": {
+        "home": 0.9630336609848635,
+        "away": 1.1051997873345674
+      },
+      "probabilities_1x2": {
+        "home_win": 0.31267666217951096,
+        "draw": 0.3012791563091425,
+        "away_win": 0.38604418151134656
+      }
+    },
+    {
+      "match_id": 537194,
+      "utcDate": "2026-05-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "US Lecce",
+      "away": "Genoa CFC",
+      "expected_goals": {
+        "home": 1.0831018326550137,
+        "away": 1.0481615605771806
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3604855377652407,
+        "draw": 0.29685286716019793,
+        "away_win": 0.3426615950745614
+      }
+    }
+  ]
+}

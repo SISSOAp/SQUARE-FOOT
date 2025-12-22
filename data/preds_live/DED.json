@@ -1,0 +1,2568 @@
+{
+  "competition": "DED",
+  "generated_at": "2025-12-20T18:06:08.635530+00:00",
+  "model_path": "data/models/DED.joblib",
+  "matches_fetched": 160,
+  "predictions": [
+    {
+      "match_id": 537593,
+      "utcDate": "2025-12-20T19:00:00Z",
+      "status": "TIMED",
+      "home": "NEC",
+      "away": "AFC Ajax",
+      "expected_goals": {
+        "home": 2.362807392912152,
+        "away": 1.1917581014856855
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6339431078633826,
+        "draw": 0.18703622354162958,
+        "away_win": 0.17902066859498778
+      }
+    },
+    {
+      "match_id": 537592,
+      "utcDate": "2025-12-20T20:00:00Z",
+      "status": "TIMED",
+      "home": "NAC Breda",
+      "away": "Telstar 1963",
+      "expected_goals": {
+        "home": 1.18468792590809,
+        "away": 0.7214485721722201
+      },
+      "probabilities_1x2": {
+        "home_win": 0.46960824699460385,
+        "draw": 0.3055749908811528,
+        "away_win": 0.22481676212424317
+      }
+    },
+    {
+      "match_id": 537586,
+      "utcDate": "2025-12-21T11:15:00Z",
+      "status": "TIMED",
+      "home": "FC Utrecht",
+      "away": "PSV",
+      "expected_goals": {
+        "home": 1.4560853100267181,
+        "away": 1.670290185811178
+      },
+      "probabilities_1x2": {
+        "home_win": 0.33586502944072777,
+        "draw": 0.2359475872076419,
+        "away_win": 0.4281873833516302
+      }
+    },
+    {
+      "match_id": 537588,
+      "utcDate": "2025-12-21T13:30:00Z",
+      "status": "TIMED",
+      "home": "Feyenoord Rotterdam",
+      "away": "FC Twente '65",
+      "expected_goals": {
+        "home": 2.203085136790591,
+        "away": 0.8148690294722731
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6903310568006404,
+        "draw": 0.1849011186414863,
+        "away_win": 0.12476782455787325
+      }
+    },
+    {
+      "match_id": 537590,
+      "utcDate": "2025-12-21T13:30:00Z",
+      "status": "TIMED",
+      "home": "Go Ahead Eagles",
+      "away": "FC Groningen",
+      "expected_goals": {
+        "home": 1.4074438401065679,
+        "away": 0.9827460291845193
+      },
+      "probabilities_1x2": {
+        "home_win": 0.46761867273016466,
+        "draw": 0.2694929263182524,
+        "away_win": 0.26288840095158306
+      }
+    },
+    {
+      "match_id": 537587,
+      "utcDate": "2025-12-21T15:45:00Z",
+      "status": "TIMED",
+      "home": "FC Volendam",
+      "away": "Sparta Rotterdam",
+      "expected_goals": {
+        "home": 1.5507492982081592,
+        "away": 0.7963054894321858
+      },
+      "probabilities_1x2": {
+        "home_win": 0.552259621023361,
+        "draw": 0.25564009851488273,
+        "away_win": 0.19210028046175648
+      }
+    },
+    {
+      "match_id": 537589,
+      "utcDate": "2025-12-21T15:45:00Z",
+      "status": "TIMED",
+      "home": "Fortuna Sittard",
+      "away": "AZ",
+      "expected_goals": {
+        "home": 1.383569454220696,
+        "away": 1.2032313743681993
+      },
+      "probabilities_1x2": {
+        "home_win": 0.41057843012663153,
+        "draw": 0.26341378802606635,
+        "away_win": 0.3260077818473023
+      }
+    },
+    {
+      "match_id": 537597,
+      "utcDate": "2026-01-09T19:00:00Z",
+      "status": "TIMED",
+      "home": "NEC",
+      "away": "FC Utrecht",
+      "expected_goals": {
+        "home": 2.4576471808408202,
+        "away": 1.1075653709620594
+      },
+      "probabilities_1x2": {
+        "home_win": 0.669626026129365,
+        "draw": 0.17657547710822855,
+        "away_win": 0.15379849676240634
+      }
+    },
+    {
+      "match_id": 537594,
+      "utcDate": "2026-01-10T15:30:00Z",
+      "status": "TIMED",
+      "home": "AZ",
+      "away": "FC Volendam",
+      "expected_goals": {
+        "home": 2.220549411670264,
+        "away": 0.7547816556397532
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7078473009482431,
+        "draw": 0.17982229995828566,
+        "away_win": 0.11233039909347131
+      }
+    },
+    {
+      "match_id": 537602,
+      "utcDate": "2026-01-10T17:45:00Z",
+      "status": "TIMED",
+      "home": "FC Twente '65",
+      "away": "PEC Zwolle",
+      "expected_goals": {
+        "home": 2.238092760716577,
+        "away": 0.690865529732664
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7262340856261372,
+        "draw": 0.1741086198718281,
+        "away_win": 0.09965729450203464
+      }
+    },
+    {
+      "match_id": 537598,
+      "utcDate": "2026-01-10T19:00:00Z",
+      "status": "TIMED",
+      "home": "PSV",
+      "away": "SBV Excelsior",
+      "expected_goals": {
+        "home": 3.3921188518924574,
+        "away": 0.5332605755168883
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8955120167972463,
+        "draw": 0.07527474165529544,
+        "away_win": 0.02921324154745813
+      }
+    },
+    {
+      "match_id": 537595,
+      "utcDate": "2026-01-10T20:00:00Z",
+      "status": "TIMED",
+      "home": "FC Groningen",
+      "away": "NAC Breda",
+      "expected_goals": {
+        "home": 1.4972853055443593,
+        "away": 0.5546714109397258
+      },
+      "probabilities_1x2": {
+        "home_win": 0.604267615037207,
+        "draw": 0.25949779742065016,
+        "away_win": 0.1362345875421427
+      }
+    },
+    {
+      "match_id": 537599,
+      "utcDate": "2026-01-11T11:15:00Z",
+      "status": "TIMED",
+      "home": "SC Heerenveen",
+      "away": "Feyenoord Rotterdam",
+      "expected_goals": {
+        "home": 1.5566794630755592,
+        "away": 1.5192600577041302
+      },
+      "probabilities_1x2": {
+        "home_win": 0.38837424566413403,
+        "draw": 0.239525132024982,
+        "away_win": 0.3721006223108839
+      }
+    },
+    {
+      "match_id": 537601,
+      "utcDate": "2026-01-11T13:30:00Z",
+      "status": "TIMED",
+      "home": "Telstar 1963",
+      "away": "AFC Ajax",
+      "expected_goals": {
+        "home": 1.0848068437702136,
+        "away": 1.1684790447683064
+      },
+      "probabilities_1x2": {
+        "home_win": 0.33573116717062457,
+        "draw": 0.2868539217122134,
+        "away_win": 0.37741491111716197
+      }
+    },
+    {
+      "match_id": 537596,
+      "utcDate": "2026-01-11T13:30:00Z",
+      "status": "TIMED",
+      "home": "Go Ahead Eagles",
+      "away": "Fortuna Sittard",
+      "expected_goals": {
+        "home": 1.7429374840032439,
+        "away": 0.8902668162364651
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5752740329273247,
+        "draw": 0.23480664296242035,
+        "away_win": 0.189919324110255
+      }
+    },
+    {
+      "match_id": 537600,
+      "utcDate": "2026-01-11T15:45:00Z",
+      "status": "TIMED",
+      "home": "Sparta Rotterdam",
+      "away": "Heracles Almelo",
+      "expected_goals": {
+        "home": 1.9312469959912102,
+        "away": 1.1816983361524682
+      },
+      "probabilities_1x2": {
+        "home_win": 0.548284778655238,
+        "draw": 0.22084039614461773,
+        "away_win": 0.23087482520014443
+      }
+    },
+    {
+      "match_id": 537604,
+      "utcDate": "2026-01-16T19:00:00Z",
+      "status": "TIMED",
+      "home": "SBV Excelsior",
+      "away": "Telstar 1963",
+      "expected_goals": {
+        "home": 1.135964289759426,
+        "away": 0.802255907805139
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4339081003488169,
+        "draw": 0.30825186865532317,
+        "away_win": 0.2578400309958598
+      }
+    },
+    {
+      "match_id": 537603,
+      "utcDate": "2026-01-17T15:30:00Z",
+      "status": "TIMED",
+      "home": "AFC Ajax",
+      "away": "Go Ahead Eagles",
+      "expected_goals": {
+        "home": 2.0070124119539785,
+        "away": 0.8578554046303346
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6415739691992197,
+        "draw": 0.20636167335341515,
+        "away_win": 0.15206435744736513
+      }
+    },
+    {
+      "match_id": 537610,
+      "utcDate": "2026-01-17T17:45:00Z",
+      "status": "TIMED",
+      "home": "PEC Zwolle",
+      "away": "AZ",
+      "expected_goals": {
+        "home": 1.3641633324889437,
+        "away": 1.6088045891417695
+      },
+      "probabilities_1x2": {
+        "home_win": 0.32496984749636665,
+        "draw": 0.2422778605952076,
+        "away_win": 0.43275229190842585
+      }
+    },
+    {
+      "match_id": 537607,
+      "utcDate": "2026-01-17T19:00:00Z",
+      "status": "TIMED",
+      "home": "Fortuna Sittard",
+      "away": "PSV",
+      "expected_goals": {
+        "home": 1.1745746171659166,
+        "away": 1.930472029803188
+      },
+      "probabilities_1x2": {
+        "home_win": 0.22941005409122095,
+        "draw": 0.22084252853365635,
+        "away_win": 0.5497474173751226
+      }
+    },
+    {
+      "match_id": 537609,
+      "utcDate": "2026-01-17T20:00:00Z",
+      "status": "TIMED",
+      "home": "NAC Breda",
+      "away": "NEC",
+      "expected_goals": {
+        "home": 1.208289904517024,
+        "away": 1.5713802228699059
+      },
+      "probabilities_1x2": {
+        "home_win": 0.29327374355104485,
+        "draw": 0.24913188475219494,
+        "away_win": 0.4575943716967602
+      }
+    },
+    {
+      "match_id": 537611,
+      "utcDate": "2026-01-18T11:15:00Z",
+      "status": "TIMED",
+      "home": "SC Heerenveen",
+      "away": "FC Groningen",
+      "expected_goals": {
+        "home": 1.5278462866375722,
+        "away": 0.9014777011831079
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5194437667880412,
+        "draw": 0.25818897715962374,
+        "away_win": 0.22236725605233532
+      }
+    },
+    {
+      "match_id": 537605,
+      "utcDate": "2026-01-18T13:30:00Z",
+      "status": "TIMED",
+      "home": "FC Volendam",
+      "away": "FC Utrecht",
+      "expected_goals": {
+        "home": 1.1572896645883108,
+        "away": 1.1619729898673536
+      },
+      "probabilities_1x2": {
+        "home_win": 0.35770283663470875,
+        "draw": 0.2822889013968348,
+        "away_win": 0.3600082619684565
+      }
+    },
+    {
+      "match_id": 537608,
+      "utcDate": "2026-01-18T13:30:00Z",
+      "status": "TIMED",
+      "home": "Heracles Almelo",
+      "away": "FC Twente '65",
+      "expected_goals": {
+        "home": 1.406139076278653,
+        "away": 1.5519530600063132
+      },
+      "probabilities_1x2": {
+        "home_win": 0.34563347532935756,
+        "draw": 0.24424987032744816,
+        "away_win": 0.4101166543431942
+      }
+    },
+    {
+      "match_id": 537606,
+      "utcDate": "2026-01-18T15:45:00Z",
+      "status": "TIMED",
+      "home": "Feyenoord Rotterdam",
+      "away": "Sparta Rotterdam",
+      "expected_goals": {
+        "home": 3.1290647232016076,
+        "away": 0.5999874032402989
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8624969406414027,
+        "draw": 0.09527664505029165,
+        "away_win": 0.042226414308305545
+      }
+    },
+    {
+      "match_id": 537612,
+      "utcDate": "2026-01-24T15:30:00Z",
+      "status": "TIMED",
+      "home": "AFC Ajax",
+      "away": "FC Volendam",
+      "expected_goals": {
+        "home": 2.1130982795806648,
+        "away": 0.6583334778392111
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7117322867243399,
+        "draw": 0.1850032696267596,
+        "away_win": 0.1032644436489005
+      }
+    },
+    {
+      "match_id": 537617,
+      "utcDate": "2026-01-24T17:45:00Z",
+      "status": "TIMED",
+      "home": "NEC",
+      "away": "PEC Zwolle",
+      "expected_goals": {
+        "home": 3.79791524641337,
+        "away": 0.8809039679595848
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8768209592096075,
+        "draw": 0.07849850508566143,
+        "away_win": 0.04468053570473101
+      }
+    },
+    {
+      "match_id": 537618,
+      "utcDate": "2026-01-24T19:00:00Z",
+      "status": "TIMED",
+      "home": "PSV",
+      "away": "NAC Breda",
+      "expected_goals": {
+        "home": 3.0504472183091687,
+        "away": 0.5561331204447
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8625775822690379,
+        "draw": 0.09685611211967282,
+        "away_win": 0.040566305611289405
+      }
+    },
+    {
+      "match_id": 537620,
+      "utcDate": "2026-01-24T20:00:00Z",
+      "status": "TIMED",
+      "home": "FC Twente '65",
+      "away": "SBV Excelsior",
+      "expected_goals": {
+        "home": 1.7403097824226987,
+        "away": 0.5376404088361177
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6676419550693171,
+        "draw": 0.22330044024077994,
+        "away_win": 0.10905760468990297
+      }
+    },
+    {
+      "match_id": 537619,
+      "utcDate": "2026-01-25T11:15:00Z",
+      "status": "TIMED",
+      "home": "Telstar 1963",
+      "away": "AZ",
+      "expected_goals": {
+        "home": 1.2437348747289376,
+        "away": 1.2278962509610274
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3678660786866655,
+        "draw": 0.2718543212497354,
+        "away_win": 0.36027960006359916
+      }
+    },
+    {
+      "match_id": 537613,
+      "utcDate": "2026-01-25T13:30:00Z",
+      "status": "TIMED",
+      "home": "FC Groningen",
+      "away": "Fortuna Sittard",
+      "expected_goals": {
+        "home": 1.6014356064489699,
+        "away": 0.693158756396566
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5923773264179351,
+        "draw": 0.24785822096915872,
+        "away_win": 0.15976445261290634
+      }
+    },
+    {
+      "match_id": 537614,
+      "utcDate": "2026-01-25T15:45:00Z",
+      "status": "TIMED",
+      "home": "FC Utrecht",
+      "away": "Sparta Rotterdam",
+      "expected_goals": {
+        "home": 2.085078988897255,
+        "away": 0.6309598879058905
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7133604093255074,
+        "draw": 0.18631055455416082,
+        "away_win": 0.10032903612033177
+      }
+    },
+    {
+      "match_id": 537615,
+      "utcDate": "2026-01-25T15:45:00Z",
+      "status": "TIMED",
+      "home": "Feyenoord Rotterdam",
+      "away": "Heracles Almelo",
+      "expected_goals": {
+        "home": 4.229082711299123,
+        "away": 0.8385857671877613
+      },
+      "probabilities_1x2": {
+        "home_win": 0.9112303240381945,
+        "draw": 0.058482599699165846,
+        "away_win": 0.030287076262639684
+      }
+    },
+    {
+      "match_id": 537616,
+      "utcDate": "2026-01-25T19:00:00Z",
+      "status": "TIMED",
+      "home": "Go Ahead Eagles",
+      "away": "SC Heerenveen",
+      "expected_goals": {
+        "home": 1.6581821563000148,
+        "away": 1.1610801910105526
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4897015087563436,
+        "draw": 0.24313279281634415,
+        "away_win": 0.2671656984273121
+      }
+    },
+    {
+      "match_id": 537625,
+      "utcDate": "2026-01-30T19:00:00Z",
+      "status": "TIMED",
+      "home": "NAC Breda",
+      "away": "FC Twente '65",
+      "expected_goals": {
+        "home": 0.94762411717628,
+        "away": 0.9260066307323686
+      },
+      "probabilities_1x2": {
+        "home_win": 0.34535000315783115,
+        "draw": 0.32092743120211503,
+        "away_win": 0.3337225656400538
+      }
+    },
+    {
+      "match_id": 537621,
+      "utcDate": "2026-01-31T15:30:00Z",
+      "status": "TIMED",
+      "home": "AZ",
+      "away": "NEC",
+      "expected_goals": {
+        "home": 2.1165755609834913,
+        "away": 1.6028718348515547
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4970570328848045,
+        "draw": 0.208992416859283,
+        "away_win": 0.2939505502559123
+      }
+    },
+    {
+      "match_id": 537626,
+      "utcDate": "2026-01-31T17:45:00Z",
+      "status": "TIMED",
+      "home": "PEC Zwolle",
+      "away": "Telstar 1963",
+      "expected_goals": {
+        "home": 1.459709050703545,
+        "away": 1.0317261660169637
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4698032457107286,
+        "draw": 0.26306204813250783,
+        "away_win": 0.2671347061567635
+      }
+    },
+    {
+      "match_id": 537629,
+      "utcDate": "2026-01-31T20:00:00Z",
+      "status": "TIMED",
+      "home": "Sparta Rotterdam",
+      "away": "FC Groningen",
+      "expected_goals": {
+        "home": 0.9952393038101673,
+        "away": 1.098582042211059
+      },
+      "probabilities_1x2": {
+        "home_win": 0.32368278119771954,
+        "draw": 0.29954960656039137,
+        "away_win": 0.3767676122418889
+      }
+    },
+    {
+      "match_id": 537622,
+      "utcDate": "2026-02-01T11:15:00Z",
+      "status": "TIMED",
+      "home": "SBV Excelsior",
+      "away": "AFC Ajax",
+      "expected_goals": {
+        "home": 0.9259538767202606,
+        "away": 1.1904496460784408
+      },
+      "probabilities_1x2": {
+        "home_win": 0.28523612647349805,
+        "draw": 0.2946495494526758,
+        "away_win": 0.420114324073826
+      }
+    },
+    {
+      "match_id": 537624,
+      "utcDate": "2026-02-01T13:30:00Z",
+      "status": "TIMED",
+      "home": "Heracles Almelo",
+      "away": "Fortuna Sittard",
+      "expected_goals": {
+        "home": 1.7225966918112954,
+        "away": 1.3450642080863882
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4640368658281123,
+        "draw": 0.23542485533044,
+        "away_win": 0.3005382788414478
+      }
+    },
+    {
+      "match_id": 537627,
+      "utcDate": "2026-02-01T13:30:00Z",
+      "status": "TIMED",
+      "home": "PSV",
+      "away": "Feyenoord Rotterdam",
+      "expected_goals": {
+        "home": 2.6843381912655024,
+        "away": 1.2929267939903781
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6693161143180693,
+        "draw": 0.16740943206728032,
+        "away_win": 0.16327445361465023
+      }
+    },
+    {
+      "match_id": 537628,
+      "utcDate": "2026-02-01T15:45:00Z",
+      "status": "TIMED",
+      "home": "SC Heerenveen",
+      "away": "FC Utrecht",
+      "expected_goals": {
+        "home": 1.6370382015073377,
+        "away": 1.0123719082897382
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5196276791161115,
+        "draw": 0.24632228955643912,
+        "away_win": 0.2340500313274494
+      }
+    },
+    {
+      "match_id": 537623,
+      "utcDate": "2026-02-01T19:00:00Z",
+      "status": "TIMED",
+      "home": "FC Volendam",
+      "away": "Go Ahead Eagles",
+      "expected_goals": {
+        "home": 1.3872361430626405,
+        "away": 1.1261163537791201
+      },
+      "probabilities_1x2": {
+        "home_win": 0.42869476653100114,
+        "draw": 0.2664140282567279,
+        "away_win": 0.3048912052122711
+      }
+    },
+    {
+      "match_id": 537630,
+      "utcDate": "2026-02-07T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AZ",
+      "away": "AFC Ajax",
+      "expected_goals": {
+        "home": 1.6915750381009753,
+        "away": 1.0919958788269224
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5138841204928464,
+        "draw": 0.24090817466720707,
+        "away_win": 0.24520770483994658
+      }
+    },
+    {
+      "match_id": 537631,
+      "utcDate": "2026-02-07T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Groningen",
+      "away": "PSV",
+      "expected_goals": {
+        "home": 1.2965871803247508,
+        "away": 1.5588803337936952
+      },
+      "probabilities_1x2": {
+        "home_win": 0.31741275993444734,
+        "draw": 0.24756955193484217,
+        "away_win": 0.43501768813071057
+      }
+    },
+    {
+      "match_id": 537632,
+      "utcDate": "2026-02-07T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Utrecht",
+      "away": "Feyenoord Rotterdam",
+      "expected_goals": {
+        "home": 1.4796649111350566,
+        "away": 1.3816883904570119
+      },
+      "probabilities_1x2": {
+        "home_win": 0.39732895218362074,
+        "draw": 0.24933646255469707,
+        "away_win": 0.35333458526168215
+      }
+    },
+    {
+      "match_id": 537633,
+      "utcDate": "2026-02-07T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Fortuna Sittard",
+      "away": "Sparta Rotterdam",
+      "expected_goals": {
+        "home": 1.6819624772533077,
+        "away": 0.7292447898438253
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6023239718540003,
+        "draw": 0.2384471304111499,
+        "away_win": 0.15922889773484958
+      }
+    },
+    {
+      "match_id": 537634,
+      "utcDate": "2026-02-07T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Go Ahead Eagles",
+      "away": "Telstar 1963",
+      "expected_goals": {
+        "home": 1.7786657228671343,
+        "away": 0.8002893413044151
+      },
+      "probabilities_1x2": {
+        "home_win": 0.606406162122112,
+        "draw": 0.2289001915390305,
+        "away_win": 0.16469364633885764
+      }
+    },
+    {
+      "match_id": 537635,
+      "utcDate": "2026-02-07T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "NAC Breda",
+      "away": "SBV Excelsior",
+      "expected_goals": {
+        "home": 1.2069632985077057,
+        "away": 0.6158037314140204
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5049438776680734,
+        "draw": 0.30591730243650017,
+        "away_win": 0.18913881989542652
+      }
+    },
+    {
+      "match_id": 537636,
+      "utcDate": "2026-02-07T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "NEC",
+      "away": "Heracles Almelo",
+      "expected_goals": {
+        "home": 4.450929210972079,
+        "away": 1.0608607949407398
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8996004743720027,
+        "draw": 0.06205508380651195,
+        "away_win": 0.03834444182148518
+      }
+    },
+    {
+      "match_id": 537637,
+      "utcDate": "2026-02-07T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "PEC Zwolle",
+      "away": "FC Volendam",
+      "expected_goals": {
+        "home": 1.561924904769391,
+        "away": 1.058188136794457
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4898821006944424,
+        "draw": 0.2529636809760082,
+        "away_win": 0.25715421832954954
+      }
+    },
+    {
+      "match_id": 537638,
+      "utcDate": "2026-02-07T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Twente '65",
+      "away": "SC Heerenveen",
+      "expected_goals": {
+        "home": 1.592481372656135,
+        "away": 0.9138399661410234
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5328014911470953,
+        "draw": 0.2511145751182908,
+        "away_win": 0.21608393373461382
+      }
+    },
+    {
+      "match_id": 537639,
+      "utcDate": "2026-02-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AFC Ajax",
+      "away": "Fortuna Sittard",
+      "expected_goals": {
+        "home": 1.935144151663394,
+        "away": 0.7140368907628496
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6627303576987946,
+        "draw": 0.2078193485472618,
+        "away_win": 0.12945029375394343
+      }
+    },
+    {
+      "match_id": 537640,
+      "utcDate": "2026-02-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SBV Excelsior",
+      "away": "AZ",
+      "expected_goals": {
+        "home": 1.0616093874048151,
+        "away": 1.2509840582271157
+      },
+      "probabilities_1x2": {
+        "home_win": 0.31283403422749023,
+        "draw": 0.2811474034730583,
+        "away_win": 0.40601856229945166
+      }
+    },
+    {
+      "match_id": 537641,
+      "utcDate": "2026-02-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Groningen",
+      "away": "FC Utrecht",
+      "expected_goals": {
+        "home": 1.3856000684625247,
+        "away": 0.8592883482709025
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4921927081523352,
+        "draw": 0.27497362256844743,
+        "away_win": 0.23283366927921756
+      }
+    },
+    {
+      "match_id": 537642,
+      "utcDate": "2026-02-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Volendam",
+      "away": "PSV",
+      "expected_goals": {
+        "home": 1.082943756413446,
+        "away": 2.1079965135668486
+      },
+      "probabilities_1x2": {
+        "home_win": 0.1869769755394042,
+        "draw": 0.20434781582761616,
+        "away_win": 0.6086752086329796
+      }
+    },
+    {
+      "match_id": 537643,
+      "utcDate": "2026-02-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Feyenoord Rotterdam",
+      "away": "Go Ahead Eagles",
+      "expected_goals": {
+        "home": 2.799131802299163,
+        "away": 0.8484879682697547
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7778453829013543,
+        "draw": 0.13597261066377364,
+        "away_win": 0.08618200643487209
+      }
+    },
+    {
+      "match_id": 537644,
+      "utcDate": "2026-02-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Heracles Almelo",
+      "away": "NAC Breda",
+      "expected_goals": {
+        "home": 1.610566608886353,
+        "away": 1.0763315838095904
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4977724397788587,
+        "draw": 0.24828228088229787,
+        "away_win": 0.25394527933884353
+      }
+    },
+    {
+      "match_id": 537645,
+      "utcDate": "2026-02-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SC Heerenveen",
+      "away": "PEC Zwolle",
+      "expected_goals": {
+        "home": 2.5297904406029272,
+        "away": 0.8051916884044552
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7478933152751089,
+        "draw": 0.1546346171140646,
+        "away_win": 0.09747206761082644
+      }
+    },
+    {
+      "match_id": 537646,
+      "utcDate": "2026-02-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sparta Rotterdam",
+      "away": "NEC",
+      "expected_goals": {
+        "home": 1.2827970854470572,
+        "away": 1.9485615802243896
+      },
+      "probabilities_1x2": {
+        "home_win": 0.25068145252480273,
+        "draw": 0.22005697318297351,
+        "away_win": 0.5292615742922238
+      }
+    },
+    {
+      "match_id": 537647,
+      "utcDate": "2026-02-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Telstar 1963",
+      "away": "FC Twente '65",
+      "expected_goals": {
+        "home": 1.0645348508347512,
+        "away": 1.0107215840533141
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3630984078093423,
+        "draw": 0.3015586935132629,
+        "away_win": 0.3353428986773946
+      }
+    },
+    {
+      "match_id": 537648,
+      "utcDate": "2026-02-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AFC Ajax",
+      "away": "NEC",
+      "expected_goals": {
+        "home": 2.0141556648147376,
+        "away": 1.3980522468765264
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5182895386981388,
+        "draw": 0.21564456004627133,
+        "away_win": 0.26606590125558993
+      }
+    },
+    {
+      "match_id": 537649,
+      "utcDate": "2026-02-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AZ",
+      "away": "Sparta Rotterdam",
+      "expected_goals": {
+        "home": 2.3576644840522025,
+        "away": 0.6954820598775421
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7452782807198818,
+        "draw": 0.16277486242674677,
+        "away_win": 0.09194685685337121
+      }
+    },
+    {
+      "match_id": 537650,
+      "utcDate": "2026-02-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Utrecht",
+      "away": "PEC Zwolle",
+      "expected_goals": {
+        "home": 2.404632576117794,
+        "away": 0.7322801664661253
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7444353454249895,
+        "draw": 0.16089229922049286,
+        "away_win": 0.09467235535451755
+      }
+    },
+    {
+      "match_id": 537651,
+      "utcDate": "2026-02-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Feyenoord Rotterdam",
+      "away": "Telstar 1963",
+      "expected_goals": {
+        "home": 2.7542232347151963,
+        "away": 0.6348616503482071
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8150880172631607,
+        "draw": 0.1241397340170045,
+        "away_win": 0.06077224871983478
+      }
+    },
+    {
+      "match_id": 537652,
+      "utcDate": "2026-02-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Fortuna Sittard",
+      "away": "SBV Excelsior",
+      "expected_goals": {
+        "home": 1.5083113398480361,
+        "away": 0.658638683234799
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5781214166490367,
+        "draw": 0.25987806544120606,
+        "away_win": 0.16200051790975734
+      }
+    },
+    {
+      "match_id": 537653,
+      "utcDate": "2026-02-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Go Ahead Eagles",
+      "away": "Heracles Almelo",
+      "expected_goals": {
+        "home": 2.731123738608497,
+        "away": 1.0570984259040723
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7254266091501255,
+        "draw": 0.15337869807037038,
+        "away_win": 0.12119469277950418
+      }
+    },
+    {
+      "match_id": 537654,
+      "utcDate": "2026-02-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "NAC Breda",
+      "away": "FC Volendam",
+      "expected_goals": {
+        "home": 1.2676454769966627,
+        "away": 0.7399524656112972
+      },
+      "probabilities_1x2": {
+        "home_win": 0.48956277592580966,
+        "draw": 0.2931037118619156,
+        "away_win": 0.21733351221227476
+      }
+    },
+    {
+      "match_id": 537655,
+      "utcDate": "2026-02-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "PSV",
+      "away": "SC Heerenveen",
+      "expected_goals": {
+        "home": 3.103979613304503,
+        "away": 0.9063954611031442
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8053906667118351,
+        "draw": 0.11846530763212589,
+        "away_win": 0.07614402565603903
+      }
+    },
+    {
+      "match_id": 537656,
+      "utcDate": "2026-02-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Twente '65",
+      "away": "FC Groningen",
+      "expected_goals": {
+        "home": 1.3516778539159517,
+        "away": 0.7734802513972474
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5048644036363781,
+        "draw": 0.28094193548237134,
+        "away_win": 0.2141936608812508
+      }
+    },
+    {
+      "match_id": 537657,
+      "utcDate": "2026-02-28T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SBV Excelsior",
+      "away": "Go Ahead Eagles",
+      "expected_goals": {
+        "home": 1.1544865825193695,
+        "away": 1.072209173246863
+      },
+      "probabilities_1x2": {
+        "home_win": 0.37614654126269265,
+        "draw": 0.2889025655693427,
+        "away_win": 0.3349508931679647
+      }
+    },
+    {
+      "match_id": 537658,
+      "utcDate": "2026-02-28T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Utrecht",
+      "away": "AZ",
+      "expected_goals": {
+        "home": 1.71517000984865,
+        "away": 1.0410643225285126
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5316632759032159,
+        "draw": 0.2388635484339226,
+        "away_win": 0.22947317566286138
+      }
+    },
+    {
+      "match_id": 537659,
+      "utcDate": "2026-02-28T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Volendam",
+      "away": "FC Groningen",
+      "expected_goals": {
+        "home": 1.0800974069983345,
+        "away": 1.0346916297905564
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3625197005844343,
+        "draw": 0.2981975083685489,
+        "away_win": 0.3392827910470168
+      }
+    },
+    {
+      "match_id": 537660,
+      "utcDate": "2026-02-28T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Heracles Almelo",
+      "away": "PSV",
+      "expected_goals": {
+        "home": 1.3946841062344781,
+        "away": 3.0249839915115424
+      },
+      "probabilities_1x2": {
+        "home_win": 0.14759523804316532,
+        "draw": 0.14943262689797163,
+        "away_win": 0.7029721350588631
+      }
+    },
+    {
+      "match_id": 537661,
+      "utcDate": "2026-02-28T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "NEC",
+      "away": "Fortuna Sittard",
+      "expected_goals": {
+        "home": 2.8404759736007965,
+        "away": 0.8934354069955669
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7744527031567644,
+        "draw": 0.13581385838725998,
+        "away_win": 0.08973343845597546
+      }
+    },
+    {
+      "match_id": 537662,
+      "utcDate": "2026-02-28T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "PEC Zwolle",
+      "away": "AFC Ajax",
+      "expected_goals": {
+        "home": 1.1898466057140276,
+        "away": 1.5309554435628843
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2956702132441119,
+        "draw": 0.2527330944981636,
+        "away_win": 0.4515966922577245
+      }
+    },
+    {
+      "match_id": 537663,
+      "utcDate": "2026-02-28T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SC Heerenveen",
+      "away": "Sparta Rotterdam",
+      "expected_goals": {
+        "home": 2.193604522538041,
+        "away": 0.6937831730581652
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7176830946777123,
+        "draw": 0.17879946151765838,
+        "away_win": 0.10351744380462934
+      }
+    },
+    {
+      "match_id": 537664,
+      "utcDate": "2026-02-28T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Telstar 1963",
+      "away": "NAC Breda",
+      "expected_goals": {
+        "home": 1.2192992241476572,
+        "away": 0.7009693729720256
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4855351017873868,
+        "draw": 0.30128695117400184,
+        "away_win": 0.21317794703861126
+      }
+    },
+    {
+      "match_id": 537665,
+      "utcDate": "2026-02-28T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Twente '65",
+      "away": "Feyenoord Rotterdam",
+      "expected_goals": {
+        "home": 1.3771864187435359,
+        "away": 1.303545999893898
+      },
+      "probabilities_1x2": {
+        "home_win": 0.387493984695093,
+        "draw": 0.2590505653316604,
+        "away_win": 0.3534554499732467
+      }
+    },
+    {
+      "match_id": 537666,
+      "utcDate": "2026-03-07T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SBV Excelsior",
+      "away": "SC Heerenveen",
+      "expected_goals": {
+        "home": 1.0590161440997232,
+        "away": 1.1639333358551083
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3292251661555605,
+        "draw": 0.2889914474946697,
+        "away_win": 0.38178338634976977
+      }
+    },
+    {
+      "match_id": 537667,
+      "utcDate": "2026-03-07T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Groningen",
+      "away": "AFC Ajax",
+      "expected_goals": {
+        "home": 1.332130222313992,
+        "away": 0.924608043383095
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4610932182251047,
+        "draw": 0.27921968296864474,
+        "away_win": 0.25968709880625074
+      }
+    },
+    {
+      "match_id": 537668,
+      "utcDate": "2026-03-07T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Fortuna Sittard",
+      "away": "Telstar 1963",
+      "expected_goals": {
+        "home": 1.4804743731955445,
+        "away": 0.7716321180874193
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5404590494154298,
+        "draw": 0.26432672341073565,
+        "away_win": 0.19521422717383466
+      }
+    },
+    {
+      "match_id": 537669,
+      "utcDate": "2026-03-07T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Go Ahead Eagles",
+      "away": "FC Twente '65",
+      "expected_goals": {
+        "home": 1.4227430688902305,
+        "away": 1.027201750945351
+      },
+      "probabilities_1x2": {
+        "home_win": 0.461086329528149,
+        "draw": 0.26670564974868805,
+        "away_win": 0.27220802072316286
+      }
+    },
+    {
+      "match_id": 537670,
+      "utcDate": "2026-03-07T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Heracles Almelo",
+      "away": "FC Utrecht",
+      "expected_goals": {
+        "home": 1.4904315131344035,
+        "away": 1.6674361984451562
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3444715550653049,
+        "draw": 0.23506907402805446,
+        "away_win": 0.42045937090664054
+      }
+    },
+    {
+      "match_id": 537671,
+      "utcDate": "2026-03-07T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "NAC Breda",
+      "away": "Feyenoord Rotterdam",
+      "expected_goals": {
+        "home": 0.9551250469400523,
+        "away": 1.493058329715631
+      },
+      "probabilities_1x2": {
+        "home_win": 0.24161840181385016,
+        "draw": 0.2613081283635039,
+        "away_win": 0.49707346982264583
+      }
+    },
+    {
+      "match_id": 537672,
+      "utcDate": "2026-03-07T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "NEC",
+      "away": "FC Volendam",
+      "expected_goals": {
+        "home": 3.1016836073151115,
+        "away": 0.8237367653143178
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8201502208065314,
+        "draw": 0.11316466201514258,
+        "away_win": 0.0666851171783262
+      }
+    },
+    {
+      "match_id": 537673,
+      "utcDate": "2026-03-07T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "PSV",
+      "away": "AZ",
+      "expected_goals": {
+        "home": 3.1115804175001616,
+        "away": 0.9741848930346303
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7938916600974393,
+        "draw": 0.1222255352246072,
+        "away_win": 0.08388280467795343
+      }
+    },
+    {
+      "match_id": 537674,
+      "utcDate": "2026-03-07T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sparta Rotterdam",
+      "away": "PEC Zwolle",
+      "expected_goals": {
+        "home": 1.6479058783015654,
+        "away": 0.9812434941627731
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5298757906645275,
+        "draw": 0.24533203076453944,
+        "away_win": 0.2247921785709332
+      }
+    },
+    {
+      "match_id": 537675,
+      "utcDate": "2026-03-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AFC Ajax",
+      "away": "Sparta Rotterdam",
+      "expected_goals": {
+        "home": 2.2435784310387294,
+        "away": 0.6066113555262271
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7473876813695992,
+        "draw": 0.167741774476842,
+        "away_win": 0.08487054415355869
+      }
+    },
+    {
+      "match_id": 537676,
+      "utcDate": "2026-03-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AZ",
+      "away": "Heracles Almelo",
+      "expected_goals": {
+        "home": 3.1864978805383175,
+        "away": 0.9720560025060213
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8032327584371781,
+        "draw": 0.1173281639613711,
+        "away_win": 0.07943907760145069
+      }
+    },
+    {
+      "match_id": 537677,
+      "utcDate": "2026-03-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Volendam",
+      "away": "Fortuna Sittard",
+      "expected_goals": {
+        "home": 1.3375611895744013,
+        "away": 0.9373241872109395
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4595000624498977,
+        "draw": 0.27819417884317893,
+        "away_win": 0.2623057587069232
+      }
+    },
+    {
+      "match_id": 537678,
+      "utcDate": "2026-03-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Feyenoord Rotterdam",
+      "away": "SBV Excelsior",
+      "expected_goals": {
+        "home": 2.8060101630986964,
+        "away": 0.5418961077696384
+      },
+      "probabilities_1x2": {
+        "home_win": 0.8396782896823112,
+        "draw": 0.11273940442768499,
+        "away_win": 0.04758230589000394
+      }
+    },
+    {
+      "match_id": 537679,
+      "utcDate": "2026-03-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Go Ahead Eagles",
+      "away": "NAC Breda",
+      "expected_goals": {
+        "home": 1.6295845257663637,
+        "away": 0.7123989223504587
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5941500344008306,
+        "draw": 0.24463089811909858,
+        "away_win": 0.16121906748007075
+      }
+    },
+    {
+      "match_id": 537680,
+      "utcDate": "2026-03-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "PEC Zwolle",
+      "away": "FC Groningen",
+      "expected_goals": {
+        "home": 1.1550559980707389,
+        "away": 1.2669477656747412
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3356831139573542,
+        "draw": 0.2745974416860054,
+        "away_win": 0.3897194443566402
+      }
+    },
+    {
+      "match_id": 537681,
+      "utcDate": "2026-03-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "PSV",
+      "away": "NEC",
+      "expected_goals": {
+        "home": 3.3958472214781814,
+        "away": 1.3607503158178882
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7600818755368942,
+        "draw": 0.1260875497493185,
+        "away_win": 0.11383057471378735
+      }
+    },
+    {
+      "match_id": 537682,
+      "utcDate": "2026-03-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SC Heerenveen",
+      "away": "Telstar 1963",
+      "expected_goals": {
+        "home": 1.9308250478017797,
+        "away": 0.7341092960498653
+      },
+      "probabilities_1x2": {
+        "home_win": 0.656702900261027,
+        "draw": 0.20924773691893245,
+        "away_win": 0.13404936282004065
+      }
+    },
+    {
+      "match_id": 537683,
+      "utcDate": "2026-03-14T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Twente '65",
+      "away": "FC Utrecht",
+      "expected_goals": {
+        "home": 1.4482793867055843,
+        "away": 0.8686290044709657
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5068248169743372,
+        "draw": 0.2674959728543122,
+        "away_win": 0.22567921017135045
+      }
+    },
+    {
+      "match_id": 537684,
+      "utcDate": "2026-03-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Groningen",
+      "away": "AZ",
+      "expected_goals": {
+        "home": 1.5272920010479536,
+        "away": 0.9716243993948839
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5019076967810687,
+        "draw": 0.25754970605972094,
+        "away_win": 0.2405425971592104
+      }
+    },
+    {
+      "match_id": 537685,
+      "utcDate": "2026-03-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Utrecht",
+      "away": "Go Ahead Eagles",
+      "expected_goals": {
+        "home": 1.8652253706520872,
+        "away": 0.8922885221551314
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6026959359756907,
+        "draw": 0.22201752891326565,
+        "away_win": 0.17528653511104375
+      }
+    },
+    {
+      "match_id": 537686,
+      "utcDate": "2026-03-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Feyenoord Rotterdam",
+      "away": "AFC Ajax",
+      "expected_goals": {
+        "home": 2.245038602470198,
+        "away": 0.9420570414164754
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6682383553938671,
+        "draw": 0.18721457512698342,
+        "away_win": 0.14454706947914936
+      }
+    },
+    {
+      "match_id": 537687,
+      "utcDate": "2026-03-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Fortuna Sittard",
+      "away": "FC Twente '65",
+      "expected_goals": {
+        "home": 1.184221760195753,
+        "away": 0.990419117032284
+      },
+      "probabilities_1x2": {
+        "home_win": 0.40317508499695887,
+        "draw": 0.2915150684576071,
+        "away_win": 0.30530984654543397
+      }
+    },
+    {
+      "match_id": 537688,
+      "utcDate": "2026-03-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Heracles Almelo",
+      "away": "SBV Excelsior",
+      "expected_goals": {
+        "home": 1.790961444420637,
+        "away": 1.0320644081948347
+      },
+      "probabilities_1x2": {
+        "home_win": 0.551658535250329,
+        "draw": 0.2317487026617797,
+        "away_win": 0.2165927620878914
+      }
+    },
+    {
+      "match_id": 537689,
+      "utcDate": "2026-03-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "NEC",
+      "away": "SC Heerenveen",
+      "expected_goals": {
+        "home": 2.70234969300539,
+        "away": 1.1652126464685297
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6985971971432969,
+        "draw": 0.16079046778013026,
+        "away_win": 0.14061233507657267
+      }
+    },
+    {
+      "match_id": 537690,
+      "utcDate": "2026-03-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "PEC Zwolle",
+      "away": "NAC Breda",
+      "expected_goals": {
+        "home": 1.3373616248213351,
+        "away": 0.9184185904978519
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4640714269596745,
+        "draw": 0.2788546398626819,
+        "away_win": 0.25707393317764365
+      }
+    },
+    {
+      "match_id": 537691,
+      "utcDate": "2026-03-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sparta Rotterdam",
+      "away": "FC Volendam",
+      "expected_goals": {
+        "home": 1.3458127202688657,
+        "away": 0.9175646509341695
+      },
+      "probabilities_1x2": {
+        "home_win": 0.46663424534467435,
+        "draw": 0.2779517235846855,
+        "away_win": 0.25541403107064004
+      }
+    },
+    {
+      "match_id": 537692,
+      "utcDate": "2026-03-21T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Telstar 1963",
+      "away": "PSV",
+      "expected_goals": {
+        "home": 1.0558627251303976,
+        "away": 1.9700445138617957
+      },
+      "probabilities_1x2": {
+        "home_win": 0.19820910919643636,
+        "draw": 0.2157506791266453,
+        "away_win": 0.5860402116769183
+      }
+    },
+    {
+      "match_id": 537693,
+      "utcDate": "2026-04-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AFC Ajax",
+      "away": "FC Twente '65",
+      "expected_goals": {
+        "home": 1.5796395191173906,
+        "away": 0.8238653076297052
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5524448205287091,
+        "draw": 0.25233556725247086,
+        "away_win": 0.19521961221881987
+      }
+    },
+    {
+      "match_id": 537694,
+      "utcDate": "2026-04-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AZ",
+      "away": "Fortuna Sittard",
+      "expected_goals": {
+        "home": 2.0335463092261095,
+        "away": 0.8186458151372858
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6566345494103019,
+        "draw": 0.20201545460829434,
+        "away_win": 0.1413499959814039
+      }
+    },
+    {
+      "match_id": 537695,
+      "utcDate": "2026-04-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SBV Excelsior",
+      "away": "NEC",
+      "expected_goals": {
+        "home": 1.1585955703533117,
+        "away": 1.747385906399165
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2525541725278597,
+        "draw": 0.23580947270442693,
+        "away_win": 0.5116363547677134
+      }
+    },
+    {
+      "match_id": 537696,
+      "utcDate": "2026-04-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Volendam",
+      "away": "Feyenoord Rotterdam",
+      "expected_goals": {
+        "home": 1.100480765833949,
+        "away": 1.743765445466392
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2393817909077134,
+        "draw": 0.23628201537775415,
+        "away_win": 0.5243361937145328
+      }
+    },
+    {
+      "match_id": 537697,
+      "utcDate": "2026-04-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Go Ahead Eagles",
+      "away": "PEC Zwolle",
+      "expected_goals": {
+        "home": 2.3304294440659805,
+        "away": 0.8777798202588359
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6986094429092851,
+        "draw": 0.17637852940223758,
+        "away_win": 0.12501202768847725
+      }
+    },
+    {
+      "match_id": 537698,
+      "utcDate": "2026-04-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "NAC Breda",
+      "away": "Sparta Rotterdam",
+      "expected_goals": {
+        "home": 1.3459203851880974,
+        "away": 0.6818179286016377
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5276995670623111,
+        "draw": 0.28313550155973627,
+        "away_win": 0.1891649313779524
+      }
+    },
+    {
+      "match_id": 537699,
+      "utcDate": "2026-04-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "PSV",
+      "away": "FC Utrecht",
+      "expected_goals": {
+        "home": 2.8229088062771215,
+        "away": 0.8615528059685748
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7784415654388528,
+        "draw": 0.13505702262274358,
+        "away_win": 0.0865014119384037
+      }
+    },
+    {
+      "match_id": 537700,
+      "utcDate": "2026-04-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SC Heerenveen",
+      "away": "Heracles Almelo",
+      "expected_goals": {
+        "home": 2.9647628867840066,
+        "away": 0.9696815154766298
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7761302551448002,
+        "draw": 0.13173866375559662,
+        "away_win": 0.09213108109960318
+      }
+    },
+    {
+      "match_id": 537701,
+      "utcDate": "2026-04-04T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Telstar 1963",
+      "away": "FC Groningen",
+      "expected_goals": {
+        "home": 1.0530875539986424,
+        "away": 0.9669790987265618
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3693208892665817,
+        "draw": 0.3062587003602531,
+        "away_win": 0.32442041037316527
+      }
+    },
+    {
+      "match_id": 537702,
+      "utcDate": "2026-04-11T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AZ",
+      "away": "SC Heerenveen",
+      "expected_goals": {
+        "home": 1.9346592949642543,
+        "away": 1.067672547234561
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5755584911757858,
+        "draw": 0.219121479376119,
+        "away_win": 0.205320029448095
+      }
+    },
+    {
+      "match_id": 537703,
+      "utcDate": "2026-04-11T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Groningen",
+      "away": "Go Ahead Eagles",
+      "expected_goals": {
+        "home": 1.6609104475888172,
+        "away": 0.832772078213432
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5702769970751194,
+        "draw": 0.2429973758353218,
+        "away_win": 0.18672562708955864
+      }
+    },
+    {
+      "match_id": 537704,
+      "utcDate": "2026-04-11T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Utrecht",
+      "away": "Telstar 1963",
+      "expected_goals": {
+        "home": 1.8353001632901274,
+        "away": 0.6676344096161325
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6535511037260793,
+        "draw": 0.2173689998335364,
+        "away_win": 0.12907989644038445
+      }
+    },
+    {
+      "match_id": 537705,
+      "utcDate": "2026-04-11T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Fortuna Sittard",
+      "away": "NAC Breda",
+      "expected_goals": {
+        "home": 1.3563864746120893,
+        "away": 0.6868889300468392
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5292770561568614,
+        "draw": 0.28156630289496337,
+        "away_win": 0.18915664094817514
+      }
+    },
+    {
+      "match_id": 537706,
+      "utcDate": "2026-04-11T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Heracles Almelo",
+      "away": "AFC Ajax",
+      "expected_goals": {
+        "home": 1.4329162563759004,
+        "away": 1.7941880906599608
+      },
+      "probabilities_1x2": {
+        "home_win": 0.30884536697997367,
+        "draw": 0.22928977424775315,
+        "away_win": 0.46186485877227323
+      }
+    },
+    {
+      "match_id": 537707,
+      "utcDate": "2026-04-11T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "NEC",
+      "away": "Feyenoord Rotterdam",
+      "expected_goals": {
+        "home": 2.3370064854795642,
+        "away": 1.6621162792254565
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5297716088994777,
+        "draw": 0.19704239280761043,
+        "away_win": 0.2731859982929118
+      }
+    },
+    {
+      "match_id": 537708,
+      "utcDate": "2026-04-11T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "PEC Zwolle",
+      "away": "SBV Excelsior",
+      "expected_goals": {
+        "home": 1.4871555725093013,
+        "away": 0.8806460326309474
+      },
+      "probabilities_1x2": {
+        "home_win": 0.51409212145589,
+        "draw": 0.2629069697797439,
+        "away_win": 0.22300090876436618
+      }
+    },
+    {
+      "match_id": 537709,
+      "utcDate": "2026-04-11T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sparta Rotterdam",
+      "away": "PSV",
+      "expected_goals": {
+        "home": 0.9978620291235896,
+        "away": 2.2381616398277324
+      },
+      "probabilities_1x2": {
+        "home_win": 0.15576728762101008,
+        "draw": 0.19019954393247648,
+        "away_win": 0.6540331684465133
+      }
+    },
+    {
+      "match_id": 537710,
+      "utcDate": "2026-04-11T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Twente '65",
+      "away": "FC Volendam",
+      "expected_goals": {
+        "home": 1.8278068827683545,
+        "away": 0.646031074246741
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6576235325540372,
+        "draw": 0.2172824729387689,
+        "away_win": 0.12509399450719394
+      }
+    },
+    {
+      "match_id": 537711,
+      "utcDate": "2026-04-23T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SBV Excelsior",
+      "away": "FC Utrecht",
+      "expected_goals": {
+        "home": 0.9631203717817322,
+        "away": 1.106349352462411
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3124739881320925,
+        "draw": 0.30115537637689055,
+        "away_win": 0.386370635491017
+      }
+    },
+    {
+      "match_id": 537712,
+      "utcDate": "2026-04-23T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Feyenoord Rotterdam",
+      "away": "FC Groningen",
+      "expected_goals": {
+        "home": 2.179394630560301,
+        "away": 0.7796027433581779
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6943853252919402,
+        "draw": 0.18531272258647466,
+        "away_win": 0.1203019521215851
+      }
+    },
+    {
+      "match_id": 537713,
+      "utcDate": "2026-04-23T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Go Ahead Eagles",
+      "away": "AZ",
+      "expected_goals": {
+        "home": 1.6622425946600958,
+        "away": 1.2479175263163944
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4710076148117378,
+        "draw": 0.24145108341920704,
+        "away_win": 0.2875413017690551
+      }
+    },
+    {
+      "match_id": 537714,
+      "utcDate": "2026-04-23T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Heracles Almelo",
+      "away": "FC Volendam",
+      "expected_goals": {
+        "home": 1.8810051451458747,
+        "away": 1.2401331212460482
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5237931328889864,
+        "draw": 0.2250428458987056,
+        "away_win": 0.25116402121230796
+      }
+    },
+    {
+      "match_id": 537715,
+      "utcDate": "2026-04-23T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "NAC Breda",
+      "away": "AFC Ajax",
+      "expected_goals": {
+        "home": 0.9656697728857269,
+        "away": 1.070541443260799
+      },
+      "probabilities_1x2": {
+        "home_win": 0.32045047193414444,
+        "draw": 0.30460339020127675,
+        "away_win": 0.37494613786457875
+      }
+    },
+    {
+      "match_id": 537716,
+      "utcDate": "2026-04-23T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "PSV",
+      "away": "PEC Zwolle",
+      "expected_goals": {
+        "home": 4.362370839139928,
+        "away": 0.6852374634331451
+      },
+      "probabilities_1x2": {
+        "home_win": 0.9341676325743782,
+        "draw": 0.04600149891241174,
+        "away_win": 0.01983086851320991
+      }
+    },
+    {
+      "match_id": 537717,
+      "utcDate": "2026-04-23T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "SC Heerenveen",
+      "away": "Fortuna Sittard",
+      "expected_goals": {
+        "home": 1.892040369137683,
+        "away": 0.8166460704058118
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6275067510543291,
+        "draw": 0.2168620301305411,
+        "away_win": 0.1556312188151298
+      }
+    },
+    {
+      "match_id": 537718,
+      "utcDate": "2026-04-23T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Telstar 1963",
+      "away": "Sparta Rotterdam",
+      "expected_goals": {
+        "home": 1.511969915614898,
+        "away": 0.7441934797887708
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5559804354071316,
+        "draw": 0.2602240604278776,
+        "away_win": 0.18379550416499102
+      }
+    },
+    {
+      "match_id": 537719,
+      "utcDate": "2026-04-23T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Twente '65",
+      "away": "NEC",
+      "expected_goals": {
+        "home": 1.7422226039793207,
+        "away": 1.3719265771917843
+      },
+      "probabilities_1x2": {
+        "home_win": 0.46284207475027117,
+        "draw": 0.23364106108658353,
+        "away_win": 0.30351686416314533
+      }
+    },
+    {
+      "match_id": 537720,
+      "utcDate": "2026-05-02T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AFC Ajax",
+      "away": "PSV",
+      "expected_goals": {
+        "home": 1.566771145229388,
+        "away": 1.605834242648713
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3739421696047901,
+        "draw": 0.235362303832007,
+        "away_win": 0.39069552656320283
+      }
+    },
+    {
+      "match_id": 537721,
+      "utcDate": "2026-05-02T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "AZ",
+      "away": "FC Twente '65",
+      "expected_goals": {
+        "home": 1.6599642518867141,
+        "away": 0.9445644826660008
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5418561335265599,
+        "draw": 0.24405560250141736,
+        "away_win": 0.21408826397202269
+      }
+    },
+    {
+      "match_id": 537722,
+      "utcDate": "2026-05-02T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Groningen",
+      "away": "SBV Excelsior",
+      "expected_goals": {
+        "home": 1.664991835005032,
+        "away": 0.5318589829427259
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6520446302003612,
+        "draw": 0.23364126965796259,
+        "away_win": 0.11431410014167609
+      }
+    },
+    {
+      "match_id": 537723,
+      "utcDate": "2026-05-02T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Utrecht",
+      "away": "NAC Breda",
+      "expected_goals": {
+        "home": 1.681472076390535,
+        "away": 0.5943125934420008
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6385783168805477,
+        "draw": 0.23403982343238736,
+        "away_win": 0.12738185968706484
+      }
+    },
+    {
+      "match_id": 537724,
+      "utcDate": "2026-05-02T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "FC Volendam",
+      "away": "SC Heerenveen",
+      "expected_goals": {
+        "home": 1.2725184453647138,
+        "away": 1.22245210815161
+      },
+      "probabilities_1x2": {
+        "home_win": 0.37680947213257177,
+        "draw": 0.27026242014074287,
+        "away_win": 0.35292810772668537
+      }
+    },
+    {
+      "match_id": 537725,
+      "utcDate": "2026-05-02T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Fortuna Sittard",
+      "away": "Feyenoord Rotterdam",
+      "expected_goals": {
+        "home": 1.1935954813653111,
+        "away": 1.5969146046234268
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2852610534030235,
+        "draw": 0.24749143770239818,
+        "away_win": 0.4672475088945784
+      }
+    },
+    {
+      "match_id": 537726,
+      "utcDate": "2026-05-02T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "NEC",
+      "away": "Telstar 1963",
+      "expected_goals": {
+        "home": 2.8987025049614377,
+        "away": 0.8031376889741448
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7998313076544853,
+        "draw": 0.12562861551794263,
+        "away_win": 0.07454007682757216
+      }
+    },
+    {
+      "match_id": 537727,
+      "utcDate": "2026-05-02T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "PEC Zwolle",
+      "away": "Heracles Almelo",
+      "expected_goals": {
+        "home": 2.241368902871654,
+        "away": 1.3628022388539074
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5731399880789287,
+        "draw": 0.19999880468040726,
+        "away_win": 0.22686120724066394
+      }
+    },
+    {
+      "match_id": 537728,
+      "utcDate": "2026-05-02T00:00:00Z",
+      "status": "SCHEDULED",
+      "home": "Sparta Rotterdam",
+      "away": "Go Ahead Eagles",
+      "expected_goals": {
+        "home": 1.2782476138692305,
+        "away": 1.1956520842372707
+      },
+      "probabilities_1x2": {
+        "home_win": 0.38405118024964047,
+        "draw": 0.27143266227796026,
+        "away_win": 0.3445161574723994
+      }
+    },
+    {
+      "match_id": 537729,
+      "utcDate": "2026-05-10T14:45:00Z",
+      "status": "TIMED",
+      "home": "AFC Ajax",
+      "away": "FC Utrecht",
+      "expected_goals": {
+        "home": 1.6743326164548435,
+        "away": 0.8851703521106087
+      },
+      "probabilities_1x2": {
+        "home_win": 0.5601982439718984,
+        "draw": 0.24212505555582226,
+        "away_win": 0.19767670047227934
+      }
+    },
+    {
+      "match_id": 537730,
+      "utcDate": "2026-05-10T14:45:00Z",
+      "status": "TIMED",
+      "home": "SBV Excelsior",
+      "away": "FC Volendam",
+      "expected_goals": {
+        "home": 1.2155099773127764,
+        "away": 0.8228323680013244
+      },
+      "probabilities_1x2": {
+        "home_win": 0.45280643265092324,
+        "draw": 0.29693666108374106,
+        "away_win": 0.2502569062653359
+      }
+    },
+    {
+      "match_id": 537731,
+      "utcDate": "2026-05-10T14:45:00Z",
+      "status": "TIMED",
+      "home": "FC Groningen",
+      "away": "NEC",
+      "expected_goals": {
+        "home": 1.6668218725683235,
+        "away": 1.3571737950220448
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4482003476608872,
+        "draw": 0.23880147552427394,
+        "away_win": 0.312998176814839
+      }
+    },
+    {
+      "match_id": 537732,
+      "utcDate": "2026-05-10T14:45:00Z",
+      "status": "TIMED",
+      "home": "Feyenoord Rotterdam",
+      "away": "AZ",
+      "expected_goals": {
+        "home": 2.5739446806037645,
+        "away": 0.9899606796766262
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7148048319206244,
+        "draw": 0.1618246768909535,
+        "away_win": 0.12337049118842217
+      }
+    },
+    {
+      "match_id": 537733,
+      "utcDate": "2026-05-10T14:45:00Z",
+      "status": "TIMED",
+      "home": "Fortuna Sittard",
+      "away": "PEC Zwolle",
+      "expected_goals": {
+        "home": 1.9397355141687564,
+        "away": 0.8463477731900452
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6303180327617763,
+        "draw": 0.21285090469145038,
+        "away_win": 0.15683106254677334
+      }
+    },
+    {
+      "match_id": 537734,
+      "utcDate": "2026-05-10T14:45:00Z",
+      "status": "TIMED",
+      "home": "Go Ahead Eagles",
+      "away": "PSV",
+      "expected_goals": {
+        "home": 1.4111528360963121,
+        "away": 2.002166774715257
+      },
+      "probabilities_1x2": {
+        "home_win": 0.2707011391175924,
+        "draw": 0.21641930728989922,
+        "away_win": 0.5128795535925084
+      }
+    },
+    {
+      "match_id": 537735,
+      "utcDate": "2026-05-10T14:45:00Z",
+      "status": "TIMED",
+      "home": "NAC Breda",
+      "away": "SC Heerenveen",
+      "expected_goals": {
+        "home": 1.1044393301504078,
+        "away": 1.0466959919979513
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3671199282170249,
+        "draw": 0.29509941531902995,
+        "away_win": 0.3377806564639451
+      }
+    },
+    {
+      "match_id": 537736,
+      "utcDate": "2026-05-10T14:45:00Z",
+      "status": "TIMED",
+      "home": "Telstar 1963",
+      "away": "Heracles Almelo",
+      "expected_goals": {
+        "home": 2.0435006609862874,
+        "away": 1.0401386042680834
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6053396935103359,
+        "draw": 0.20883176828665242,
+        "away_win": 0.18582853820301165
+      }
+    },
+    {
+      "match_id": 537737,
+      "utcDate": "2026-05-10T14:45:00Z",
+      "status": "TIMED",
+      "home": "FC Twente '65",
+      "away": "Sparta Rotterdam",
+      "expected_goals": {
+        "home": 1.9406707855997152,
+        "away": 0.5952754931241608
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6945727567569351,
+        "draw": 0.20073498035229304,
+        "away_win": 0.10469226289077188
+      }
+    },
+    {
+      "match_id": 537738,
+      "utcDate": "2026-05-17T12:30:00Z",
+      "status": "TIMED",
+      "home": "AZ",
+      "away": "NAC Breda",
+      "expected_goals": {
+        "home": 1.901293436143692,
+        "away": 0.6550872006618855
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6708982064528086,
+        "draw": 0.20881374117906834,
+        "away_win": 0.12028805236812307
+      }
+    },
+    {
+      "match_id": 537739,
+      "utcDate": "2026-05-17T12:30:00Z",
+      "status": "TIMED",
+      "home": "FC Utrecht",
+      "away": "Fortuna Sittard",
+      "expected_goals": {
+        "home": 1.7984343026745264,
+        "away": 0.7426973340543067
+      },
+      "probabilities_1x2": {
+        "home_win": 0.6257659741463837,
+        "draw": 0.22481011388237165,
+        "away_win": 0.14942391197124463
+      }
+    },
+    {
+      "match_id": 537740,
+      "utcDate": "2026-05-17T12:30:00Z",
+      "status": "TIMED",
+      "home": "FC Volendam",
+      "away": "Telstar 1963",
+      "expected_goals": {
+        "home": 1.3649796748125642,
+        "away": 0.8425907185251031
+      },
+      "probabilities_1x2": {
+        "home_win": 0.4907347292291798,
+        "draw": 0.2778059550671489,
+        "away_win": 0.23145931570367115
+      }
+    },
+    {
+      "match_id": 537741,
+      "utcDate": "2026-05-17T12:30:00Z",
+      "status": "TIMED",
+      "home": "Heracles Almelo",
+      "away": "FC Groningen",
+      "expected_goals": {
+        "home": 1.3910183957425564,
+        "away": 1.4847869036421748
+      },
+      "probabilities_1x2": {
+        "home_win": 0.3546713830676017,
+        "draw": 0.2486451488181099,
+        "away_win": 0.39668346811428823
+      }
+    },
+    {
+      "match_id": 537742,
+      "utcDate": "2026-05-17T12:30:00Z",
+      "status": "TIMED",
+      "home": "NEC",
+      "away": "Go Ahead Eagles",
+      "expected_goals": {
+        "home": 2.945966857287379,
+        "away": 1.0733876673520557
+      },
+      "probabilities_1x2": {
+        "home_win": 0.7535245546757525,
+        "draw": 0.13904294710280188,
+        "away_win": 0.10743249822144565
+      }
+    },
+    {
+      "match_id": 537743,
+      "utcDate": "2026-05-17T12:30:00Z",
+      "status": "TIMED",
+      "home": "PEC Zwolle",
+      "away": "Feyenoord Rotterdam",
+      "expected_goals": {
+        "home": 1.176853958820719,
+        "away": 2.1351866308628265
+      },
+      "probabilities_1x2": {
+        "home_win": 0.20285974051207367,
+        "draw": 0.2043961485536455,
+        "away_win": 0.5927441109342808
+      }
+    },
+    {
+      "match_id": 537744,
+      "utcDate": "2026-05-17T12:30:00Z",
+      "status": "TIMED",
+      "home": "PSV",
+      "away": "FC Twente '65",
+      "expected_goals": {
+        "home": 2.6632571482131806,
+        "away": 0.8018834632633971
+      },
+      "probabilities_1x2": {
+        "home_win": 0.768476061859841,
+        "draw": 0.14340678392192985,
+        "away_win": 0.088117154218229
+      }
+    },
+    {
+      "match_id": 537745,
+      "utcDate": "2026-05-17T12:30:00Z",
+      "status": "TIMED",
+      "home": "SC Heerenveen",
+      "away": "AFC Ajax",
+      "expected_goals": {
+        "home": 1.5738654413681188,
+        "away": 1.0893284090065225
+      },
+      "probabilities_1x2": {
+        "home_win": 0.48553949948238645,
+        "draw": 0.2513845149910329,
+        "away_win": 0.26307598552658085
+      }
+    },
+    {
+      "match_id": 537746,
+      "utcDate": "2026-05-17T12:30:00Z",
+      "status": "TIMED",
+      "home": "Sparta Rotterdam",
+      "away": "SBV Excelsior",
+      "expected_goals": {
+        "home": 1.281388676491617,
+        "away": 0.7636162620149772
+      },
+      "probabilities_1x2": {
+        "home_win": 0.48736301276919286,
+        "draw": 0.29052550665801097,
+        "away_win": 0.22211148057279623
+      }
+    }
+  ]
+}

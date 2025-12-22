@@ -1,0 +1,145 @@
+date,home_team,away_team,home_goals,away_goals
+2025-08-08T18:00:00Z,Fortuna Sittard,Go Ahead Eagles,2,2
+2025-08-09T14:30:00Z,NEC,SBV Excelsior,5,0
+2025-08-09T16:45:00Z,Feyenoord Rotterdam,NAC Breda,2,0
+2025-08-09T18:00:00Z,SC Heerenveen,FC Volendam,1,1
+2025-08-09T19:00:00Z,PSV,Sparta Rotterdam,6,1
+2025-08-10T10:15:00Z,PEC Zwolle,FC Twente '65,1,0
+2025-08-10T12:30:00Z,AFC Ajax,Telstar 1963,2,0
+2025-08-10T12:30:00Z,AZ,FC Groningen,4,1
+2025-08-10T14:45:00Z,FC Utrecht,Heracles Almelo,4,0
+2025-08-15T18:00:00Z,Telstar 1963,PEC Zwolle,0,2
+2025-08-16T16:45:00Z,SBV Excelsior,Feyenoord Rotterdam,1,2
+2025-08-16T18:00:00Z,Heracles Almelo,NEC,1,4
+2025-08-16T19:00:00Z,FC Groningen,SC Heerenveen,2,1
+2025-08-17T10:15:00Z,Go Ahead Eagles,AFC Ajax,2,2
+2025-08-17T12:30:00Z,Sparta Rotterdam,FC Utrecht,2,1
+2025-08-17T12:30:00Z,FC Twente '65,PSV,0,2
+2025-08-17T14:45:00Z,FC Volendam,AZ,2,2
+2025-08-17T18:00:00Z,NAC Breda,Fortuna Sittard,2,1
+2025-08-23T14:30:00Z,Go Ahead Eagles,Sparta Rotterdam,0,3
+2025-08-23T16:45:00Z,PSV,FC Groningen,4,2
+2025-08-23T19:00:00Z,Telstar 1963,FC Volendam,2,2
+2025-08-24T10:15:00Z,SC Heerenveen,FC Twente '65,1,2
+2025-08-24T12:30:00Z,FC Utrecht,SBV Excelsior,4,1
+2025-08-24T12:30:00Z,NEC,NAC Breda,3,0
+2025-08-24T14:45:00Z,AFC Ajax,Heracles Almelo,2,0
+2025-08-29T18:00:00Z,FC Groningen,Heracles Almelo,4,0
+2025-08-30T14:30:00Z,FC Volendam,AFC Ajax,1,1
+2025-08-30T16:45:00Z,SC Heerenveen,Go Ahead Eagles,2,2
+2025-08-30T18:00:00Z,PSV,Telstar 1963,0,2
+2025-08-30T19:00:00Z,SBV Excelsior,FC Twente '65,1,0
+2025-08-31T10:15:00Z,Fortuna Sittard,NEC,3,2
+2025-08-31T12:30:00Z,PEC Zwolle,FC Utrecht,0,2
+2025-08-31T12:30:00Z,Sparta Rotterdam,Feyenoord Rotterdam,0,4
+2025-08-31T14:45:00Z,NAC Breda,AZ,0,1
+2025-09-13T14:30:00Z,AFC Ajax,PEC Zwolle,3,1
+2025-09-13T16:45:00Z,NEC,PSV,3,5
+2025-09-13T17:10:00Z,Go Ahead Eagles,FC Volendam,3,0
+2025-09-13T19:00:00Z,Feyenoord Rotterdam,SC Heerenveen,1,0
+2025-09-13T19:00:00Z,FC Twente '65,NAC Breda,2,2
+2025-09-14T10:15:00Z,SBV Excelsior,Sparta Rotterdam,0,1
+2025-09-14T12:30:00Z,FC Utrecht,FC Groningen,0,1
+2025-09-14T12:30:00Z,Heracles Almelo,AZ,1,2
+2025-09-14T14:45:00Z,Telstar 1963,Fortuna Sittard,1,3
+2025-09-17T18:00:00Z,Feyenoord Rotterdam,Fortuna Sittard,2,0
+2025-09-19T18:00:00Z,Sparta Rotterdam,FC Twente '65,1,5
+2025-09-20T14:30:00Z,FC Volendam,SBV Excelsior,1,2
+2025-09-20T16:45:00Z,FC Groningen,Telstar 1963,2,0
+2025-09-20T18:00:00Z,Fortuna Sittard,FC Utrecht,1,0
+2025-09-20T19:00:00Z,NAC Breda,Heracles Almelo,2,1
+2025-09-21T10:15:00Z,PEC Zwolle,Go Ahead Eagles,0,2
+2025-09-21T12:30:00Z,PSV,AFC Ajax,2,2
+2025-09-21T12:30:00Z,SC Heerenveen,NEC,3,2
+2025-09-21T14:45:00Z,AZ,Feyenoord Rotterdam,3,3
+2025-09-24T18:00:00Z,AZ,PEC Zwolle,2,2
+2025-09-26T18:00:00Z,FC Twente '65,Fortuna Sittard,3,2
+2025-09-27T14:30:00Z,AFC Ajax,NAC Breda,2,1
+2025-09-27T16:45:00Z,FC Volendam,PEC Zwolle,2,1
+2025-09-27T18:00:00Z,SBV Excelsior,PSV,1,2
+2025-09-27T19:00:00Z,Heracles Almelo,Sparta Rotterdam,3,0
+2025-09-28T10:15:00Z,NEC,AZ,2,1
+2025-09-28T12:30:00Z,FC Groningen,Feyenoord Rotterdam,0,1
+2025-09-28T12:30:00Z,FC Utrecht,SC Heerenveen,2,2
+2025-09-28T14:45:00Z,Telstar 1963,Go Ahead Eagles,4,2
+2025-10-03T18:00:00Z,NAC Breda,FC Groningen,1,2
+2025-10-04T14:30:00Z,Sparta Rotterdam,AFC Ajax,3,3
+2025-10-04T16:45:00Z,Fortuna Sittard,FC Volendam,1,0
+2025-10-04T18:00:00Z,PEC Zwolle,PSV,0,4
+2025-10-04T19:00:00Z,SC Heerenveen,SBV Excelsior,2,1
+2025-10-05T10:15:00Z,FC Twente '65,Heracles Almelo,2,1
+2025-10-05T12:30:00Z,Feyenoord Rotterdam,FC Utrecht,3,2
+2025-10-05T14:45:00Z,AZ,Telstar 1963,2,1
+2025-10-05T18:00:00Z,Go Ahead Eagles,NEC,1,1
+2025-10-18T14:30:00Z,NEC,FC Twente '65,3,3
+2025-10-18T16:45:00Z,FC Utrecht,FC Volendam,3,1
+2025-10-18T16:45:00Z,PSV,Go Ahead Eagles,2,1
+2025-10-18T19:00:00Z,AFC Ajax,AZ,0,2
+2025-10-18T19:00:00Z,NAC Breda,PEC Zwolle,2,2
+2025-10-19T10:15:00Z,Telstar 1963,SC Heerenveen,2,3
+2025-10-19T12:30:00Z,FC Groningen,Sparta Rotterdam,0,2
+2025-10-19T12:30:00Z,SBV Excelsior,Fortuna Sittard,1,0
+2025-10-19T14:45:00Z,Heracles Almelo,Feyenoord Rotterdam,0,7
+2025-10-24T18:00:00Z,SC Heerenveen,NAC Breda,3,3
+2025-10-25T14:30:00Z,Fortuna Sittard,FC Groningen,1,2
+2025-10-25T16:45:00Z,Sparta Rotterdam,Telstar 1963,1,0
+2025-10-25T18:00:00Z,FC Volendam,Heracles Almelo,3,0
+2025-10-25T19:00:00Z,PEC Zwolle,NEC,2,2
+2025-10-26T11:15:00Z,FC Twente '65,AFC Ajax,2,3
+2025-10-26T13:30:00Z,Feyenoord Rotterdam,PSV,2,3
+2025-10-26T15:45:00Z,AZ,FC Utrecht,4,1
+2025-10-26T19:00:00Z,Go Ahead Eagles,SBV Excelsior,2,0
+2025-10-31T19:00:00Z,PSV,Fortuna Sittard,5,2
+2025-11-01T15:30:00Z,AFC Ajax,SC Heerenveen,1,1
+2025-11-01T17:45:00Z,NAC Breda,Go Ahead Eagles,1,0
+2025-11-01T19:00:00Z,Feyenoord Rotterdam,FC Volendam,3,1
+2025-11-01T20:00:00Z,Telstar 1963,SBV Excelsior,2,2
+2025-11-02T11:15:00Z,Heracles Almelo,PEC Zwolle,8,2
+2025-11-02T13:30:00Z,FC Groningen,FC Twente '65,1,1
+2025-11-02T13:30:00Z,Sparta Rotterdam,AZ,0,1
+2025-11-02T15:45:00Z,FC Utrecht,NEC,1,0
+2025-11-07T19:00:00Z,FC Twente '65,Telstar 1963,0,0
+2025-11-08T15:30:00Z,SBV Excelsior,Heracles Almelo,1,2
+2025-11-08T17:45:00Z,FC Volendam,NAC Breda,2,1
+2025-11-08T19:00:00Z,Fortuna Sittard,SC Heerenveen,2,0
+2025-11-08T20:00:00Z,PEC Zwolle,Sparta Rotterdam,1,0
+2025-11-09T11:15:00Z,FC Utrecht,AFC Ajax,2,1
+2025-11-09T13:30:00Z,NEC,FC Groningen,2,0
+2025-11-09T15:45:00Z,AZ,PSV,1,5
+2025-11-09T19:00:00Z,Go Ahead Eagles,Feyenoord Rotterdam,2,1
+2025-11-22T15:30:00Z,NAC Breda,PSV,0,1
+2025-11-22T17:45:00Z,AFC Ajax,SBV Excelsior,1,2
+2025-11-22T17:45:00Z,FC Volendam,FC Twente '65,1,1
+2025-11-22T20:00:00Z,Heracles Almelo,Go Ahead Eagles,4,2
+2025-11-22T20:00:00Z,Sparta Rotterdam,Fortuna Sittard,1,1
+2025-11-23T11:15:00Z,SC Heerenveen,AZ,3,1
+2025-11-23T13:30:00Z,Feyenoord Rotterdam,NEC,2,4
+2025-11-23T13:30:00Z,Telstar 1963,FC Utrecht,1,1
+2025-11-23T15:45:00Z,FC Groningen,PEC Zwolle,2,2
+2025-11-28T19:00:00Z,PEC Zwolle,SC Heerenveen,2,1
+2025-11-29T15:30:00Z,SBV Excelsior,NAC Breda,1,0
+2025-11-29T17:45:00Z,Fortuna Sittard,Heracles Almelo,1,1
+2025-11-29T20:00:00Z,NEC,Sparta Rotterdam,3,1
+2025-11-30T11:15:00Z,PSV,FC Volendam,3,0
+2025-11-30T13:30:00Z,Go Ahead Eagles,FC Utrecht,2,2
+2025-11-30T13:30:00Z,Telstar 1963,Feyenoord Rotterdam,1,2
+2025-11-30T15:45:00Z,FC Twente '65,AZ,1,0
+2025-12-02T13:30:00Z,AFC Ajax,FC Groningen,2,0
+2025-12-05T19:00:00Z,SBV Excelsior,FC Groningen,0,2
+2025-12-06T15:30:00Z,SC Heerenveen,PSV,0,2
+2025-12-06T17:45:00Z,Fortuna Sittard,AFC Ajax,1,3
+2025-12-06T19:00:00Z,Heracles Almelo,Telstar 1963,1,1
+2025-12-06T20:00:00Z,Feyenoord Rotterdam,PEC Zwolle,6,1
+2025-12-07T11:15:00Z,FC Utrecht,FC Twente '65,1,1
+2025-12-07T13:30:00Z,AZ,Go Ahead Eagles,2,2
+2025-12-07T13:30:00Z,FC Volendam,NEC,2,3
+2025-12-07T15:45:00Z,Sparta Rotterdam,NAC Breda,1,0
+2025-12-13T15:30:00Z,Telstar 1963,NEC,2,2
+2025-12-13T17:45:00Z,FC Groningen,FC Volendam,3,0
+2025-12-13T19:00:00Z,PSV,Heracles Almelo,4,3
+2025-12-13T20:00:00Z,PEC Zwolle,Fortuna Sittard,1,0
+2025-12-14T11:15:00Z,Sparta Rotterdam,SC Heerenveen,0,3
+2025-12-14T13:30:00Z,AFC Ajax,Feyenoord Rotterdam,2,0
+2025-12-14T13:30:00Z,FC Twente '65,Go Ahead Eagles,2,0
+2025-12-14T15:45:00Z,NAC Breda,FC Utrecht,1,1
+2025-12-20T15:30:00Z,Heracles Almelo,SC Heerenveen,0,3
