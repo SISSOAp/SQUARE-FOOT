@@ -1,18 +1,20 @@
 // web/sw.js
-const CACHE_NAME = "square-foot-v1";
+const CACHE_NAME = "square-foot-v2"; // <-- troquei v1 -> v2 para forçar atualizar cache
 
-// Cache mínimo (assets do PWA)
 const CORE_ASSETS = [
   "/",
+  "/app.js",
   "/sw.js",
   "/icons/site.webmanifest",
-  "/icons/favicon-32.png",
+  "/icons/favicon.ico",
   "/icons/favicon-16.png",
+  "/icons/favicon-32.png",
+  "/icons/icon-180.png",
   "/icons/icon-192.png",
   "/icons/icon-512.png",
+  "/icons/logo.png"
 ];
 
-// Helpers
 async function cacheFirst(request) {
   const cache = await caches.open(CACHE_NAME);
   const cached = await cache.match(request);
@@ -29,70 +31,53 @@ async function networkFirst(request) {
     const res = await fetch(request);
     if (res && res.ok) cache.put(request, res.clone());
     return res;
-  } catch (err) {
+  } catch (e) {
     const cached = await cache.match(request);
     if (cached) return cached;
-    throw err;
+    throw e;
   }
 }
 
 self.addEventListener("install", (event) => {
-  event.waitUntil(
-    (async () => {
-      const cache = await caches.open(CACHE_NAME);
-      await cache.addAll(CORE_ASSETS);
-      self.skipWaiting();
-    })()
-  );
+  event.waitUntil((async () => {
+    const cache = await caches.open(CACHE_NAME);
+    await cache.addAll(CORE_ASSETS);
+    self.skipWaiting();
+  })());
 });
 
 self.addEventListener("activate", (event) => {
-  event.waitUntil(
-    (async () => {
-      const keys = await caches.keys();
-      await Promise.all(keys.map((k) => (k !== CACHE_NAME ? caches.delete(k) : null)));
-      self.clients.claim();
-    })()
-  );
+  event.waitUntil((async () => {
+    const keys = await caches.keys();
+    await Promise.all(keys.map((k) => (k !== CACHE_NAME ? caches.delete(k) : null)));
+    self.clients.claim();
+  })());
 });
 
-// Estratégia:
-// - HTML (navegação): network-first (fallback cache)
-// - API (/leagues, /matches, /card): network-first (fallback cache)
-// - Ícones/arquivos estáticos: cache-first
 self.addEventListener("fetch", (event) => {
   const req = event.request;
   const url = new URL(req.url);
 
-  // Só controla o mesmo domínio
-  if (url.origin !== location.origin) return;
+  if (req.method !== "GET") return;
 
-  const isApi =
-    url.pathname.startsWith("/leagues") ||
-    url.pathname.startsWith("/matches") ||
-    url.pathname.startsWith("/card");
+  // Não cachear chamadas da API; pega sempre da rede
+  if (url.pathname.startsWith("/matches") || url.pathname.startsWith("/leagues")) {
+    event.respondWith(fetch(req));
+    return;
+  }
 
-  const isIcons = url.pathname.startsWith("/icons/");
-  const isSW = url.pathname === "/sw.js";
-
-  // Navegação (carregar a página)
+  // HTML navegação: tenta rede primeiro
   if (req.mode === "navigate") {
     event.respondWith(networkFirst(req));
     return;
   }
 
-  // API: prioridade rede, fallback cache
-  if (isApi) {
-    event.respondWith(networkFirst(req));
-    return;
-  }
-
-  // Assets: cache-first
-  if (isIcons || isSW) {
+  // Assets do PWA: cache-first
+  if (CORE_ASSETS.includes(url.pathname)) {
     event.respondWith(cacheFirst(req));
     return;
   }
 
   // Default
-  event.respondWith(cacheFirst(req));
+  event.respondWith(networkFirst(req));
 });
