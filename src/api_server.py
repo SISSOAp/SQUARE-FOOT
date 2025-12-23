@@ -65,6 +65,17 @@ STATUS_FILTERS = {
 }
 
 app = FastAPI(title="SQUARE FOOT", version="1.6")
+from fastapi.responses import FileResponse
+import os
+
+WEB_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "web"))
+
+@app.get("/app.js")
+def serve_app_js():
+    return FileResponse(
+        os.path.join(WEB_DIR, "app.js"),
+        media_type="application/javascript",
+    )
 
 
 # =========================
