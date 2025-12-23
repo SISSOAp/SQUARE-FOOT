@@ -1,81 +1,57 @@
 // web/sw.js
-const CACHE_NAME = "square-foot-v2"; // <-- troquei v1 -> v2 para forçar atualização
+const CACHE_NAME = "square-foot-v3";
 
-// Cache mínimo (assets do PWA + principais arquivos)
+// Arquivos essenciais do app (inclui logo e manifest com ?v=3)
 const CORE_ASSETS = [
   "/",
-  "/sw.js",
-  "/icons/site.webmanifest",
-  "/icons/favicon.ico",
-  "/icons/favicon-16.png",
-  "/icons/favicon-32.png",
-  "/icons/icon-192.png",
-  "/icons/icon-512.png",
-  "/icons/square-foot-logo.png",   // <-- tua logo nova
-  "/app.js",
+  "/app.js?v=3",
+  "/icons/square-foot-logo.png?v=3",
+  "/icons/site.webmanifest?v=3"
 ];
-
-// Helpers
-async function cacheFirst(request) {
-  const cache = await caches.open(CACHE_NAME);
-  const cached = await cache.match(request);
-  if (cached) return cached;
-
-  const res = await fetch(request);
-  if (res && res.ok) cache.put(request, res.clone());
-  return res;
-}
-
-async function networkFirst(request) {
-  const cache = await caches.open(CACHE_NAME);
-  try {
-    const res = await fetch(request);
-    if (res && res.ok) cache.put(request, res.clone());
-    return res;
-  } catch (err) {
-    const cached = await cache.match(request);
-    if (cached) return cached;
-    throw err;
-  }
-}
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
-    (async () => {
-      const cache = await caches.open(CACHE_NAME);
-      await cache.addAll(CORE_ASSETS);
-      self.skipWaiting();
-    })()
+    caches.open(CACHE_NAME).then((cache) => cache.addAll(CORE_ASSETS))
   );
+  self.skipWaiting();
 });
 
 self.addEventListener("activate", (event) => {
   event.waitUntil(
-    (async () => {
-      const keys = await caches.keys();
-      await Promise.all(
-        keys.map((k) => {
-          if (k !== CACHE_NAME) return caches.delete(k);
-        })
-      );
-      self.clients.claim();
-    })()
+    caches.keys().then((keys) =>
+      Promise.all(keys.map((k) => (k === CACHE_NAME ? null : caches.delete(k))))
+    )
   );
+  self.clients.claim();
 });
 
 self.addEventListener("fetch", (event) => {
   const req = event.request;
   const url = new URL(req.url);
 
-  // Só controla o próprio domínio
-  if (url.origin !== self.location.origin) return;
+  // Nunca cachear API
+  if (url.pathname.startsWith("/api")) return;
 
-  // Para HTML (/) usa network-first (sempre tenta pegar versão nova)
+  // Navegação: tenta rede primeiro, cai para cache
   if (req.mode === "navigate") {
-    event.respondWith(networkFirst(req));
+    event.respondWith(
+      fetch(req).catch(() => caches.match("/"))
+    );
     return;
   }
 
-  // Para JS/PNG/CSS etc: cache-first
-  event.respondWith(cacheFirst(req));
+  // Assets: cache-first
+  event.respondWith(
+    caches.match(req).then((cached) => {
+      if (cached) return cached;
+      return fetch(req).then((res) => {
+        // só cacheia GET ok
+        if (req.method === "GET" && res && res.ok) {
+          const copy = res.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(req, copy));
+        }
+        return res;
+      });
+    })
+  );
 });

@@ -5,124 +5,115 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>SQUARE FOOT</title>
 
-  <link rel="icon" href="/icons/favicon.ico" sizes="any">
-  <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/icons/icon-192.png">
-  <link rel="manifest" href="/icons/site.webmanifest">
-  <meta name="theme-color" content="#0b1723">
+  <!-- Ícones: apontando TODOS para a logo nova (1 arquivo só) -->
+  <link rel="icon" type="image/png" href="/icons/square-foot-logo.png?v=3" />
+  <link rel="apple-touch-icon" href="/icons/square-foot-logo.png?v=3" />
+  <link rel="manifest" href="/icons/site.webmanifest?v=3" />
+  <meta name="theme-color" content="#0b1723" />
 
   <style>
-    body { font-family: Arial, sans-serif; margin: 16px; background:#07131d; color:#e9eef5; }
-    .wrap { max-width: 1100px; margin: 0 auto; }
-    header { display:flex; gap:14px; align-items:center; margin-bottom: 14px; }
-    .brand { display:flex; gap:14px; align-items:center; }
-    .brand img { width:56px; height:56px; image-rendering: pixelated; }
-    h1 { margin:0; font-size: 34px; letter-spacing: 1px; }
-    .sub { margin:4px 0 0; color:#b7c5d6; font-size: 14px; }
-    .meta { margin-left:auto; color:#a6b7c9; font-size: 13px; text-align:right; }
+    :root { color-scheme: dark; }
+    body { font-family: Arial, sans-serif; margin: 16px; background: #07131e; color: #eaf2ff; }
+    .wrap { max-width: 980px; margin: 0 auto; }
+    .hero { display:flex; align-items:center; gap:14px; margin-bottom: 10px; }
+    .logo { width: 44px; height: 44px; object-fit: contain; image-rendering: pixelated; }
+    h1 { margin: 0; letter-spacing: 2px; }
+    .sub { margin: 6px 0 14px; opacity: .9; }
 
-    .panel { background:#0b1c2a; border:1px solid rgba(255,255,255,.08); border-radius: 14px; padding: 14px; }
-    .row { display:flex; gap:12px; flex-wrap:wrap; align-items:flex-end; }
-    label { display:block; font-size: 12px; color:#b7c5d6; margin-bottom: 6px; }
-    select, input { padding: 10px 12px; border-radius: 10px; border:1px solid rgba(255,255,255,.14); background:#07131d; color:#e9eef5; min-width: 220px; }
-    input[type="number"]{ min-width: 120px; width: 120px; }
-    button { padding: 10px 14px; border-radius: 10px; border:0; cursor:pointer; background:#1f7a4d; color:white; font-weight:700; }
-    button.secondary { background:#2a3b4d; }
+    .row { display:flex; gap:12px; flex-wrap: wrap; align-items:flex-end; }
+    .card { background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.08); border-radius: 14px; padding: 12px; }
+    label { display:block; font-size: 12px; opacity: .9; margin-bottom:6px; }
+    select, input, button { padding: 10px 12px; font-size: 14px; border-radius: 12px; border: 1px solid rgba(255,255,255,.12); background: rgba(0,0,0,.25); color: #eaf2ff; }
+    button { cursor: pointer; background: #0d6b4b; border-color: rgba(255,255,255,.08); }
+    button:hover { filter: brightness(1.05); }
+    .meta { color:#a9c0da; margin: 10px 0; }
+    .err { color:#ffb3b3; white-space: pre-wrap; }
 
-    .hint { margin-top: 10px; font-size: 13px; color:#c7d3e1; border: 1px dashed rgba(255,255,255,.14); padding: 10px; border-radius: 12px; }
-    .err { margin-top: 10px; color:#ff8a8a; white-space: pre-wrap; }
+    table { width:100%; border-collapse: collapse; margin-top: 8px; }
+    th, td { border-bottom: 1px solid rgba(255,255,255,.08); padding: 10px 8px; font-size: 14px; vertical-align: top; }
+    th { text-align:left; opacity: .9; }
+    .pill { display:inline-block; padding: 3px 10px; border-radius:999px; border: 1px solid rgba(255,255,255,.10); background: rgba(255,255,255,.06); font-size: 12px; }
 
-    table { width:100%; border-collapse: collapse; margin-top: 14px; }
-    th, td { border-bottom: 1px solid rgba(255,255,255,.10); padding: 10px; font-size: 14px; vertical-align: top; }
-    th { text-align:left; color:#b7c5d6; font-size: 12px; text-transform: uppercase; letter-spacing: .08em; }
-
-    @media (max-width: 520px){
-      h1 { font-size: 28px; }
-      .meta { width:100%; text-align:left; margin-left:0; }
-      header { flex-wrap: wrap; }
-      select, input { min-width: 100%; width: 100%; }
-      input[type="number"]{ width: 100%; }
-      button { width: 100%; }
-      .brand img { width:48px; height:48px; }
+    /* Mobile */
+    @media (max-width: 520px) {
+      body { margin: 12px; }
+      .logo { width: 38px; height: 38px; }
+      h1 { font-size: 26px; }
+      .row { gap: 10px; }
+      select, input, button { width: 100%; }
+      table { font-size: 13px; }
+      th:nth-child(1), td:nth-child(1) { width: 95px; }
     }
   </style>
 </head>
 
 <body>
   <div class="wrap">
-    <header>
-      <div class="brand">
-        <!-- LOGO NOVA (sem fundo) -->
-        <img src="/icons/square-foot-logo.png" alt="Square Foot logo">
-        <div>
-          <h1 id="ttl">SQUARE FOOT</h1>
-          <div class="sub">Probabilidades simples para jogos de futebol — em tempo real</div>
-        </div>
+    <div class="hero">
+      <img class="logo" src="/icons/square-foot-logo.png?v=3" alt="Square Foot" />
+      <div>
+        <h1>SQUARE FOOT</h1>
+        <div class="sub">Probabilidades simples para jogos de futebol — em tempo real</div>
       </div>
-      <div class="meta" id="meta">Fuso: Horário de Brasília (America/Sao_Paulo)</div>
-    </header>
+    </div>
 
-    <div class="panel">
+    <div class="card">
       <div class="row">
-        <div>
+        <div style="flex:1; min-width:220px;">
           <label for="code">Competição</label>
           <select id="code"></select>
         </div>
 
-        <div>
-          <label for="status">Status</label>
-          <select id="status">
+        <div style="flex:1; min-width:220px;">
+          <label for="t1">Status</label>
+          <select id="t1">
             <option value="SCHEDULED">Agendado</option>
             <option value="LIVE">Ao vivo</option>
             <option value="FINISHED">Finalizado</option>
           </select>
         </div>
 
-        <div>
+        <div style="width:140px; min-width:140px;">
           <label for="maxMatches">Qtd jogos</label>
           <input id="maxMatches" type="number" value="15" min="1" max="50" />
         </div>
 
-        <div>
-          <label for="minHome">Min % Casa</label>
-          <input id="minHome" type="number" value="0" min="0" max="100" />
+        <!-- Mantido porque seu app.js espera esse id existir -->
+        <div style="display:none;">
+          <label for="minHome">minHome</label>
+          <input id="minHome" type="number" value="0" />
         </div>
 
-        <div>
-          <label for="minAway">Min % Fora</label>
-          <input id="minAway" type="number" value="0" min="0" max="100" />
+        <div style="min-width:160px;">
+          <button id="btnLoad">Carregar</button>
+          <button id="btnSave" style="display:none;">Salvar</button>
+          <button id="btnAuto" style="display:none;">Auto</button>
         </div>
-
-        <button id="btnLoad">Carregar</button>
-        <button class="secondary" id="btnSave">Salvar</button>
-        <button class="secondary" id="btnAuto">Auto</button>
       </div>
 
-      <div class="hint">
-        <b>Como usar:</b> escolha a competição → clique em <b>Carregar</b> → clique em um jogo para ver o card.
-      </div>
-
+      <div class="meta" id="meta"></div>
       <div class="err" id="err"></div>
 
-      <table>
-        <thead>
-          <tr>
-            <th>Data (BR)</th>
-            <th>Jogo</th>
-            <th>Status</th>
-          </tr>
-        </thead>
-        <tbody id="rows"></tbody>
-      </table>
+      <div class="card" style="margin-top:12px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; gap:10px;">
+          <h2 style="margin:0;">Jogos</h2>
+          <div class="pill" id="rowsBadge">—</div>
+        </div>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Data (BR)</th>
+              <th>Jogo</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
     </div>
   </div>
 
-  <script src="/app.js"></script>
-  <script>
-    if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("/sw.js").catch(() => {});
-    }
-  </script>
+  <script src="/app.js?v=3" defer></script>
 </body>
 </html>
