@@ -67,6 +67,18 @@ STATUS_FILTERS = {
 app = FastAPI(title="SQUARE FOOT", version="1.6")
 from fastapi.responses import FileResponse
 import os
+from pathlib import Path
+from fastapi.responses import FileResponse
+
+# ... (deixe seus imports existentes)
+
+BASE_DIR = Path(__file__).resolve().parent        # .../src
+ROOT_DIR = BASE_DIR.parent                        # raiz do repo
+WEB_DIR = ROOT_DIR / "web"                        # .../web
+
+@app.get("/app.js")
+def serve_app_js():
+    return FileResponse(WEB_DIR / "app.js", media_type="application/javascript")
 
 WEB_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "web"))
 
