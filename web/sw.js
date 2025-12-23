@@ -1,20 +1,18 @@
 // web/sw.js
-const CACHE_NAME = "square-foot-v3";
+const CACHE_NAME = "square-foot-v2"; // <-- troquei v1 -> v2 para forçar atualização
 
-// Cache mínimo (assets do PWA)
+// Cache mínimo (assets do PWA + principais arquivos)
 const CORE_ASSETS = [
   "/",
-  "/index.html",
-  "/app.js",
   "/sw.js",
   "/icons/site.webmanifest",
   "/icons/favicon.ico",
   "/icons/favicon-16.png",
   "/icons/favicon-32.png",
-  "/icons/icon-180.png",
   "/icons/icon-192.png",
   "/icons/icon-512.png",
-  "/icons/square-foot-logo.png",
+  "/icons/square-foot-logo.png",   // <-- tua logo nova
+  "/app.js",
 ];
 
 // Helpers
@@ -34,10 +32,10 @@ async function networkFirst(request) {
     const res = await fetch(request);
     if (res && res.ok) cache.put(request, res.clone());
     return res;
-  } catch (e) {
+  } catch (err) {
     const cached = await cache.match(request);
     if (cached) return cached;
-    throw e;
+    throw err;
   }
 }
 
@@ -55,7 +53,11 @@ self.addEventListener("activate", (event) => {
   event.waitUntil(
     (async () => {
       const keys = await caches.keys();
-      await Promise.all(keys.map((k) => (k === CACHE_NAME ? null : caches.delete(k))));
+      await Promise.all(
+        keys.map((k) => {
+          if (k !== CACHE_NAME) return caches.delete(k);
+        })
+      );
       self.clients.claim();
     })()
   );
@@ -63,25 +65,17 @@ self.addEventListener("activate", (event) => {
 
 self.addEventListener("fetch", (event) => {
   const req = event.request;
-  if (req.method !== "GET") return;
-
   const url = new URL(req.url);
 
-  // Não mexe com coisas de outras origens
+  // Só controla o próprio domínio
   if (url.origin !== self.location.origin) return;
 
-  // API: tenta rede primeiro, cai pro cache se offline
-  if (
-    url.pathname.startsWith("/leagues") ||
-    url.pathname.startsWith("/matches") ||
-    url.pathname.startsWith("/standings") ||
-    url.pathname.startsWith("/teamstats") ||
-    url.pathname.startsWith("/last5")
-  ) {
+  // Para HTML (/) usa network-first (sempre tenta pegar versão nova)
+  if (req.mode === "navigate") {
     event.respondWith(networkFirst(req));
     return;
   }
 
-  // Assets: cache primeiro
+  // Para JS/PNG/CSS etc: cache-first
   event.respondWith(cacheFirst(req));
 });
