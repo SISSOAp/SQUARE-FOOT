@@ -2,290 +2,262 @@
 <html lang="pt-br">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SQUARE FOOT</title>
 
-  <link rel="icon" href="./icons/favicon.ico" sizes="any">
-  <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="./icons/icon-180.png">
-  <link rel="manifest" href="./icons/site.webmanifest">
-  <meta name="theme-color" content="#0b1723">
+  <!-- PWA / Ícones -->
+  <link rel="icon" href="/icons/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/icon-180.png">
+  <link rel="manifest" href="/icons/site.webmanifest">
+  <meta name="theme-color" content="#0b1723" />
 
   <style>
     :root{
-      --bg:#061720;
-      --panel: rgba(8, 22, 31, .72);
-      --border: rgba(255,255,255,.10);
-      --text:#e8f1f5;
-      --muted:#a9c0cb;
-      --accent:#19c37d;
-      --danger:#ff8a8f;
+      --bg1:#07131c;
+      --bg2:#0b1723;
+      --card:#0f2231;
+      --card2:#0b1a26;
+      --text:#e9f0f6;
+      --muted:#a8b5c2;
+      --accent:#1f7a4a;
+      --line:rgba(255,255,255,.10);
+      --shadow: 0 12px 30px rgba(0,0,0,.35);
+      --radius:16px;
     }
-
-    *{ box-sizing:border-box; }
-
+    *{box-sizing:border-box}
     body{
       margin:0;
-      font-family: Arial, sans-serif;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
       color:var(--text);
-      background:
-        radial-gradient(1200px 800px at 20% 10%, rgba(25,195,125,.20), transparent 60%),
-        radial-gradient(900px 700px at 90% 30%, rgba(60,140,255,.14), transparent 55%),
-        var(--bg);
-      min-height: 100svh;
+      background: radial-gradient(900px 600px at 30% 0%, #0d2a2a 0%, var(--bg1) 40%, var(--bg2) 100%);
+      min-height:100vh;
     }
-
-    .container{
-      max-width: 1100px;
+    .page{
+      max-width: 980px;
       margin: 0 auto;
-      padding: 18px;
-      padding-left: max(18px, env(safe-area-inset-left));
-      padding-right: max(18px, env(safe-area-inset-right));
-      padding-top: max(18px, env(safe-area-inset-top));
-      padding-bottom: max(18px, env(safe-area-inset-bottom));
+      padding: 18px 14px 40px;
     }
 
-    .header{
+    header{
       display:flex;
-      gap:16px;
       align-items:flex-start;
       justify-content:space-between;
-      flex-wrap:wrap;
-      margin-bottom:16px;
+      gap:12px;
+      padding: 12px 6px 16px;
     }
-
     .brand{
       display:flex;
+      align-items:center;
       gap:12px;
-      align-items:flex-start;
-      min-width: 260px;
+      min-width: 220px;
     }
-
-    .logo{
-      width:44px;
-      height:44px;
-      border-radius:14px;
-      border:1px solid var(--border);
-      background: rgba(255,255,255,.05);
-      flex: 0 0 auto;
+    .brand img{
+      width:54px;
+      height:54px;
+      object-fit:contain;
+      image-rendering: pixelated;
+      filter: drop-shadow(0 8px 14px rgba(0,0,0,.35));
     }
-
-    #ttl{
+    .brand h1{
       margin:0;
-      font-size:32px;
-      letter-spacing:.4px;
+      letter-spacing:.5px;
+      font-size: 38px;
       line-height: 1.05;
     }
-
-    .sub{
-      margin:8px 0 0;
+    .brand p{
+      margin:6px 0 0;
       color:var(--muted);
-      max-width: 52ch;
-      font-size: 14px;
-      line-height: 1.35;
+      font-size:14px;
+      max-width: 420px;
     }
-
-    #meta{
-      margin-top:10px;
+    .tz{
       color:var(--muted);
-      font-size: 13px;
+      font-size:14px;
+      margin-top: 10px;
+      text-align:right;
+      white-space:nowrap;
     }
 
     .grid{
       display:grid;
-      grid-template-columns: 380px 1fr;
-      gap:18px;
-      align-items:start;
+      grid-template-columns: 1fr;
+      gap:14px;
     }
 
     .card{
-      background: var(--panel);
-      border: 1px solid var(--border);
-      border-radius: 18px;
-      padding: 16px;
-      backdrop-filter: blur(10px);
+      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+      border-radius: var(--radius);
+      padding: 14px;
+      overflow:hidden;
     }
 
-    .field{
-      display:flex;
-      flex-direction:column;
-      gap:6px;
-      margin-bottom:12px;
+    .controls{
+      display:grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
     }
-
+    .row{
+      display:grid;
+      grid-template-columns: 1fr;
+      gap: 6px;
+    }
     label{
       font-size: 13px;
       color: var(--muted);
     }
-
-    input, select{
-      width: 100%;
-      padding: 10px 12px;
-      border-radius: 12px;
-      border: 1px solid var(--border);
-      background: rgba(255,255,255,.04);
-      color: var(--text);
-      outline: none;
-    }
-
-    button{
+    select, input{
       width:100%;
-      padding: 10px 12px;
+      padding: 12px 12px;
       border-radius: 12px;
-      border: 1px solid rgba(25,195,125,.40);
-      background: rgba(25,195,125,.18);
+      border: 1px solid var(--line);
+      background: rgba(0,0,0,.22);
       color: var(--text);
+      outline:none;
+      font-size: 15px;
+    }
+    button{
+      padding: 12px 14px;
+      border: 0;
+      border-radius: 12px;
+      background: linear-gradient(180deg, #2aa764, var(--accent));
+      color: #062012;
       font-weight: 700;
-      cursor: pointer;
+      cursor:pointer;
+      box-shadow: 0 10px 18px rgba(31,122,74,.30);
     }
-    button:hover{ background: rgba(25,195,125,.28); }
-
-    .actions{
-      display:grid;
-      grid-template-columns: 1fr 1fr;
-      gap:10px;
-      margin-top:10px;
-    }
+    button:active{ transform: translateY(1px); }
 
     .hint{
-      margin-top:12px;
-      padding:12px;
+      margin-top:10px;
+      padding: 10px 12px;
       border: 1px dashed rgba(255,255,255,.18);
-      border-radius: 14px;
+      border-radius: 12px;
       color: var(--muted);
       font-size: 13px;
-      line-height: 1.35;
     }
 
-    #err{
-      margin-top: 10px;
-      color: var(--danger);
+    .meta{
+      margin-top:10px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .err{
+      margin-top:10px;
+      color: #ffb3b3;
       white-space: pre-wrap;
       font-size: 13px;
     }
 
-    .listHeader{
-      display:flex;
-      justify-content:space-between;
-      gap:12px;
-      flex-wrap:wrap;
-      align-items:center;
-      margin-bottom:10px;
-    }
-    .listHeader h2{
-      margin:0;
-      font-size:18px;
-    }
-    .listHeader small{
-      color:var(--muted);
-      font-size: 12px;
-    }
-
     .tableWrap{
       overflow:auto;
-      -webkit-overflow-scrolling: touch;
-      border-radius: 16px;
-      border: 1px solid var(--border);
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: rgba(0,0,0,.18);
     }
-
     table{
       width:100%;
       border-collapse: collapse;
-      min-width: 620px; /* força scroll horizontal no celular sem quebrar tudo */
+      min-width: 760px; /* no celular vira scroll horizontal */
     }
-
     th, td{
-      padding: 10px 12px;
+      padding: 12px 12px;
       border-bottom: 1px solid rgba(255,255,255,.08);
       font-size: 14px;
-      vertical-align: top;
+      text-align:left;
+      vertical-align: middle;
     }
-
     th{
-      color: var(--muted);
-      font-weight: 700;
-      background: rgba(0,0,0,.14);
+      color: #dbe6ef;
+      background: rgba(0,0,0,.18);
       position: sticky;
       top: 0;
       z-index: 1;
     }
-
-    /* Responsivo */
-    @media (max-width: 920px){
-      .grid{ grid-template-columns: 1fr; }
+    .pill{
+      display:inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      border:1px solid rgba(255,255,255,.15);
+      background: rgba(0,0,0,.18);
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
     }
 
-    @media (max-width: 520px){
-      .container{ padding: 14px; }
-      #ttl{ font-size: 28px; }
-
-      /* IMPORTANT: evita zoom do iPhone ao focar em input/select */
-      input, select, button{ font-size: 16px; }
-
-      .actions{ grid-template-columns: 1fr; }
+    /* Responsivo: no celular, layout fica vertical e confortável */
+    @media (min-width: 860px){
+      .grid{
+        grid-template-columns: 380px 1fr;
+        align-items:start;
+      }
+      .controls{
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
 
 <body>
-  <div class="container">
-    <header class="header">
+  <div class="page">
+    <header>
       <div class="brand">
-        <div class="logo" aria-hidden="true"></div>
+        <img src="/icons/logo.png" alt="Square Foot logo" />
         <div>
-          <h1 id="ttl">SQUARE FOOT</h1>
-          <p class="sub">Probabilidades simples para jogos de futebol — em tempo real</p>
-          <div id="meta">Fuso: Horário de Brasília (America/Sao_Paulo)</div>
+          <h1>SQUARE FOOT</h1>
+          <p>Probabilidades simples para jogos de futebol — em tempo real</p>
         </div>
       </div>
+      <div class="tz">Fuso: Horário de Brasília<br>(America/Sao_Paulo)</div>
     </header>
 
     <div class="grid">
       <section class="card">
-        <div class="field">
-          <label for="code">Competição</label>
-          <select id="code"></select>
+        <div class="controls">
+          <div class="row">
+            <label for="code">Competição</label>
+            <select id="code"></select>
+          </div>
+
+          <div class="row">
+            <label for="status">Status</label>
+            <select id="status">
+              <option value="SCHEDULED">Agendado</option>
+              <option value="LIVE">Ao vivo</option>
+              <option value="FINISHED">Finalizado</option>
+            </select>
+          </div>
+
+          <div class="row">
+            <label for="maxMatches">Qtd jogos</label>
+            <input id="maxMatches" type="number" min="1" max="200" value="15" />
+          </div>
+
+          <button id="btnLoad">Carregar</button>
+
+          <!-- Campos extras que seu app.js já referencia -->
+          <input id="minHome" type="hidden" value="0" />
+          <input id="ttl" type="hidden" value="60" />
+
+          <div class="hint">
+            <b>Como usar:</b> escolha a competição → clique em <b>Carregar</b> → clique em um jogo para ver o card.
+          </div>
+
+          <div id="meta" class="meta"></div>
+          <div id="err" class="err"></div>
         </div>
-
-        <div class="field">
-          <label for="status">Status</label>
-          <select id="status">
-            <option value="SCHEDULED">Agendado</option>
-            <option value="LIVE">Ao vivo</option>
-            <option value="FINISHED">Finalizado</option>
-          </select>
-        </div>
-
-        <div class="field">
-          <label for="maxMatches">Qtd jogos</label>
-          <input id="maxMatches" type="number" min="1" max="60" value="15" />
-        </div>
-
-        <div class="field">
-          <label for="minHome">Filtro (casa) - mínimo</label>
-          <input id="minHome" type="number" min="0" max="1" step="0.01" value="0" />
-        </div>
-
-        <button id="btnLoad" type="button">Carregar</button>
-
-        <div class="actions">
-          <button id="btnAuto" type="button">Auto</button>
-          <button id="btnSave" type="button">Salvar</button>
-        </div>
-
-        <div class="hint">
-          <strong>Como usar:</strong> escolha a competição → clique em <strong>Carregar</strong> → clique em um jogo para ver o card.
-        </div>
-
-        <div id="err"></div>
       </section>
 
       <section class="card">
-        <div class="listHeader">
-          <h2>Jogos</h2>
-          <small id="leagueMeta"></small>
+        <div style="display:flex; align-items:center; justify-content:space-between; gap:10px;">
+          <h2 style="margin:0; font-size:18px;">Jogos</h2>
+          <span class="pill" id="badge"></span>
         </div>
+
+        <div style="height:10px"></div>
 
         <div class="tableWrap">
           <table>
@@ -294,6 +266,9 @@
                 <th>Data (BR)</th>
                 <th>Jogo</th>
                 <th>Status</th>
+                <th>Prob. Casa</th>
+                <th>Empate</th>
+                <th>Prob. Fora</th>
               </tr>
             </thead>
             <tbody id="rows"></tbody>
@@ -303,10 +278,10 @@
     </div>
   </div>
 
-  <script src="./app.js"></script>
+  <script src="/app.js"></script>
   <script>
     if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("./sw.js").catch(() => {});
+      navigator.serviceWorker.register("/sw.js");
     }
   </script>
 </body>
