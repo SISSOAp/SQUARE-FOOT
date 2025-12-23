@@ -2,287 +2,363 @@
 <html lang="pt-br">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <title>SQUARE FOOT</title>
 
-  <!-- PWA / Ícones -->
+  <meta name="theme-color" content="#0b1723" />
+
   <link rel="icon" href="/icons/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/icons/icon-180.png">
   <link rel="manifest" href="/icons/site.webmanifest">
-  <meta name="theme-color" content="#0b1723" />
 
   <style>
     :root{
-      --bg1:#07131c;
-      --bg2:#0b1723;
-      --card:#0f2231;
-      --card2:#0b1a26;
-      --text:#e9f0f6;
-      --muted:#a8b5c2;
-      --accent:#1f7a4a;
-      --line:rgba(255,255,255,.10);
-      --shadow: 0 12px 30px rgba(0,0,0,.35);
-      --radius:16px;
-    }
-    *{box-sizing:border-box}
-    body{
-      margin:0;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      color:var(--text);
-      background: radial-gradient(900px 600px at 30% 0%, #0d2a2a 0%, var(--bg1) 40%, var(--bg2) 100%);
-      min-height:100vh;
-    }
-    .page{
-      max-width: 980px;
-      margin: 0 auto;
-      padding: 18px 14px 40px;
+      --bg1:#07141f;
+      --bg2:#0b1f2e;
+      --panel: rgba(8,16,24,0.72);
+      --panel2: rgba(8,16,24,0.55);
+      --stroke: rgba(255,255,255,0.10);
+      --text: rgba(255,255,255,0.92);
+      --muted: rgba(255,255,255,0.70);
+      --muted2: rgba(255,255,255,0.55);
+      --green:#1f7a4f;
+      --green2:#2bb673;
+      --danger:#ff6b6b;
     }
 
-    header{
+    *{ box-sizing:border-box; }
+    html,body{ height:100%; }
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color:var(--text);
+      background:
+        radial-gradient(1200px 700px at 18% 12%, rgba(43,182,115,0.18), transparent 55%),
+        radial-gradient(1100px 700px at 85% 45%, rgba(56,189,248,0.10), transparent 55%),
+        linear-gradient(180deg, var(--bg1), var(--bg2));
+      padding: 18px;
+    }
+
+    .wrap{
+      max-width: 1020px;
+      margin: 0 auto;
+    }
+
+    .top{
       display:flex;
+      gap:16px;
       align-items:flex-start;
       justify-content:space-between;
-      gap:12px;
-      padding: 12px 6px 16px;
+      flex-wrap:wrap;
+      margin-bottom: 14px;
     }
+
     .brand{
       display:flex;
+      gap:14px;
       align-items:center;
-      gap:12px;
-      min-width: 220px;
+      min-width: 280px;
     }
-    .brand img{
-      width:54px;
-      height:54px;
+
+    .brand-logo{
+      width:56px;
+      height:56px;
       object-fit:contain;
       image-rendering: pixelated;
-      filter: drop-shadow(0 8px 14px rgba(0,0,0,.35));
+      filter: drop-shadow(0 6px 14px rgba(0,0,0,0.35));
     }
-    .brand h1{
-      margin:0;
-      letter-spacing:.5px;
-      font-size: 38px;
-      line-height: 1.05;
+
+    .brand-title{
+      font-weight: 900;
+      letter-spacing: 1px;
+      line-height: 1;
+      font-size: clamp(30px, 6vw, 54px);
     }
-    .brand p{
-      margin:6px 0 0;
-      color:var(--muted);
-      font-size:14px;
-      max-width: 420px;
+
+    .brand-sub{
+      margin-top: 8px;
+      color: var(--muted);
+      max-width: 520px;
+      font-size: 14px;
     }
-    .tz{
-      color:var(--muted);
-      font-size:14px;
-      margin-top: 10px;
-      text-align:right;
-      white-space:nowrap;
+
+    .brand-tz{
+      margin-top: 6px;
+      color: var(--muted2);
+      font-size: 13px;
+    }
+
+    .panel{
+      background: var(--panel);
+      border: 1px solid var(--stroke);
+      border-radius: 18px;
+      padding: 16px;
+      box-shadow: 0 18px 50px rgba(0,0,0,0.30);
+      backdrop-filter: blur(10px);
+    }
+
+    .panel.soft{
+      background: var(--panel2);
     }
 
     .grid{
       display:grid;
       grid-template-columns: 1fr;
-      gap:14px;
+      gap: 12px;
+      margin-top: 10px;
     }
 
-    .card{
-      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
-      border: 1px solid var(--line);
-      box-shadow: var(--shadow);
-      border-radius: var(--radius);
-      padding: 14px;
-      overflow:hidden;
+    .field label{
+      display:block;
+      font-size: 12px;
+      color: var(--muted2);
+      margin-bottom: 6px;
     }
 
-    .controls{
-      display:grid;
-      grid-template-columns: 1fr;
-      gap: 10px;
-    }
-    .row{
-      display:grid;
-      grid-template-columns: 1fr;
-      gap: 6px;
-    }
-    label{
-      font-size: 13px;
-      color: var(--muted);
-    }
-    select, input{
+    select,input{
       width:100%;
       padding: 12px 12px;
       border-radius: 12px;
-      border: 1px solid var(--line);
-      background: rgba(0,0,0,.22);
+      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(3,10,16,0.55);
       color: var(--text);
-      outline:none;
-      font-size: 15px;
+      outline: none;
+      font-size: 14px;
     }
+
+    input[type="number"]{ appearance: textfield; }
+
+    .actions{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top: 10px;
+    }
+
     button{
-      padding: 12px 14px;
-      border: 0;
+      border: 1px solid rgba(255,255,255,0.14);
       border-radius: 12px;
-      background: linear-gradient(180deg, #2aa764, var(--accent));
-      color: #062012;
+      padding: 11px 14px;
+      background: rgba(255,255,255,0.06);
+      color: var(--text);
       font-weight: 700;
-      cursor:pointer;
-      box-shadow: 0 10px 18px rgba(31,122,74,.30);
+      cursor: pointer;
     }
+
+    button.primary{
+      background: linear-gradient(180deg, rgba(43,182,115,0.95), rgba(31,122,79,0.95));
+      border-color: rgba(43,182,115,0.35);
+    }
+
     button:active{ transform: translateY(1px); }
 
-    .hint{
-      margin-top:10px;
-      padding: 10px 12px;
-      border: 1px dashed rgba(255,255,255,.18);
-      border-radius: 12px;
-      color: var(--muted);
-      font-size: 13px;
-    }
-
     .meta{
-      margin-top:10px;
-      color: var(--muted);
-      font-size: 13px;
-    }
-    .err{
-      margin-top:10px;
-      color: #ffb3b3;
+      margin-top: 10px;
+      color: var(--muted2);
+      font-size: 12px;
       white-space: pre-wrap;
-      font-size: 13px;
     }
 
-    .tableWrap{
-      overflow:auto;
-      border-radius: 14px;
-      border: 1px solid var(--line);
-      background: rgba(0,0,0,.18);
+    .err{
+      margin-top: 10px;
+      color: var(--danger);
+      font-size: 12px;
+      white-space: pre-wrap;
     }
+
+    .help{
+      margin-top: 10px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px dashed rgba(255,255,255,0.18);
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .section-title{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap: 10px;
+      margin: 18px 0 10px;
+      font-weight: 900;
+      font-size: 18px;
+    }
+
+    .tag{
+      color: var(--muted2);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .table-wrap{
+      overflow-x:auto;
+      border-radius: 16px;
+      border: 1px solid var(--stroke);
+      background: rgba(0,0,0,0.18);
+    }
+
     table{
       width:100%;
       border-collapse: collapse;
-      min-width: 760px; /* no celular vira scroll horizontal */
+      min-width: 680px;
     }
-    th, td{
+
+    th,td{
       padding: 12px 12px;
-      border-bottom: 1px solid rgba(255,255,255,.08);
-      font-size: 14px;
-      text-align:left;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      text-align: left;
       vertical-align: middle;
+      font-size: 14px;
     }
+
     th{
-      color: #dbe6ef;
-      background: rgba(0,0,0,.18);
-      position: sticky;
-      top: 0;
-      z-index: 1;
+      color: var(--muted2);
+      font-size: 12px;
+      letter-spacing: 0.3px;
+      font-weight: 800;
     }
+
     .pill{
       display:inline-block;
-      padding: 4px 10px;
+      padding: 6px 10px;
       border-radius: 999px;
-      border:1px solid rgba(255,255,255,.15);
-      background: rgba(0,0,0,.18);
-      color: var(--muted);
+      border: 1px solid rgba(255,255,255,0.14);
+      background: rgba(255,255,255,0.06);
       font-size: 12px;
+      font-weight: 800;
+      color: var(--text);
       white-space: nowrap;
     }
 
-    /* Responsivo: no celular, layout fica vertical e confortável */
-    @media (min-width: 860px){
+    /* Layout: desktop/tablet */
+    @media (min-width: 900px){
       .grid{
-        grid-template-columns: 380px 1fr;
-        align-items:start;
+        grid-template-columns: 1fr 1fr;
       }
-      .controls{
-        grid-template-columns: 1fr;
-      }
+      .field.span2{ grid-column: 1 / span 2; }
+    }
+
+    /* Mobile: aumenta respiro e evita “bug” visual */
+    @media (max-width: 520px){
+      body{ padding: 14px; }
+      .panel{ padding: 14px; border-radius: 16px; }
+      .brand-logo{ width: 50px; height: 50px; }
     }
   </style>
 </head>
 
 <body>
-  <div class="page">
-    <header>
+  <div class="wrap">
+    <div class="top">
       <div class="brand">
-        <img src="/icons/logo.png" alt="Square Foot logo" />
+        <img class="brand-logo" src="/icons/square-foot-logo.png" alt="Square Foot">
         <div>
-          <h1>SQUARE FOOT</h1>
-          <p>Probabilidades simples para jogos de futebol — em tempo real</p>
+          <div class="brand-title">SQUARE FOOT</div>
+          <div class="brand-sub">Probabilidades simples para jogos de futebol — em tempo real</div>
+          <div class="brand-tz">Fuso: Horário de Brasília (America/Sao_Paulo)</div>
         </div>
       </div>
-      <div class="tz">Fuso: Horário de Brasília<br>(America/Sao_Paulo)</div>
-    </header>
+    </div>
 
-    <div class="grid">
-      <section class="card">
-        <div class="controls">
-          <div class="row">
-            <label for="code">Competição</label>
-            <select id="code"></select>
+    <div class="panel">
+      <div class="grid">
+        <div class="field">
+          <label for="code">Competição</label>
+          <select id="code"></select>
+        </div>
+
+        <div class="field">
+          <label for="status">Status</label>
+          <select id="status">
+            <option value="SCHEDULED">Agendado</option>
+            <option value="LIVE">Ao vivo</option>
+            <option value="IN_PLAY">Em jogo</option>
+            <option value="PAUSED">Intervalo</option>
+            <option value="FINISHED">Finalizado</option>
+            <option value="POSTPONED">Adiado</option>
+            <option value="SUSPENDED">Suspenso</option>
+            <option value="CANCELLED">Cancelado</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="maxMatches">Qtd jogos</label>
+          <input id="maxMatches" type="number" min="1" max="200" value="15" />
+        </div>
+
+        <div class="field">
+          <label for="minHome">Mín. prob (home)</label>
+          <input id="minHome" type="number" min="0" max="100" step="1" value="0" />
+        </div>
+
+        <div class="field span2">
+          <label for="ttl">Cache (min)</label>
+          <select id="ttl">
+            <option value="0">0 (sem cache)</option>
+            <option value="2">2</option>
+            <option value="5" selected>5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+          </select>
+
+          <div class="actions">
+            <button id="btnLoad" class="primary">Carregar</button>
+            <button id="btnSave">Salvar prefs</button>
+            <button id="btnAuto">Auto</button>
           </div>
 
-          <div class="row">
-            <label for="status">Status</label>
-            <select id="status">
-              <option value="SCHEDULED">Agendado</option>
-              <option value="LIVE">Ao vivo</option>
-              <option value="FINISHED">Finalizado</option>
-            </select>
-          </div>
-
-          <div class="row">
-            <label for="maxMatches">Qtd jogos</label>
-            <input id="maxMatches" type="number" min="1" max="200" value="15" />
-          </div>
-
-          <button id="btnLoad">Carregar</button>
-
-          <!-- Campos extras que seu app.js já referencia -->
-          <input id="minHome" type="hidden" value="0" />
-          <input id="ttl" type="hidden" value="60" />
-
-          <div class="hint">
+          <div class="help">
             <b>Como usar:</b> escolha a competição → clique em <b>Carregar</b> → clique em um jogo para ver o card.
           </div>
 
           <div id="meta" class="meta"></div>
           <div id="err" class="err"></div>
         </div>
-      </section>
+      </div>
+    </div>
 
-      <section class="card">
-        <div style="display:flex; align-items:center; justify-content:space-between; gap:10px;">
-          <h2 style="margin:0; font-size:18px;">Jogos</h2>
-          <span class="pill" id="badge"></span>
-        </div>
+    <div class="section-title">
+      <div>Jogos</div>
+      <div id="tll" class="tag"></div>
+    </div>
 
-        <div style="height:10px"></div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Data (BR)</th>
+            <th>Jogo</th>
+            <th>Status</th>
+            <th>Prob (H/D/A)</th>
+            <th>Placar</th>
+          </tr>
+        </thead>
+        <tbody id="rows">
+          <!-- app.js preenche aqui -->
+        </tbody>
+      </table>
+    </div>
 
-        <div class="tableWrap">
-          <table>
-            <thead>
-              <tr>
-                <th>Data (BR)</th>
-                <th>Jogo</th>
-                <th>Status</th>
-                <th>Prob. Casa</th>
-                <th>Empate</th>
-                <th>Prob. Fora</th>
-              </tr>
-            </thead>
-            <tbody id="rows"></tbody>
-          </table>
-        </div>
-      </section>
+    <div style="height:18px"></div>
+
+    <div class="panel soft">
+      <div style="font-weight:900; margin-bottom:8px;">Debug</div>
+      <div style="color:var(--muted2); font-size:12px;">
+        Se o celular “não atualiza”, é cache do PWA (service worker). Trocar CACHE_NAME no sw.js força refresh.
+      </div>
     </div>
   </div>
 
-  <script src="/app.js"></script>
   <script>
+    // registra SW (caso o app.js não faça isso)
     if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("/sw.js");
+      navigator.serviceWorker.register("/sw.js").catch(()=>{});
     }
   </script>
+  <script src="/app.js"></script>
 </body>
 </html>

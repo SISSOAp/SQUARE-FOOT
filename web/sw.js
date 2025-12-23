@@ -1,8 +1,10 @@
 // web/sw.js
-const CACHE_NAME = "square-foot-v2"; // <-- troquei v1 -> v2 para forçar atualizar cache
+const CACHE_NAME = "square-foot-v3";
 
+// Cache mínimo (assets do PWA)
 const CORE_ASSETS = [
   "/",
+  "/index.html",
   "/app.js",
   "/sw.js",
   "/icons/site.webmanifest",
@@ -12,9 +14,10 @@ const CORE_ASSETS = [
   "/icons/icon-180.png",
   "/icons/icon-192.png",
   "/icons/icon-512.png",
-  "/icons/logo.png"
+  "/icons/square-foot-logo.png",
 ];
 
+// Helpers
 async function cacheFirst(request) {
   const cache = await caches.open(CACHE_NAME);
   const cached = await cache.match(request);
@@ -39,45 +42,46 @@ async function networkFirst(request) {
 }
 
 self.addEventListener("install", (event) => {
-  event.waitUntil((async () => {
-    const cache = await caches.open(CACHE_NAME);
-    await cache.addAll(CORE_ASSETS);
-    self.skipWaiting();
-  })());
+  event.waitUntil(
+    (async () => {
+      const cache = await caches.open(CACHE_NAME);
+      await cache.addAll(CORE_ASSETS);
+      self.skipWaiting();
+    })()
+  );
 });
 
 self.addEventListener("activate", (event) => {
-  event.waitUntil((async () => {
-    const keys = await caches.keys();
-    await Promise.all(keys.map((k) => (k !== CACHE_NAME ? caches.delete(k) : null)));
-    self.clients.claim();
-  })());
+  event.waitUntil(
+    (async () => {
+      const keys = await caches.keys();
+      await Promise.all(keys.map((k) => (k === CACHE_NAME ? null : caches.delete(k))));
+      self.clients.claim();
+    })()
+  );
 });
 
 self.addEventListener("fetch", (event) => {
   const req = event.request;
-  const url = new URL(req.url);
-
   if (req.method !== "GET") return;
 
-  // Não cachear chamadas da API; pega sempre da rede
-  if (url.pathname.startsWith("/matches") || url.pathname.startsWith("/leagues")) {
-    event.respondWith(fetch(req));
-    return;
-  }
+  const url = new URL(req.url);
 
-  // HTML navegação: tenta rede primeiro
-  if (req.mode === "navigate") {
+  // Não mexe com coisas de outras origens
+  if (url.origin !== self.location.origin) return;
+
+  // API: tenta rede primeiro, cai pro cache se offline
+  if (
+    url.pathname.startsWith("/leagues") ||
+    url.pathname.startsWith("/matches") ||
+    url.pathname.startsWith("/standings") ||
+    url.pathname.startsWith("/teamstats") ||
+    url.pathname.startsWith("/last5")
+  ) {
     event.respondWith(networkFirst(req));
     return;
   }
 
-  // Assets do PWA: cache-first
-  if (CORE_ASSETS.includes(url.pathname)) {
-    event.respondWith(cacheFirst(req));
-    return;
-  }
-
-  // Default
-  event.respondWith(networkFirst(req));
+  // Assets: cache primeiro
+  event.respondWith(cacheFirst(req));
 });
