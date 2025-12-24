@@ -1,170 +1,153 @@
 from __future__ import annotations
 
-from pathlib import Path
-from typing import Dict, Any, Optional, List
 import json
 import time
+from pathlib import Path
+from typing import Any, Dict, List, Tuple
 
 from fastapi import APIRouter, HTTPException, Query
 
-from src.model import load_model, PoissonTeamModel
-
 router = APIRouter()
 
+# Onde ficam as previsões já geradas (ex.: data/preds_live/BL1.json)
+PREDS_DIR = Path("data/preds_live")
+
+# Se tu também quiser listar modelos treinados (ex.: data/models/premier-league.joblib)
 MODELS_DIR = Path("data/models")
-FIXTURES_DIR = Path("data/fixtures")  # opcional (se existir, lê jogos daqui)
 
-MODELS: Dict[str, PoissonTeamModel] = {}
+# Códigos "curtos" (football-data) que teu front já usa
+FD_CODES: List[str] = ["WC", "CL", "BL1", "DED", "BSA", "PD", "FL1", "ELC", "PPL", "EC", "SA", "PL"]
 
-# cache simples em memória
-_CACHE: Dict[str, Dict[str, Any]] = {}  # key -> {"ts": float, "data": dict}
+# Cache em memória para evitar ler arquivo toda hora
+_CACHE: Dict[str, Tuple[float, Dict[str, Any]]] = {}
 
 
-def _load_all_models() -> Dict[str, PoissonTeamModel]:
+def _load_pred_file(code: str) -> Dict[str, Any]:
+    """
+    Carrega um JSON de previsões de:
+      data/preds_live/{CODE}.json
+    """
+    path = PREDS_DIR / f"{code}.json"
+    if not path.exists():
+        raise HTTPException(status_code=404, detail=f"Predictions file not found: {path.as_posix()}")
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to parse {path.as_posix()}: {e}")
+
+
+def _list_model_stems() -> List[str]:
+    """
+    Retorna stems de modelos em data/models/*.joblib (ex.: premier-league)
+    Só para aparecerem no dropdown, se existirem.
+    """
     if not MODELS_DIR.exists():
-        # não derruba import; derruba quando tentar usar
-        return {}
-
-    models: Dict[str, PoissonTeamModel] = {}
-    for p in MODELS_DIR.glob("*.joblib"):
-        models[p.stem] = load_model(str(p))
-    return models
-
-
-@router.on_event("startup")
-def startup_load_models() -> None:
-    global MODELS
-    MODELS = _load_all_models()
-
-
-def _get_model_or_404(code: str) -> PoissonTeamModel:
-    m = MODELS.get(code)
-    if not m:
-        raise HTTPException(
-            status_code=404,
-            detail=f"Competição '{code}' não encontrada. Modelos disponíveis: {sorted(MODELS.keys())}",
-        )
-    return m
+        return []
+    return sorted([p.stem for p in MODELS_DIR.glob("*.joblib")])
 
 
 @router.get("/health")
 def health() -> Dict[str, Any]:
-    return {"ok": True, "models_loaded": sorted(MODELS.keys())}
+    return {
+        "ok": True,
+        "preds_dir_exists": PREDS_DIR.exists(),
+        "preds_files": sorted([p.name for p in PREDS_DIR.glob("*.json")]) if PREDS_DIR.exists() else [],
+        "models_dir_exists": MODELS_DIR.exists(),
+        "models": _list_model_stems(),
+    }
 
 
 @router.get("/competitions")
 def competitions() -> Dict[str, Any]:
-    # o front só precisa de um array em competitions[]
-    return {"competitions": sorted(MODELS.keys()), "count": len(MODELS)}
-
-
-def _read_fixtures(code: str) -> List[Dict[str, Any]]:
     """
-    Opções suportadas (se você quiser plugar jogos):
-    - data/fixtures/{code}.json   (lista de jogos, ou {matches:[...]}, ou {data:[...]})
-    Caso não exista, devolve [] (o app não quebra; só mostra 0 jogos).
+    O front precisa disso para preencher o dropdown.
+    Mantém compatibilidade devolvendo lista de strings.
     """
-    p = FIXTURES_DIR / f"{code}.json"
-    if not p.exists():
-        return []
+    comps: List[str] = []
+    comps.extend(FD_CODES)
 
-    try:
-        raw = json.loads(p.read_text(encoding="utf-8"))
-        if isinstance(raw, list):
-            return raw
-        if isinstance(raw, dict):
-            if isinstance(raw.get("matches"), list):
-                return raw["matches"]
-            if isinstance(raw.get("data"), list):
-                return raw["data"]
-        return []
-    except Exception:
-        return []
+    # Se existirem previsões prontas com nomes diferentes, inclui também:
+    if PREDS_DIR.exists():
+        extra_from_preds = sorted([p.stem for p in PREDS_DIR.glob("*.json")])
+        for c in extra_from_preds:
+            if c not in comps:
+                comps.append(c)
 
+    # E também modelos (se tu quiser)
+    for m in _list_model_stems():
+        if m not in comps:
+            comps.append(m)
 
-def _normalize_team_name(x: Any) -> str:
-    if not x:
-        return ""
-    # aceita formatos comuns (football-data etc.)
-    if isinstance(x, dict):
-        return (x.get("name") or x.get("shortName") or x.get("tla") or "").strip()
-    return str(x).strip()
+    return {"competitions": comps, "count": len(comps)}
 
 
-@router.get("/predict/{code}")
-def predict_competition(
-    code: str,
-    max_matches: int = Query(10, ge=1, le=100),
+@router.get("/predict")
+def predict_query(
+    competition: str = Query(..., description="Ex: BL1, PL, premier-league"),
+    max_matches: int = Query(15, ge=1, le=200),
     ttl_seconds: int = Query(60, ge=0, le=3600),
     use_cache: bool = Query(True),
 ) -> Dict[str, Any]:
     """
-    Formato de resposta pensado para o seu app.js:
-    - competitions vem de /competitions
-    - predict/{code} retorna meta + lista predictions
+    Endpoint alternativo caso teu front chame /predict?competition=BL1...
     """
+    return _predict_common(competition, max_matches, ttl_seconds, use_cache)
 
-    cache_key = f"{code}:{max_matches}:{ttl_seconds}"
+
+@router.get("/predict/{competition}")
+def predict_path(
+    competition: str,
+    max_matches: int = Query(15, ge=1, le=200),
+    ttl_seconds: int = Query(60, ge=0, le=3600),
+    use_cache: bool = Query(True),
+) -> Dict[str, Any]:
+    """
+    Endpoint alternativo caso teu front chame /predict/BL1?...
+    """
+    return _predict_common(competition, max_matches, ttl_seconds, use_cache)
+
+
+@router.get("/{competition}")
+def predict_root_competition(
+    competition: str,
+    max_matches: int = Query(15, ge=1, le=200),
+    ttl_seconds: int = Query(60, ge=0, le=3600),
+    use_cache: bool = Query(True),
+) -> Dict[str, Any]:
+    """
+    ESTE é o mais importante para o teu print:
+    o front está chamando /BL1?max_matches=...
+    então a gente atende aqui.
+    """
+    return _predict_common(competition, max_matches, ttl_seconds, use_cache)
+
+
+def _predict_common(competition: str, max_matches: int, ttl_seconds: int, use_cache: bool) -> Dict[str, Any]:
+    code = competition.strip()
+
     now = time.time()
-
     if use_cache and ttl_seconds > 0:
-        hit = _CACHE.get(cache_key)
-        if hit and (now - hit["ts"] <= ttl_seconds):
-            data = hit["data"]
-            data["cache"] = "HIT"
-            data["ttl_seconds"] = ttl_seconds
-            return data
+        hit = _CACHE.get(code)
+        if hit:
+            ts, payload = hit
+            if (now - ts) <= ttl_seconds:
+                return _trim_payload(payload, max_matches)
 
-    model = _get_model_or_404(code)
+    payload = _load_pred_file(code)
+    if ttl_seconds > 0:
+        _CACHE[code] = (now, payload)
 
-    matches = _read_fixtures(code)
-    api_matches = len(matches)
+    return _trim_payload(payload, max_matches)
 
-    # limita
-    matches = matches[:max_matches]
 
-    predictions: List[Dict[str, Any]] = []
-    for m in matches:
-        # tenta extrair campos em formatos comuns
-        utc_date = m.get("utcDate") or m.get("date") or m.get("kickoff") or None
-
-        home = _normalize_team_name(m.get("homeTeam") or m.get("home") or m.get("HomeTeam"))
-        away = _normalize_team_name(m.get("awayTeam") or m.get("away") or m.get("AwayTeam"))
-
-        # se não conseguir nomes, pula
-        if not home or not away:
-            continue
-
-        # se time não existe no modelo, pula (evita 500)
-        if home not in model.team_index or away not in model.team_index:
-            continue
-
-        out = model.predict_1x2(home, away, max_goals=10)
-
-        predictions.append(
-            {
-                "utcDate": utc_date,
-                "competitionName": code,
-                "home": home,
-                "away": away,
-                "probabilities_1x2": out.get("probabilities_1x2", {}),
-                "expected_goals": out.get("expected_goals", {}),
-                "top_scorelines": out.get("top_scorelines", []),
-                # mantém o bruto se você quiser debugar:
-                "raw": out,
-            }
-        )
-
-    data = {
-        "competition": code,
-        "api_matches": api_matches,
-        "shown": len(predictions),
-        "cache": "MISS",
-        "ttl_seconds": ttl_seconds,
-        "predictions": predictions,
-    }
-
-    if use_cache and ttl_seconds > 0:
-        _CACHE[cache_key] = {"ts": now, "data": data}
-
-    return data
+def _trim_payload(payload: Dict[str, Any], max_matches: int) -> Dict[str, Any]:
+    """
+    O teu predict_live.py gera payload com 'predictions': [...]
+    Aqui a gente corta para o front não receber 500 jogos.
+    """
+    out = dict(payload)
+    preds = out.get("predictions") or []
+    if isinstance(preds, list):
+        out["predictions"] = preds[:max_matches]
+        out["count"] = len(out["predictions"])
+    return out
