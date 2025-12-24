@@ -86,3 +86,10 @@ def fetch_competition_matches(
 def fetch_competition_standings(code: str) -> Dict[str, Any]:
     url = f"{BASE_URL}/competitions/{code}/standings"
     return _get(url)
+
+# Alias esperado por outras partes do projeto (compat)
+def fetch_upcoming_matches(code: str) -> Dict[str, Any]:
+    # “Upcoming” aqui significa jogos futuros/agendados.
+    # Ajuste os statuses se teu front usar outro filtro.
+    return fetch_competition_matches(code, statuses=["SCHEDULED", "TIMED"], limit=15)
+
