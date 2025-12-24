@@ -1,128 +1,225 @@
 from __future__ import annotations
 
+import json
 import os
 from pathlib import Path
-from typing import Optional
+from typing import Any, Dict, List, Optional
 
-from fastapi import FastAPI
-from fastapi.responses import FileResponse
+from fastapi import FastAPI, HTTPException, Query
+from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 
 
-# ----------------------------
-# Paths
-# ----------------------------
-# src/api_server.py -> BASE_DIR=.../src
-BASE_DIR = Path(__file__).resolve().parent
-# repo root
-ROOT_DIR = BASE_DIR.parent
-# web folder (onde estão index.html, app.js, sw.js, icons/, data/)
-WEB_DIR = ROOT_DIR / "web"
+# -----------------------------------------------------------------------------
+# Paths (repo)
+# -----------------------------------------------------------------------------
+# Este arquivo está em: repo_root/src/api_server.py
+REPO_ROOT = Path(__file__).resolve().parent.parent
+WEB_DIR = REPO_ROOT / "web"
+
+INDEX_HTML = WEB_DIR / "index.html"
+APP_JS = WEB_DIR / "app.js"
+SW_JS = WEB_DIR / "sw.js"
+STYLES_CSS = WEB_DIR / "styles.css"
+
+DATA_DIR = WEB_DIR / "data"
+ICONS_DIR = WEB_DIR / "icons"
+EXTRA_STATS_JSON = DATA_DIR / "extra-stats.json"
 
 
-# ----------------------------
+# -----------------------------------------------------------------------------
 # App
-# ----------------------------
+# -----------------------------------------------------------------------------
 app = FastAPI(title="SQUARE FOOT", version="1.6")
 
 
-# ----------------------------
-# Static folders
-# ----------------------------
-# Serve /icons/... e /data/... diretamente do disco
-# Ex: /data/extra-stats.json
-if (WEB_DIR / "icons").exists():
-    app.mount("/icons", StaticFiles(directory=str(WEB_DIR / "icons")), name="icons")
+# -----------------------------------------------------------------------------
+# Static mounts
+# -----------------------------------------------------------------------------
+# /data/extra-stats.json
+if DATA_DIR.exists():
+    app.mount("/data", StaticFiles(directory=str(DATA_DIR)), name="data")
 
-if (WEB_DIR / "data").exists():
-    app.mount("/data", StaticFiles(directory=str(WEB_DIR / "data")), name="data")
-
-
-# ----------------------------
-# Frontend files
-# ----------------------------
-def _file_or_404(path: Path, media_type: Optional[str] = None) -> FileResponse:
-    # FileResponse já devolve 404 se não existir, mas assim fica explícito
-    return FileResponse(str(path), media_type=media_type)
+# /icons/*
+if ICONS_DIR.exists():
+    app.mount("/icons", StaticFiles(directory=str(ICONS_DIR)), name="icons")
 
 
-@app.get("/")
+# -----------------------------------------------------------------------------
+# Helpers
+# -----------------------------------------------------------------------------
+def _safe_read_json(path: Path) -> Any:
+    if not path.exists():
+        raise FileNotFoundError(str(path))
+    with path.open("r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def _extract_competitions(extra_stats: Any) -> List[Dict[str, str]]:
+    """
+    Tenta ser robusto com o formato do extra-stats.json.
+    Retorna lista de {code, name}.
+    """
+    comps: List[Dict[str, str]] = []
+
+    # Caso A: {"competitions": [...]}
+    if isinstance(extra_stats, dict) and isinstance(extra_stats.get("competitions"), list):
+        raw_list = extra_stats["competitions"]
+        for item in raw_list:
+            if isinstance(item, dict):
+                code = str(item.get("code") or item.get("id") or item.get("key") or "").strip()
+                name = str(item.get("name") or item.get("label") or code).strip()
+                if code:
+                    comps.append({"code": code, "name": name})
+
+    # Caso B: dict com chaves sendo códigos
+    elif isinstance(extra_stats, dict):
+        # ex: {"PL": {...}, "SA": {...}}
+        for k, v in extra_stats.items():
+            if isinstance(k, str) and k.isupper() and len(k) <= 8:
+                name = k
+                if isinstance(v, dict):
+                    name = str(v.get("name") or v.get("label") or k)
+                comps.append({"code": k, "name": name})
+
+    # Caso C: lista direto
+    elif isinstance(extra_stats, list):
+        for item in extra_stats:
+            if isinstance(item, dict):
+                code = str(item.get("code") or item.get("id") or item.get("key") or "").strip()
+                name = str(item.get("name") or item.get("label") or code).strip()
+                if code:
+                    comps.append({"code": code, "name": name})
+
+    # Remove duplicados e ordena
+    seen = set()
+    uniq = []
+    for c in comps:
+        if c["code"] not in seen:
+            seen.add(c["code"])
+            uniq.append(c)
+
+    uniq.sort(key=lambda x: x["name"].lower())
+    return uniq
+
+
+# -----------------------------------------------------------------------------
+# Frontend routes (arquivos)
+# -----------------------------------------------------------------------------
+@app.get("/", include_in_schema=False)
 def serve_index():
-    return _file_or_404(WEB_DIR / "index.html", media_type="text/html")
+    if not INDEX_HTML.exists():
+        raise HTTPException(status_code=500, detail="index.html not found in /web")
+    return FileResponse(INDEX_HTML)
 
 
-# Arquivos que você viu no Network (mantém simples e explícito)
-@app.get("/app.js")
+@app.get("/app.js", include_in_schema=False)
 def serve_app_js():
-    return _file_or_404(WEB_DIR / "app.js", media_type="application/javascript")
+    if not APP_JS.exists():
+        raise HTTPException(status_code=404, detail="app.js not found")
+    return FileResponse(APP_JS, media_type="application/javascript")
 
 
-@app.get("/sw.js")
+@app.get("/sw.js", include_in_schema=False)
 def serve_sw_js():
-    return _file_or_404(WEB_DIR / "sw.js", media_type="application/javascript")
+    if not SW_JS.exists():
+        raise HTTPException(status_code=404, detail="sw.js not found")
+    return FileResponse(SW_JS, media_type="application/javascript")
 
 
-@app.get("/styles.css")
-def serve_styles_css():
-    return _file_or_404(WEB_DIR / "styles.css", media_type="text/css")
+@app.get("/styles.css", include_in_schema=False)
+def serve_styles():
+    if not STYLES_CSS.exists():
+        # não é obrigatório existir
+        raise HTTPException(status_code=404, detail="styles.css not found")
+    return FileResponse(STYLES_CSS, media_type="text/css")
 
 
-@app.get("/antd.min.css")
-def serve_antd_css():
-    return _file_or_404(WEB_DIR / "antd.min.css", media_type="text/css")
-
-
-@app.get("/translation.json")
-def serve_translation():
-    return _file_or_404(WEB_DIR / "translation.json", media_type="application/json")
-
-
-@app.get("/site.webmanifest")
-def serve_manifest():
-    return _file_or_404(WEB_DIR / "site.webmanifest", media_type="application/manifest+json")
-
-
-@app.get("/favicon.ico")
-def serve_favicon():
-    return _file_or_404(WEB_DIR / "favicon.ico", media_type="image/x-icon")
-
-
-# Fallback para arquivos estáticos no root (png, etc) que o front peça
-# Ex: /square-foot-logo.png?v=3 -> FastAPI ignora querystring e procura "square-foot-logo.png"
-@app.get("/{file_path:path}")
-def serve_root_assets(file_path: str):
-    # Não intercepta /predict, /competitions etc (isso é tratado pelas rotas da API abaixo).
-    # Aqui só cai quando não existe rota e o arquivo existe no /web.
-    # Se o arquivo não existir, vai responder 404 normal.
-    candidate = WEB_DIR / file_path
-    if candidate.is_file():
-        return FileResponse(str(candidate))
-    return {"detail": "Not Found"}
-
-
-# ----------------------------
-# API routes (RESTORE)
-# ----------------------------
-# O seu problema atual é exatamente este: as rotas /competitions e /predict sumiram.
-# Aqui a gente tenta “reconectar” as rotas antigas sem você ter que caçar trecho.
-#
-# Ajuste: se suas rotas estiverem em outro módulo, troque o import abaixo.
-
-try:
-    # Opção A (comum): src/api.py com router = APIRouter()
-    from src.api import router as api_router  # type: ignore
-    app.include_router(api_router)
-except Exception:
+# -----------------------------------------------------------------------------
+# API routes (o seu app.js chama isso)
+# -----------------------------------------------------------------------------
+@app.get("/competitions")
+def competitions():
+    """
+    Retorna no formato que o app.js espera:
+    { "competitions": [ { "code": "PL", "name": "Premier League" }, ... ] }
+    """
     try:
-        # Opção B: src/routes.py
-        from src.routes import router as api_router  # type: ignore
-        app.include_router(api_router)
+        extra = _safe_read_json(EXTRA_STATS_JSON)
+        comps = _extract_competitions(extra)
+        return {"competitions": comps}
+    except FileNotFoundError:
+        # Se o arquivo não existir no deploy, pelo menos não quebra o front com 404.
+        return {"competitions": []}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to load competitions: {e}")
+
+
+@app.get("/predict/{code}")
+def predict(
+    code: str,
+    max_matches: int = Query(15, ge=1, le=200),
+    ttl_seconds: int = Query(60, ge=0, le=3600),
+    use_cache: bool = Query(True),
+):
+    """
+    IMPORTANTE:
+    - Seu front chama /predict/{code}?max_matches=...&ttl_seconds=...&use_cache=...
+    - Se você ainda não tem o motor de previsão ligado aqui, este endpoint devolve
+      um payload "válido" (sem 404) para o front funcionar.
+    - Depois, quando você quiser plugar o modelo real, é aqui que liga.
+    """
+
+    # 1) Tenta usar um módulo seu (se existir) sem quebrar deploy
+    #    Ajuste o import conforme seu projeto, se você tiver função pronta.
+    try:
+        # Exemplo: se você tiver algo como src/predict_live.py com função predict_payload(...)
+        from . import predict_live  # type: ignore
+
+        if hasattr(predict_live, "predict_payload"):
+            payload = predict_live.predict_payload(
+                code=code,
+                max_matches=max_matches,
+                ttl_seconds=ttl_seconds,
+                use_cache=use_cache,
+            )
+            return payload
+
+        # Se tiver função chamada "predict" que já retorna dict
+        if hasattr(predict_live, "predict"):
+            payload = predict_live.predict(
+                code=code,
+                max_matches=max_matches,
+                ttl_seconds=ttl_seconds,
+                use_cache=use_cache,
+            )
+            return payload
+
     except Exception:
-        try:
-            # Opção C: src/endpoints.py
-            from src.endpoints import router as api_router  # type: ignore
-            app.include_router(api_router)
-        except Exception:
-            # Se cair aqui, o front vai carregar, mas a API continuará 404
-            # até você apontar para o módulo certo.
-            pass
+        # Se falhar import/exec, cai no fallback abaixo (mas não devolve 404)
+        pass
+
+    # 2) Fallback (não quebra o site)
+    # Monte um payload seguro: o front vai mostrar "0 jogos" mas não vai sumir.
+    return {
+        "competition": code,
+        "from_cache": False,
+        "ttl_seconds": ttl_seconds,
+        "max_matches": max_matches,
+        "matches": [],
+        "note": "Predict engine not wired; endpoint is alive to avoid 404.",
+    }
+
+
+# -----------------------------------------------------------------------------
+# SPA fallback (se você clicar em /leagues no browser, ele deve abrir o front)
+# -----------------------------------------------------------------------------
+@app.get("/{path:path}", include_in_schema=False)
+def spa_fallback(path: str):
+    """
+    Qualquer rota desconhecida no backend vira index.html
+    (pra não aparecer Not Found ao abrir links diretos).
+    """
+    if INDEX_HTML.exists():
+        return FileResponse(INDEX_HTML)
+    raise HTTPException(status_code=404, detail="Not Found")
