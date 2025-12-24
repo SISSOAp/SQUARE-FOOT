@@ -1,139 +1,170 @@
-# src/api.py
 from __future__ import annotations
 
-import time
 from pathlib import Path
-from typing import Any, Dict, List, Tuple
+from typing import Dict, Any, Optional, List
+import json
+import time
 
 from fastapi import APIRouter, HTTPException, Query
 
-from src.live_fetch import fetch_upcoming_matches
-from src.model import load_model
+from src.model import load_model, PoissonTeamModel
 
 router = APIRouter()
 
 MODELS_DIR = Path("data/models")
+FIXTURES_DIR = Path("data/fixtures")  # opcional (se existir, lê jogos daqui)
 
-# Cache simples em memória (por processo)
-# key = (code, max_matches) -> (created_ts, ttl, payload)
-_CACHE: Dict[Tuple[str, int], Tuple[float, int, Dict[str, Any]]] = {}
+MODELS: Dict[str, PoissonTeamModel] = {}
 
-
-def _now_ts() -> float:
-    return time.time()
+# cache simples em memória
+_CACHE: Dict[str, Dict[str, Any]] = {}  # key -> {"ts": float, "data": dict}
 
 
-def _model_path(code: str) -> Path:
-    return MODELS_DIR / f"{code}.joblib"
-
-
-def _list_competitions() -> List[str]:
+def _load_all_models() -> Dict[str, PoissonTeamModel]:
     if not MODELS_DIR.exists():
-        return []
-    return sorted([p.stem for p in MODELS_DIR.glob("*.joblib")])
+        # não derruba import; derruba quando tentar usar
+        return {}
+
+    models: Dict[str, PoissonTeamModel] = {}
+    for p in MODELS_DIR.glob("*.joblib"):
+        models[p.stem] = load_model(str(p))
+    return models
 
 
-def _safe_team_name(obj: Dict[str, Any]) -> str:
-    name = (obj or {}).get("name")
-    return str(name) if name else ""
+@router.on_event("startup")
+def startup_load_models() -> None:
+    global MODELS
+    MODELS = _load_all_models()
+
+
+def _get_model_or_404(code: str) -> PoissonTeamModel:
+    m = MODELS.get(code)
+    if not m:
+        raise HTTPException(
+            status_code=404,
+            detail=f"Competição '{code}' não encontrada. Modelos disponíveis: {sorted(MODELS.keys())}",
+        )
+    return m
 
 
 @router.get("/health")
 def health() -> Dict[str, Any]:
-    comps = _list_competitions()
-    return {
-        "ok": True,
-        "models_dir_exists": MODELS_DIR.exists(),
-        "competitions_count": len(comps),
-        "competitions": comps[:20],
-    }
+    return {"ok": True, "models_loaded": sorted(MODELS.keys())}
 
 
 @router.get("/competitions")
 def competitions() -> Dict[str, Any]:
-    comps = _list_competitions()
-    if not comps:
-        raise HTTPException(
-            status_code=500,
-            detail="Nenhum modelo encontrado em data/models/*.joblib (competitions vazia).",
-        )
-    return {"competitions": comps, "count": len(comps)}
+    # o front só precisa de um array em competitions[]
+    return {"competitions": sorted(MODELS.keys()), "count": len(MODELS)}
+
+
+def _read_fixtures(code: str) -> List[Dict[str, Any]]:
+    """
+    Opções suportadas (se você quiser plugar jogos):
+    - data/fixtures/{code}.json   (lista de jogos, ou {matches:[...]}, ou {data:[...]})
+    Caso não exista, devolve [] (o app não quebra; só mostra 0 jogos).
+    """
+    p = FIXTURES_DIR / f"{code}.json"
+    if not p.exists():
+        return []
+
+    try:
+        raw = json.loads(p.read_text(encoding="utf-8"))
+        if isinstance(raw, list):
+            return raw
+        if isinstance(raw, dict):
+            if isinstance(raw.get("matches"), list):
+                return raw["matches"]
+            if isinstance(raw.get("data"), list):
+                return raw["data"]
+        return []
+    except Exception:
+        return []
+
+
+def _normalize_team_name(x: Any) -> str:
+    if not x:
+        return ""
+    # aceita formatos comuns (football-data etc.)
+    if isinstance(x, dict):
+        return (x.get("name") or x.get("shortName") or x.get("tla") or "").strip()
+    return str(x).strip()
 
 
 @router.get("/predict/{code}")
-def predict(
+def predict_competition(
     code: str,
-    max_matches: int = Query(15, ge=1, le=200),
+    max_matches: int = Query(10, ge=1, le=100),
     ttl_seconds: int = Query(60, ge=0, le=3600),
     use_cache: bool = Query(True),
 ) -> Dict[str, Any]:
-    # 1) Cache
-    key = (code, max_matches)
-    if use_cache and ttl_seconds > 0 and key in _CACHE:
-        created_ts, ttl, payload = _CACHE[key]
-        age = _now_ts() - created_ts
-        if age <= ttl:
-            payload = dict(payload)  # cópia
-            payload["cache"] = {"hit": True, "age_s": int(age), "ttl_s": ttl}
-            return payload
+    """
+    Formato de resposta pensado para o seu app.js:
+    - competitions vem de /competitions
+    - predict/{code} retorna meta + lista predictions
+    """
 
-    # 2) Modelo
-    mp = _model_path(code)
-    if not mp.exists():
-        raise HTTPException(
-            status_code=404,
-            detail=f"Modelo não encontrado: {mp.as_posix()}",
-        )
-    model = load_model(str(mp))
+    cache_key = f"{code}:{max_matches}:{ttl_seconds}"
+    now = time.time()
 
-    # 3) Jogos futuros via live_fetch
-    try:
-        data = fetch_upcoming_matches(code)
-    except Exception as e:
-        raise HTTPException(status_code=502, detail=f"Falha ao buscar jogos: {e}")
+    if use_cache and ttl_seconds > 0:
+        hit = _CACHE.get(cache_key)
+        if hit and (now - hit["ts"] <= ttl_seconds):
+            data = hit["data"]
+            data["cache"] = "HIT"
+            data["ttl_seconds"] = ttl_seconds
+            return data
 
-    matches: List[Dict[str, Any]] = (data or {}).get("matches", []) or []
+    model = _get_model_or_404(code)
 
-    preds: List[Dict[str, Any]] = []
-    returned = 0
+    matches = _read_fixtures(code)
+    api_matches = len(matches)
 
+    # limita
+    matches = matches[:max_matches]
+
+    predictions: List[Dict[str, Any]] = []
     for m in matches:
-        home = _safe_team_name(m.get("homeTeam", {}))
-        away = _safe_team_name(m.get("awayTeam", {}))
+        # tenta extrair campos em formatos comuns
+        utc_date = m.get("utcDate") or m.get("date") or m.get("kickoff") or None
+
+        home = _normalize_team_name(m.get("homeTeam") or m.get("home") or m.get("HomeTeam"))
+        away = _normalize_team_name(m.get("awayTeam") or m.get("away") or m.get("AwayTeam"))
+
+        # se não conseguir nomes, pula
         if not home or not away:
             continue
 
-        row: Dict[str, Any] = {
-            "match_id": m.get("id"),
-            "utcDate": m.get("utcDate"),
-            "status": m.get("status"),
-            "home": home,
-            "away": away,
-        }
+        # se time não existe no modelo, pula (evita 500)
+        if home not in model.team_index or away not in model.team_index:
+            continue
 
-        try:
-            out = model.predict_1x2(home, away, max_goals=10)
-            row["expected_goals"] = out.get("expected_goals")
-            row["probabilities_1x2"] = out.get("probabilities_1x2")
-        except Exception as e:
-            # Não quebra a resposta inteira
-            row["error"] = str(e)
+        out = model.predict_1x2(home, away, max_goals=10)
 
-        preds.append(row)
-        returned += 1
-        if returned >= max_matches:
-            break
+        predictions.append(
+            {
+                "utcDate": utc_date,
+                "competitionName": code,
+                "home": home,
+                "away": away,
+                "probabilities_1x2": out.get("probabilities_1x2", {}),
+                "expected_goals": out.get("expected_goals", {}),
+                "top_scorelines": out.get("top_scorelines", []),
+                # mantém o bruto se você quiser debugar:
+                "raw": out,
+            }
+        )
 
-    payload: Dict[str, Any] = {
+    data = {
         "competition": code,
-        "matches_fetched": len(matches),
-        "returned": returned,
-        "predictions": preds,
-        "cache": {"hit": False, "age_s": 0, "ttl_s": int(ttl_seconds)},
+        "api_matches": api_matches,
+        "shown": len(predictions),
+        "cache": "MISS",
+        "ttl_seconds": ttl_seconds,
+        "predictions": predictions,
     }
 
-    # 4) Salva no cache
     if use_cache and ttl_seconds > 0:
-        _CACHE[key] = (_now_ts(), int(ttl_seconds), payload)
+        _CACHE[cache_key] = {"ts": now, "data": data}
 
-    return payload
+    return data
